@@ -1,5 +1,4 @@
-import { createRootRoute, Outlet } from '@tanstack/react-router';
-import { Meta, Scripts } from '@tanstack/start';
+import { createRootRoute, HeadContent, Scripts } from '@tanstack/react-router';
 import type { ReactNode } from 'react';
 import '@/styles.css';
 
@@ -23,22 +22,14 @@ export const Route = createRootRoute({
       },
     ],
   }),
-  component: RootComponent,
+  shellComponent: RootDocument,
 });
-
-function RootComponent() {
-  return (
-    <RootDocument>
-      <Outlet />
-    </RootDocument>
-  );
-}
 
 function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <html lang="fr">
       <head>
-        <Meta />
+        <HeadContent />
       </head>
       <body>
         {children}

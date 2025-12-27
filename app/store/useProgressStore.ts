@@ -56,7 +56,7 @@ export const useProgressStore = create<ProgressStore>()(
         set({ progress: {}, currentSession: null });
       },
 
-      startSession: (mode, theme, questionIds) => {
+      startSession: (_mode, _theme, _questionIds) => {
         // Session will be managed by components
         // This is a placeholder for future session tracking
       },
