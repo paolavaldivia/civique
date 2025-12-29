@@ -152,13 +152,15 @@ function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {themes.map((theme) => (
               <motion.div key={theme.id} variants={itemVariants}>
-                <Card hover className="cursor-pointer">
-                  <CardContent className="p-4 text-center">
-                    <div className="text-4xl mb-2">{theme.icon}</div>
-                    <h3 className="font-semibold text-gray-800 mb-1">{theme.name}</h3>
-                    <p className="text-sm text-gray-500">{theme.description}</p>
-                  </CardContent>
-                </Card>
+                <Link to="/study" search={{ theme: theme.id }}>
+                  <Card hover className="cursor-pointer transition-transform hover:scale-105">
+                    <CardContent className="p-4 text-center">
+                      <div className="text-4xl mb-2">{theme.icon}</div>
+                      <h3 className="font-semibold text-gray-800 mb-1">{theme.name}</h3>
+                      <p className="text-sm text-gray-500">{theme.description}</p>
+                    </CardContent>
+                  </Card>
+                </Link>
               </motion.div>
             ))}
           </div>
