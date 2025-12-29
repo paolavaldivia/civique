@@ -10,22 +10,22 @@ const filterOptions: SourceFilterOption[] = [
   {
     value: 'all',
     label: 'Toutes les questions',
-    description: 'Questions officielles et personnalisées',
+    description: 'Toutes les sources (383 questions)',
   },
   {
     value: 'CR',
     label: 'Questions CR',
-    description: 'Connaissance Réfugiés',
+    description: 'Connaissance Réfugiés (169 questions)',
   },
   {
     value: 'CSP',
     label: 'Questions CSP',
-    description: 'Connaissance Statut Personnel',
+    description: 'Connaissance Statut Personnel (154 questions)',
   },
   {
-    value: 'custom',
-    label: 'Questions personnalisées',
-    description: 'Questions ajoutées manuellement',
+    value: 'SUPP',
+    label: 'Questions SUPP',
+    description: 'Questions supplémentaires (60 questions)',
   },
 ];
 

@@ -1,5 +1,5 @@
-import { createFileRoute, Link } from '@tanstack/react-router';
-import { useState } from 'react';
+import { createFileRoute, Link, useNavigate } from '@tanstack/react-router';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
@@ -9,10 +9,26 @@ import { Theme } from '@/types';
 
 export const Route = createFileRoute('/study')({
   component: StudyPage,
+  validateSearch: (search: Record<string, unknown>): { theme?: Theme } => {
+    return {
+      theme: search.theme as Theme | undefined,
+    };
+  },
 });
 
 function StudyPage() {
-  const [selectedTheme, setSelectedTheme] = useState<Theme | null>(null);
+  const navigate = useNavigate({ from: '/study' });
+  const { theme: urlTheme } = Route.useSearch();
+  const [selectedTheme, setSelectedTheme] = useState<Theme | null>(urlTheme || null);
+
+  // Update URL when theme changes
+  useEffect(() => {
+    if (selectedTheme) {
+      navigate({ search: { theme: selectedTheme }, replace: true });
+    } else {
+      navigate({ search: {}, replace: true });
+    }
+  }, [selectedTheme, navigate]);
 
   if (!selectedTheme) {
     return (
@@ -92,13 +108,40 @@ function StudyPage() {
           animate={{ opacity: 1, y: 0 }}
           className="mb-8"
         >
-          <div className="flex items-center gap-4 mb-4">
+          <div className="flex items-center gap-4 mb-6">
             <span className="text-5xl">{themeInfo?.icon}</span>
             <div>
               <h1 className="text-4xl font-bold text-gray-800">{themeInfo?.name}</h1>
               <p className="text-gray-600">{themeInfo?.description}</p>
             </div>
           </div>
+
+          {/* Info Card with Resources */}
+          <Card className="bg-blue-50 border-blue-200">
+            <CardContent className="p-6">
+              <div className="flex items-start gap-3">
+                <span className="text-2xl">📖</span>
+                <div className="flex-1">
+                  <h3 className="font-semibold text-gray-800 mb-2">
+                    {themeQuestions.length} questions disponibles
+                  </h3>
+                  <p className="text-sm text-gray-600 mb-3">
+                    Explorez toutes les questions de cette thématique avec leurs explications détaillées.
+                  </p>
+                  <a
+                    href="https://formation-civique.interieur.gouv.fr/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 font-medium"
+                  >
+                    <span>📚</span>
+                    Ressources officielles sur formation-civique.gouv.fr
+                    <span className="text-xs">↗</span>
+                  </a>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </motion.div>
 
         <div className="space-y-6">

@@ -190,12 +190,12 @@ function QCMPage() {
                       selectedAnswer === index
                         ? showResult
                           ? index === currentQuestion.correctAnswer
-                            ? 'bg-green-100 border-green-500'
-                            : 'bg-red-100 border-red-500'
-                          : 'bg-blue-50 border-blue-500'
+                            ? 'bg-green-100 border-green-500 text-green-900'
+                            : 'bg-red-100 border-red-500 text-red-900'
+                          : 'bg-blue-50 border-blue-500 text-blue-900'
                         : showResult && index === currentQuestion.correctAnswer
-                        ? 'bg-green-100 border-green-500'
-                        : 'border-gray-300 hover:border-blue-300 hover:bg-blue-50'
+                        ? 'bg-green-100 border-green-500 text-green-900'
+                        : 'border-gray-300 hover:border-blue-300 hover:bg-blue-50 text-gray-700 hover:text-blue-900'
                     } ${showResult ? 'cursor-not-allowed' : 'cursor-pointer'}`}
                   >
                     <div className="flex items-center justify-between">
