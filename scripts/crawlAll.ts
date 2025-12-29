@@ -394,8 +394,8 @@ async function crawlAll() {
 }
 
 // Run if called directly
-if (require.main === module) {
-  crawlAll().catch(console.error);
+if (import.meta.url === `file://${process.argv[1]}`) {
+    crawlAll().catch(console.error);
 }
 
 export { crawlAll };
