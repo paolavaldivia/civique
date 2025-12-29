@@ -12,7 +12,8 @@
     "crawl:all": "tsx scripts/crawlAll.ts",
     "clean:content": "tsx scripts/cleanContent.ts",
     "clean:questions": "tsx scripts/cleanQuestions.ts",
-    "clean:all": "npm run clean:content && npm run clean:questions"
+    "clean:all": "npm run clean:content && npm run clean:questions",
+    "generate:answers": "tsx scripts/generateAnswers.ts"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.143.11",
