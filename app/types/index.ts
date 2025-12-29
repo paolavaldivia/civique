@@ -1,4 +1,4 @@
-export type QuestionSource = 'CR' | 'CSP' | 'custom';
+export type QuestionSource = 'CR' | 'CSP' | 'SUPP' | 'custom';
 
 export interface Question {
   id: string;
