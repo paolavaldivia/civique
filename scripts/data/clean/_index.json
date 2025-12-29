@@ -1,0 +1,1359 @@
+{
+  "totalPages": 198,
+  "contentPages": 193,
+  "totalWordCount": 67090,
+  "pages": [
+    {
+      "title": "Droits fondamentaux",
+      "path": "droits-et-devoirs/droits-fondamentaux",
+      "breadcrumb": "Droits fondamentaux",
+      "wordCount": 697,
+      "sections": 12
+    },
+    {
+      "title": "Les droits économiques et sociaux et les droits dits de troisième génération",
+      "path": "droits-et-devoirs/droits-fondamentaux/droits-economiques-sociaux-troisieme-generation",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > droits-economiques-sociaux-troisieme-generation",
+      "wordCount": 479,
+      "sections": 4
+    },
+    {
+      "title": "Introduction aux droits fondamentaux",
+      "path": "droits-et-devoirs/droits-fondamentaux/introduction-aux-droits-fondamentaux",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > introduction-aux-droits-fondamentaux",
+      "wordCount": 251,
+      "sections": 5
+    },
+    {
+      "title": "La dignité humaine",
+      "path": "droits-et-devoirs/droits-fondamentaux/la-diginite-humaine",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > la-diginite-humaine",
+      "wordCount": 306,
+      "sections": 5
+    },
+    {
+      "title": "Les droits liés à la personne humaine",
+      "path": "droits-et-devoirs/droits-fondamentaux/les-droits-inherents-a-la-personne-humaine",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > les-droits-inherents-a-la-personne-humaine",
+      "wordCount": 369,
+      "sections": 4
+    },
+    {
+      "title": "Les libertés au sein du couple",
+      "path": "droits-et-devoirs/droits-fondamentaux/les-libertes-au-sein-du-couple",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > les-libertes-au-sein-du-couple",
+      "wordCount": 323,
+      "sections": 5
+    },
+    {
+      "title": "Présentation des principaux textes (3/3) : La Charte de l'environnement",
+      "path": "droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-charte-de-lenvironnement",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > les-principaux-textes-la-charte-de-lenvironnement",
+      "wordCount": 726,
+      "sections": 6
+    },
+    {
+      "title": "Présentation des principaux textes (2/3) : La Constitution de la Vème République",
+      "path": "droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-constitution-de-la-5-republique",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > les-principaux-textes-la-constitution-de-la-5-republique",
+      "wordCount": 484,
+      "sections": 6
+    },
+    {
+      "title": "Présentation des principaux textes (1/3) : La Déclaration des droits de l'homme et du citoyen",
+      "path": "droits-et-devoirs/droits-fondamentaux/les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > les-principaux-textes-la-declaraion-des-droits-de-lhomme-et-du-citoyen",
+      "wordCount": 1160,
+      "sections": 5
+    },
+    {
+      "title": "La citoyenneté",
+      "path": "droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-la-citoyennete",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > un-droit-fondamental-la-citoyennete",
+      "wordCount": 256,
+      "sections": 5
+    },
+    {
+      "title": "Un droit fondamental : le droit de disposer de son corps",
+      "path": "droits-et-devoirs/droits-fondamentaux/un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+      "breadcrumb": "droits-et-devoirs > droits-fondamentaux > un-droit-fondamental-le-droit-de-disposer-de-son-corps",
+      "wordCount": 442,
+      "sections": 6
+    },
+    {
+      "title": "Obligations et devoirs des personnes résidant en France",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france",
+      "breadcrumb": "Obligations et devoirs des personnes résidant en France",
+      "wordCount": 628,
+      "sections": 12
+    },
+    {
+      "title": "L'interdiction des violences faites aux enfants",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/l-interdiction-des-violences-faites-aux-enfants",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > l-interdiction-des-violences-faites-aux-enfants",
+      "wordCount": 220,
+      "sections": 5
+    },
+    {
+      "title": "La limite des libertés individuelles",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-limite-des-libertes-individuelles",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > la-limite-des-libertes-individuelles",
+      "wordCount": 308,
+      "sections": 5
+    },
+    {
+      "title": "La traite des êtres humains et la prostitution",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/la-traite-des-etres-humains-et-la-prostitution",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > la-traite-des-etres-humains-et-la-prostitution",
+      "wordCount": 256,
+      "sections": 5
+    },
+    {
+      "title": "Les obligations en tant que citoyen français",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-citoyen-francais",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > les-obligations-en-tant-que-citoyen-francais",
+      "wordCount": 466,
+      "sections": 7
+    },
+    {
+      "title": "Les obligations en tant que résident français",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/les-obligations-en-tant-que-resident-francais",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > les-obligations-en-tant-que-resident-francais",
+      "wordCount": 497,
+      "sections": 8
+    },
+    {
+      "title": "L'interdiction de toutes les formes de violences",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/linterdiction-de-toutes-les-formes-de-violences",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > linterdiction-de-toutes-les-formes-de-violences",
+      "wordCount": 354,
+      "sections": 7
+    },
+    {
+      "title": "L'interdiction des mutilations sexuelles féminines",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/linterdiction-des-mutilations-sexuelles-f%C3%A9minines",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > linterdiction-des-mutilations-sexuelles-f%C3%A9minines",
+      "wordCount": 357,
+      "sections": 6
+    },
+    {
+      "title": "L'interdition des violences sexuelles",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/linterdiction-des-violences-sexuelles",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > linterdiction-des-violences-sexuelles",
+      "wordCount": 392,
+      "sections": 5
+    },
+    {
+      "title": "Se conformer aux lois - les acteurs (2/2)",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-acteurs",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > se-conformer-aux-lois-les-acteurs",
+      "wordCount": 252,
+      "sections": 4
+    },
+    {
+      "title": "Se conformer aux lois : les infractions (1/2)",
+      "path": "droits-et-devoirs/obligations-et-devoirs-des-personnes-residant-en-france/se-conformer-aux-lois-les-infractions",
+      "breadcrumb": "droits-et-devoirs > obligations-et-devoirs-des-personnes-residant-en-france > se-conformer-aux-lois-les-infractions",
+      "wordCount": 437,
+      "sections": 7
+    },
+    {
+      "title": "Atlas de la France",
+      "path": "histoire-geographie-et-culture/atlas-de-la-france",
+      "breadcrumb": "Atlas de la France",
+      "wordCount": 447,
+      "sections": 10
+    },
+    {
+      "title": "L’économie française",
+      "path": "histoire-geographie-et-culture/atlas-de-la-france/l-economie-francaise",
+      "breadcrumb": "histoire-geographie-et-culture > atlas-de-la-france > l-economie-francaise",
+      "wordCount": 560,
+      "sections": 10
+    },
+    {
+      "title": "La démographie française",
+      "path": "histoire-geographie-et-culture/atlas-de-la-france/la-demographie-francaise",
+      "breadcrumb": "histoire-geographie-et-culture > atlas-de-la-france > la-demographie-francaise",
+      "wordCount": 397,
+      "sections": 9
+    },
+    {
+      "title": "La France : aire urbaine et métropolisation",
+      "path": "histoire-geographie-et-culture/atlas-de-la-france/la-france-aire-urbaine-et-metropolisation",
+      "breadcrumb": "histoire-geographie-et-culture > atlas-de-la-france > la-france-aire-urbaine-et-metropolisation",
+      "wordCount": 365,
+      "sections": 5
+    },
+    {
+      "title": "La France, terre d’agriculture",
+      "path": "histoire-geographie-et-culture/atlas-de-la-france/la-france-terre-d-agriculture",
+      "breadcrumb": "histoire-geographie-et-culture > atlas-de-la-france > la-france-terre-d-agriculture",
+      "wordCount": 358,
+      "sections": 5
+    },
+    {
+      "title": "La France, terre industrielle",
+      "path": "histoire-geographie-et-culture/atlas-de-la-france/la-france-terre-industrielle",
+      "breadcrumb": "histoire-geographie-et-culture > atlas-de-la-france > la-france-terre-industrielle",
+      "wordCount": 318,
+      "sections": 5
+    },
+    {
+      "title": "Le territoire de la France",
+      "path": "histoire-geographie-et-culture/atlas-de-la-france/le-territoire-de-la-france",
+      "breadcrumb": "histoire-geographie-et-culture > atlas-de-la-france > le-territoire-de-la-france",
+      "wordCount": 574,
+      "sections": 6
+    },
+    {
+      "title": "Les fleuves français",
+      "path": "histoire-geographie-et-culture/atlas-de-la-france/les-fleuves-fran%C3%A7ais",
+      "breadcrumb": "histoire-geographie-et-culture > atlas-de-la-france > les-fleuves-fran%C3%A7ais",
+      "wordCount": 324,
+      "sections": 8
+    },
+    {
+      "title": "Les frontières de la France",
+      "path": "histoire-geographie-et-culture/atlas-de-la-france/les-frontieres-de-la-france",
+      "breadcrumb": "histoire-geographie-et-culture > atlas-de-la-france > les-frontieres-de-la-france",
+      "wordCount": 570,
+      "sections": 9
+    },
+    {
+      "title": "Histoire, géographie et culture",
+      "path": "histoire-geographie-et-culture",
+      "breadcrumb": "Histoire, géographie et culture",
+      "wordCount": 64,
+      "sections": 7
+    },
+    {
+      "title": "Culture",
+      "path": "histoire-geographie-et-culture/culture",
+      "breadcrumb": "Culture",
+      "wordCount": 786,
+      "sections": 12
+    },
+    {
+      "title": "Patrimoine français : la langue française dans le monde",
+      "path": "histoire-geographie-et-culture/culture/patrimoine-francais-la-langue-francaise-dans-le-monde",
+      "breadcrumb": "histoire-geographie-et-culture > culture > patrimoine-francais-la-langue-francaise-dans-le-monde",
+      "wordCount": 204,
+      "sections": 5
+    },
+    {
+      "title": "Patrimoine français : sites emblématiques et gastronomie",
+      "path": "histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie",
+      "breadcrumb": "histoire-geographie-et-culture > culture > patrimoine-francais-sites-emblematiques-et-gastronomie",
+      "wordCount": 195,
+      "sections": 5
+    },
+    {
+      "title": "Patrimoine français : sites emblématiques et gastronomie d’Auvergne-Rhône-Alpes",
+      "path": "histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-d-auvergne-rhone-alpes",
+      "breadcrumb": "histoire-geographie-et-culture > culture > patrimoine-francais-sites-emblematiques-et-gastronomie-d-auvergne-rhone-alpes",
+      "wordCount": 254,
+      "sections": 4
+    },
+    {
+      "title": "Patrimoine français : sites emblématiques et gastronomie dans le Centre-Val de Loire",
+      "path": "histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-dans-le-centre-val-de-loire",
+      "breadcrumb": "histoire-geographie-et-culture > culture > patrimoine-francais-sites-emblematiques-et-gastronomie-dans-le-centre-val-de-loire",
+      "wordCount": 231,
+      "sections": 4
+    },
+    {
+      "title": "Patrimoine français : sites emblématiques et gastronomie de Bourgogne-Franche-Comté",
+      "path": "histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-bourgogne-franche-comte",
+      "breadcrumb": "histoire-geographie-et-culture > culture > patrimoine-francais-sites-emblematiques-et-gastronomie-de-bourgogne-franche-comte",
+      "wordCount": 195,
+      "sections": 4
+    },
+    {
+      "title": "Patrimoine français : sites emblématiques et gastronomie de Bretagne",
+      "path": "histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-bretagne",
+      "breadcrumb": "histoire-geographie-et-culture > culture > patrimoine-francais-sites-emblematiques-et-gastronomie-de-bretagne",
+      "wordCount": 222,
+      "sections": 4
+    },
+    {
+      "title": "Patrimoine français : sites emblématiques et gastronomie de Corse",
+      "path": "histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-de-corse",
+      "breadcrumb": "histoire-geographie-et-culture > culture > patrimoine-francais-sites-emblematiques-et-gastronomie-de-corse",
+      "wordCount": 219,
+      "sections": 4
+    },
+    {
+      "title": "Patrimoine français : sites emblématiques et gastronomie des Hauts-de-France",
+      "path": "histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-des-hauts-de-france",
+      "breadcrumb": "histoire-geographie-et-culture > culture > patrimoine-francais-sites-emblematiques-et-gastronomie-des-hauts-de-france",
+      "wordCount": 215,
+      "sections": 4
+    },
+    {
+      "title": "Patrimoine français : sites emblématiques et gastronomie du Grand Est",
+      "path": "histoire-geographie-et-culture/culture/patrimoine-francais-sites-emblematiques-et-gastronomie-du-grand-est",
+      "breadcrumb": "histoire-geographie-et-culture > culture > patrimoine-francais-sites-emblematiques-et-gastronomie-du-grand-est",
+      "wordCount": 210,
+      "sections": 4
+    },
+    {
+      "title": "Une puissance culturelle",
+      "path": "histoire-geographie-et-culture/culture/une-puissance-culturelle",
+      "breadcrumb": "histoire-geographie-et-culture > culture > une-puissance-culturelle",
+      "wordCount": 596,
+      "sections": 11
+    },
+    {
+      "title": "La Vème République",
+      "path": "histoire-geographie-et-culture/la-cinquieme-republique",
+      "breadcrumb": "La Vème République",
+      "wordCount": 290,
+      "sections": 6
+    },
+    {
+      "title": "Focus sur la Vème République : l'abolition de la peine de mort",
+      "path": "histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-5",
+      "breadcrumb": "histoire-geographie-et-culture > la-cinquieme-republique > focus-sur-la-cinquieme-republique-5",
+      "wordCount": 313,
+      "sections": 5
+    },
+    {
+      "title": "Focus sur la Vème République : le mariage pour tous",
+      "path": "histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-7",
+      "breadcrumb": "histoire-geographie-et-culture > la-cinquieme-republique > focus-sur-la-cinquieme-republique-7",
+      "wordCount": 192,
+      "sections": 5
+    },
+    {
+      "title": "Focus sur la Vème République : le droit à l'avortement",
+      "path": "histoire-geographie-et-culture/la-cinquieme-republique/focus-sur-la-cinquieme-republique-le-droit-a-l-avortement",
+      "breadcrumb": "histoire-geographie-et-culture > la-cinquieme-republique > focus-sur-la-cinquieme-republique-le-droit-a-l-avortement",
+      "wordCount": 264,
+      "sections": 5
+    },
+    {
+      "title": "Les présidents de la Vème République",
+      "path": "histoire-geographie-et-culture/la-cinquieme-republique/les-presidents-de-la-cinquieme-republique",
+      "breadcrumb": "histoire-geographie-et-culture > la-cinquieme-republique > les-presidents-de-la-cinquieme-republique",
+      "wordCount": 287,
+      "sections": 10
+    },
+    {
+      "title": "La France dans l'Europe et dans le monde",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde",
+      "breadcrumb": "La France dans l'Europe et dans le monde",
+      "wordCount": 718,
+      "sections": 12
+    },
+    {
+      "title": "L’agriculture française en Europe",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/l-agriculture-francaise-en-europe",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > l-agriculture-francaise-en-europe",
+      "wordCount": 364,
+      "sections": 5
+    },
+    {
+      "title": "La France dans l’écosystème naturel européen",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-l-ecosysteme-naturel-europeen",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > la-france-dans-l-ecosysteme-naturel-europeen",
+      "wordCount": 342,
+      "sections": 5
+    },
+    {
+      "title": "La France dans l'Europe",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-l-europe",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > la-france-dans-l-europe",
+      "wordCount": 194,
+      "sections": 4
+    },
+    {
+      "title": "La France dans la circulation européenne",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-la-circulation-europeenne",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > la-france-dans-la-circulation-europeenne",
+      "wordCount": 252,
+      "sections": 4
+    },
+    {
+      "title": "La France dans le monde",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/la-france-dans-le-monde",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > la-france-dans-le-monde",
+      "wordCount": 277,
+      "sections": 5
+    },
+    {
+      "title": "Les ports français",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/les-ports-francais",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > les-ports-francais",
+      "wordCount": 991,
+      "sections": 8
+    },
+    {
+      "title": "Un système aérien au cœur du réseau mondial",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/un-systeme-aerien-au-c%C5%93ur-du-reseau-mondial",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > un-systeme-aerien-au-c%C5%93ur-du-reseau-mondial",
+      "wordCount": 255,
+      "sections": 5
+    },
+    {
+      "title": "Une puissance maritime",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-maritime",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > une-puissance-maritime",
+      "wordCount": 515,
+      "sections": 7
+    },
+    {
+      "title": "Une puissance militaire et diplomatique",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-militaire-et-diplomatique",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > une-puissance-militaire-et-diplomatique",
+      "wordCount": 230,
+      "sections": 4
+    },
+    {
+      "title": "Une puissance touristique",
+      "path": "histoire-geographie-et-culture/la-france-dans-leurope-et-dans-le-monde/une-puissance-touristique",
+      "breadcrumb": "histoire-geographie-et-culture > la-france-dans-leurope-et-dans-le-monde > une-puissance-touristique",
+      "wordCount": 258,
+      "sections": 4
+    },
+    {
+      "title": "Les conflits mondiaux et le nouvel ordre mondial",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial",
+      "breadcrumb": "Les conflits mondiaux et le nouvel ordre mondial",
+      "wordCount": 595,
+      "sections": 11
+    },
+    {
+      "title": "Recomposition de l’ordre mondial : la construction européenne",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-construction-europeenne",
+      "breadcrumb": "histoire-geographie-et-culture > les-conflits-mondiaux-et-le-nouvel-ordre-mondial > la-construction-europeenne",
+      "wordCount": 322,
+      "sections": 6
+    },
+    {
+      "title": "Recomposition de l’ordre mondial : la décolonisation",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-decolonisation",
+      "breadcrumb": "histoire-geographie-et-culture > les-conflits-mondiaux-et-le-nouvel-ordre-mondial > la-decolonisation",
+      "wordCount": 221,
+      "sections": 6
+    },
+    {
+      "title": "La Première Guerre mondiale (1914-1918) : le contexte",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-1",
+      "breadcrumb": "histoire-geographie-et-culture > les-conflits-mondiaux-et-le-nouvel-ordre-mondial > la-premiere-guerre-mondiale-1",
+      "wordCount": 411,
+      "sections": 9
+    },
+    {
+      "title": "La Première Guerre mondiale (1914-1918) : les conséquences",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-premiere-guerre-mondiale-2",
+      "breadcrumb": "histoire-geographie-et-culture > les-conflits-mondiaux-et-le-nouvel-ordre-mondial > la-premiere-guerre-mondiale-2",
+      "wordCount": 263,
+      "sections": 4
+    },
+    {
+      "title": "Les conflits mondiaux : la Seconde Guerre mondiale (1939-1945) (1/3)",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1",
+      "breadcrumb": "histoire-geographie-et-culture > les-conflits-mondiaux-et-le-nouvel-ordre-mondial > la-seconde-guerre-mondiale-1",
+      "wordCount": 455,
+      "sections": 9
+    },
+    {
+      "title": "La Seconde Guerre mondiale (1939-1945) : le contexte",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-1939-1945-le-contexte",
+      "breadcrumb": "histoire-geographie-et-culture > les-conflits-mondiaux-et-le-nouvel-ordre-mondial > la-seconde-guerre-mondiale-1939-1945-le-contexte",
+      "wordCount": 185,
+      "sections": 3
+    },
+    {
+      "title": "Les conflits mondiaux : la Seconde Guerre mondiale (1939-1945) (2/3)",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-2",
+      "breadcrumb": "histoire-geographie-et-culture > les-conflits-mondiaux-et-le-nouvel-ordre-mondial > la-seconde-guerre-mondiale-2",
+      "wordCount": 470,
+      "sections": 7
+    },
+    {
+      "title": "Les conflits mondiaux : la Seconde Guerre mondiale (1939-1945) (3/3)",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/la-seconde-guerre-mondiale-3",
+      "breadcrumb": "histoire-geographie-et-culture > les-conflits-mondiaux-et-le-nouvel-ordre-mondial > la-seconde-guerre-mondiale-3",
+      "wordCount": 425,
+      "sections": 8
+    },
+    {
+      "title": "La Seconde Guerre mondiale (1939-1945) : les conséquences",
+      "path": "histoire-geographie-et-culture/les-conflits-mondiaux-et-le-nouvel-ordre-mondial/les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+      "breadcrumb": "histoire-geographie-et-culture > les-conflits-mondiaux-et-le-nouvel-ordre-mondial > les-conflits-mondiaux-la-seconde-guerre-mondiale-1939-1945-les-consequences",
+      "wordCount": 393,
+      "sections": 7
+    },
+    {
+      "title": "Les régimes politiques depuis 1789",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789",
+      "breadcrumb": "Les régimes politiques depuis 1789",
+      "wordCount": 694,
+      "sections": 12
+    },
+    {
+      "title": "Des Mérovingiens à l’Ancien Régime (Vème-XVIème siècle)",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/des-merovingiens-a-l-ancien-regime",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > des-merovingiens-a-l-ancien-regime",
+      "wordCount": 352,
+      "sections": 4
+    },
+    {
+      "title": "L'Ancien Régime (jusqu'en 1789)",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/l-ancien-regime-jusqu-en-1789",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > l-ancien-regime-jusqu-en-1789",
+      "wordCount": 329,
+      "sections": 5
+    },
+    {
+      "title": "La IIème République (1848-1851)",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-deuxieme-republique-1848-1851",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > la-deuxieme-republique-1848-1851",
+      "wordCount": 299,
+      "sections": 5
+    },
+    {
+      "title": "La fin de la monarchie absolue et le début de la Ière République (1789-1792)",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > la-fin-de-la-monarchie-absolue-et-le-debut-de-la-iere-republique-1789-1792",
+      "wordCount": 356,
+      "sections": 5
+    },
+    {
+      "title": "La Ière République (1792-1804)",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-premiere-republique-1792-1804",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > la-premiere-republique-1792-1804",
+      "wordCount": 322,
+      "sections": 5
+    },
+    {
+      "title": "La Restauration et la Monarchie de Juillet (1815-1848)",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/la-restauration-et-la-monarchie-de-juillet-1815-1848",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > la-restauration-et-la-monarchie-de-juillet-1815-1848",
+      "wordCount": 496,
+      "sections": 5
+    },
+    {
+      "title": "Le 1er Empire (1804-1815)",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-1er-empire-1804-1815",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > le-1er-empire-1804-1815",
+      "wordCount": 316,
+      "sections": 5
+    },
+    {
+      "title": "Le 2nd Empire (1852-1870)",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-2nd-empire-1852-1870",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > le-2nd-empire-1852-1870",
+      "wordCount": 290,
+      "sections": 5
+    },
+    {
+      "title": "Le Consulat (1799-1804)",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/le-consulat-1799-1804",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > le-consulat-1799-1804",
+      "wordCount": 272,
+      "sections": 5
+    },
+    {
+      "title": "Les régimes politiques",
+      "path": "histoire-geographie-et-culture/les-regimes-politiques-depuis-1789/les-regimes-politiques",
+      "breadcrumb": "histoire-geographie-et-culture > les-regimes-politiques-depuis-1789 > les-regimes-politiques",
+      "wordCount": 281,
+      "sections": 5
+    },
+    {
+      "title": "Auvergne-Rhône-Alpes",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/auvergne-rhone-alpes",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > auvergne-rhone-alpes",
+      "wordCount": 231,
+      "sections": 8
+    },
+    {
+      "title": "Bourgogne-Franche-Comté",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/bourgogne-franche-comte",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > bourgogne-franche-comte",
+      "wordCount": 241,
+      "sections": 8
+    },
+    {
+      "title": "Bretagne",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/bretagne",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > bretagne",
+      "wordCount": 265,
+      "sections": 8
+    },
+    {
+      "title": "Centre-Val de Loire",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/centre-val-de-loire",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > centre-val-de-loire",
+      "wordCount": 267,
+      "sections": 8
+    },
+    {
+      "title": "Les régions françaises",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises",
+      "breadcrumb": "Les régions françaises",
+      "wordCount": 485,
+      "sections": 12
+    },
+    {
+      "title": "Corse",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/corse",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > corse",
+      "wordCount": 236,
+      "sections": 8
+    },
+    {
+      "title": "Grand Est",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/grand-est",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > grand-est",
+      "wordCount": 284,
+      "sections": 8
+    },
+    {
+      "title": "Hauts-de-France",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/hauts-de-france",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > hauts-de-france",
+      "wordCount": 263,
+      "sections": 8
+    },
+    {
+      "title": "Île-de-France",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/ile-de-france",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > ile-de-france",
+      "wordCount": 265,
+      "sections": 8
+    },
+    {
+      "title": "Normandie",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/normandie",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > normandie",
+      "wordCount": 254,
+      "sections": 8
+    },
+    {
+      "title": "Nouvelle-Aquitaine",
+      "path": "histoire-geographie-et-culture/les-regions-fran%C3%A7aises/nouvelle-aquitaine",
+      "breadcrumb": "histoire-geographie-et-culture > les-regions-fran%C3%A7aises > nouvelle-aquitaine",
+      "wordCount": 237,
+      "sections": 8
+    },
+    {
+      "title": "Zoom sur",
+      "path": "histoire-geographie-et-culture/zoom-sur",
+      "breadcrumb": "Zoom sur",
+      "wordCount": 311,
+      "sections": 7
+    },
+    {
+      "title": "Focus sur la Seconde Guerre mondiale - la Résistance et la Libération",
+      "path": "histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+      "breadcrumb": "histoire-geographie-et-culture > zoom-sur > focus-sur-la-seconde-guerre-mondiale-la-resistance-et-la-lib%C3%A9ration",
+      "wordCount": 697,
+      "sections": 16
+    },
+    {
+      "title": "Focus sur la Seconde Guerre mondiale - la Shoah",
+      "path": "histoire-geographie-et-culture/zoom-sur/focus-sur-la-seconde-guerre-mondiale-la-shoah",
+      "breadcrumb": "histoire-geographie-et-culture > zoom-sur > focus-sur-la-seconde-guerre-mondiale-la-shoah",
+      "wordCount": 592,
+      "sections": 8
+    },
+    {
+      "title": "L'immigration",
+      "path": "histoire-geographie-et-culture/zoom-sur/l-immigration",
+      "breadcrumb": "histoire-geographie-et-culture > zoom-sur > l-immigration",
+      "wordCount": 270,
+      "sections": 5
+    },
+    {
+      "title": "Le territoire français dans le temps (1/2)",
+      "path": "histoire-geographie-et-culture/zoom-sur/le-territoire-francais-dans-le-temps-1",
+      "breadcrumb": "histoire-geographie-et-culture > zoom-sur > le-territoire-francais-dans-le-temps-1",
+      "wordCount": 321,
+      "sections": 7
+    },
+    {
+      "title": "Le territoire français dans le temps (2/2)",
+      "path": "histoire-geographie-et-culture/zoom-sur/le-territoire-francais-dans-le-temps-2",
+      "breadcrumb": "histoire-geographie-et-culture > zoom-sur > le-territoire-francais-dans-le-temps-2",
+      "wordCount": 322,
+      "sections": 5
+    },
+    {
+      "title": "La devise de la République",
+      "path": "principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique",
+      "breadcrumb": "La devise de la République",
+      "wordCount": 373,
+      "sections": 9
+    },
+    {
+      "title": "L'égalité (1/3)",
+      "path": "principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-1",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > devise-et-symboles-de-la-republique > egalite-1",
+      "wordCount": 267,
+      "sections": 5
+    },
+    {
+      "title": "L'égalité (2/3)",
+      "path": "principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-2",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > devise-et-symboles-de-la-republique > egalite-2",
+      "wordCount": 332,
+      "sections": 5
+    },
+    {
+      "title": "L'égalité (3/3)",
+      "path": "principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/egalite-3",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > devise-et-symboles-de-la-republique > egalite-3",
+      "wordCount": 313,
+      "sections": 5
+    },
+    {
+      "title": "La fraternité (1/2)",
+      "path": "principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/fraternite-1",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > devise-et-symboles-de-la-republique > fraternite-1",
+      "wordCount": 294,
+      "sections": 5
+    },
+    {
+      "title": "La fraternité (2/2)",
+      "path": "principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/fraternite-2",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > devise-et-symboles-de-la-republique > fraternite-2",
+      "wordCount": 296,
+      "sections": 5
+    },
+    {
+      "title": "La devise française",
+      "path": "principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-devise-francaise",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > devise-et-symboles-de-la-republique > la-devise-francaise",
+      "wordCount": 252,
+      "sections": 5
+    },
+    {
+      "title": "La liberté",
+      "path": "principes-et-valeurs-de-la-republique/devise-et-symboles-de-la-republique/la-liberte",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > devise-et-symboles-de-la-republique > la-liberte",
+      "wordCount": 267,
+      "sections": 5
+    },
+    {
+      "title": "La langue de la République",
+      "path": "principes-et-valeurs-de-la-republique/la-langue-de-la-republique",
+      "breadcrumb": "La langue de la République",
+      "wordCount": 58,
+      "sections": 3
+    },
+    {
+      "title": "La langue française",
+      "path": "principes-et-valeurs-de-la-republique/la-langue-de-la-republique/la-langue-fran%C3%A7aise",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > la-langue-de-la-republique > la-langue-fran%C3%A7aise",
+      "wordCount": 278,
+      "sections": 5
+    },
+    {
+      "title": "La laïcité",
+      "path": "principes-et-valeurs-de-la-republique/laicite",
+      "breadcrumb": "La laïcité",
+      "wordCount": 523,
+      "sections": 12
+    },
+    {
+      "title": "La définition de la laïcité (2/2)",
+      "path": "principes-et-valeurs-de-la-republique/laicite/definition-laicite-2",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > definition-laicite-2",
+      "wordCount": 204,
+      "sections": 5
+    },
+    {
+      "title": "Histoire de la laïcité",
+      "path": "principes-et-valeurs-de-la-republique/laicite/histoire-de-la-laicite",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > histoire-de-la-laicite",
+      "wordCount": 1120,
+      "sections": 6
+    },
+    {
+      "title": "La définition de la laïcité (1/2)",
+      "path": "principes-et-valeurs-de-la-republique/laicite/la-definition-de-la-laicite-1",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > la-definition-de-la-laicite-1",
+      "wordCount": 315,
+      "sections": 5
+    },
+    {
+      "title": "La laïcité à l'école (1/2)",
+      "path": "principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-1",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > la-laicite-a-ecole-1",
+      "wordCount": 794,
+      "sections": 6
+    },
+    {
+      "title": "La laïcité à l'école (2/2)",
+      "path": "principes-et-valeurs-de-la-republique/laicite/la-laicite-a-ecole-2",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > la-laicite-a-ecole-2",
+      "wordCount": 766,
+      "sections": 6
+    },
+    {
+      "title": "La laïcité au travail",
+      "path": "principes-et-valeurs-de-la-republique/laicite/la-laicite-au-travail",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > la-laicite-au-travail",
+      "wordCount": 280,
+      "sections": 5
+    },
+    {
+      "title": "La laïcité dans l'espace public",
+      "path": "principes-et-valeurs-de-la-republique/laicite/la-laicite-dans-espace-public",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > la-laicite-dans-espace-public",
+      "wordCount": 296,
+      "sections": 5
+    },
+    {
+      "title": "La laïcité dans les services publics",
+      "path": "principes-et-valeurs-de-la-republique/laicite/la-laicite-dans-les-services-publics",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > la-laicite-dans-les-services-publics",
+      "wordCount": 310,
+      "sections": 5
+    },
+    {
+      "title": "Le blasphème",
+      "path": "principes-et-valeurs-de-la-republique/laicite/le-blaspheme",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > le-blaspheme",
+      "wordCount": 269,
+      "sections": 5
+    },
+    {
+      "title": "Le prosélytisme",
+      "path": "principes-et-valeurs-de-la-republique/laicite/le-proselytisme",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > laicite > le-proselytisme",
+      "wordCount": 237,
+      "sections": 5
+    },
+    {
+      "title": "Le contrat d'engagement à respecter les principes de la République",
+      "path": "principes-et-valeurs-de-la-republique/le-contrat-dengagement-%C3%A0-respecter-les-principes-de-la-republique",
+      "breadcrumb": "Le contrat d'engagement à respecter les principes de la République",
+      "wordCount": 54,
+      "sections": 3
+    },
+    {
+      "title": "Le contrat d'engagement républicain",
+      "path": "principes-et-valeurs-de-la-republique/le-contrat-dengagement-%C3%A0-respecter-les-principes-de-la-republique/le-contrat-engagement-republicain",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > le-contrat-dengagement-%C3%A0-respecter-les-principes-de-la-republique > le-contrat-engagement-republicain",
+      "wordCount": 242,
+      "sections": 5
+    },
+    {
+      "title": "Les symboles de la République",
+      "path": "principes-et-valeurs-de-la-republique/les-symboles-de-la-republique",
+      "breadcrumb": "Les symboles de la République",
+      "wordCount": 286,
+      "sections": 7
+    },
+    {
+      "title": "L'hymne français",
+      "path": "principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/hymne-francais",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > les-symboles-de-la-republique > hymne-francais",
+      "wordCount": 283,
+      "sections": 5
+    },
+    {
+      "title": "La fête nationale",
+      "path": "principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/la-fete-nationale",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > les-symboles-de-la-republique > la-fete-nationale",
+      "wordCount": 267,
+      "sections": 5
+    },
+    {
+      "title": "Le coq",
+      "path": "principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/le-coq",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > les-symboles-de-la-republique > le-coq",
+      "wordCount": 250,
+      "sections": 5
+    },
+    {
+      "title": "Le drapeau français",
+      "path": "principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/le-drapeau-fran%C3%A7ais",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > les-symboles-de-la-republique > le-drapeau-fran%C3%A7ais",
+      "wordCount": 304,
+      "sections": 5
+    },
+    {
+      "title": "Marianne",
+      "path": "principes-et-valeurs-de-la-republique/les-symboles-de-la-republique/marianne",
+      "breadcrumb": "principes-et-valeurs-de-la-republique > les-symboles-de-la-republique > marianne",
+      "wordCount": 250,
+      "sections": 5
+    },
+    {
+      "title": "Comment voter une loi (1/2)",
+      "path": "systeme-institutionnel-et-politique/democratie-et-droit-de-vote/comment-voter-une-loi-1",
+      "breadcrumb": "systeme-institutionnel-et-politique > democratie-et-droit-de-vote > comment-voter-une-loi-1",
+      "wordCount": 397,
+      "sections": 6
+    },
+    {
+      "title": "Comment voter une loi (2/2)",
+      "path": "systeme-institutionnel-et-politique/democratie-et-droit-de-vote/comment-voter-une-loi-2",
+      "breadcrumb": "systeme-institutionnel-et-politique > democratie-et-droit-de-vote > comment-voter-une-loi-2",
+      "wordCount": 467,
+      "sections": 6
+    },
+    {
+      "title": "Démocratie et droit de vote",
+      "path": "systeme-institutionnel-et-politique/democratie-et-droit-de-vote",
+      "breadcrumb": "Démocratie et droit de vote",
+      "wordCount": 376,
+      "sections": 9
+    },
+    {
+      "title": "La démocratie et la République (1/2)",
+      "path": "systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+      "breadcrumb": "systeme-institutionnel-et-politique > democratie-et-droit-de-vote > democratie-et-droit-de-vote-la-democratie-et-la-republique-1",
+      "wordCount": 368,
+      "sections": 6
+    },
+    {
+      "title": "La démocratie et la République (2/2)",
+      "path": "systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+      "breadcrumb": "systeme-institutionnel-et-politique > democratie-et-droit-de-vote > democratie-et-droit-de-vote-la-democratie-et-la-republique-2",
+      "wordCount": 288,
+      "sections": 4
+    },
+    {
+      "title": "Le principe de pluralité des partis",
+      "path": "systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+      "breadcrumb": "systeme-institutionnel-et-politique > democratie-et-droit-de-vote > democratie-et-droit-de-vote-le-principe-de-pluralite-des-partis",
+      "wordCount": 291,
+      "sections": 5
+    },
+    {
+      "title": "Les conditions pour voter en France (1/2)",
+      "path": "systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+      "breadcrumb": "systeme-institutionnel-et-politique > democratie-et-droit-de-vote > democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-1",
+      "wordCount": 267,
+      "sections": 5
+    },
+    {
+      "title": "Les conditions pour voter en France (2/2)",
+      "path": "systeme-institutionnel-et-politique/democratie-et-droit-de-vote/democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+      "breadcrumb": "systeme-institutionnel-et-politique > democratie-et-droit-de-vote > democratie-et-droit-de-vote-les-conditions-pour-voter-en-france-2",
+      "wordCount": 289,
+      "sections": 4
+    },
+    {
+      "title": "État de droit et séparation des pouvoirs",
+      "path": "systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs",
+      "breadcrumb": "État de droit et séparation des pouvoirs",
+      "wordCount": 273,
+      "sections": 5
+    },
+    {
+      "title": "État de droit et séparation des pouvoirs : présentation de l’État de droit et principe de la séparation des pouvoirs",
+      "path": "systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+      "breadcrumb": "systeme-institutionnel-et-politique > etat-de-droit-et-separation-des-pouvoirs > etat-de-droit-et-separation-des-pouvoirs--presentation-de-letat-de-droit-et-principe-de-la-separation-des-pouvoirs",
+      "wordCount": 423,
+      "sections": 5
+    },
+    {
+      "title": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (1/2)",
+      "path": "systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+      "breadcrumb": "systeme-institutionnel-et-politique > etat-de-droit-et-separation-des-pouvoirs > etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-1",
+      "wordCount": 307,
+      "sections": 6
+    },
+    {
+      "title": "État de droit et séparation des pouvoirs : présentation des 3 pouvoirs (2/2)",
+      "path": "systeme-institutionnel-et-politique/etat-de-droit-et-separation-des-pouvoirs/etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+      "breadcrumb": "systeme-institutionnel-et-politique > etat-de-droit-et-separation-des-pouvoirs > etat-de-droit-et-separation-des-pouvoirs-presentation-des-3-pouvoirs-2",
+      "wordCount": 225,
+      "sections": 4
+    },
+    {
+      "title": "Institutions européennes",
+      "path": "systeme-institutionnel-et-politique/institutions-europeennes",
+      "breadcrumb": "Institutions européennes",
+      "wordCount": 250,
+      "sections": 8
+    },
+    {
+      "title": "Le fonctionnement européen (1/2)",
+      "path": "systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-1",
+      "breadcrumb": "systeme-institutionnel-et-politique > institutions-europeennes > le-fonctionnement-europeen-1",
+      "wordCount": 207,
+      "sections": 5
+    },
+    {
+      "title": "Le fonctionnement européen (2/2)",
+      "path": "systeme-institutionnel-et-politique/institutions-europeennes/le-fonctionnement-europeen-2",
+      "breadcrumb": "systeme-institutionnel-et-politique > institutions-europeennes > le-fonctionnement-europeen-2",
+      "wordCount": 304,
+      "sections": 5
+    },
+    {
+      "title": "Les élections européennes",
+      "path": "systeme-institutionnel-et-politique/institutions-europeennes/les-elections-europeennes",
+      "breadcrumb": "systeme-institutionnel-et-politique > institutions-europeennes > les-elections-europeennes",
+      "wordCount": 240,
+      "sections": 5
+    },
+    {
+      "title": "Les étapes clés de la construction européenne",
+      "path": "systeme-institutionnel-et-politique/institutions-europeennes/les-etapes-cles-de-la-construction-europeenne",
+      "breadcrumb": "systeme-institutionnel-et-politique > institutions-europeennes > les-etapes-cles-de-la-construction-europeenne",
+      "wordCount": 431,
+      "sections": 6
+    },
+    {
+      "title": "Les symboles européens (1/2)",
+      "path": "systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-1",
+      "breadcrumb": "systeme-institutionnel-et-politique > institutions-europeennes > les-symboles-europeens-1",
+      "wordCount": 230,
+      "sections": 5
+    },
+    {
+      "title": "Les symboles européens (2/2)",
+      "path": "systeme-institutionnel-et-politique/institutions-europeennes/les-symboles-europeens-2",
+      "breadcrumb": "systeme-institutionnel-et-politique > institutions-europeennes > les-symboles-europeens-2",
+      "wordCount": 193,
+      "sections": 4
+    },
+    {
+      "title": "Organisation de la République Française",
+      "path": "systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise",
+      "breadcrumb": "Organisation de la République Française",
+      "wordCount": 142,
+      "sections": 5
+    },
+    {
+      "title": "Le découpage administratif de la France (1/3)",
+      "path": "systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-1",
+      "breadcrumb": "systeme-institutionnel-et-politique > organisation-de-la-republique-fran%C3%A7aise > le-decoupage-administratif-de-la-france-1",
+      "wordCount": 385,
+      "sections": 6
+    },
+    {
+      "title": "Le découpage administratif de la France (2/3)",
+      "path": "systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-2",
+      "breadcrumb": "systeme-institutionnel-et-politique > organisation-de-la-republique-fran%C3%A7aise > le-decoupage-administratif-de-la-france-2",
+      "wordCount": 163,
+      "sections": 4
+    },
+    {
+      "title": "Le découpage administratif de la France (3/3)",
+      "path": "systeme-institutionnel-et-politique/organisation-de-la-republique-fran%C3%A7aise/le-decoupage-administratif-de-la-france-3",
+      "breadcrumb": "systeme-institutionnel-et-politique > organisation-de-la-republique-fran%C3%A7aise > le-decoupage-administratif-de-la-france-3",
+      "wordCount": 201,
+      "sections": 4
+    },
+    {
+      "title": "Démarches administratives",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives",
+      "breadcrumb": "Démarches administratives",
+      "wordCount": 751,
+      "sections": 12
+    },
+    {
+      "title": "L'impôt en France et la déclaration de revenus",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/l-impot-en-france-et-la-declaration-de-revenus",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > l-impot-en-france-et-la-declaration-de-revenus",
+      "wordCount": 358,
+      "sections": 5
+    },
+    {
+      "title": "La déclaration de mariage",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-mariage",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > la-declaration-de-mariage",
+      "wordCount": 314,
+      "sections": 5
+    },
+    {
+      "title": "La déclaration de naissance",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/la-declaration-de-naissance",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > la-declaration-de-naissance",
+      "wordCount": 266,
+      "sections": 4
+    },
+    {
+      "title": "Les démarches d’accès à la nationalité française",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-dacces-a-la-nationalite-francaise",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > les-demarches-dacces-a-la-nationalite-francaise",
+      "wordCount": 328,
+      "sections": 5
+    },
+    {
+      "title": "Les démarches du quotidien comme la domiciliation",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-la-domiciliation",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > les-demarches-du-quotidien-comme-la-domiciliation",
+      "wordCount": 243,
+      "sections": 5
+    },
+    {
+      "title": "Les démarches du quotidien comme l’assurance responsabilité civile",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-lassurance-responsabilite-civile",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > les-demarches-du-quotidien-comme-lassurance-responsabilite-civile",
+      "wordCount": 223,
+      "sections": 4
+    },
+    {
+      "title": "Les démarches du quotidien comme le permis de conduire (1/2)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > les-demarches-du-quotidien-comme-le-permis-de-conduire-1",
+      "wordCount": 253,
+      "sections": 4
+    },
+    {
+      "title": "Les démarches du quotidien comme le permis de conduire (2/2)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-le-permis-de-conduire-2",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > les-demarches-du-quotidien-comme-le-permis-de-conduire-2",
+      "wordCount": 348,
+      "sections": 4
+    },
+    {
+      "title": "Les démarches du quotidien comme l’ouverture d’un compte bancaire",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-du-quotidien-comme-louverture-dun-compte-bancaire",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > les-demarches-du-quotidien-comme-louverture-dun-compte-bancaire",
+      "wordCount": 348,
+      "sections": 6
+    },
+    {
+      "title": "Les démarches relatives au séjour en France",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/demarches-administratives/les-demarches-relatives-au-sejour-en-france",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > demarches-administratives > les-demarches-relatives-au-sejour-en-france",
+      "wordCount": 341,
+      "sections": 4
+    },
+    {
+      "title": "Emploi",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi",
+      "breadcrumb": "Emploi",
+      "wordCount": 438,
+      "sections": 12
+    },
+    {
+      "title": "Formation (1/3)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/formation-1",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > formation-1",
+      "wordCount": 243,
+      "sections": 3
+    },
+    {
+      "title": "Formation (2/3)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/formation-2",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > formation-2",
+      "wordCount": 352,
+      "sections": 5
+    },
+    {
+      "title": "Formation (3/3)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/formation-3",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > formation-3",
+      "wordCount": 206,
+      "sections": 5
+    },
+    {
+      "title": "Orientation (1/5)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-1",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > orientation-1",
+      "wordCount": 247,
+      "sections": 5
+    },
+    {
+      "title": "Orientation (2/5)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-2",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > orientation-2",
+      "wordCount": 193,
+      "sections": 5
+    },
+    {
+      "title": "Orientation (3/5)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-3",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > orientation-3",
+      "wordCount": 222,
+      "sections": 5
+    },
+    {
+      "title": "Orientation (4/5)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-4",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > orientation-4",
+      "wordCount": 302,
+      "sections": 5
+    },
+    {
+      "title": "Orientation (5/5)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-5",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > orientation-5",
+      "wordCount": 226,
+      "sections": 5
+    },
+    {
+      "title": "Types d'emploi (1/3)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/types-emploi-1",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > types-emploi-1",
+      "wordCount": 338,
+      "sections": 5
+    },
+    {
+      "title": "Types d'emploi (2/3)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/emploi/types-emploi-2",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > emploi > types-emploi-2",
+      "wordCount": 313,
+      "sections": 4
+    },
+    {
+      "title": "Parentalité",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite",
+      "breadcrumb": "Parentalité",
+      "wordCount": 540,
+      "sections": 12
+    },
+    {
+      "title": "Les devoirs et le rôle des parents à l’école",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/droits-et-devoirs-des-parents-a-l-ecole",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > droits-et-devoirs-des-parents-a-l-ecole",
+      "wordCount": 227,
+      "sections": 5
+    },
+    {
+      "title": "Exercice de l’autorité parentale (1/2)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-1",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > exercice-de-l-autorite-parentale-1",
+      "wordCount": 320,
+      "sections": 8
+    },
+    {
+      "title": "Exercice de l’autorité parentale (2/2)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/exercice-de-l-autorite-parentale-2",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > exercice-de-l-autorite-parentale-2",
+      "wordCount": 226,
+      "sections": 5
+    },
+    {
+      "title": "L'école pour les enfants allophones",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/l-ecole-pour-les-enfants-allophones",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > l-ecole-pour-les-enfants-allophones",
+      "wordCount": 274,
+      "sections": 4
+    },
+    {
+      "title": "La liberté de choisir l’école de son enfant",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/la-liberte-de-choisir-l-ecole-de-son-enfant",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > la-liberte-de-choisir-l-ecole-de-son-enfant",
+      "wordCount": 267,
+      "sections": 5
+    },
+    {
+      "title": "Le dispositif OEPRE",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-dispositif-oepre",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > le-dispositif-oepre",
+      "wordCount": 332,
+      "sections": 6
+    },
+    {
+      "title": "Le système éducatif",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/le-systeme-educatif",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > le-systeme-educatif",
+      "wordCount": 356,
+      "sections": 5
+    },
+    {
+      "title": "Les droits de l'enfant",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/les-droits-de-l-enfant",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > les-droits-de-l-enfant",
+      "wordCount": 420,
+      "sections": 6
+    },
+    {
+      "title": "Les modes de garde des enfants de moins de 3 ans",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/les-modes-de-garde-des-enfants-de-moins-de-3-ans",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > les-modes-de-garde-des-enfants-de-moins-de-3-ans",
+      "wordCount": 299,
+      "sections": 4
+    },
+    {
+      "title": "Retrait de l’autorité parentale",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/parentalite/retrait-de-l-autorite-parentale",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > parentalite > retrait-de-l-autorite-parentale",
+      "wordCount": 418,
+      "sections": 7
+    },
+    {
+      "title": "Accès aux soins : le médecin généraliste",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-le-medecin-generaliste",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > acces-aux-soins-le-medecin-generaliste",
+      "wordCount": 375,
+      "sections": 5
+    },
+    {
+      "title": "Accès aux soins : le médecin spécialiste",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-le-medecin-specialiste",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > acces-aux-soins-le-medecin-specialiste",
+      "wordCount": 268,
+      "sections": 5
+    },
+    {
+      "title": "Accès aux soins : le parcours de santé",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-le-parcours-de-sante",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > acces-aux-soins-le-parcours-de-sante",
+      "wordCount": 236,
+      "sections": 3
+    },
+    {
+      "title": "Accès aux soins : les médecins et pharmacies de garde",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-les-medecins-et-pharmacies-de-garde",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > acces-aux-soins-les-medecins-et-pharmacies-de-garde",
+      "wordCount": 248,
+      "sections": 4
+    },
+    {
+      "title": "Accès aux soins : les structures d’accueil gratuites",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-les-structures-d-accueil-gratuites",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > acces-aux-soins-les-structures-d-accueil-gratuites",
+      "wordCount": 596,
+      "sections": 6
+    },
+    {
+      "title": "Accès aux soins : services et numéros d’urgence",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/acces-aux-soins-services-et-numeros-d-urgence",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > acces-aux-soins-services-et-numeros-d-urgence",
+      "wordCount": 318,
+      "sections": 5
+    },
+    {
+      "title": "Santé",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante",
+      "breadcrumb": "Santé",
+      "wordCount": 702,
+      "sections": 12
+    },
+    {
+      "title": "La prise en charge : les démarches pour accéder à la protection universelle maladie (PUMa)",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/la-prise-en-charge-les-demarches-pour-acceder-a-la-protection-universelle-maladie",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > la-prise-en-charge-les-demarches-pour-acceder-a-la-protection-universelle-maladie",
+      "wordCount": 278,
+      "sections": 3
+    },
+    {
+      "title": "La prise en charge : les différentes couvertures maladie",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/la-prise-en-charge-les-differentes-couvertures-maladie",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > la-prise-en-charge-les-differentes-couvertures-maladie",
+      "wordCount": 404,
+      "sections": 5
+    },
+    {
+      "title": "Santé : la prise en charge en cas de renouvellement du titre de séjour",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/sante-la-prise-en-charge-en-cas-de-enouvellement-du-titre-de-sejour",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > sante-la-prise-en-charge-en-cas-de-enouvellement-du-titre-de-sejour",
+      "wordCount": 220,
+      "sections": 3
+    },
+    {
+      "title": "Santé : la prise en charge et le remboursement",
+      "path": "vivre-dans-la-societe-fran%C3%A7aise/sante/sante-la-prise-en-charge-les-demarches-pour-etre-rembourse",
+      "breadcrumb": "vivre-dans-la-societe-fran%C3%A7aise > sante > sante-la-prise-en-charge-les-demarches-pour-etre-rembourse",
+      "wordCount": 422,
+      "sections": 5
+    }
+  ],
+  "createdAt": "2025-12-29T19:03:07.312Z"
+}
