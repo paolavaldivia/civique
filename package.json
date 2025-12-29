@@ -13,7 +13,9 @@
     "parse:questions-html": "tsx scripts/parseQuestionHTML.ts",
     "parse:manual": "tsx scripts/manualImport.ts",
     "merge:questions": "tsx scripts/mergeQuestions.ts",
-    "crawl:themes": "tsx scripts/crawlThemes.ts"
+    "crawl:themes": "tsx scripts/crawlThemes.ts",
+    "crawl:fiches": "tsx scripts/crawlFiches.ts",
+    "crawl:all": "tsx scripts/crawlAll.ts"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.143.11",
