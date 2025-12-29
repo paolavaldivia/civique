@@ -1,0 +1,642 @@
+[
+  {
+    "id": "cr-101",
+    "number": 101,
+    "source": "CR",
+    "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Elles ont obtenu le droit de conduire",
+      "Elles ont obtenu le droit de vote",
+      "Elles ont obtenu le droit de travailler",
+      "Elles ont obtenu le droit au divorce"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "En 1944, le gouvernement provisoire du général de Gaulle a accordé le droit de vote aux femmes françaises par l'ordonnance du 21 avril 1944. Elles ont voté pour la première fois en 1945."
+  },
+  {
+    "id": "cr-102",
+    "number": 102,
+    "source": "CR",
+    "question": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "L'Union européenne",
+      "L'Organisation des Nations Unies (ONU)",
+      "L'OTAN",
+      "La Croix-Rouge"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'ONU (Organisation des Nations Unies) a été créée le 24 octobre 1945 après la Seconde Guerre mondiale pour maintenir la paix et la sécurité internationale."
+  },
+  {
+    "id": "cr-103",
+    "number": 103,
+    "source": "CR",
+    "question": "Quelle peine a été supprimée en 1981 ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La prison à vie",
+      "La peine de mort",
+      "Les travaux forcés",
+      "L'amende"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La peine de mort a été abolie en France le 9 octobre 1981 sous la présidence de François Mitterrand, grâce à la loi portée par Robert Badinter."
+  },
+  {
+    "id": "cr-104",
+    "number": 104,
+    "source": "CR",
+    "question": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "1999",
+      "2002",
+      "2005",
+      "2010"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'euro est devenu la monnaie utilisée en France (billets et pièces) le 1er janvier 2002, remplaçant le franc français."
+  },
+  {
+    "id": "cr-105",
+    "number": 105,
+    "source": "CR",
+    "question": "En quelle année a commencé la Première Guerre mondiale ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "1914",
+      "1918",
+      "1939",
+      "1945"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Première Guerre mondiale a commencé en 1914 (déclenchée par l'assassinat de l'archiduc François-Ferdinand) et s'est terminée en 1918."
+  },
+  {
+    "id": "cr-106",
+    "number": 106,
+    "source": "CR",
+    "question": "Où a eu lieu le débarquement en 1944 ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "En Normandie",
+      "En Bretagne",
+      "En Provence",
+      "Dans le Nord"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le débarquement du 6 juin 1944 (Jour-J, D-Day) a eu lieu en Normandie sur les plages françaises. C'était une opération militaire des Alliés pour libérer la France de l'occupation nazie."
+  },
+  {
+    "id": "cr-107",
+    "number": 107,
+    "source": "CR",
+    "question": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "L'Europe",
+      "L'Afrique",
+      "L'Amérique",
+      "L'Océanie"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'Afrique a été le continent le plus concerné par la décolonisation française après 1945. De nombreux pays africains sont devenus indépendants dans les années 1960 (Sénégal, Mali, Côte d'Ivoire, Algérie, etc.)."
+  },
+  {
+    "id": "cr-108",
+    "number": 108,
+    "source": "CR",
+    "question": "Que fête-t-on le 8 mai ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La fête du travail",
+      "La victoire des Alliés de 1945 (fin de la Seconde Guerre mondiale en Europe)",
+      "La Révolution française",
+      "L'armistice de 1918"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le 8 mai est la commémoration de la victoire des Alliés sur l'Allemagne nazie le 8 mai 1945, marquant la fin de la Seconde Guerre mondiale en Europe."
+  },
+  {
+    "id": "cr-109",
+    "number": 109,
+    "source": "CR",
+    "question": "Quelle mer ou océan borde la France métropolitaine ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La mer Méditerranée",
+      "La mer Noire",
+      "La mer Baltique",
+      "L'océan Indien"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La France métropolitaine est bordée par plusieurs mers et océans : la mer Méditerranée au sud, l'océan Atlantique à l'ouest, et la Manche au nord."
+  },
+  {
+    "id": "cr-110",
+    "number": 110,
+    "source": "CR",
+    "question": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "L'Espagne",
+      "Le Royaume-Uni",
+      "Les Pays-Bas",
+      "L'Autriche"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'Espagne partage une frontière terrestre avec la France au sud-ouest, au niveau des Pyrénées. La France a aussi des frontières avec la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, Monaco et Andorre."
+  },
+  {
+    "id": "cr-111",
+    "number": 111,
+    "source": "CR",
+    "question": "Quelle ville française est un port maritime ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Marseille",
+      "Lyon",
+      "Toulouse",
+      "Strasbourg"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Marseille est le plus grand port maritime français, situé sur la mer Méditerranée. D'autres ports importants incluent Le Havre, Brest, Bordeaux, Nantes."
+  },
+  {
+    "id": "cr-112",
+    "number": 112,
+    "source": "CR",
+    "question": "Quelle mer se situe entre la France et l'Angleterre ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La Manche",
+      "La mer du Nord",
+      "La mer Méditerranée",
+      "La mer Baltique"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Manche (English Channel en anglais) est la mer qui sépare la France de l'Angleterre. Le tunnel sous la Manche relie les deux pays."
+  },
+  {
+    "id": "cr-113",
+    "number": 113,
+    "source": "CR",
+    "question": "Qu'est ce que la France d'outre-mer ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Les pays voisins de la France",
+      "Les territoires français situés en dehors de l'Europe",
+      "Les anciennes colonies",
+      "Les ambassades françaises"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France d'outre-mer désigne les territoires français situés en dehors de l'Europe métropolitaine : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte, Nouvelle-Calédonie, Polynésie française, etc."
+  },
+  {
+    "id": "cr-114",
+    "number": 114,
+    "source": "CR",
+    "question": "Quelle chaîne de montagnes est située entre la France et l'Espagne ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Les Pyrénées",
+      "Les Alpes",
+      "Le Jura",
+      "Les Vosges"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les Pyrénées forment une frontière naturelle entre la France et l'Espagne. Cette chaîne de montagnes s'étend sur environ 430 km de l'océan Atlantique à la mer Méditerranée."
+  },
+  {
+    "id": "cr-115",
+    "number": 115,
+    "source": "CR",
+    "question": "Quelle île française se trouve dans l'océan Indien ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La Réunion",
+      "La Corse",
+      "La Guadeloupe",
+      "La Martinique"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Réunion est un département et une région française situés dans l'océan Indien, à l'est de Madagascar. Mayotte est également dans l'océan Indien."
+  },
+  {
+    "id": "cr-116",
+    "number": 116,
+    "source": "CR",
+    "question": "Quelle est la population approximative de la France en 2025 ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "68 millions d'habitants",
+      "50 millions d'habitants",
+      "100 millions d'habitants",
+      "40 millions d'habitants"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La France compte environ 68 millions d'habitants en 2025 (y compris les territoires d'outre-mer)."
+  },
+  {
+    "id": "cr-117",
+    "number": 117,
+    "source": "CR",
+    "question": "Quel fleuve traverse Paris ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La Seine",
+      "La Loire",
+      "Le Rhône",
+      "La Garonne"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Seine est le fleuve qui traverse Paris. C'est un symbole de la capitale française avec ses ponts célèbres (Pont-Neuf, Pont Alexandre III, etc.)."
+  },
+  {
+    "id": "cr-118",
+    "number": 118,
+    "source": "CR",
+    "question": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La Belgique",
+      "Le Royaume-Uni",
+      "Le Portugal",
+      "Les Pays-Bas"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Belgique partage une frontière terrestre avec la France au nord. La France a 8 pays voisins par voie terrestre : Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre."
+  },
+  {
+    "id": "cr-119",
+    "number": 119,
+    "source": "CR",
+    "question": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "L'Allemagne",
+      "L'Autriche",
+      "La Pologne",
+      "La République tchèque"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'Allemagne partage une frontière avec la France au nord-est, dans la région du Rhin (Alsace). C'est une frontière historiquement importante."
+  },
+  {
+    "id": "cr-120",
+    "number": 120,
+    "source": "CR",
+    "question": "Où se trouvent les principales activités économiques en France ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Dans les zones rurales uniquement",
+      "Dans les grandes villes et métropoles",
+      "Seulement à Paris",
+      "Dans les montagnes"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les principales activités économiques en France se concentrent dans les grandes villes et métropoles : Paris (Île-de-France), Lyon, Marseille, Toulouse, Lille, Bordeaux, etc."
+  },
+  {
+    "id": "cr-121",
+    "number": 121,
+    "source": "CR",
+    "question": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La France",
+      "L'Allemagne",
+      "Le Royaume-Uni",
+      "L'Italie"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La France est le pays le plus visité au monde avec environ 90 millions de touristes étrangers par an, attirés par Paris, la Côte d'Azur, les châteaux de la Loire, les Alpes, etc."
+  },
+  {
+    "id": "cr-122",
+    "number": 122,
+    "source": "CR",
+    "question": "Où habite la majorité des Français ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Dans les zones rurales",
+      "Dans les villes et zones urbaines",
+      "À la montagne",
+      "Dans les îles"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Environ 80% des Français vivent dans des zones urbaines (villes et agglomérations). La France connaît une urbanisation continue depuis le XXe siècle."
+  },
+  {
+    "id": "cr-123",
+    "number": 123,
+    "source": "CR",
+    "question": "Quelle région est la plus peuplée ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "L'Île-de-France",
+      "La Bretagne",
+      "La Normandie",
+      "L'Occitanie"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'Île-de-France (région parisienne) est de loin la région la plus peuplée avec environ 12 millions d'habitants, soit près d'1 Français sur 5."
+  },
+  {
+    "id": "cr-124",
+    "number": 124,
+    "source": "CR",
+    "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Lyon",
+      "Dijon",
+      "Brest",
+      "Perpignan"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Lyon est la 3ème plus grande métropole française après Paris et Marseille. Les 10 plus grandes sont : Paris, Marseille, Lyon, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg, Toulon."
+  },
+  {
+    "id": "cr-125",
+    "number": 125,
+    "source": "CR",
+    "question": "Lequel de ces départements de France est le plus touristique ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Paris (75)",
+      "Le Cantal",
+      "La Creuse",
+      "L'Eure"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Paris (département 75) est le département le plus touristique de France avec ses monuments emblématiques (Tour Eiffel, Louvre, Notre-Dame, Arc de Triomphe, etc.)."
+  },
+  {
+    "id": "cr-126",
+    "number": 126,
+    "source": "CR",
+    "question": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Jamais",
+      "Le premier dimanche de chaque mois dans certains musées",
+      "Tous les jours",
+      "Seulement pour les étrangers"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "De nombreux musées nationaux proposent la gratuité le premier dimanche de chaque mois. Certains musées sont aussi gratuits pour les moins de 26 ans résidant dans l'UE."
+  },
+  {
+    "id": "cr-127",
+    "number": 127,
+    "source": "CR",
+    "question": "Combien de personnes parlent français dans le monde ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Environ 300 millions",
+      "Environ 50 millions",
+      "Environ 1 milliard",
+      "Environ 100 millions"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Environ 300 millions de personnes parlent français dans le monde, sur les 5 continents. Le français est la 5ème langue la plus parlée au monde."
+  },
+  {
+    "id": "cr-128",
+    "number": 128,
+    "source": "CR",
+    "question": "Qui était Marguerite Yourcenar ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Une écrivaine française, première femme élue à l'Académie française",
+      "Une reine de France",
+      "Une scientifique",
+      "Une actrice"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Marguerite Yourcenar (1903-1987) était une écrivaine française célèbre, auteure notamment des 'Mémoires d'Hadrien'. Elle fut la première femme élue à l'Académie française en 1980."
+  },
+  {
+    "id": "cr-129",
+    "number": 129,
+    "source": "CR",
+    "question": "Quel peintre est français ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Claude Monet",
+      "Pablo Picasso",
+      "Vincent van Gogh",
+      "Leonardo da Vinci"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Claude Monet (1840-1926) était un peintre français, fondateur de l'impressionnisme. Ses œuvres les plus célèbres incluent les Nymphéas et la série des Cathédrales de Rouen."
+  },
+  {
+    "id": "cr-130",
+    "number": 130,
+    "source": "CR",
+    "question": "Quel musée est situé à Paris ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Le Louvre",
+      "Le Prado",
+      "Le British Museum",
+      "Les Offices"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le Louvre est le plus grand musée de Paris et du monde par sa surface d'exposition. Il abrite la Joconde de Léonard de Vinci, la Vénus de Milo, etc."
+  },
+  {
+    "id": "cr-131",
+    "number": 131,
+    "source": "CR",
+    "question": "Qui était Auguste Rodin ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Un sculpteur français",
+      "Un président français",
+      "Un écrivain français",
+      "Un musicien français"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Auguste Rodin (1840-1917) était un célèbre sculpteur français. Ses œuvres les plus connues sont 'Le Penseur', 'Le Baiser' et 'Les Bourgeois de Calais'."
+  },
+  {
+    "id": "cr-132",
+    "number": 132,
+    "source": "CR",
+    "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "5ème langue la plus parlée",
+      "1ère langue la plus parlée",
+      "20ème langue la plus parlée",
+      "10ème langue la plus parlée"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le français est la 5ème langue la plus parlée au monde avec environ 300 millions de locuteurs, après le chinois, l'anglais, l'espagnol et l'arabe."
+  },
+  {
+    "id": "cr-133",
+    "number": 133,
+    "source": "CR",
+    "question": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Notre-Dame de Paris",
+      "La cathédrale de Reims",
+      "La cathédrale de Chartres",
+      "La Sainte-Chapelle"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La cathédrale Notre-Dame de Paris a été gravement endommagée par un incendie le 15 avril 2019. Sa flèche s'est effondrée. Des travaux de restauration sont en cours."
+  },
+  {
+    "id": "cr-134",
+    "number": 134,
+    "source": "CR",
+    "question": "Qui était une écrivaine française célèbre ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Simone de Beauvoir",
+      "Jane Austen",
+      "Virginia Woolf",
+      "Emily Brontë"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Simone de Beauvoir (1908-1986) était une écrivaine, philosophe et féministe française célèbre. Son œuvre majeure est 'Le Deuxième Sexe' (1949)."
+  },
+  {
+    "id": "cr-135",
+    "number": 135,
+    "source": "CR",
+    "question": "Qui était un célèbre musicien français ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Claude Debussy",
+      "Wolfgang Amadeus Mozart",
+      "Johann Sebastian Bach",
+      "Ludwig van Beethoven"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Claude Debussy (1862-1918) était un célèbre compositeur français, figure majeure de la musique impressionniste. Ses œuvres célèbres incluent 'Clair de lune' et 'La Mer'."
+  },
+  {
+    "id": "cr-136",
+    "number": 136,
+    "source": "CR",
+    "question": "Qui était Auguste Renoir ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Un peintre impressionniste français",
+      "Un homme politique",
+      "Un scientifique",
+      "Un architecte"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Auguste Renoir (1841-1919) était un peintre impressionniste français célèbre. Ses œuvres représentent souvent des scènes joyeuses de la vie parisienne, avec des couleurs vives."
+  },
+  {
+    "id": "cr-137",
+    "number": 137,
+    "source": "CR",
+    "question": "Quelle fête est française ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Le 14 juillet (fête nationale)",
+      "Thanksgiving",
+      "Halloween",
+      "La Saint-Patrick"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le 14 juillet est la fête nationale française, commémorant la prise de la Bastille le 14 juillet 1789, symbole du début de la Révolution française. C'est un jour férié avec défilé militaire, feux d'artifice et bals."
+  },
+  {
+    "id": "cr-138",
+    "number": 138,
+    "source": "CR",
+    "question": "Quel mariage est reconnu par l'État ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Seul le mariage civil célébré à la mairie",
+      "Seul le mariage religieux",
+      "Tout type de cérémonie",
+      "Seulement le mariage traditionnel"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Seul le mariage civil célébré à la mairie par un officier d'état civil est reconnu par l'État français. Le mariage religieux n'a pas de valeur juridique en France (laïcité)."
+  },
+  {
+    "id": "cr-139",
+    "number": 139,
+    "source": "CR",
+    "question": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "La mairie",
+      "La préfecture",
+      "Le tribunal",
+      "La police"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les parents doivent inscrire leur enfant à l'école publique auprès de la mairie de leur commune. La mairie délivre un certificat d'inscription nécessaire pour l'inscription à l'école."
+  },
+  {
+    "id": "cr-140",
+    "number": 140,
+    "source": "CR",
+    "question": "En cas de divorce, qui exerce l'autorité parentale ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Seulement la mère",
+      "Les deux parents sauf décision contraire du juge",
+      "Seulement le père",
+      "Les grands-parents"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "En cas de divorce, l'autorité parentale est exercée conjointement par les deux parents, sauf décision contraire du juge aux affaires familiales pour protéger l'intérêt de l'enfant."
+  }
+]

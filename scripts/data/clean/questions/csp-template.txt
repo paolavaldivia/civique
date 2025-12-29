@@ -1,0 +1,1088 @@
+# Questions CSP
+
+Total: 154 questions
+
+Instructions:
+Fill in the correct answer (A, B, C, or D) for each question.
+Then use the import script to load them into the app.
+
+================================================================================
+
+Q1: Qui nomme le Premier ministre ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q2: Le Parlement est composé :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q3: Qu'est-ce que le pouvoir exécutif ? Le pouvoir :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q4: Les dirigeants sont élus par les citoyens dans :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q5: A-t-on le droit de ne pas respecter une loi ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q6: Qui doit respecter la loi ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q7: Quel est le rôle de l'autorité judiciaire ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q8: Quel pouvoir détient un juge ? Le pouvoir :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q9: L'autorité judiciaire est exercée par :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q10: Que se passe-t-il si un ministre ne respecte pas la loi ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q11: Qui est élu lors des élections législatives ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q12: Combien de députés composent l’Assemblée nationale ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q13: Quand sont élus les sénateurs ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q14: Qui est élu lors des élections municipales ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q15: Qui est élu lors des élections présidentielles ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q16: À partir de quel âge a-t-on le droit de voter ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q17: Pour combien de temps est élu le président de la République française ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q18: Pour combien de temps sont élus les députés ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q19: Pour combien de temps sont élus les sénateurs ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q20: Qui possède le pouvoir exécutif ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q21: Quelle condition est nécessaire pour voter aux élections ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q22: Qui peut voter aux élections en France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q23: Que signifie « suffrage universel » ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q24: Concernant les partis politiques, quelle proposition est correcte ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q25: Quel est le rôle des députés ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q26: La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q27: Qui possède le pouvoir législatif ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q28: Qui sanctionne l'auteur d'un vol ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q29: Qui élit les députés ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q30: Qui vote les lois ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q31: Qui réside au palais de l'Élysée ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q32: Combien y a-t-il de départements en France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q33: Qui représente l'État dans un département ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q34: Qui dirige la commune ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q35: Est-ce que le président de la République a tous les pouvoirs ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q36: Qui est le préfet ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q37: Quel est le rôle du Parlement ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q38: Quel est le régime politique de la France aujourd'hui ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q39: Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q40: Quel État n'est pas membre de l'Union européenne ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q41: Quelle condition est nécessaire pour voter aux élections européennes ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q42: À quelle fréquence les élections européennes sont-elles organisées ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q43: Quel pays est un pays fondateur de l'Union européenne ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q44: Quelle est la monnaie utilisée en France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q45: Qui élit les députés européens ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q46: Quand célèbre-t-on la journée de l'Europe ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q47: Comment s’appelle la Constitution actuelle de la France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q48: Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q49: Concernant les droits individuels, quelle proposition est correcte ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q50: De quelle année date la Déclaration des droits de l’homme et du citoyen ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q51: Lequel de ces droits est un droit fondamental ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q52: Parmi ces textes, lequel garantit les droits et libertés en France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q53: Qu’est-ce que la liberté d’expression ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q54: Quel droit permet à une personne de se défendre devant la justice ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q55: Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q56: Quel texte a été adopté pendant la Révolution française ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q57: Quelle liberté permet à une personne de ne pas avoir de religion ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q58: Une femme peut avorter :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q59: Est-il toujours possible de divorcer ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q60: La peine de mort est :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q61: Concernant les limites aux libertés individuelles, quelle proposition est correcte ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q62: En France, est-ce légal d'être marié à plusieurs personnes en même temps ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q63: Faut-il réduire ses déchets ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q64: Jeter une bouteille dans la rue est :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q65: Pourquoi les libertés individuelles peuvent-elles être limitées ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q66: Que doit faire une personne en cas d’accident ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q67: Que permet la citoyenneté française ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q68: Que risque une personne qui ne respecte pas la loi ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q69: Quel est le rôle de la gendarmerie ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q70: Quel est le rôle de la police ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q71: Qu'est-ce qu'une infraction ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q72: Comment peut-on réduire ses déchets ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q73: Déposer une machine à laver cassée sur le trottoir est :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q74: En quoi consiste la traite des êtres humains ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q75: Que doit faire une victime de violences ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q76: Quelle est l'infraction la plus grave ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q77: En quelle année a débuté la Révolution française ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q78: Qui était Napoléon Ier ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q79: Lequel de ces personnages historiques est français ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q80: Dans quelle République est-on aujourd'hui ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q81: Qu'est-ce que la Shoah ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q82: Quel pays ou région du monde a été colonisé par la France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q83: Qui a rendu l’école gratuite, laïque et obligatoire ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q84: Quand a eu lieu la Seconde Guerre mondiale ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q85: Quand a eu lieu la Première Guerre mondiale ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q86: En quelle année a été créée la Communauté Économique Européenne (CEE) ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q87: Le 11 novembre est un jour férié. À quoi correspond cette date ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q88: Qui a été le premier Président élu sous la Ve République ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q89: En quelle année l'esclavage a-t-il été aboli définitivement en France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q90: Depuis quelle année l'école publique est-elle gratuite ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q91: Combien y a-t-il eu de républiques en France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q92: Qui était le roi de France au moment de la Révolution française ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q93: Qui a fondé la Ve République ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q94: Que célèbre-t-on le 14 juillet ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q95: Quelle guerre a eu lieu entre 1914 et 1918 ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q96: Pourquoi l’année 1958 est importante pour la France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q97: Quel fleuve coule en France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q98: Quelle ville est française ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q99: Quel océan borde la côte ouest française ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q100: Qu'est-ce que Paris ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q101: Quelle est la capitale de la France ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q102: Sur quel continent se situe la France métropolitaine ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q103: Quelle île est un département d'outre-mer français ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q104: Combien y a-t-il de régions en France métropolitaine ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q105: Quelle ville est un grand port maritime ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q106: Quelle est la mer au sud de la France métropolitaine ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q107: Quelle ville est située au bord de la mer Méditerranée ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q108: Où se situe la Corse ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q109: Quelle chaîne de montagnes est située entre la France et l'Italie ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q110: Qui était Molière ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q111: Qui était Charles Baudelaire ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q112: Qui était George Sand ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q113: Qui était Simone de Beauvoir ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q114: Qui était Albert Camus ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q115: Qui était Paul Cézanne ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q116: Qui était Marc Chagall ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q117: Qui était Joséphine Baker ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q118: Qui était une chanteuse française célèbre ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q119: Qu'est-ce que le Louvre ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q120: Qui était Jean de la Fontaine ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q121: Quel écrivain est français ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q122: Dans quelle ville se trouve la tour Eiffel ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q123: Quand célèbre-t-on Noël ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q124: Quel numéro d'urgence permet d'appeler le SAMU ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q125: Quel numéro d'urgence permet d'appeler les pompiers ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q126: Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q127: À quelles conditions un mariage est-il reconnu juridiquement ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q128: Quand faut-il déclarer son enfant au service d'état civil de la mairie ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q129: Le travail non déclaré est :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q130: Que doit faire un employeur pour fixer un salaire ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q131: Qu'est-ce que le SMIC ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q132: Quelle est la première démarche à réaliser pour chercher un emploi ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q133: Quelle est la durée légale du temps de travail par semaine ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q134: Qui est aidé par France Travail ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q135: Une personne étrangère en situation régulière peut créer son entreprise :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q136: Une femme peut-elle créer son entreprise ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q137: À partir de quel âge un mineur peut-il travailler ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q138: Auprès de quel organisme faut-il demander le remboursement des frais de santé ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q139: Qu’est-ce qu’un numéro d’urgence ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q140: Concernant l'accès aux soins, quelle proposition est correcte ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q141: En cas de problème de santé non urgent, à qui faut-il s’adresser en premier ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q142: Quel est le rôle du médecin traitant ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q143: Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q144: Quel est l’objectif des vaccinations obligatoires ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q145: À quoi sert la carte Vitale ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q146: À quoi sert une mutuelle santé ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q147: Jusqu'à quel âge l'école est-elle obligatoire ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q148: L'autorité parentale prévoit l'obligation :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q149: Pour qui l'école est-elle obligatoire ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q150: Quel diplôme obtient-on à la fin du lycée ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q151: Dans quels établissements scolaires vont les élèves après l'école élémentaire ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q152: Pour qui l'école est elle obligatoire ?
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q153: Un enfant inscrit à l'école :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+
+Q154: Les enfants qui ne parlent pas français :
+A) undefined
+B) undefined
+C) undefined
+D) undefined
+CORRECT: ___
+

@@ -1,0 +1,10 @@
+{
+  "crawledAt": "2025-12-29T18:50:31.087Z",
+  "statistics": {
+    "totalPages": 169,
+    "contentPages": 169,
+    "listingPages": 29,
+    "newlyCrawled": 169,
+    "skipped": 29
+  }
+}

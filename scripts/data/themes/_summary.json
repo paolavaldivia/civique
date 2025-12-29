@@ -1,0 +1,35 @@
+{
+  "crawledAt": "2025-12-29T18:22:40.266Z",
+  "totalThemes": 5,
+  "themes": [
+    {
+      "title": "Principes et valeurs de la République",
+      "slug": "principes-et-valeurs-de-la-republique",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/"
+    },
+    {
+      "title": "Système institutionnel et politique",
+      "slug": "systeme-institutionnel-et-politique",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/"
+    },
+    {
+      "title": "Droits et devoirs",
+      "slug": "droits-et-devoirs",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/"
+    },
+    {
+      "title": "Histoire, géographie et culture",
+      "slug": "histoire-geographie-et-culture",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/"
+    },
+    {
+      "title": "Vivre dans la société française",
+      "slug": "vivre-dans-la-societe-fran%C3%A7aise",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/"
+    }
+  ],
+  "lastFicheCrawl": "2025-12-29T18:33:50.688Z",
+  "totalFiches": 23,
+  "fichesCrawled": 23,
+  "fichesSkipped": 0
+}

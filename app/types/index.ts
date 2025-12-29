@@ -1,3 +1,5 @@
+export type QuestionSource = 'CR' | 'CSP' | 'custom';
+
 export interface Question {
   id: string;
   question: string;
@@ -5,6 +7,8 @@ export interface Question {
   correctAnswer: number;
   theme: Theme;
   explanation?: string;
+  source?: QuestionSource; // CR = Connaissance Réfugiés, CSP = Connaissance Statut Personnel
+  officialId?: string; // Official question number from the source
 }
 
 export type Theme =

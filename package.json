@@ -8,7 +8,12 @@
     "dev": "vite dev",
     "build": "vite build && tsc --noEmit",
     "preview": "vite preview",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "crawl:all": "tsx scripts/crawlAll.ts",
+    "clean:content": "tsx scripts/cleanContent.ts",
+    "clean:questions": "tsx scripts/cleanQuestions.ts",
+    "clean:all": "npm run clean:content && npm run clean:questions",
+    "generate:answers": "tsx scripts/generateAnswers.ts"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.143.11",
@@ -21,11 +26,14 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.6.0",
+    "jsdom": "^25.0.1",
     "tailwindcss": "^4.1.18",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "vite": "^7.1.7",
     "vite-tsconfig-paths": "^5.1.4"

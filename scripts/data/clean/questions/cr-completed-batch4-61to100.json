@@ -1,0 +1,642 @@
+[
+  {
+    "id": "cr-61",
+    "number": 61,
+    "source": "CR",
+    "question": "Que signifie la dignité humaine ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Que seuls les riches ont de la valeur",
+      "Que chaque être humain a une valeur qui doit être respectée",
+      "Qu'il faut toujours porter de beaux vêtements",
+      "Que seuls les citoyens ont des droits"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La dignité humaine est le principe selon lequel chaque être humain possède une valeur intrinsèque qui doit être respectée. C'est un principe fondamental des droits de l'homme, protégé par la loi."
+  },
+  {
+    "id": "cr-62",
+    "number": 62,
+    "source": "CR",
+    "question": "Que signifie le droit de manifester ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Le droit de faire du bruit",
+      "Le droit d'exprimer collectivement ses opinions dans la rue de manière pacifique",
+      "Le droit de bloquer les routes",
+      "Le droit de se battre"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le droit de manifester est une liberté fondamentale qui permet d'exprimer collectivement et publiquement ses opinions de façon pacifique. Les manifestations doivent généralement être déclarées à la préfecture."
+  },
+  {
+    "id": "cr-63",
+    "number": 63,
+    "source": "CR",
+    "question": "Que signifie PMA ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Pays Membres Associés",
+      "Procréation Médicalement Assistée",
+      "Protection des Mineurs Actifs",
+      "Plan Médical Annuel"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "PMA signifie Procréation Médicalement Assistée. Ce sont des techniques médicales pour aider les personnes à avoir un enfant (insémination artificielle, fécondation in vitro, etc.)."
+  },
+  {
+    "id": "cr-64",
+    "number": 64,
+    "source": "CR",
+    "question": "Quel texte est le plus difficile à modifier ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Une loi ordinaire",
+      "La Constitution",
+      "Un décret",
+      "Un arrêté municipal"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Constitution est le texte le plus difficile à modifier. Sa révision nécessite une procédure spéciale : vote par les deux assemblées puis référendum ou vote du Congrès (réunion de l'Assemblée nationale et du Sénat) à la majorité des 3/5."
+  },
+  {
+    "id": "cr-65",
+    "number": 65,
+    "source": "CR",
+    "question": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "La liberté d'expression",
+      "La liberté de conscience et de culte",
+      "La liberté d'association",
+      "La liberté de circulation"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La liberté de conscience et de culte permet à chacun de choisir sa religion, de pratiquer ou de ne pas pratiquer de religion. C'est un droit fondamental garanti par la laïcité."
+  },
+  {
+    "id": "cr-66",
+    "number": 66,
+    "source": "CR",
+    "question": "Qu'est-ce que le droit de grève ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Le droit de ne jamais travailler",
+      "Le droit de cesser collectivement le travail pour défendre ses intérêts professionnels",
+      "Le droit de casser du matériel",
+      "Le droit de manifester violemment"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le droit de grève est un droit constitutionnel qui permet aux salariés de cesser collectivement le travail pour défendre leurs intérêts professionnels (salaires, conditions de travail, etc.). Il est encadré par la loi."
+  },
+  {
+    "id": "cr-67",
+    "number": 67,
+    "source": "CR",
+    "question": "Qu'est-ce que la Constitution ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Un journal officiel",
+      "La loi fondamentale qui organise les pouvoirs publics et garantit les droits fondamentaux",
+      "Un décret présidentiel",
+      "Le code pénal"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Constitution est la loi fondamentale et suprême d'un État. Elle définit l'organisation des pouvoirs publics, leurs rapports et garantit les droits et libertés fondamentaux."
+  },
+  {
+    "id": "cr-68",
+    "number": 68,
+    "source": "CR",
+    "question": "Qui peut demander à avorter ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Seulement les femmes mariées",
+      "Toute femme enceinte qui le souhaite",
+      "Seulement en cas de danger médical",
+      "Avec l'accord du conjoint obligatoire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "En France, toute femme enceinte, majeure ou mineure, peut demander une IVG (interruption volontaire de grossesse) si elle le souhaite, jusqu'à 14 semaines de grossesse. C'est un droit fondamental garanti par la loi Veil de 1975."
+  },
+  {
+    "id": "cr-69",
+    "number": 69,
+    "source": "CR",
+    "question": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Non, seuls les hommes votent",
+      "Oui, femmes et hommes ont le droit de vote",
+      "Seulement si elle est mariée",
+      "Seulement avec l'autorisation de son mari"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Depuis 1944, les femmes françaises ont le droit de vote comme les hommes. L'égalité entre femmes et hommes est un principe constitutionnel."
+  },
+  {
+    "id": "cr-70",
+    "number": 70,
+    "source": "CR",
+    "question": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "On peut tout dire sans conséquence",
+      "On doit respecter la loi (pas d'injures, diffamation, incitation à la haine)",
+      "C'est un espace sans règles",
+      "Seuls les mineurs ont des limites"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Sur les réseaux sociaux, la loi s'applique comme ailleurs. Il est interdit de tenir des propos injurieux, diffamatoires, racistes, ou d'inciter à la haine. Les violations peuvent être poursuivies en justice."
+  },
+  {
+    "id": "cr-71",
+    "number": 71,
+    "source": "CR",
+    "question": "Jeter un mégot par terre est :",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Autorisé partout",
+      "Interdit et passible d'amende",
+      "Autorisé seulement en ville",
+      "Seulement interdit dans les parcs"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Jeter un mégot par terre est interdit et constitue une infraction passible d'une amende. C'est une atteinte à l'environnement et à la propreté publique."
+  },
+  {
+    "id": "cr-72",
+    "number": 72,
+    "source": "CR",
+    "question": "L'État peut-il limiter les droits et libertés ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Non, jamais",
+      "Oui, pour protéger l'ordre public et l'intérêt général, de manière proportionnée",
+      "Oui, sans limite",
+      "Seulement en dictature"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'État peut limiter certaines libertés pour protéger l'ordre public, la sécurité, la santé ou les droits d'autrui. Ces limitations doivent être prévues par la loi, nécessaires et proportionnées à l'objectif poursuivi."
+  },
+  {
+    "id": "cr-73",
+    "number": 73,
+    "source": "CR",
+    "question": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l'environnement ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Jeter ses déchets n'importe où",
+      "Trier ses déchets et réduire sa consommation",
+      "Utiliser uniquement sa voiture",
+      "Gaspiller l'eau et l'électricité"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Adopter une attitude respectueuse de l'environnement implique de trier ses déchets, réduire sa consommation, économiser l'énergie et l'eau, utiliser les transports en commun, etc. C'est un devoir citoyen inscrit dans la Charte de l'environnement."
+  },
+  {
+    "id": "cr-74",
+    "number": 74,
+    "source": "CR",
+    "question": "Quelle proposition constitue une obligation ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Regarder la télévision",
+      "Respecter les lois",
+      "Avoir une voiture",
+      "Partir en vacances"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Respecter les lois est une obligation pour toute personne résidant en France. C'est un devoir fondamental dans un État de droit."
+  },
+  {
+    "id": "cr-75",
+    "number": 75,
+    "source": "CR",
+    "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Pour protéger la dignité humaine et empêcher l'incitation à la haine",
+      "Parce que l'opinion ne plaît pas au gouvernement",
+      "Pour éviter toute critique",
+      "On ne peut jamais la limiter"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La liberté d'expression peut être limitée pour protéger la dignité humaine, empêcher l'incitation à la haine, la diffamation, les injures, l'apologie de crimes. Ces limites protègent l'ordre public et les droits d'autrui."
+  },
+  {
+    "id": "cr-76",
+    "number": 76,
+    "source": "CR",
+    "question": "Pourquoi doit-on trier ses déchets ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Ce n'est pas obligatoire",
+      "Pour permettre le recyclage et protéger l'environnement",
+      "Seulement pour faire plaisir à la mairie",
+      "C'est interdit de trier"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le tri des déchets permet le recyclage des matériaux, réduit la pollution et préserve les ressources naturelles. C'est une obligation légale et un geste citoyen pour protéger l'environnement."
+  },
+  {
+    "id": "cr-77",
+    "number": 77,
+    "source": "CR",
+    "question": "Que doit faire une victime de violences ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Ne rien faire et se cacher",
+      "Porter plainte auprès de la police ou de la gendarmerie",
+      "Se venger elle-même",
+      "Déménager sans rien dire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Une victime de violences doit porter plainte auprès de la police ou de la gendarmerie. Elle peut aussi contacter le 3919 (violences conjugales) ou le 17 (urgence). L'État protège les victimes et poursuit les auteurs."
+  },
+  {
+    "id": "cr-78",
+    "number": 78,
+    "source": "CR",
+    "question": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Les ignorer",
+      "Les respecter car ils représentent l'autorité de l'État",
+      "Discuter pour négocier",
+      "Fuir"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les policiers et gendarmes représentent l'autorité de l'État. Leurs ordres légitimes doivent être respectés. Le refus d'obtempérer est une infraction. En cas de désaccord, on peut contester après coup, mais il faut obéir sur le moment."
+  },
+  {
+    "id": "cr-79",
+    "number": 79,
+    "source": "CR",
+    "question": "Quel est le rôle de la police ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Faire les lois",
+      "Assurer la sécurité des personnes et des biens et faire respecter la loi",
+      "Juger les criminels",
+      "Diriger le pays"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le rôle de la police (et de la gendarmerie) est d'assurer la sécurité des personnes et des biens, de maintenir l'ordre public et de faire respecter la loi. Elle arrête les suspects mais ne les juge pas (c'est le rôle des juges)."
+  },
+  {
+    "id": "cr-80",
+    "number": 80,
+    "source": "CR",
+    "question": "Quel est un exemple d'assistance à personne en danger ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Passer son chemin devant quelqu'un en difficulté",
+      "Appeler les secours (15, 17, 18, 112) pour aider quelqu'un en danger",
+      "Filmer la personne en danger sans l'aider",
+      "Attendre que d'autres agissent"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'assistance à personne en danger est une obligation légale. Si on voit quelqu'un en danger, on doit l'aider dans la mesure de ses moyens sans se mettre soi-même en danger, par exemple en appelant les secours (15: SAMU, 17: police, 18: pompiers, 112: urgences européen)."
+  },
+  {
+    "id": "cr-81",
+    "number": 81,
+    "source": "CR",
+    "question": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Interdire aux gens de penser",
+      "Limiter la vitesse sur les routes pour protéger la sécurité de tous",
+      "Interdire de lire des livres",
+      "Interdire de parler"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La limitation de vitesse sur les routes est un exemple de restriction de liberté (liberté de circuler comme on veut) justifiée par l'intérêt général (sécurité routière, protection des vies)."
+  },
+  {
+    "id": "cr-82",
+    "number": 82,
+    "source": "CR",
+    "question": "Quelle est l'attitude à avoir lorsque qu'on est témoin de violences ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Ne rien faire",
+      "Alerter les forces de l'ordre et porter assistance à la victime si possible",
+      "Filmer et diffuser sur les réseaux sociaux",
+      "Encourager la violence"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Témoin de violences, on doit alerter immédiatement les forces de l'ordre (17 ou 112) et porter assistance à la victime si on peut le faire sans danger. Le non-assistance à personne en danger est un délit."
+  },
+  {
+    "id": "cr-83",
+    "number": 83,
+    "source": "CR",
+    "question": "Quelle est l'infraction la plus grave ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "La contravention",
+      "Le crime",
+      "Le délit",
+      "L'amende"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le crime est l'infraction la plus grave (meurtre, viol, etc.), jugé par la cour d'assises avec jury populaire. Viennent ensuite le délit (vol, escroquerie, etc.) jugé par le tribunal correctionnel, puis la contravention (excès de vitesse, etc.)."
+  },
+  {
+    "id": "cr-84",
+    "number": 84,
+    "source": "CR",
+    "question": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Voter aux élections",
+      "Respecter les lois françaises",
+      "Servir dans l'armée",
+      "Avoir la nationalité française"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Toutes les personnes résidant en France, quelle que soit leur nationalité, doivent respecter les lois françaises. C'est une obligation fondamentale pour vivre en société."
+  },
+  {
+    "id": "cr-85",
+    "number": 85,
+    "source": "CR",
+    "question": "Quelle proposition représente un exemple de crime ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Un excès de vitesse",
+      "Un meurtre",
+      "Un vol à l'étalage",
+      "Jeter un papier par terre"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le meurtre est un crime, l'infraction la plus grave. Les crimes sont jugés par la cour d'assises et peuvent être punis de peines de prison très lourdes."
+  },
+  {
+    "id": "cr-86",
+    "number": 86,
+    "source": "CR",
+    "question": "Quelle proposition représente un exemple de délit ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Un meurtre",
+      "Un vol",
+      "Un stationnement interdit",
+      "Un génocide"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le vol est un délit, une infraction de gravité moyenne. Les délits sont jugés par le tribunal correctionnel et punis de peines d'amendes ou de prison jusqu'à 10 ans."
+  },
+  {
+    "id": "cr-87",
+    "number": 87,
+    "source": "CR",
+    "question": "Qui veille au maintien de l'ordre public ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Les citoyens uniquement",
+      "La police et la gendarmerie",
+      "Les avocats",
+      "Les juges"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La police nationale et la gendarmerie nationale sont chargées de veiller au maintien de l'ordre public et de la sécurité. Elles dépendent du ministère de l'Intérieur."
+  },
+  {
+    "id": "cr-88",
+    "number": 88,
+    "source": "CR",
+    "question": "S'agissant des déchets, quelle proposition est correcte ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "On peut les jeter n'importe où",
+      "On doit les trier et les jeter dans les poubelles appropriées",
+      "Seuls les déchets plastiques doivent être triés",
+      "Le tri est facultatif"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "On doit trier ses déchets et les jeter dans les poubelles appropriées (recyclables, ordures ménagères, verre, etc.). Le tri sélectif est obligatoire et permet le recyclage pour protéger l'environnement."
+  },
+  {
+    "id": "cr-89",
+    "number": 89,
+    "source": "CR",
+    "question": "Quel était le surnom de Louis XIV ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Le Roi-Soleil",
+      "Le Roi-Lune",
+      "Le Grand Charles",
+      "Le Roi-Lion"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Louis XIV (1638-1715) était surnommé le Roi-Soleil. Il a régné pendant 72 ans et a fait construire le château de Versailles. Il représente l'apogée de la monarchie absolue en France."
+  },
+  {
+    "id": "cr-90",
+    "number": 90,
+    "source": "CR",
+    "question": "Quel roi de France a été exécuté pendant la Révolution française ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Louis XIV",
+      "Louis XVI",
+      "François Ier",
+      "Henri IV"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Louis XVI a été guillotiné le 21 janvier 1793 pendant la Révolution française. Sa mort marque la fin de la monarchie et le début de la Première République."
+  },
+  {
+    "id": "cr-91",
+    "number": 91,
+    "source": "CR",
+    "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "1789",
+      "1804",
+      "1815",
+      "1830"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Napoléon Bonaparte est devenu empereur des Français le 2 décembre 1804, sacré à Notre-Dame de Paris. Il a régné jusqu'en 1814 (puis brièvement en 1815 pendant les Cent-Jours)."
+  },
+  {
+    "id": "cr-92",
+    "number": 92,
+    "source": "CR",
+    "question": "Lequel de ces personnages a un lien avec la République française ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Louis XVI",
+      "Charles de Gaulle",
+      "Napoléon III",
+      "Louis XIV"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Charles de Gaulle est fortement lié à la République française : héros de la Résistance (appel du 18 juin 1940), fondateur de la Vème République (1958), et président de 1959 à 1969. Les autres sont des rois ou empereurs."
+  },
+  {
+    "id": "cr-93",
+    "number": 93,
+    "source": "CR",
+    "question": "De quand date l'appel à la résistance du général de Gaulle ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "14 juillet 1789",
+      "18 juin 1940",
+      "8 mai 1945",
+      "11 novembre 1918"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'appel du 18 juin 1940 est le discours du général de Gaulle depuis Londres, appelant les Français à continuer le combat contre l'Allemagne nazie malgré l'armistice. C'est l'acte fondateur de la Résistance française."
+  },
+  {
+    "id": "cr-94",
+    "number": 94,
+    "source": "CR",
+    "question": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Pour divertir les élèves",
+      "Pour comprendre l'histoire, prévenir le racisme et transmettre la mémoire",
+      "Parce que c'est obligatoire sans raison",
+      "Pour faire peur"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Shoah (génocide des Juifs par les nazis, 1941-1945) est étudiée pour comprendre l'histoire, prévenir le racisme et l'antisémitisme, transmettre la mémoire des victimes et enseigner les dangers des idéologies totalitaires."
+  },
+  {
+    "id": "cr-95",
+    "number": 95,
+    "source": "CR",
+    "question": "Quel pays a été colonisé par la France ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "L'Espagne",
+      "L'Algérie",
+      "L'Allemagne",
+      "La Russie"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'Algérie a été colonisée par la France de 1830 à 1962. La France a eu un vaste empire colonial, notamment en Afrique (Algérie, Sénégal, Mali, etc.), en Asie (Vietnam, Cambodge, etc.) et aux Antilles."
+  },
+  {
+    "id": "cr-96",
+    "number": 96,
+    "source": "CR",
+    "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Depuis 1958",
+      "Depuis 1962",
+      "Depuis 1981",
+      "Depuis 2000"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Depuis 1962, suite au référendum voulu par le général de Gaulle, le président de la République est élu au suffrage universel direct par tous les citoyens. Avant, il était élu par un collège de grands électeurs."
+  },
+  {
+    "id": "cr-97",
+    "number": 97,
+    "source": "CR",
+    "question": "Quelle est la première étape de la construction européenne en 1951 ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La création de l'euro",
+      "La Communauté Européenne du Charbon et de l'Acier (CECA)",
+      "Le traité de Maastricht",
+      "L'Union européenne"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La CECA (Communauté Européenne du Charbon et de l'Acier) créée en 1951 est la première étape de la construction européenne. Elle réunissait 6 pays (France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg) pour gérer ensemble le charbon et l'acier."
+  },
+  {
+    "id": "cr-98",
+    "number": 98,
+    "source": "CR",
+    "question": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Charles de Gaulle",
+      "François Mitterrand",
+      "Jacques Chirac",
+      "Georges Pompidou"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La peine de mort a été abolie en France le 9 octobre 1981 sous la présidence de François Mitterrand, grâce à la loi portée par le ministre de la Justice Robert Badinter."
+  },
+  {
+    "id": "cr-99",
+    "number": 99,
+    "source": "CR",
+    "question": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "L'Empire",
+      "La République",
+      "La monarchie constitutionnelle",
+      "La dictature"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Première République française a été proclamée le 21 septembre 1792, après l'abolition de la monarchie. C'est un moment fondateur de l'histoire républicaine française."
+  },
+  {
+    "id": "cr-100",
+    "number": 100,
+    "source": "CR",
+    "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Napoléon Bonaparte",
+      "Jean Moulin",
+      "Louis XVI",
+      "François Ier"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Jean Moulin (1899-1943) était un héros de la Résistance française. Il a unifié les mouvements de résistance sous l'autorité du général de Gaulle. Arrêté et torturé par la Gestapo, il est mort en déportation. Il repose au Panthéon."
+  }
+]

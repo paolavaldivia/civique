@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cr-41",
+    "number": 41,
+    "source": "CR",
+    "question": "De quoi est composé le drapeau européen ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "De 12 étoiles jaunes sur fond bleu",
+      "De 27 étoiles blanches sur fond rouge",
+      "De 15 étoiles dorées sur fond vert",
+      "D'une seule grande étoile sur fond bleu"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le drapeau européen est composé de 12 étoiles dorées (jaunes) disposées en cercle sur fond bleu. Le nombre 12 symbolise la perfection et l'unité, et ne change pas selon le nombre d'États membres."
+  },
+  {
+    "id": "cr-42",
+    "number": 42,
+    "source": "CR",
+    "question": "De quelle couleur est le drapeau européen ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Rouge et blanc",
+      "Bleu avec des étoiles jaunes/dorées",
+      "Vert et blanc",
+      "Bleu, blanc, rouge"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le drapeau européen est bleu avec 12 étoiles jaunes (ou dorées) disposées en cercle. Le bleu représente le ciel de l'Occident."
+  },
+  {
+    "id": "cr-43",
+    "number": 43,
+    "source": "CR",
+    "question": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "1989",
+      "1992",
+      "1995",
+      "2000"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le traité de Maastricht a été signé le 7 février 1992 et est entré en vigueur le 1er novembre 1993. Il a créé l'Union européenne et préparé l'introduction de l'euro."
+  },
+  {
+    "id": "cr-44",
+    "number": 44,
+    "source": "CR",
+    "question": "Où est le siège du Parlement européen ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Paris",
+      "Strasbourg",
+      "Bruxelles",
+      "Luxembourg"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le siège officiel du Parlement européen est à Strasbourg, en France. Les séances plénières s'y tiennent. Bruxelles accueille les commissions parlementaires et certaines sessions supplémentaires."
+  },
+  {
+    "id": "cr-45",
+    "number": 45,
+    "source": "CR",
+    "question": "Où est le siège de la Commission européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Strasbourg",
+      "Bruxelles",
+      "Luxembourg",
+      "Francfort"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le siège de la Commission européenne est à Bruxelles, en Belgique. C'est l'organe exécutif de l'Union européenne."
+  },
+  {
+    "id": "cr-46",
+    "number": 46,
+    "source": "CR",
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La Suisse",
+      "La Belgique",
+      "Le Portugal",
+      "L'Autriche"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Suisse n'est pas membre de l'Union européenne. Elle a rejeté l'adhésion par référendum et maintient des relations bilatérales avec l'UE."
+  },
+  {
+    "id": "cr-47",
+    "number": 47,
+    "source": "CR",
+    "question": "Quand célèbre-t-on la journée de l'Europe ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le 1er janvier",
+      "Le 9 mai",
+      "Le 14 juillet",
+      "Le 1er mai"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La journée de l'Europe est célébrée le 9 mai. Cette date commémore la déclaration de Robert Schuman du 9 mai 1950, considérée comme l'acte fondateur de la construction européenne."
+  },
+  {
+    "id": "cr-48",
+    "number": 48,
+    "source": "CR",
+    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Tous les 3 ans",
+      "Tous les 4 ans",
+      "Tous les 5 ans",
+      "Tous les 7 ans"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Les élections européennes ont lieu tous les 5 ans dans tous les États membres de l'Union européenne pour élire les députés européens au Parlement européen."
+  },
+  {
+    "id": "cr-49",
+    "number": 49,
+    "source": "CR",
+    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Être seulement français",
+      "Être citoyen de l'Union européenne et résider dans un pays membre",
+      "Avoir plus de 21 ans",
+      "Avoir un diplôme universitaire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour voter aux élections européennes en France, il faut être citoyen de l'Union européenne (français ou d'un autre État membre de l'UE), avoir 18 ans, résider en France et être inscrit sur les listes électorales."
+  },
+  {
+    "id": "cr-50",
+    "number": 50,
+    "source": "CR",
+    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le Royaume-Uni",
+      "La France",
+      "L'Espagne",
+      "La Suède"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France est l'un des six pays fondateurs de la Communauté européenne du charbon et de l'acier (CECA) en 1951, ancêtre de l'UE. Les six fondateurs sont : France, Allemagne, Italie, Belgique, Pays-Bas et Luxembourg."
+  },
+  {
+    "id": "cr-51",
+    "number": 51,
+    "source": "CR",
+    "question": "À quelle liberté la PMA fait-elle référence ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "La liberté d'expression",
+      "La liberté de disposer de son corps",
+      "La liberté de religion",
+      "La liberté de circulation"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La PMA (Procréation Médicalement Assistée) fait référence au droit fondamental de disposer de son corps et au droit de fonder une famille. C'est une liberté individuelle liée aux choix personnels concernant la procréation."
+  },
+  {
+    "id": "cr-52",
+    "number": 52,
+    "source": "CR",
+    "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Au nom de l'économie",
+      "Au nom de l'intérêt général et de l'ordre public",
+      "Au nom du président",
+      "Au nom de la tradition"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'État peut limiter certaines libertés au nom de l'intérêt général et de l'ordre public. Ces restrictions doivent être proportionnées, nécessaires et prévues par la loi pour protéger la sécurité, la santé publique ou les droits d'autrui."
+  },
+  {
+    "id": "cr-53",
+    "number": 53,
+    "source": "CR",
+    "question": "Concernant le droit de se marier, quelle proposition est correcte ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Seuls les couples de sexe différent peuvent se marier",
+      "Le mariage est possible pour tous les couples, indépendamment du sexe",
+      "Il faut l'autorisation des parents pour se marier",
+      "Le mariage n'est plus possible en France"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Depuis la loi du 17 mai 2013 (mariage pour tous), le mariage est ouvert à tous les couples, qu'ils soient de sexe différent ou de même sexe. C'est un droit fondamental."
+  },
+  {
+    "id": "cr-54",
+    "number": 54,
+    "source": "CR",
+    "question": "Est-il toujours possible de divorcer ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Non, seulement si l'autre personne est d'accord",
+      "Oui, le divorce est toujours possible",
+      "Non, il faut une raison grave",
+      "Non, c'est interdit"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "En France, le divorce est toujours possible. Il existe plusieurs types de divorce (par consentement mutuel, pour faute, pour altération définitive du lien conjugal, par acceptation du principe). La liberté de divorcer est un droit fondamental."
+  },
+  {
+    "id": "cr-55",
+    "number": 55,
+    "source": "CR",
+    "question": "La peine de mort est :",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Encore appliquée pour les crimes graves",
+      "Abolie en France depuis 1981",
+      "Appliquée seulement en temps de guerre",
+      "Décidée par référendum au cas par cas"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La peine de mort a été abolie en France en 1981 sous la présidence de François Mitterrand, avec la loi portée par Robert Badinter. Cette abolition a ensuite été inscrite dans la Constitution en 2007."
+  },
+  {
+    "id": "cr-56",
+    "number": 56,
+    "source": "CR",
+    "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Tous pour un, un pour tous",
+      "Les hommes naissent et demeurent libres et égaux en droits",
+      "L'union fait la force",
+      "Aide-toi, le ciel t'aidera"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'article 1 de la Déclaration des Droits de l'Homme et du Citoyen de 1789 proclame : 'Les hommes naissent et demeurent libres et égaux en droits'. C'est un principe fondamental de la République française."
+  },
+  {
+    "id": "cr-57",
+    "number": 57,
+    "source": "CR",
+    "question": "Le recours à l'avortement est-il autorisé ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Non, c'est interdit",
+      "Oui, c'est un droit garanti par la loi",
+      "Seulement en cas de danger pour la mère",
+      "Seulement avec l'autorisation du mari"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'avortement est légal en France depuis la loi Veil de 1975. C'est un droit fondamental garanti par la loi. Toute femme enceinte peut demander l'interruption volontaire de grossesse (IVG) jusqu'à 14 semaines de grossesse."
+  },
+  {
+    "id": "cr-58",
+    "number": 58,
+    "source": "CR",
+    "question": "Que contient la Constitution ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Seulement les noms des présidents",
+      "Les règles d'organisation des pouvoirs publics et les droits fondamentaux",
+      "La liste des lois françaises",
+      "Le budget de l'État"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Constitution est le texte juridique suprême qui définit l'organisation des pouvoirs publics (exécutif, législatif, judiciaire), leurs relations, et garantit les droits et libertés fondamentaux des citoyens."
+  },
+  {
+    "id": "cr-59",
+    "number": 59,
+    "source": "CR",
+    "question": "Que garantit la liberté de la presse ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Que les journalistes peuvent dire ce qu'ils veulent sans limites",
+      "Que les médias peuvent informer librement dans le respect de la loi",
+      "Que seul l'État peut publier des informations",
+      "Que les journaux sont gratuits"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La liberté de la presse garantit que les médias peuvent informer librement le public sans censure préalable, dans le respect de la loi (pas de diffamation, respect de la vie privée, etc.). C'est un pilier de la démocratie."
+  },
+  {
+    "id": "cr-60",
+    "number": 60,
+    "source": "CR",
+    "question": "Que prévoit la Charte de l'environnement ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "La protection de l'économie",
+      "Le droit de vivre dans un environnement sain et le devoir de protéger l'environnement",
+      "L'interdiction des voitures",
+      "La construction de plus d'usines"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Charte de l'environnement, intégrée à la Constitution en 2005, reconnaît le droit de chacun de vivre dans un environnement équilibré et respectueux de la santé, et établit le devoir de chacun de protéger et améliorer l'environnement."
+  }
+]

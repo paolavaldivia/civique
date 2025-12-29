@@ -1,0 +1,482 @@
+[
+  {
+    "id": "supp-1",
+    "number": 1,
+    "source": "SUPP",
+    "question": "Qu'est-ce que la laïcité ?",
+    "theme": "Valeurs fondamentales",
+    "options": [
+      "L'interdiction de toute religion",
+      "La séparation de l'État et des religions, garantissant la liberté de conscience",
+      "L'obligation d'être athée",
+      "La religion officielle de l'État"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La laïcité est un principe fondamental en France depuis 1905. Elle signifie la séparation de l'État et des religions, garantissant la liberté de conscience et l'égalité de tous devant la loi, quelle que soit leur religion ou conviction."
+  },
+  {
+    "id": "supp-2",
+    "number": 2,
+    "source": "SUPP",
+    "question": "Dans les services publics et les écoles publiques, les agents et enseignants doivent :",
+    "theme": "Valeurs fondamentales",
+    "options": [
+      "Afficher leur religion librement",
+      "Respecter la neutralité religieuse (ne pas porter de signes religieux ostentatoires)",
+      "Imposer une religion",
+      "Interdire toute discussion sur la religion"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Dans les services publics et les écoles publiques, les agents de l'État doivent respecter la neutralité religieuse et ne peuvent pas porter de signes religieux ostentatoires ni manifester leurs convictions religieuses dans l'exercice de leurs fonctions."
+  },
+  {
+    "id": "supp-3",
+    "number": 3,
+    "source": "SUPP",
+    "question": "Les élèves dans les écoles publiques peuvent-ils porter des signes religieux ?",
+    "theme": "Valeurs fondamentales",
+    "options": [
+      "Oui, tous les signes religieux sont autorisés",
+      "Non, les signes religieux ostentatoires sont interdits depuis 2004",
+      "Oui, mais seulement le vendredi",
+      "Non, aucun signe religieux n'est autorisé, même discret"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Depuis la loi de 2004, le port de signes ou tenues manifestant ostensiblement une appartenance religieuse est interdit dans les écoles, collèges et lycées publics. Les signes discrets restent autorisés."
+  },
+  {
+    "id": "supp-4",
+    "number": 4,
+    "source": "SUPP",
+    "question": "Pour louer un appartement en France, quels documents sont généralement demandés ?",
+    "theme": "Vie pratique",
+    "options": [
+      "Seulement une pièce d'identité",
+      "Pièce d'identité, justificatifs de revenus, et parfois un garant",
+      "Aucun document n'est nécessaire",
+      "Seulement de l'argent liquide"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour louer un logement, le propriétaire demande généralement une pièce d'identité, des justificatifs de revenus (bulletins de salaire, avis d'imposition), et souvent un garant. La liste des documents exigibles est limitée par la loi."
+  },
+  {
+    "id": "supp-5",
+    "number": 5,
+    "source": "SUPP",
+    "question": "Qu'est-ce qu'un bail de location ?",
+    "theme": "Vie pratique",
+    "options": [
+      "Un simple accord oral",
+      "Un contrat écrit qui fixe les droits et obligations du locataire et du propriétaire",
+      "Une facture de loyer",
+      "Un document uniquement pour le propriétaire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le bail (ou contrat de location) est un contrat écrit qui fixe les conditions de la location : montant du loyer, durée, dépôt de garantie, charges, et les droits et obligations de chacun."
+  },
+  {
+    "id": "supp-6",
+    "number": 6,
+    "source": "SUPP",
+    "question": "Combien de temps à l'avance un locataire doit-il prévenir son propriétaire avant de quitter un logement non meublé ?",
+    "theme": "Vie pratique",
+    "options": [
+      "1 mois",
+      "3 mois",
+      "6 mois",
+      "1 semaine"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour un logement non meublé, le locataire doit donner son préavis 3 mois à l'avance (1 mois dans certaines zones tendues ou pour un logement meublé)."
+  },
+  {
+    "id": "supp-7",
+    "number": 7,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le dépôt de garantie (ou caution) ?",
+    "theme": "Vie pratique",
+    "options": [
+      "Le premier mois de loyer",
+      "Une somme versée au propriétaire en garantie, restituée en fin de bail si le logement est en bon état",
+      "Une assurance habitation",
+      "Les charges locatives"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le dépôt de garantie est une somme (maximum 1 mois de loyer pour un logement non meublé) versée au propriétaire en garantie. Elle est restituée en fin de bail, déduction faite des éventuels dégâts."
+  },
+  {
+    "id": "supp-8",
+    "number": 8,
+    "source": "SUPP",
+    "question": "Pour ouvrir un compte bancaire en France, quels documents sont nécessaires ?",
+    "theme": "Vie pratique",
+    "options": [
+      "Pièce d'identité, justificatif de domicile et parfois justificatif de revenus",
+      "Seulement une carte d'identité",
+      "Un passeport international uniquement",
+      "Aucun document"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Pour ouvrir un compte bancaire, il faut généralement présenter une pièce d'identité valide, un justificatif de domicile récent (facture, quittance), et parfois un justificatif de revenus ou de situation professionnelle."
+  },
+  {
+    "id": "supp-9",
+    "number": 9,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le droit au compte ?",
+    "theme": "Vie pratique",
+    "options": [
+      "Le droit de la banque de refuser un client",
+      "Le droit pour toute personne d'avoir un compte bancaire, garanti par la Banque de France",
+      "Le droit de ne pas payer de frais bancaires",
+      "Le droit d'emprunter de l'argent"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le droit au compte permet à toute personne résidant en France, même si elle est refusée par les banques, de demander à la Banque de France de lui désigner un établissement qui devra lui ouvrir un compte avec services de base gratuits."
+  },
+  {
+    "id": "supp-10",
+    "number": 10,
+    "source": "SUPP",
+    "question": "Qu'est-ce qu'un RIB (Relevé d'Identité Bancaire) ?",
+    "theme": "Vie pratique",
+    "options": [
+      "Un document contenant les coordonnées bancaires pour recevoir ou effectuer des paiements",
+      "Une carte de crédit",
+      "Un relevé de compte",
+      "Un chéquier"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le RIB est un document qui contient les coordonnées bancaires (numéro de compte, code banque, code guichet, IBAN) nécessaires pour recevoir des virements ou mettre en place des prélèvements automatiques."
+  },
+  {
+    "id": "supp-11",
+    "number": 11,
+    "source": "SUPP",
+    "question": "Qu'est-ce qu'un contrat de travail à durée indéterminée (CDI) ?",
+    "theme": "Travail et emploi",
+    "options": [
+      "Un contrat sans date de fin prévue",
+      "Un contrat de 6 mois",
+      "Un contrat d'un an",
+      "Un contrat temporaire"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le CDI (Contrat à Durée Indéterminée) est un contrat de travail sans date de fin prévue. C'est la forme normale et générale de la relation de travail en France, offrant le plus de stabilité."
+  },
+  {
+    "id": "supp-12",
+    "number": 12,
+    "source": "SUPP",
+    "question": "Qu'est-ce qu'un CDD ?",
+    "theme": "Travail et emploi",
+    "options": [
+      "Un contrat sans fin",
+      "Un Contrat à Durée Déterminée, avec une date de fin fixée",
+      "Un compte bancaire",
+      "Un diplôme"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le CDD (Contrat à Durée Déterminée) est un contrat de travail avec une date de fin fixée à l'avance. Il ne peut être utilisé que dans des cas précis (remplacement, surcroît d'activité, travail saisonnier)."
+  },
+  {
+    "id": "supp-13",
+    "number": 13,
+    "source": "SUPP",
+    "question": "Qu'est-ce que la période d'essai ?",
+    "theme": "Travail et emploi",
+    "options": [
+      "Une période de formation obligatoire",
+      "Une période au début du contrat permettant à l'employeur ou au salarié de rompre facilement le contrat",
+      "Une période de vacances",
+      "Une période de stage non payée"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La période d'essai, prévue dans le contrat de travail, permet à l'employeur d'évaluer les compétences du salarié et au salarié d'apprécier si le poste lui convient. Pendant cette période, la rupture est facilitée pour les deux parties."
+  },
+  {
+    "id": "supp-14",
+    "number": 14,
+    "source": "SUPP",
+    "question": "Qu'indique une fiche de paie (bulletin de salaire) ?",
+    "theme": "Travail et emploi",
+    "options": [
+      "Le salaire brut, les cotisations sociales, et le salaire net à percevoir",
+      "Seulement le montant à payer",
+      "Seulement les heures travaillées",
+      "Le contrat de travail"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La fiche de paie détaille le salaire brut, les cotisations sociales (sécurité sociale, retraite, chômage, etc.), les éventuelles heures supplémentaires, et le salaire net que le salarié va effectivement percevoir."
+  },
+  {
+    "id": "supp-15",
+    "number": 15,
+    "source": "SUPP",
+    "question": "Quelle est la différence entre salaire brut et salaire net ?",
+    "theme": "Travail et emploi",
+    "options": [
+      "Il n'y a pas de différence",
+      "Le salaire net est le salaire brut moins les cotisations sociales",
+      "Le salaire brut est plus petit",
+      "Le salaire net inclut les impôts"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le salaire brut est le salaire avant déduction des cotisations sociales. Le salaire net est ce qui reste après déduction de ces cotisations, c'est ce que le salarié reçoit effectivement sur son compte bancaire."
+  },
+  {
+    "id": "supp-16",
+    "number": 16,
+    "source": "SUPP",
+    "question": "Combien de semaines de congés payés minimum un salarié a-t-il droit par an en France ?",
+    "theme": "Travail et emploi",
+    "options": [
+      "2 semaines",
+      "5 semaines",
+      "8 semaines",
+      "10 semaines"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Tout salarié en France a droit à 5 semaines de congés payés minimum par an (soit 2,5 jours ouvrables par mois travaillé). C'est un droit acquis dès 1936 et étendu à 5 semaines en 1982."
+  },
+  {
+    "id": "supp-17",
+    "number": 17,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le prélèvement à la source ?",
+    "theme": "Fiscalité",
+    "options": [
+      "Un impôt sur les entreprises",
+      "Le prélèvement de l'impôt sur le revenu directement sur le salaire chaque mois",
+      "Une taxe sur les produits",
+      "Une cotisation sociale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Depuis 2019, l'impôt sur le revenu est prélevé à la source, c'est-à-dire directement sur le salaire chaque mois par l'employeur, selon un taux calculé par l'administration fiscale."
+  },
+  {
+    "id": "supp-18",
+    "number": 18,
+    "source": "SUPP",
+    "question": "Qu'est-ce que la Sécurité sociale ?",
+    "theme": "Protection sociale",
+    "options": [
+      "La police",
+      "Le système de protection sociale qui couvre santé, retraite, famille et chômage",
+      "Une assurance privée",
+      "Un service de sécurité privée"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Sécurité sociale est le système de protection sociale créé en 1945. Elle couvre les risques maladie, maternité, invalidité, vieillesse (retraite), accidents du travail et prestations familiales grâce aux cotisations sociales."
+  },
+  {
+    "id": "supp-19",
+    "number": 19,
+    "source": "SUPP",
+    "question": "Qu'est-ce que les Allocations Familiales (CAF) ?",
+    "theme": "Protection sociale",
+    "options": [
+      "Des aides financières versées aux familles avec enfants",
+      "Une assurance automobile",
+      "Un crédit bancaire",
+      "Une taxe sur les familles"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les Allocations Familiales sont des aides financières versées par la Caisse d'Allocations Familiales (CAF) aux familles pour les aider à élever leurs enfants. Elles sont versées à partir de 2 enfants à charge."
+  },
+  {
+    "id": "supp-20",
+    "number": 20,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le RSA (Revenu de Solidarité Active) ?",
+    "theme": "Protection sociale",
+    "options": [
+      "Une allocation pour les personnes avec faibles ou sans ressources",
+      "Un compte bancaire",
+      "Une assurance voiture",
+      "Un diplôme"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le RSA est une allocation versée par la CAF aux personnes de plus de 25 ans (ou parents isolés) ayant de faibles ou aucunes ressources. Il assure un revenu minimum et encourage le retour à l'emploi."
+  },
+  {
+    "id": "supp-21",
+    "number": 21,
+    "source": "SUPP",
+    "question": "À quoi servent les cotisations sociales prélevées sur les salaires ?",
+    "theme": "Protection sociale",
+    "options": [
+      "À financer la Sécurité sociale (santé, retraite, chômage, famille)",
+      "À payer l'armée",
+      "À construire des routes",
+      "À financer les écoles uniquement"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les cotisations sociales prélevées sur les salaires financent la Sécurité sociale et ses différentes branches : assurance maladie, retraite, allocations familiales, assurance chômage. C'est le principe de solidarité nationale."
+  },
+  {
+    "id": "supp-22",
+    "number": 22,
+    "source": "SUPP",
+    "question": "Qu'est-ce que l'assurance chômage ?",
+    "theme": "Protection sociale",
+    "options": [
+      "Une assurance qui verse des allocations aux personnes ayant perdu leur emploi",
+      "Une assurance voiture",
+      "Une assurance habitation",
+      "Un compte épargne"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'assurance chômage, gérée par France Travail (ex-Pôle emploi), verse des allocations (ARE - Allocation de Retour à l'Emploi) aux salariés qui ont perdu leur emploi involontairement, sous certaines conditions de cotisation."
+  },
+  {
+    "id": "supp-23",
+    "number": 23,
+    "source": "SUPP",
+    "question": "Qu'est-ce que la CMU-C (Complémentaire santé solidaire) ?",
+    "theme": "Protection sociale",
+    "options": [
+      "Une aide pour avoir une complémentaire santé gratuite ou à faible coût pour les personnes à faibles revenus",
+      "Une université",
+      "Une carte de transport",
+      "Un permis de conduire"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Complémentaire santé solidaire (ex-CMU-C) est une protection complémentaire santé gratuite ou à tarif réduit pour les personnes aux revenus modestes. Elle complète les remboursements de l'Assurance Maladie."
+  },
+  {
+    "id": "supp-24",
+    "number": 24,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le numéro de Sécurité sociale ?",
+    "theme": "Protection sociale",
+    "options": [
+      "Un numéro d'identification unique attribué à chaque personne pour les prestations sociales",
+      "Un numéro de téléphone",
+      "Un code postal",
+      "Un numéro de compte bancaire"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le numéro de Sécurité sociale (NIR - 15 chiffres) est un identifiant unique attribué à chaque personne dès la naissance ou lors de la première activité en France. Il permet l'accès aux prestations de la Sécurité sociale."
+  },
+  {
+    "id": "supp-25",
+    "number": 25,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le congé maternité ?",
+    "theme": "Protection sociale",
+    "options": [
+      "Un congé payé pour les femmes enceintes avant et après l'accouchement",
+      "Des vacances supplémentaires",
+      "Un congé pour les pères uniquement",
+      "Un arrêt maladie"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le congé maternité est un congé payé (indemnités journalières de la Sécurité sociale) accordé aux femmes salariées avant et après l'accouchement. Il dure minimum 16 semaines (6 semaines avant, 10 après), plus long pour les grossesses multiples."
+  },
+  {
+    "id": "supp-26",
+    "number": 26,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le congé paternité ?",
+    "theme": "Protection sociale",
+    "options": [
+      "Un congé pour le père après la naissance d'un enfant",
+      "Un congé uniquement pour la mère",
+      "Des vacances d'été",
+      "Une formation professionnelle"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le congé paternité et d'accueil de l'enfant permet au père (ou second parent) de s'absenter de son travail après la naissance ou l'adoption d'un enfant. Depuis 2021, il est de 25 jours calendaires (32 jours pour naissances multiples)."
+  },
+  {
+    "id": "supp-27",
+    "number": 27,
+    "source": "SUPP",
+    "question": "Qu'est-ce que l'égalité entre les femmes et les hommes en France ?",
+    "theme": "Valeurs fondamentales",
+    "options": [
+      "Un principe constitutionnel garantissant les mêmes droits aux femmes et aux hommes",
+      "Une simple recommandation",
+      "Un principe applicable uniquement au travail",
+      "Une loi qui n'existe pas"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'égalité entre les femmes et les hommes est un principe constitutionnel inscrit dans le Préambule de la Constitution de 1946. La loi garantit des droits égaux dans tous les domaines : travail, politique, vie familiale, éducation."
+  },
+  {
+    "id": "supp-28",
+    "number": 28,
+    "source": "SUPP",
+    "question": "Est-ce qu'un employeur peut refuser d'embaucher une femme parce qu'elle est enceinte ?",
+    "theme": "Valeurs fondamentales",
+    "options": [
+      "Oui, c'est autorisé",
+      "Non, c'est une discrimination interdite et sanctionnée",
+      "Oui, mais seulement dans certains métiers",
+      "Oui, si elle le demande"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Refuser d'embaucher une femme en raison de sa grossesse est une discrimination interdite par la loi. De même, un employeur ne peut pas licencier une salariée parce qu'elle est enceinte. Ces discriminations sont sanctionnées pénalement."
+  },
+  {
+    "id": "supp-29",
+    "number": 29,
+    "source": "SUPP",
+    "question": "Qu'est-ce que la discrimination ?",
+    "theme": "Valeurs fondamentales",
+    "options": [
+      "Traiter différemment des personnes sur des critères interdits (origine, sexe, religion, handicap, etc.)",
+      "Une préférence personnelle",
+      "Un choix libre",
+      "Une opinion"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La discrimination est le fait de traiter différemment des personnes en raison de critères interdits par la loi : origine, sexe, religion, handicap, âge, orientation sexuelle, etc. C'est interdit et sanctionné pénalement (amendes et prison)."
+  },
+  {
+    "id": "supp-30",
+    "number": 30,
+    "source": "SUPP",
+    "question": "Que faire si on est victime ou témoin de discrimination ?",
+    "theme": "Valeurs fondamentales",
+    "options": [
+      "Ne rien faire",
+      "Contacter le Défenseur des droits et/ou porter plainte",
+      "Se venger",
+      "Partir du pays"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "En cas de discrimination, on peut contacter le Défenseur des droits (autorité indépendante), porter plainte auprès de la police ou gendarmerie, et saisir le conseil de prud'hommes (pour discrimination au travail) ou les tribunaux."
+  }
+]

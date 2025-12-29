@@ -1,0 +1,67 @@
+{
+  "title": "Fiches par thématiques",
+  "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/",
+  "path": [],
+  "textContent": "Voir le fil d’Ariane\n    \n      \n        \n          \n        \n          \n            \n              Accueil\n            \n          \n        \n        \n          \n            Fiches par thématique\n          \n        \n      \n    \n  \n\n\n    \n    \n      \n        Fiches par thématique\n        \n\n\n      \n    \n  \n\n  \n\n\n\n  \n\n\n  \n    \n\n  \n    \n\n\n  \n    \n      \n      \n        \n          \n            Principes et valeurs de la République\n            \n          \n        \n      \n      \n      Devise et symboles de la RépubliqueLaïcité\n      \n      \n    \n  \n  \n    \n      \n      \n\n      \n        \n      \n    \n  \n\n\n  \n    \n\n\n  \n    \n      \n      \n        \n          \n            Système institutionnel et politique\n            \n          \n        \n      \n      \n      Démocratie et droit de voteOrganisation de la République française\n      \n      \n    \n  \n  \n    \n      \n      \n\n      \n        \n      \n    \n  \n\n\n  \n    \n\n\n  \n    \n      \n      \n        \n          \n            Droits et devoirs\n            \n          \n        \n      \n      \n      Droits fondamentauxObligations et devoirs des personnes résidant en France\n      \n      \n    \n  \n  \n    \n      \n      \n\n      \n        \n      \n    \n  \n\n\n  \n    \n\n\n  \n    \n      \n      \n        \n          \n            Histoire, géographie et culture\n            \n          \n        \n      \n      \n      HistoireGéographieCulture\n      \n      \n    \n  \n  \n    \n      \n      \n\n      \n        \n      \n    \n  \n\n\n  \n    \n\n\n  \n    \n      \n      \n        \n          \n            Vivre dans la société française\n            \n          \n        \n      \n      \n      Démarches AdministrativesSantéEmploiParentalité",
+  "sections": [
+    {
+      "heading": "Principes et valeurs de la République",
+      "content": "Devise et symboles de la République\n\nLaïcité"
+    },
+    {
+      "heading": "Système institutionnel et politique",
+      "content": "Démocratie et droit de vote\n\nOrganisation de la République française"
+    },
+    {
+      "heading": "Droits et devoirs",
+      "content": "Droits fondamentaux\n\nObligations et devoirs des personnes résidant en France"
+    },
+    {
+      "heading": "Histoire, géographie et culture",
+      "content": "Histoire\n\nGéographie\n\nCulture"
+    },
+    {
+      "heading": "Vivre dans la société française",
+      "content": "Démarches Administratives\n\nSanté\n\nEmploi\n\nParentalité"
+    }
+  ],
+  "subPages": [
+    {
+      "title": "Principes et valeurs de la République",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/principes-et-valeurs-de-la-republique/",
+      "path": [
+        "principes-et-valeurs-de-la-republique"
+      ]
+    },
+    {
+      "title": "Système institutionnel et politique",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/systeme-institutionnel-et-politique/",
+      "path": [
+        "systeme-institutionnel-et-politique"
+      ]
+    },
+    {
+      "title": "Droits et devoirs",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/droits-et-devoirs/",
+      "path": [
+        "droits-et-devoirs"
+      ]
+    },
+    {
+      "title": "Histoire, géographie et culture",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/histoire-geographie-et-culture/",
+      "path": [
+        "histoire-geographie-et-culture"
+      ]
+    },
+    {
+      "title": "Vivre dans la société française",
+      "url": "https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/",
+      "path": [
+        "vivre-dans-la-societe-fran%C3%A7aise"
+      ]
+    }
+  ],
+  "isContentPage": false,
+  "fetchedAt": "2025-12-29T18:31:09.870Z"
+}

@@ -1,0 +1,1948 @@
+{
+  "totalQuestions": 323,
+  "bySource": {
+    "CR": 169,
+    "CSP": 154
+  },
+  "questions": [
+    {
+      "id": "cr-1",
+      "source": "CR",
+      "question": "Qu'est-ce que l'État de droit ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-2",
+      "source": "CR",
+      "question": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-3",
+      "source": "CR",
+      "question": "La loi est l'expression de :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-4",
+      "source": "CR",
+      "question": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-5",
+      "source": "CR",
+      "question": "Que garantit l’État de droit ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-6",
+      "source": "CR",
+      "question": "Une personne peut-elle voter à la place d'une autre ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-7",
+      "source": "CR",
+      "question": "Est-ce que le vote est obligatoire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-8",
+      "source": "CR",
+      "question": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-9",
+      "source": "CR",
+      "question": "Qui dirige l'action du Gouvernement ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-10",
+      "source": "CR",
+      "question": "Qui nomme le Premier ministre ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-11",
+      "source": "CR",
+      "question": "Quelle est l'organisation administrative de la France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-12",
+      "source": "CR",
+      "question": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-13",
+      "source": "CR",
+      "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-14",
+      "source": "CR",
+      "question": "Qui sanctionne l'auteur d'un vol ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-15",
+      "source": "CR",
+      "question": "Quel est le rôle du gouvernement ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-16",
+      "source": "CR",
+      "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-17",
+      "source": "CR",
+      "question": "Combien de députés composent l’Assemblée nationale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-18",
+      "source": "CR",
+      "question": "Qui peut voter aux élections en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-19",
+      "source": "CR",
+      "question": "Pour combien de temps sont élus les sénateurs ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-20",
+      "source": "CR",
+      "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-21",
+      "source": "CR",
+      "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-22",
+      "source": "CR",
+      "question": "Qui est le préfet ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-23",
+      "source": "CR",
+      "question": "Quelle condition est nécessaire pour voter aux élections ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-24",
+      "source": "CR",
+      "question": "Qui dirige la commune ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-25",
+      "source": "CR",
+      "question": "Quel est le régime politique de la France aujourd'hui ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-26",
+      "source": "CR",
+      "question": "Qu'est-ce que l'Hôtel de Matignon ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-27",
+      "source": "CR",
+      "question": "Le Parlement est composé :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-28",
+      "source": "CR",
+      "question": "Quel est le rôle du président de la République ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-29",
+      "source": "CR",
+      "question": "Quel est le rôle du Premier ministre ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-30",
+      "source": "CR",
+      "question": "Qui est le chef du Gouvernement ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-31",
+      "source": "CR",
+      "question": "Combien y a-t-il de régions en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-32",
+      "source": "CR",
+      "question": "Quel est le rôle du Défenseur des droits ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-33",
+      "source": "CR",
+      "question": "Depuis quand l'euro est-elle la monnaie unique ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-34",
+      "source": "CR",
+      "question": "Quel est le rôle principal du département ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-35",
+      "source": "CR",
+      "question": "Quel est le rôle principal des communes ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-36",
+      "source": "CR",
+      "question": "Combien de communes environ existe-t-il en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-37",
+      "source": "CR",
+      "question": "Quel traité concerne la construction de l'Union européenne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-38",
+      "source": "CR",
+      "question": "Quel État a quitté l'Union européenne en 2020 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-39",
+      "source": "CR",
+      "question": "Quelle est la devise de l’Union européenne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-40",
+      "source": "CR",
+      "question": "Quel est l'hymne de l'Union européenne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-41",
+      "source": "CR",
+      "question": "De quoi est composé le drapeau européen ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-42",
+      "source": "CR",
+      "question": "De quelle couleur est le drapeau européen ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-43",
+      "source": "CR",
+      "question": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-44",
+      "source": "CR",
+      "question": "Où est le siège du Parlement européen ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-45",
+      "source": "CR",
+      "question": "Où est le siège de la Commission européenne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-46",
+      "source": "CR",
+      "question": "Quel État n'est pas membre de l'Union européenne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-47",
+      "source": "CR",
+      "question": "Quand célèbre-t-on la journée de l'Europe ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-48",
+      "source": "CR",
+      "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-49",
+      "source": "CR",
+      "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-50",
+      "source": "CR",
+      "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-51",
+      "source": "CR",
+      "question": "À quelle liberté la PMA fait-elle référence ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-52",
+      "source": "CR",
+      "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-53",
+      "source": "CR",
+      "question": "Concernant le droit de se marier, quelle proposition est correcte ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-54",
+      "source": "CR",
+      "question": "Est-il toujours possible de divorcer ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-55",
+      "source": "CR",
+      "question": "La peine de mort est :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-56",
+      "source": "CR",
+      "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-57",
+      "source": "CR",
+      "question": "Le recours à l'avortement est-il autorisé ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-58",
+      "source": "CR",
+      "question": "Que contient la Constitution ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-59",
+      "source": "CR",
+      "question": "Que garantit la liberté de la presse ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-60",
+      "source": "CR",
+      "question": "Que prévoit la Charte de l'environnement ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-61",
+      "source": "CR",
+      "question": "Que signifie la dignité humaine ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-62",
+      "source": "CR",
+      "question": "Que signifie le droit de manifester ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-63",
+      "source": "CR",
+      "question": "Que signifie PMA ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-64",
+      "source": "CR",
+      "question": "Quel texte est le plus difficile à modifier ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-65",
+      "source": "CR",
+      "question": "Quelle liberté permet à une personne de croire en la religion de son choix ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-66",
+      "source": "CR",
+      "question": "Qu'est-ce que le droit de grève ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-67",
+      "source": "CR",
+      "question": "Qu'est-ce que la Constitution ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-68",
+      "source": "CR",
+      "question": "Qui peut demander à avorter ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-69",
+      "source": "CR",
+      "question": "Une femme majeure de nationalité française a-t-elle le droit de voter aux élections ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-70",
+      "source": "CR",
+      "question": "Concernant l'utilisation des réseaux sociaux, quelle proposition est correcte ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-71",
+      "source": "CR",
+      "question": "Jeter un mégot par terre est :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-72",
+      "source": "CR",
+      "question": "L'État peut-il limiter les droits et libertés ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-73",
+      "source": "CR",
+      "question": "Parmi ces actions, laquelle permet d'adopter une attitude respectueuse de l’environnement ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-74",
+      "source": "CR",
+      "question": "Quelle proposition constitue une obligation ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-75",
+      "source": "CR",
+      "question": "Pour quel motif peut-on limiter la liberté d'expression ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-76",
+      "source": "CR",
+      "question": "Pourquoi doit-on trier ses déchets ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-77",
+      "source": "CR",
+      "question": "Que doit faire une victime de violences ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-78",
+      "source": "CR",
+      "question": "Que doit-on faire face aux ordres des policiers ou gendarmes ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-79",
+      "source": "CR",
+      "question": "Quel est le rôle de la police ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-80",
+      "source": "CR",
+      "question": "Quel est un exemple d’assistance à personne en danger ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-81",
+      "source": "CR",
+      "question": "Quel exemple illustre une limitation de liberté pour protéger l'intérêt général ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-82",
+      "source": "CR",
+      "question": "Quelle est l’attitude à avoir lorsque qu'on est témoin de violences ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-83",
+      "source": "CR",
+      "question": "Quelle est l'infraction la plus grave ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-84",
+      "source": "CR",
+      "question": "Quelle obligation concerne toutes les personnes résidant en France quelle que soit leur nationalité ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-85",
+      "source": "CR",
+      "question": "Quelle proposition représente un exemple de crime ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-86",
+      "source": "CR",
+      "question": "Quelle proposition représente un exemple de délit ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-87",
+      "source": "CR",
+      "question": "Qui veille au maintien de l’ordre public ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-88",
+      "source": "CR",
+      "question": "S'agissant des déchets, quelle proposition est correcte ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-89",
+      "source": "CR",
+      "question": "Quel était le surnom de Louis XIV ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-90",
+      "source": "CR",
+      "question": "Quel roi de France a été exécuté pendant la Révolution française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-91",
+      "source": "CR",
+      "question": "En quelle année Napoléon Ier est-il devenu empereur ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-92",
+      "source": "CR",
+      "question": "Lequel de ces personnages a un lien avec la République française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-93",
+      "source": "CR",
+      "question": "De quand date l'appel à la résistance du général de Gaulle ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-94",
+      "source": "CR",
+      "question": "Pourquoi la Shoah est-elle étudiée à l'école ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-95",
+      "source": "CR",
+      "question": "Quel pays a été colonisé par la France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-96",
+      "source": "CR",
+      "question": "Depuis quand les Français élisent-ils le président de la République au suffrage universel direct ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-97",
+      "source": "CR",
+      "question": "Quelle est la première étape de la construction européenne en 1951 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-98",
+      "source": "CR",
+      "question": "Durant le mandat de quel président la peine de mort a-t-elle été abolie ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-99",
+      "source": "CR",
+      "question": "Quel régime politique a été mis en place pendant la Révolution française en 1792 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-100",
+      "source": "CR",
+      "question": "Qui était une figure de la Résistance française pendant la Seconde Guerre mondiale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-101",
+      "source": "CR",
+      "question": "En 1944, qu'est-ce qui a changé pour les femmes ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-102",
+      "source": "CR",
+      "question": "Quelle organisation internationale a été créée en 1945 après la Seconde Guerre mondiale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-103",
+      "source": "CR",
+      "question": "Quelle peine a été supprimée en 1981 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-104",
+      "source": "CR",
+      "question": "En quelle année l'euro est-elle devenue la monnaie utilisée en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-105",
+      "source": "CR",
+      "question": "En quelle année a commencé la Première Guerre mondiale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-106",
+      "source": "CR",
+      "question": "Où a eu lieu le débarquement en 1944 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-107",
+      "source": "CR",
+      "question": "Quel continent a été le plus concerné par la décolonisation française après la Seconde Guerre mondiale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-108",
+      "source": "CR",
+      "question": "Que fête-t-on le 8 mai ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-109",
+      "source": "CR",
+      "question": "Quelle mer ou océan borde la France métropolitaine ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-110",
+      "source": "CR",
+      "question": "Quel pays a une frontière terrestre avec la France métropolitaine ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-111",
+      "source": "CR",
+      "question": "Quelle ville française est un port maritime ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-112",
+      "source": "CR",
+      "question": "Quelle mer se situe entre la France et l'Angleterre ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-113",
+      "source": "CR",
+      "question": "Qu'est ce que la France d'outre-mer ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-114",
+      "source": "CR",
+      "question": "Quelle chaîne de montagnes est située entre la France et l’Espagne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-115",
+      "source": "CR",
+      "question": "Quelle île française se trouve dans l'océan Indien ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-116",
+      "source": "CR",
+      "question": "Quelle est la population approximative de la France en 2025 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-117",
+      "source": "CR",
+      "question": "Quel fleuve traverse Paris ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-118",
+      "source": "CR",
+      "question": "Lequel de ces pays partage des frontières terrestres avec la France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-119",
+      "source": "CR",
+      "question": "Quel pays a une frontière avec la France métropolitaine au nord-est ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-120",
+      "source": "CR",
+      "question": "Où se trouvent les principales activités économiques en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-121",
+      "source": "CR",
+      "question": "Parmi ces pays, lequel attire le plus de visiteurs chaque année ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-122",
+      "source": "CR",
+      "question": "Où habite la majorité des Français ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-123",
+      "source": "CR",
+      "question": "Quelle région est la plus peuplée ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-124",
+      "source": "CR",
+      "question": "Quelle ville française fait partie des 10 plus grandes métropoles du pays ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-125",
+      "source": "CR",
+      "question": "Lequel de ces départements de France est le plus touristique ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-126",
+      "source": "CR",
+      "question": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-127",
+      "source": "CR",
+      "question": "Combien de personnes parlent français dans le monde ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-128",
+      "source": "CR",
+      "question": "Qui était Marguerite Yourcenar ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-129",
+      "source": "CR",
+      "question": "Quel peintre est français ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-130",
+      "source": "CR",
+      "question": "Quel musée est situé à Paris ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-131",
+      "source": "CR",
+      "question": "Qui était Auguste Rodin ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-132",
+      "source": "CR",
+      "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-133",
+      "source": "CR",
+      "question": "Quelle cathédrale célèbre a été en partie détruite par un incendie en 2019 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-134",
+      "source": "CR",
+      "question": "Qui était une écrivaine française célèbre ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-135",
+      "source": "CR",
+      "question": "Qui était un célèbre musicien français ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-136",
+      "source": "CR",
+      "question": "Qui était Auguste Renoir ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-137",
+      "source": "CR",
+      "question": "Quelle fête est française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-138",
+      "source": "CR",
+      "question": "Quel mariage est reconnu par l'État ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-139",
+      "source": "CR",
+      "question": "Auprès de quelle institution les parents peuvent-ils inscrire leur enfant à l'école publique ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-140",
+      "source": "CR",
+      "question": "En cas de divorce, qui exerce l'autorité parentale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-141",
+      "source": "CR",
+      "question": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-142",
+      "source": "CR",
+      "question": "Où faut-il déclarer la naissance d'un enfant ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-143",
+      "source": "CR",
+      "question": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-144",
+      "source": "CR",
+      "question": "Un bail locatif est valide s'il est :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-145",
+      "source": "CR",
+      "question": "Où peut-on déposer un lave-vaisselle cassé ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-146",
+      "source": "CR",
+      "question": "Quel numéro d'urgence permet d'appeler la police ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-147",
+      "source": "CR",
+      "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-148",
+      "source": "CR",
+      "question": "À qui est accessible la contraception ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-149",
+      "source": "CR",
+      "question": "Qu’est-ce que le principe de confidentialité dans le domaine de la santé ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-150",
+      "source": "CR",
+      "question": "L'inscription à l'Assurance maladie est :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-151",
+      "source": "CR",
+      "question": "Qui peut demander un congé parental d'éducation ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-152",
+      "source": "CR",
+      "question": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-153",
+      "source": "CR",
+      "question": "Travailler sans être déclaré est :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-154",
+      "source": "CR",
+      "question": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-155",
+      "source": "CR",
+      "question": "Quelle est la mission de France Travail ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-156",
+      "source": "CR",
+      "question": "Dans une entreprise, le droit syndical permet :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-157",
+      "source": "CR",
+      "question": "Dans une entreprise, le droit de grève autorise :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-158",
+      "source": "CR",
+      "question": "Quelles sont les conditions pour toucher les allocations chômage ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-159",
+      "source": "CR",
+      "question": "Qu'est-ce que l'école maternelle ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-160",
+      "source": "CR",
+      "question": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-161",
+      "source": "CR",
+      "question": "Les parents d'élève ont le droit de :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-162",
+      "source": "CR",
+      "question": "Qui peut manger à la cantine scolaire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-163",
+      "source": "CR",
+      "question": "À quel âge commence l'instruction obligatoire des enfants ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-164",
+      "source": "CR",
+      "question": "Quel est l'âge de la majorité ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-165",
+      "source": "CR",
+      "question": "À l'école, il est interdit aux parents de :",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-166",
+      "source": "CR",
+      "question": "Quel motif d'absence est accepté par l'école ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-167",
+      "source": "CR",
+      "question": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-168",
+      "source": "CR",
+      "question": "Quand ont lieu les vacances scolaires de Noël ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "cr-169",
+      "source": "CR",
+      "question": "À l'école, un enfant en situation de handicap :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-1",
+      "source": "CSP",
+      "question": "Qui nomme le Premier ministre ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-2",
+      "source": "CSP",
+      "question": "Le Parlement est composé :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-3",
+      "source": "CSP",
+      "question": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-4",
+      "source": "CSP",
+      "question": "Les dirigeants sont élus par les citoyens dans :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-5",
+      "source": "CSP",
+      "question": "A-t-on le droit de ne pas respecter une loi ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-6",
+      "source": "CSP",
+      "question": "Qui doit respecter la loi ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-7",
+      "source": "CSP",
+      "question": "Quel est le rôle de l'autorité judiciaire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-8",
+      "source": "CSP",
+      "question": "Quel pouvoir détient un juge ? Le pouvoir :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-9",
+      "source": "CSP",
+      "question": "L'autorité judiciaire est exercée par :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-10",
+      "source": "CSP",
+      "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-11",
+      "source": "CSP",
+      "question": "Qui est élu lors des élections législatives ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-12",
+      "source": "CSP",
+      "question": "Combien de députés composent l’Assemblée nationale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-13",
+      "source": "CSP",
+      "question": "Quand sont élus les sénateurs ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-14",
+      "source": "CSP",
+      "question": "Qui est élu lors des élections municipales ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-15",
+      "source": "CSP",
+      "question": "Qui est élu lors des élections présidentielles ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-16",
+      "source": "CSP",
+      "question": "À partir de quel âge a-t-on le droit de voter ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-17",
+      "source": "CSP",
+      "question": "Pour combien de temps est élu le président de la République française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-18",
+      "source": "CSP",
+      "question": "Pour combien de temps sont élus les députés ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-19",
+      "source": "CSP",
+      "question": "Pour combien de temps sont élus les sénateurs ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-20",
+      "source": "CSP",
+      "question": "Qui possède le pouvoir exécutif ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-21",
+      "source": "CSP",
+      "question": "Quelle condition est nécessaire pour voter aux élections ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-22",
+      "source": "CSP",
+      "question": "Qui peut voter aux élections en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-23",
+      "source": "CSP",
+      "question": "Que signifie « suffrage universel » ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-24",
+      "source": "CSP",
+      "question": "Concernant les partis politiques, quelle proposition est correcte ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-25",
+      "source": "CSP",
+      "question": "Quel est le rôle des députés ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-26",
+      "source": "CSP",
+      "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-27",
+      "source": "CSP",
+      "question": "Qui possède le pouvoir législatif ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-28",
+      "source": "CSP",
+      "question": "Qui sanctionne l'auteur d'un vol ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-29",
+      "source": "CSP",
+      "question": "Qui élit les députés ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-30",
+      "source": "CSP",
+      "question": "Qui vote les lois ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-31",
+      "source": "CSP",
+      "question": "Qui réside au palais de l'Élysée ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-32",
+      "source": "CSP",
+      "question": "Combien y a-t-il de départements en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-33",
+      "source": "CSP",
+      "question": "Qui représente l'État dans un département ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-34",
+      "source": "CSP",
+      "question": "Qui dirige la commune ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-35",
+      "source": "CSP",
+      "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-36",
+      "source": "CSP",
+      "question": "Qui est le préfet ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-37",
+      "source": "CSP",
+      "question": "Quel est le rôle du Parlement ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-38",
+      "source": "CSP",
+      "question": "Quel est le régime politique de la France aujourd'hui ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-39",
+      "source": "CSP",
+      "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-40",
+      "source": "CSP",
+      "question": "Quel État n'est pas membre de l'Union européenne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-41",
+      "source": "CSP",
+      "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-42",
+      "source": "CSP",
+      "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-43",
+      "source": "CSP",
+      "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-44",
+      "source": "CSP",
+      "question": "Quelle est la monnaie utilisée en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-45",
+      "source": "CSP",
+      "question": "Qui élit les députés européens ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-46",
+      "source": "CSP",
+      "question": "Quand célèbre-t-on la journée de l'Europe ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-47",
+      "source": "CSP",
+      "question": "Comment s’appelle la Constitution actuelle de la France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-48",
+      "source": "CSP",
+      "question": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-49",
+      "source": "CSP",
+      "question": "Concernant les droits individuels, quelle proposition est correcte ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-50",
+      "source": "CSP",
+      "question": "De quelle année date la Déclaration des droits de l’homme et du citoyen ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-51",
+      "source": "CSP",
+      "question": "Lequel de ces droits est un droit fondamental ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-52",
+      "source": "CSP",
+      "question": "Parmi ces textes, lequel garantit les droits et libertés en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-53",
+      "source": "CSP",
+      "question": "Qu’est-ce que la liberté d’expression ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-54",
+      "source": "CSP",
+      "question": "Quel droit permet à une personne de se défendre devant la justice ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-55",
+      "source": "CSP",
+      "question": "Quel est le texte fondateur établissant en France les droits et les devoirs de chaque citoyen ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-56",
+      "source": "CSP",
+      "question": "Quel texte a été adopté pendant la Révolution française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-57",
+      "source": "CSP",
+      "question": "Quelle liberté permet à une personne de ne pas avoir de religion ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-58",
+      "source": "CSP",
+      "question": "Une femme peut avorter :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-59",
+      "source": "CSP",
+      "question": "Est-il toujours possible de divorcer ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-60",
+      "source": "CSP",
+      "question": "La peine de mort est :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-61",
+      "source": "CSP",
+      "question": "Concernant les limites aux libertés individuelles, quelle proposition est correcte ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-62",
+      "source": "CSP",
+      "question": "En France, est-ce légal d'être marié à plusieurs personnes en même temps ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-63",
+      "source": "CSP",
+      "question": "Faut-il réduire ses déchets ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-64",
+      "source": "CSP",
+      "question": "Jeter une bouteille dans la rue est :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-65",
+      "source": "CSP",
+      "question": "Pourquoi les libertés individuelles peuvent-elles être limitées ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-66",
+      "source": "CSP",
+      "question": "Que doit faire une personne en cas d’accident ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-67",
+      "source": "CSP",
+      "question": "Que permet la citoyenneté française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-68",
+      "source": "CSP",
+      "question": "Que risque une personne qui ne respecte pas la loi ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-69",
+      "source": "CSP",
+      "question": "Quel est le rôle de la gendarmerie ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-70",
+      "source": "CSP",
+      "question": "Quel est le rôle de la police ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-71",
+      "source": "CSP",
+      "question": "Qu'est-ce qu'une infraction ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-72",
+      "source": "CSP",
+      "question": "Comment peut-on réduire ses déchets ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-73",
+      "source": "CSP",
+      "question": "Déposer une machine à laver cassée sur le trottoir est :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-74",
+      "source": "CSP",
+      "question": "En quoi consiste la traite des êtres humains ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-75",
+      "source": "CSP",
+      "question": "Que doit faire une victime de violences ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-76",
+      "source": "CSP",
+      "question": "Quelle est l'infraction la plus grave ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-77",
+      "source": "CSP",
+      "question": "En quelle année a débuté la Révolution française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-78",
+      "source": "CSP",
+      "question": "Qui était Napoléon Ier ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-79",
+      "source": "CSP",
+      "question": "Lequel de ces personnages historiques est français ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-80",
+      "source": "CSP",
+      "question": "Dans quelle République est-on aujourd'hui ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-81",
+      "source": "CSP",
+      "question": "Qu'est-ce que la Shoah ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-82",
+      "source": "CSP",
+      "question": "Quel pays ou région du monde a été colonisé par la France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-83",
+      "source": "CSP",
+      "question": "Qui a rendu l’école gratuite, laïque et obligatoire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-84",
+      "source": "CSP",
+      "question": "Quand a eu lieu la Seconde Guerre mondiale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-85",
+      "source": "CSP",
+      "question": "Quand a eu lieu la Première Guerre mondiale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-86",
+      "source": "CSP",
+      "question": "En quelle année a été créée la Communauté Économique Européenne (CEE) ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-87",
+      "source": "CSP",
+      "question": "Le 11 novembre est un jour férié. À quoi correspond cette date ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-88",
+      "source": "CSP",
+      "question": "Qui a été le premier Président élu sous la Ve République ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-89",
+      "source": "CSP",
+      "question": "En quelle année l'esclavage a-t-il été aboli définitivement en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-90",
+      "source": "CSP",
+      "question": "Depuis quelle année l'école publique est-elle gratuite ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-91",
+      "source": "CSP",
+      "question": "Combien y a-t-il eu de républiques en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-92",
+      "source": "CSP",
+      "question": "Qui était le roi de France au moment de la Révolution française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-93",
+      "source": "CSP",
+      "question": "Qui a fondé la Ve République ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-94",
+      "source": "CSP",
+      "question": "Que célèbre-t-on le 14 juillet ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-95",
+      "source": "CSP",
+      "question": "Quelle guerre a eu lieu entre 1914 et 1918 ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-96",
+      "source": "CSP",
+      "question": "Pourquoi l’année 1958 est importante pour la France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-97",
+      "source": "CSP",
+      "question": "Quel fleuve coule en France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-98",
+      "source": "CSP",
+      "question": "Quelle ville est française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-99",
+      "source": "CSP",
+      "question": "Quel océan borde la côte ouest française ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-100",
+      "source": "CSP",
+      "question": "Qu'est-ce que Paris ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-101",
+      "source": "CSP",
+      "question": "Quelle est la capitale de la France ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-102",
+      "source": "CSP",
+      "question": "Sur quel continent se situe la France métropolitaine ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-103",
+      "source": "CSP",
+      "question": "Quelle île est un département d'outre-mer français ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-104",
+      "source": "CSP",
+      "question": "Combien y a-t-il de régions en France métropolitaine ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-105",
+      "source": "CSP",
+      "question": "Quelle ville est un grand port maritime ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-106",
+      "source": "CSP",
+      "question": "Quelle est la mer au sud de la France métropolitaine ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-107",
+      "source": "CSP",
+      "question": "Quelle ville est située au bord de la mer Méditerranée ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-108",
+      "source": "CSP",
+      "question": "Où se situe la Corse ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-109",
+      "source": "CSP",
+      "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-110",
+      "source": "CSP",
+      "question": "Qui était Molière ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-111",
+      "source": "CSP",
+      "question": "Qui était Charles Baudelaire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-112",
+      "source": "CSP",
+      "question": "Qui était George Sand ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-113",
+      "source": "CSP",
+      "question": "Qui était Simone de Beauvoir ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-114",
+      "source": "CSP",
+      "question": "Qui était Albert Camus ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-115",
+      "source": "CSP",
+      "question": "Qui était Paul Cézanne ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-116",
+      "source": "CSP",
+      "question": "Qui était Marc Chagall ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-117",
+      "source": "CSP",
+      "question": "Qui était Joséphine Baker ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-118",
+      "source": "CSP",
+      "question": "Qui était une chanteuse française célèbre ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-119",
+      "source": "CSP",
+      "question": "Qu'est-ce que le Louvre ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-120",
+      "source": "CSP",
+      "question": "Qui était Jean de la Fontaine ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-121",
+      "source": "CSP",
+      "question": "Quel écrivain est français ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-122",
+      "source": "CSP",
+      "question": "Dans quelle ville se trouve la tour Eiffel ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-123",
+      "source": "CSP",
+      "question": "Quand célèbre-t-on Noël ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-124",
+      "source": "CSP",
+      "question": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-125",
+      "source": "CSP",
+      "question": "Quel numéro d'urgence permet d'appeler les pompiers ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-126",
+      "source": "CSP",
+      "question": "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-127",
+      "source": "CSP",
+      "question": "À quelles conditions un mariage est-il reconnu juridiquement ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-128",
+      "source": "CSP",
+      "question": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-129",
+      "source": "CSP",
+      "question": "Le travail non déclaré est :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-130",
+      "source": "CSP",
+      "question": "Que doit faire un employeur pour fixer un salaire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-131",
+      "source": "CSP",
+      "question": "Qu'est-ce que le SMIC ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-132",
+      "source": "CSP",
+      "question": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-133",
+      "source": "CSP",
+      "question": "Quelle est la durée légale du temps de travail par semaine ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-134",
+      "source": "CSP",
+      "question": "Qui est aidé par France Travail ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-135",
+      "source": "CSP",
+      "question": "Une personne étrangère en situation régulière peut créer son entreprise :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-136",
+      "source": "CSP",
+      "question": "Une femme peut-elle créer son entreprise ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-137",
+      "source": "CSP",
+      "question": "À partir de quel âge un mineur peut-il travailler ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-138",
+      "source": "CSP",
+      "question": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-139",
+      "source": "CSP",
+      "question": "Qu’est-ce qu’un numéro d’urgence ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-140",
+      "source": "CSP",
+      "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-141",
+      "source": "CSP",
+      "question": "En cas de problème de santé non urgent, à qui faut-il s’adresser en premier ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-142",
+      "source": "CSP",
+      "question": "Quel est le rôle du médecin traitant ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-143",
+      "source": "CSP",
+      "question": "Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-144",
+      "source": "CSP",
+      "question": "Quel est l’objectif des vaccinations obligatoires ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-145",
+      "source": "CSP",
+      "question": "À quoi sert la carte Vitale ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-146",
+      "source": "CSP",
+      "question": "À quoi sert une mutuelle santé ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-147",
+      "source": "CSP",
+      "question": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-148",
+      "source": "CSP",
+      "question": "L'autorité parentale prévoit l'obligation :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-149",
+      "source": "CSP",
+      "question": "Pour qui l'école est-elle obligatoire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-150",
+      "source": "CSP",
+      "question": "Quel diplôme obtient-on à la fin du lycée ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-151",
+      "source": "CSP",
+      "question": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-152",
+      "source": "CSP",
+      "question": "Pour qui l'école est elle obligatoire ?",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-153",
+      "source": "CSP",
+      "question": "Un enfant inscrit à l'école :",
+      "hasAnswer": false
+    },
+    {
+      "id": "csp-154",
+      "source": "CSP",
+      "question": "Les enfants qui ne parlent pas français :",
+      "hasAnswer": false
+    }
+  ],
+  "createdAt": "2025-12-29T19:12:31.131Z"
+}

@@ -4,8 +4,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Progress } from '@/components/ui/Progress';
+import { SourceFilter } from '@/components/SourceFilter';
 import { questions } from '@/data/questions';
 import { useProgressStore } from '@/store/useProgressStore';
+import { usePreferencesStore } from '@/store/usePreferencesStore';
+import { filterQuestionsBySource } from '@/lib/filterQuestions';
 import { Question } from '@/types';
 
 export const Route = createFileRoute('/qcm')({
@@ -21,12 +24,20 @@ function QCMPage() {
   const [score, setScore] = useState({ correct: 0, total: 0 });
 
   const recordAnswer = useProgressStore((state) => state.recordAnswer);
+  const sourceFilter = usePreferencesStore((state) => state.sourceFilter);
 
   useEffect(() => {
-    // Shuffle questions for QCM
-    const shuffled = [...questions].sort(() => Math.random() - 0.5);
+    // Filter and shuffle questions for QCM
+    const filtered = filterQuestionsBySource(questions, sourceFilter);
+    const shuffled = [...filtered].sort(() => Math.random() - 0.5);
     setSessionQuestions(shuffled);
-  }, []);
+    // Reset state when filter changes
+    setCurrentIndex(0);
+    setSelectedAnswer(null);
+    setShowResult(false);
+    setScore({ correct: 0, total: 0 });
+    setSessionComplete(false);
+  }, [sourceFilter]);
 
   const currentQuestion = sessionQuestions[currentIndex];
   const progress = ((currentIndex + 1) / sessionQuestions.length) * 100;
@@ -104,7 +115,8 @@ function QCMPage() {
                   setSelectedAnswer(null);
                   setShowResult(false);
                   setScore({ correct: 0, total: 0 });
-                  const shuffled = [...questions].sort(() => Math.random() - 0.5);
+                  const filtered = filterQuestionsBySource(questions, sourceFilter);
+                  const shuffled = [...filtered].sort(() => Math.random() - 0.5);
                   setSessionQuestions(shuffled);
                 }}
                 className="w-full"
@@ -133,6 +145,11 @@ function QCMPage() {
               ← Retour
             </Button>
           </Link>
+        </div>
+
+        {/* Source Filter */}
+        <div className="mb-6">
+          <SourceFilter />
         </div>
 
         {/* Progress */}

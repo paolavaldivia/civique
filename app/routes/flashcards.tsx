@@ -4,8 +4,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Progress } from '@/components/ui/Progress';
+import { SourceFilter } from '@/components/SourceFilter';
 import { questions } from '@/data/questions';
 import { useProgressStore } from '@/store/useProgressStore';
+import { usePreferencesStore } from '@/store/usePreferencesStore';
+import { filterQuestionsBySource } from '@/lib/filterQuestions';
 import { Question } from '@/types';
 
 export const Route = createFileRoute('/flashcards')({
@@ -21,21 +24,31 @@ function FlashcardsPage() {
 
   const recordAnswer = useProgressStore((state) => state.recordAnswer);
   const getDueQuestions = useProgressStore((state) => state.getDueQuestions);
+  const sourceFilter = usePreferencesStore((state) => state.sourceFilter);
 
   useEffect(() => {
-    // Get questions that are due for review
-    const allQuestionIds = questions.map((q) => q.id);
+    // Filter questions by source first
+    const filteredQuestions = filterQuestionsBySource(questions, sourceFilter);
+
+    // Get questions that are due for review from filtered set
+    const allQuestionIds = filteredQuestions.map((q) => q.id);
     const dueIds = getDueQuestions(allQuestionIds);
 
-    // If no questions are due, use all questions
+    // If no questions are due, use all filtered questions
     const questionsToStudy = dueIds.length > 0
-      ? questions.filter((q) => dueIds.includes(q.id))
-      : questions;
+      ? filteredQuestions.filter((q) => dueIds.includes(q.id))
+      : filteredQuestions;
 
     // Shuffle questions
     const shuffled = [...questionsToStudy].sort(() => Math.random() - 0.5);
     setSessionQuestions(shuffled);
-  }, [getDueQuestions]);
+
+    // Reset state when filter changes
+    setCurrentIndex(0);
+    setIsFlipped(false);
+    setShowingAnswer(false);
+    setSessionComplete(false);
+  }, [getDueQuestions, sourceFilter]);
 
   const currentQuestion = sessionQuestions[currentIndex];
   const progress = ((currentIndex + 1) / sessionQuestions.length) * 100;
@@ -122,6 +135,11 @@ function FlashcardsPage() {
               ← Retour
             </Button>
           </Link>
+        </div>
+
+        {/* Source Filter */}
+        <div className="mb-6">
+          <SourceFilter />
         </div>
 
         {/* Progress */}

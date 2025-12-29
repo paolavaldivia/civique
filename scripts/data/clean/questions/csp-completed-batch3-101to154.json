@@ -1,0 +1,866 @@
+[
+  {
+    "id": "csp-101",
+    "number": 101,
+    "source": "CSP",
+    "question": "Quelle est la capitale de la France ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Lyon",
+      "Paris",
+      "Marseille",
+      "Toulouse"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Paris est la capitale de la France, siège des institutions politiques et centre culturel majeur."
+  },
+  {
+    "id": "csp-102",
+    "number": 102,
+    "source": "CSP",
+    "question": "Sur quel continent se situe la France métropolitaine ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "L'Afrique",
+      "L'Europe",
+      "L'Asie",
+      "L'Amérique"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France métropolitaine se situe en Europe, à l'ouest du continent européen."
+  },
+  {
+    "id": "csp-103",
+    "number": 103,
+    "source": "CSP",
+    "question": "Quelle île est un département d'outre-mer français ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La Corse",
+      "La Réunion",
+      "La Sardaigne",
+      "La Sicile"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Réunion est un département et une région d'outre-mer français situé dans l'océan Indien. La Guadeloupe et la Martinique sont aussi des DOM insulaires."
+  },
+  {
+    "id": "csp-104",
+    "number": 104,
+    "source": "CSP",
+    "question": "Combien y a-t-il de régions en France métropolitaine ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "13 régions",
+      "22 régions",
+      "18 régions",
+      "26 régions"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Depuis la réforme territoriale de 2016, la France métropolitaine compte 13 régions (+ 5 régions d'outre-mer)."
+  },
+  {
+    "id": "csp-105",
+    "number": 105,
+    "source": "CSP",
+    "question": "Quelle ville est un grand port maritime ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Paris",
+      "Marseille",
+      "Lyon",
+      "Strasbourg"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Marseille est le plus grand port maritime de France, situé sur la Méditerranée. Le Havre et Bordeaux sont aussi de grands ports."
+  },
+  {
+    "id": "csp-106",
+    "number": 106,
+    "source": "CSP",
+    "question": "Quelle est la mer au sud de la France métropolitaine ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "La mer du Nord",
+      "La mer Méditerranée",
+      "La mer Baltique",
+      "La mer Noire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La mer Méditerranée borde le sud de la France métropolitaine (Côte d'Azur, Languedoc, etc.)."
+  },
+  {
+    "id": "csp-107",
+    "number": 107,
+    "source": "CSP",
+    "question": "Quelle ville est située au bord de la mer Méditerranée ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Nice",
+      "Lille",
+      "Strasbourg",
+      "Nantes"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Nice est située au bord de la mer Méditerranée, sur la Côte d'Azur. Marseille, Toulon et Montpellier aussi."
+  },
+  {
+    "id": "csp-108",
+    "number": 108,
+    "source": "CSP",
+    "question": "Où se situe la Corse ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Dans l'océan Atlantique",
+      "Dans la mer Méditerranée",
+      "Dans la Manche",
+      "Dans l'océan Indien"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Corse est une île française située dans la mer Méditerranée, au sud-est de la France métropolitaine."
+  },
+  {
+    "id": "csp-109",
+    "number": 109,
+    "source": "CSP",
+    "question": "Quelle chaîne de montagnes est située entre la France et l'Italie ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Les Pyrénées",
+      "Les Alpes",
+      "Le Jura",
+      "Les Vosges"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les Alpes forment une frontière naturelle entre la France et l'Italie. Le Mont Blanc (4809m) est le point culminant."
+  },
+  {
+    "id": "csp-110",
+    "number": 110,
+    "source": "CSP",
+    "question": "Qui était Molière ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Un acteur et auteur de théâtre français",
+      "Un roi de France",
+      "Un scientifique",
+      "Un peintre"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Molière (1622-1673) était un dramaturge, acteur et metteur en scène français célèbre pour ses comédies ('Le Malade imaginaire', 'Tartuffe', 'L'Avare', etc.)."
+  },
+  {
+    "id": "csp-111",
+    "number": 111,
+    "source": "CSP",
+    "question": "Qui était Charles Baudelaire ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Un peintre",
+      "Un poète français",
+      "Un musicien",
+      "Un homme politique"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Charles Baudelaire (1821-1867) était un poète français, auteur des 'Fleurs du Mal', figure majeure du symbolisme."
+  },
+  {
+    "id": "csp-112",
+    "number": 112,
+    "source": "CSP",
+    "question": "Qui était George Sand ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Une écrivaine française",
+      "Une reine",
+      "Une scientifique",
+      "Une actrice"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "George Sand (1804-1876), pseudonyme d'Aurore Dupin, était une écrivaine française célèbre et une figure féministe pionnière."
+  },
+  {
+    "id": "csp-113",
+    "number": 113,
+    "source": "CSP",
+    "question": "Qui était Simone de Beauvoir ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Une actrice",
+      "Une écrivaine et philosophe féministe française",
+      "Une chanteuse",
+      "Une reine"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Simone de Beauvoir (1908-1986) était une écrivaine, philosophe et féministe française, auteure du 'Deuxième Sexe'."
+  },
+  {
+    "id": "csp-114",
+    "number": 114,
+    "source": "CSP",
+    "question": "Qui était Albert Camus ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Un écrivain et philosophe français, prix Nobel de littérature",
+      "Un peintre",
+      "Un musicien",
+      "Un homme politique"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Albert Camus (1913-1960) était un écrivain, philosophe et journaliste français, prix Nobel de littérature en 1957 ('L'Étranger', 'La Peste')."
+  },
+  {
+    "id": "csp-115",
+    "number": 115,
+    "source": "CSP",
+    "question": "Qui était Paul Cézanne ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Un peintre français",
+      "Un écrivain",
+      "Un musicien",
+      "Un architecte"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Paul Cézanne (1839-1906) était un peintre français post-impressionniste, précurseur du cubisme."
+  },
+  {
+    "id": "csp-116",
+    "number": 116,
+    "source": "CSP",
+    "question": "Qui était Marc Chagall ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Un peintre ayant vécu en France",
+      "Un écrivain",
+      "Un musicien",
+      "Un homme politique"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Marc Chagall (1887-1985) était un peintre d'origine russe naturalisé français, célèbre pour ses œuvres colorées et oniriques."
+  },
+  {
+    "id": "csp-117",
+    "number": 117,
+    "source": "CSP",
+    "question": "Qui était Joséphine Baker ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Une danseuse, chanteuse et résistante, panthéonisée en 2021",
+      "Une reine",
+      "Une scientifique",
+      "Une écrivaine"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Joséphine Baker (1906-1975) était une danseuse, chanteuse et résistante française d'origine américaine. Elle a été la première femme noire au Panthéon (2021)."
+  },
+  {
+    "id": "csp-118",
+    "number": 118,
+    "source": "CSP",
+    "question": "Qui était une chanteuse française célèbre ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Édith Piaf",
+      "Maria Callas",
+      "Aretha Franklin",
+      "Whitney Houston"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Édith Piaf (1915-1963) était une chanteuse française iconique, surnommée 'la Môme Piaf', célèbre pour 'La Vie en rose' et 'Non, je ne regrette rien'."
+  },
+  {
+    "id": "csp-119",
+    "number": 119,
+    "source": "CSP",
+    "question": "Qu'est-ce que le Louvre ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Un château royal",
+      "Le plus grand musée de Paris et du monde",
+      "Une cathédrale",
+      "Un théâtre"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Louvre est le plus grand musée de Paris et du monde par sa surface d'exposition. Il abrite la Joconde, la Vénus de Milo, etc."
+  },
+  {
+    "id": "csp-120",
+    "number": 120,
+    "source": "CSP",
+    "question": "Qui était Jean de la Fontaine ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Un poète français célèbre pour ses fables",
+      "Un roi",
+      "Un peintre",
+      "Un musicien"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Jean de la Fontaine (1621-1695) était un poète français célèbre pour ses Fables ('Le Corbeau et le Renard', 'La Cigale et la Fourmi', etc.)."
+  },
+  {
+    "id": "csp-121",
+    "number": 121,
+    "source": "CSP",
+    "question": "Quel écrivain est français ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Victor Hugo",
+      "William Shakespeare",
+      "Goethe",
+      "Dante"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Victor Hugo (1802-1885) était un écrivain français majeur, auteur des 'Misérables' et de 'Notre-Dame de Paris'."
+  },
+  {
+    "id": "csp-122",
+    "number": 122,
+    "source": "CSP",
+    "question": "Dans quelle ville se trouve la tour Eiffel ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Lyon",
+      "Paris",
+      "Marseille",
+      "Nice"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La tour Eiffel se trouve à Paris. Construite pour l'Exposition universelle de 1889, elle est devenue le symbole de Paris et de la France."
+  },
+  {
+    "id": "csp-123",
+    "number": 123,
+    "source": "CSP",
+    "question": "Quand célèbre-t-on Noël ?",
+    "theme": "Droits et devoirs",
+    "options": [
+      "Le 25 décembre",
+      "Le 1er janvier",
+      "Le 14 juillet",
+      "Le 25 mars"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Noël est célébré le 25 décembre. C'est une fête chrétienne et culturelle majeure en France."
+  },
+  {
+    "id": "csp-124",
+    "number": 124,
+    "source": "CSP",
+    "question": "Quel numéro d'urgence permet d'appeler le SAMU ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "15",
+      "17",
+      "18",
+      "112"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le 15 est le numéro d'urgence du SAMU (Service d'Aide Médicale Urgente) pour les urgences médicales."
+  },
+  {
+    "id": "csp-125",
+    "number": 125,
+    "source": "CSP",
+    "question": "Quel numéro d'urgence permet d'appeler les pompiers ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "15",
+      "17",
+      "18",
+      "112"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Le 18 est le numéro d'urgence pour appeler les pompiers en France."
+  },
+  {
+    "id": "csp-126",
+    "number": 126,
+    "source": "CSP",
+    "question": "Après avoir obtenu le permis de conduire, que faut-il faire pour pouvoir conduire sa voiture ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "L'assurer",
+      "Rien de plus",
+      "Attendre 5 ans",
+      "Payer une taxe spéciale"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Pour pouvoir conduire légalement, il faut obligatoirement assurer son véhicule (au minimum l'assurance responsabilité civile), en plus d'avoir le permis de conduire."
+  },
+  {
+    "id": "csp-127",
+    "number": 127,
+    "source": "CSP",
+    "question": "À quelles conditions un mariage est-il reconnu juridiquement ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "S'il est célébré à la mairie par un officier d'état civil",
+      "S'il est célébré à l'église",
+      "S'il est célébré en privé",
+      "S'il est célébré à l'étranger uniquement"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Pour être reconnu juridiquement en France, un mariage doit être célébré civilement à la mairie par un officier d'état civil. Le mariage religieux seul n'a pas de valeur juridique."
+  },
+  {
+    "id": "csp-128",
+    "number": 128,
+    "source": "CSP",
+    "question": "Quand faut-il déclarer son enfant au service d'état civil de la mairie ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Dans les 5 jours suivant la naissance",
+      "Dans le mois suivant la naissance",
+      "Dans l'année suivant la naissance",
+      "Quand on veut"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La naissance d'un enfant doit être déclarée à la mairie dans les 5 jours suivant l'accouchement. C'est une obligation légale."
+  },
+  {
+    "id": "csp-129",
+    "number": 129,
+    "source": "CSP",
+    "question": "Le travail non déclaré est :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Autorisé",
+      "Interdit et sanctionné (travail au noir)",
+      "Recommandé",
+      "Obligatoire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le travail non déclaré (travail au noir) est strictement interdit et sanctionné. C'est une fraude qui prive le salarié de droits et l'État de cotisations."
+  },
+  {
+    "id": "csp-130",
+    "number": 130,
+    "source": "CSP",
+    "question": "Que doit faire un employeur pour fixer un salaire ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Respecter au minimum le SMIC et les conventions collectives",
+      "Payer ce qu'il veut",
+      "Ne rien payer",
+      "Payer seulement si le salarié le demande"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Un employeur doit respecter au minimum le SMIC (Salaire Minimum Interprofessionnel de Croissance) et les conventions collectives de la branche professionnelle."
+  },
+  {
+    "id": "csp-131",
+    "number": 131,
+    "source": "CSP",
+    "question": "Qu'est-ce que le SMIC ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Le Salaire Minimum Interprofessionnel de Croissance",
+      "Un impôt",
+      "Une allocation",
+      "Une taxe"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le SMIC est le Salaire Minimum Interprofessionnel de Croissance, le salaire horaire minimum légal en France en dessous duquel un employeur ne peut pas payer un salarié."
+  },
+  {
+    "id": "csp-132",
+    "number": 132,
+    "source": "CSP",
+    "question": "Quelle est la première démarche à réaliser pour chercher un emploi ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "S'inscrire à France Travail (Pôle emploi)",
+      "Attendre chez soi",
+      "Partir en vacances",
+      "Rien faire"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Pour chercher un emploi et bénéficier d'un accompagnement et d'allocations, il faut s'inscrire à France Travail (anciennement Pôle emploi)."
+  },
+  {
+    "id": "csp-133",
+    "number": 133,
+    "source": "CSP",
+    "question": "Quelle est la durée légale du temps de travail par semaine ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "30 heures",
+      "35 heures",
+      "40 heures",
+      "50 heures"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La durée légale du travail en France est de 35 heures par semaine. Au-delà, ce sont des heures supplémentaires payées avec majoration."
+  },
+  {
+    "id": "csp-134",
+    "number": 134,
+    "source": "CSP",
+    "question": "Qui est aidé par France Travail ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Les demandeurs d'emploi",
+      "Les touristes",
+      "Les étudiants uniquement",
+      "Personne"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "France Travail (anciennement Pôle emploi) aide les demandeurs d'emploi à trouver un travail, les accompagne et verse les allocations chômage."
+  },
+  {
+    "id": "csp-135",
+    "number": 135,
+    "source": "CSP",
+    "question": "Une personne étrangère en situation régulière peut créer son entreprise :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Oui, sous certaines conditions selon le titre de séjour",
+      "Non, jamais",
+      "Oui, sans aucune condition",
+      "Seulement après 50 ans"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Une personne étrangère en situation régulière peut créer son entreprise en France, sous certaines conditions qui dépendent de son titre de séjour."
+  },
+  {
+    "id": "csp-136",
+    "number": 136,
+    "source": "CSP",
+    "question": "Une femme peut-elle créer son entreprise ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Oui, avec les mêmes droits que les hommes",
+      "Non",
+      "Seulement avec l'autorisation du mari",
+      "Seulement après 40 ans"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Une femme peut créer son entreprise librement et dans les mêmes conditions qu'un homme. L'égalité hommes-femmes est un principe constitutionnel."
+  },
+  {
+    "id": "csp-137",
+    "number": 137,
+    "source": "CSP",
+    "question": "À partir de quel âge un mineur peut-il travailler ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "14 ans (avec conditions strictes)",
+      "12 ans",
+      "10 ans",
+      "À n'importe quel âge"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "En France, un mineur peut travailler à partir de 14 ans (pendant les vacances scolaires avec conditions strictes) ou 16 ans de façon plus générale, avec autorisation parentale et respect du Code du travail."
+  },
+  {
+    "id": "csp-138",
+    "number": 138,
+    "source": "CSP",
+    "question": "Auprès de quel organisme faut-il demander le remboursement des frais de santé ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "L'Assurance Maladie (Sécurité sociale)",
+      "La mairie",
+      "La préfecture",
+      "La police"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "C'est auprès de l'Assurance Maladie (Sécurité sociale) qu'il faut demander le remboursement des frais de santé. La mutuelle complémentaire rembourse le reste."
+  },
+  {
+    "id": "csp-139",
+    "number": 139,
+    "source": "CSP",
+    "question": "Qu'est-ce qu'un numéro d'urgence ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Un numéro gratuit pour appeler les secours 24h/24",
+      "Un numéro payant",
+      "Un numéro de loterie",
+      "Un code postal"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Un numéro d'urgence (15, 17, 18, 112) est un numéro gratuit accessible 24h/24 pour contacter rapidement les secours en cas de danger ou d'urgence."
+  },
+  {
+    "id": "csp-140",
+    "number": 140,
+    "source": "CSP",
+    "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Tout le monde peut consulter un médecin",
+      "Seuls les riches peuvent consulter",
+      "C'est interdit aux étrangers",
+      "Il faut une autorisation spéciale"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "En France, toute personne peut consulter un médecin. L'Assurance Maladie rembourse les soins. Des aides existent pour les personnes en difficulté (AME, CSS)."
+  },
+  {
+    "id": "csp-141",
+    "number": 141,
+    "source": "CSP",
+    "question": "En cas de problème de santé non urgent, à qui faut-il s'adresser en premier ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Au médecin traitant",
+      "Aux urgences de l'hôpital",
+      "À la police",
+      "À la mairie"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "En cas de problème de santé non urgent, il faut d'abord consulter son médecin traitant. Les urgences hospitalières sont réservées aux situations graves."
+  },
+  {
+    "id": "csp-142",
+    "number": 142,
+    "source": "CSP",
+    "question": "Quel est le rôle du médecin traitant ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Assurer le suivi médical régulier et coordonner les soins",
+      "Faire les opérations chirurgicales",
+      "Vendre des médicaments",
+      "Gérer l'hôpital"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le médecin traitant assure le suivi médical régulier du patient, coordonne les soins et oriente vers des spécialistes si nécessaire. C'est le médecin de référence."
+  },
+  {
+    "id": "csp-143",
+    "number": 143,
+    "source": "CSP",
+    "question": "Dans quelles situations doit-on se rendre aux urgences de l'hôpital ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "En cas d'urgence vitale ou de problème grave nécessitant des soins immédiats",
+      "Pour un simple rhume",
+      "Pour toute consultation",
+      "Pour acheter des médicaments"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les urgences hospitalières sont pour les situations graves nécessitant des soins immédiats : accident grave, douleur intense, problème vital. Pour les petits problèmes, consulter le médecin traitant."
+  },
+  {
+    "id": "csp-144",
+    "number": 144,
+    "source": "CSP",
+    "question": "Quel est l'objectif des vaccinations obligatoires ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Protéger contre les maladies graves et éviter les épidémies",
+      "Gagner de l'argent",
+      "Faire mal aux enfants",
+      "Rien de particulier"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les vaccinations obligatoires visent à protéger les individus et la collectivité contre des maladies graves et à éviter les épidémies (immunité collective)."
+  },
+  {
+    "id": "csp-145",
+    "number": 145,
+    "source": "CSP",
+    "question": "À quoi sert la carte Vitale ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "À faciliter le remboursement des frais de santé par l'Assurance Maladie",
+      "À payer les impôts",
+      "À voter",
+      "À conduire"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La carte Vitale est la carte d'assuré social qui permet de faciliter et accélérer le remboursement des frais de santé par l'Assurance Maladie."
+  },
+  {
+    "id": "csp-146",
+    "number": 146,
+    "source": "CSP",
+    "question": "À quoi sert une mutuelle santé ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "À compléter le remboursement de l'Assurance Maladie",
+      "À remplacer l'Assurance Maladie",
+      "À payer les impôts",
+      "À rien"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La mutuelle santé (complémentaire santé) complète le remboursement de l'Assurance Maladie en prenant en charge tout ou partie du reste à charge (ticket modérateur)."
+  },
+  {
+    "id": "csp-147",
+    "number": 147,
+    "source": "CSP",
+    "question": "Jusqu'à quel âge l'école est-elle obligatoire ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "14 ans",
+      "16 ans",
+      "18 ans",
+      "21 ans"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'instruction est obligatoire de 3 ans à 16 ans en France. Ensuite, c'est facultatif."
+  },
+  {
+    "id": "csp-148",
+    "number": 148,
+    "source": "CSP",
+    "question": "L'autorité parentale prévoit l'obligation :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "De protéger, éduquer et assurer la sécurité de l'enfant",
+      "De laisser l'enfant faire ce qu'il veut",
+      "De battre l'enfant",
+      "De ne pas s'occuper de l'enfant"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'autorité parentale comporte des droits et devoirs : protéger l'enfant, assurer sa sécurité, sa santé, son éducation, et contribuer à son entretien."
+  },
+  {
+    "id": "csp-149",
+    "number": 149,
+    "source": "CSP",
+    "question": "Pour qui l'école est-elle obligatoire ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Pour tous les enfants de 3 à 16 ans résidant en France",
+      "Seulement pour les Français",
+      "Seulement pour les riches",
+      "Pour personne"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'instruction est obligatoire pour tous les enfants de 3 à 16 ans résidant en France, quelle que soit leur nationalité."
+  },
+  {
+    "id": "csp-150",
+    "number": 150,
+    "source": "CSP",
+    "question": "Quel diplôme obtient-on à la fin du lycée ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Le Brevet",
+      "Le Baccalauréat",
+      "Le CAP",
+      "La Licence"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "À la fin du lycée (classe de Terminale), les élèves passent le Baccalauréat (Bac), diplôme qui permet d'accéder à l'enseignement supérieur."
+  },
+  {
+    "id": "csp-151",
+    "number": 151,
+    "source": "CSP",
+    "question": "Dans quels établissements scolaires vont les élèves après l'école élémentaire ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Au collège",
+      "Au lycée",
+      "À l'université",
+      "À l'école maternelle"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Après l'école élémentaire (CP-CM2), les élèves vont au collège (6ème à 3ème), puis au lycée (Seconde à Terminale)."
+  },
+  {
+    "id": "csp-152",
+    "number": 152,
+    "source": "CSP",
+    "question": "Pour qui l'école est elle obligatoire ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Pour tous les enfants de 3 à 16 ans",
+      "Seulement pour les garçons",
+      "Seulement pour les filles",
+      "Pour personne"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'instruction est obligatoire pour tous les enfants, filles et garçons, de 3 à 16 ans résidant en France."
+  },
+  {
+    "id": "csp-153",
+    "number": 153,
+    "source": "CSP",
+    "question": "Un enfant inscrit à l'école :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Doit être assidu et ne peut s'absenter que pour des motifs valables",
+      "Peut venir quand il veut",
+      "N'a pas besoin de venir",
+      "Peut partir en vacances quand il veut"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Un enfant inscrit à l'école doit être assidu. Les absences doivent être justifiées par des motifs valables (maladie, obligations légales, etc.)."
+  },
+  {
+    "id": "csp-154",
+    "number": 154,
+    "source": "CSP",
+    "question": "Les enfants qui ne parlent pas français :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Ont le droit d'aller à l'école et bénéficient d'un accompagnement",
+      "Ne peuvent pas aller à l'école",
+      "Doivent attendre de parler français",
+      "Sont refusés"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Tous les enfants ont le droit à l'instruction. Les enfants ne parlant pas français sont accueillis à l'école et bénéficient d'un accompagnement spécifique (UPE2A) pour apprendre le français."
+  }
+]
