@@ -1,0 +1,253 @@
+import { createFileRoute, Link } from '@tanstack/react-router';
+import { useState, useEffect } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Button } from '@/components/ui/Button';
+import { Card } from '@/components/ui/Card';
+import { Progress } from '@/components/ui/Progress';
+import { questions } from '@/data/questions';
+import { useProgressStore } from '@/store/useProgressStore';
+import { Question } from '@/types';
+
+export const Route = createFileRoute('/flashcards')({
+  component: FlashcardsPage,
+});
+
+function FlashcardsPage() {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [isFlipped, setIsFlipped] = useState(false);
+  const [showingAnswer, setShowingAnswer] = useState(false);
+  const [sessionQuestions, setSessionQuestions] = useState<Question[]>([]);
+  const [sessionComplete, setSessionComplete] = useState(false);
+
+  const recordAnswer = useProgressStore((state) => state.recordAnswer);
+  const getDueQuestions = useProgressStore((state) => state.getDueQuestions);
+
+  useEffect(() => {
+    // Get questions that are due for review
+    const allQuestionIds = questions.map((q) => q.id);
+    const dueIds = getDueQuestions(allQuestionIds);
+
+    // If no questions are due, use all questions
+    const questionsToStudy = dueIds.length > 0
+      ? questions.filter((q) => dueIds.includes(q.id))
+      : questions;
+
+    // Shuffle questions
+    const shuffled = [...questionsToStudy].sort(() => Math.random() - 0.5);
+    setSessionQuestions(shuffled);
+  }, [getDueQuestions]);
+
+  const currentQuestion = sessionQuestions[currentIndex];
+  const progress = ((currentIndex + 1) / sessionQuestions.length) * 100;
+
+  const handleFlip = () => {
+    setIsFlipped(!isFlipped);
+    setShowingAnswer(!showingAnswer);
+  };
+
+  const handleAnswer = (quality: number) => {
+    if (!currentQuestion) return;
+
+    const isCorrect = quality >= 3;
+    recordAnswer(currentQuestion.id, isCorrect, quality);
+
+    // Move to next question
+    if (currentIndex < sessionQuestions.length - 1) {
+      setCurrentIndex(currentIndex + 1);
+      setIsFlipped(false);
+      setShowingAnswer(false);
+    } else {
+      setSessionComplete(true);
+    }
+  };
+
+  if (sessionQuestions.length === 0) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-6xl mb-4">⏳</div>
+          <p className="text-xl text-gray-600">Chargement...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (sessionComplete) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 flex items-center justify-center p-4">
+        <motion.div
+          initial={{ scale: 0.9, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          className="max-w-md w-full"
+        >
+          <Card className="text-center p-8">
+            <div className="text-6xl mb-4">🎉</div>
+            <h2 className="text-3xl font-bold mb-4 text-gray-800">
+              Session terminée !
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Vous avez étudié {sessionQuestions.length} questions.
+            </p>
+            <div className="space-y-3">
+              <Button
+                onClick={() => {
+                  setCurrentIndex(0);
+                  setSessionComplete(false);
+                  setIsFlipped(false);
+                  setShowingAnswer(false);
+                }}
+                className="w-full"
+              >
+                Recommencer
+              </Button>
+              <Link to="/">
+                <Button variant="outline" className="w-full">
+                  Retour à l'accueil
+                </Button>
+              </Link>
+            </div>
+          </Card>
+        </motion.div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 p-4">
+      <div className="container mx-auto max-w-3xl py-8">
+        {/* Header */}
+        <div className="mb-6">
+          <Link to="/">
+            <Button variant="ghost" size="sm">
+              ← Retour
+            </Button>
+          </Link>
+        </div>
+
+        {/* Progress */}
+        <div className="mb-6">
+          <div className="flex justify-between text-sm text-gray-600 mb-2">
+            <span>Question {currentIndex + 1} sur {sessionQuestions.length}</span>
+            <span className="font-medium">{currentQuestion.theme}</span>
+          </div>
+          <Progress value={progress} />
+        </div>
+
+        {/* Flashcard */}
+        <div className="perspective-1000 mb-6">
+          <motion.div
+            className="relative w-full"
+            style={{ minHeight: '400px' }}
+          >
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={currentIndex}
+                initial={{ rotateY: 90, opacity: 0 }}
+                animate={{ rotateY: 0, opacity: 1 }}
+                exit={{ rotateY: -90, opacity: 0 }}
+                transition={{ duration: 0.3 }}
+                onClick={handleFlip}
+                className="cursor-pointer"
+              >
+                <Card className="h-full min-h-[400px] flex items-center justify-center p-8 bg-gradient-to-br from-white to-blue-50 hover:shadow-xl transition-shadow">
+                  <div className="text-center">
+                    {!showingAnswer ? (
+                      <>
+                        <div className="text-sm text-gray-500 mb-4 uppercase tracking-wide">
+                          Question
+                        </div>
+                        <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
+                          {currentQuestion.question}
+                        </h3>
+                        <p className="text-gray-500 text-sm">
+                          Cliquez pour voir la réponse
+                        </p>
+                      </>
+                    ) : (
+                      <>
+                        <div className="text-sm text-green-600 mb-4 uppercase tracking-wide font-semibold">
+                          Réponse
+                        </div>
+                        <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4">
+                          {currentQuestion.options[currentQuestion.correctAnswer]}
+                        </h3>
+                        {currentQuestion.explanation && (
+                          <p className="text-gray-600 text-base mt-6 p-4 bg-blue-50 rounded-lg">
+                            {currentQuestion.explanation}
+                          </p>
+                        )}
+                      </>
+                    )}
+                  </div>
+                </Card>
+              </motion.div>
+            </AnimatePresence>
+          </motion.div>
+        </div>
+
+        {/* Answer Buttons */}
+        {showingAnswer && (
+          <motion.div
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            className="space-y-3"
+          >
+            <p className="text-center text-gray-600 mb-4">
+              Comment avez-vous trouvé cette question ?
+            </p>
+            <div className="grid grid-cols-2 gap-3">
+              <Button
+                onClick={() => handleAnswer(2)}
+                variant="outline"
+                className="py-6 border-red-300 text-red-700 hover:bg-red-50"
+              >
+                <div>
+                  <div className="font-bold">Difficile</div>
+                  <div className="text-xs">Revoir bientôt</div>
+                </div>
+              </Button>
+              <Button
+                onClick={() => handleAnswer(3)}
+                variant="outline"
+                className="py-6 border-yellow-300 text-yellow-700 hover:bg-yellow-50"
+              >
+                <div>
+                  <div className="font-bold">Moyen</div>
+                  <div className="text-xs">Revoir plus tard</div>
+                </div>
+              </Button>
+              <Button
+                onClick={() => handleAnswer(4)}
+                variant="outline"
+                className="py-6 border-green-300 text-green-700 hover:bg-green-50"
+              >
+                <div>
+                  <div className="font-bold">Facile</div>
+                  <div className="text-xs">Bonne maîtrise</div>
+                </div>
+              </Button>
+              <Button
+                onClick={() => handleAnswer(5)}
+                variant="outline"
+                className="py-6 border-blue-300 text-blue-700 hover:bg-blue-50"
+              >
+                <div>
+                  <div className="font-bold">Très facile</div>
+                  <div className="text-xs">Parfaitement su</div>
+                </div>
+              </Button>
+            </div>
+          </motion.div>
+        )}
+
+        {!showingAnswer && (
+          <div className="text-center">
+            <Button onClick={handleFlip} size="lg" className="px-8">
+              Voir la réponse
+            </Button>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}

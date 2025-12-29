@@ -1,0 +1,46 @@
+export interface Question {
+  id: string;
+  question: string;
+  options: string[];
+  correctAnswer: number;
+  theme: Theme;
+  explanation?: string;
+}
+
+export type Theme =
+  | 'principes-valeurs'
+  | 'institutions'
+  | 'symboles'
+  | 'histoire'
+  | 'geographie'
+  | 'culture'
+  | 'vie-quotidienne';
+
+export interface ThemeInfo {
+  id: Theme;
+  name: string;
+  description: string;
+  icon: string;
+  color: string;
+}
+
+export interface UserProgress {
+  questionId: string;
+  lastReviewed: Date;
+  timesCorrect: number;
+  timesIncorrect: number;
+  nextReview: Date;
+  easeFactor: number;
+  interval: number;
+}
+
+export interface StudySession {
+  mode: 'flashcard' | 'qcm' | 'study';
+  theme?: Theme;
+  questions: Question[];
+  currentIndex: number;
+  correctAnswers: number;
+  incorrectAnswers: number;
+}
+
+export type StudyMode = 'flashcard' | 'qcm' | 'study' | 'all';
