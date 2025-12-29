@@ -6,13 +6,18 @@
  * and recursively crawls until it reaches actual educational content.
  *
  * Features:
+ * - SMART MODE: Uses already-downloaded pages, only fetches missing ones
  * - Automatic layer detection (handles 2, 3, or more layers)
  * - Respectful delays (2-5 seconds between requests)
- * - Resume capability (skips already crawled pages)
+ * - Resume capability (reads local files instead of re-fetching)
  * - Progress tracking
+ * - Works with partial downloads (continues from where you left off)
  *
  * Usage:
  *   npm run crawl:all
+ *
+ * This works even if you've already run crawl:themes or crawl:fiches!
+ * It will use those existing files and continue from there.
  */
 
 import * as fs from 'fs';
@@ -310,6 +315,7 @@ function savePage(page: PageContent): void {
 
 /**
  * Recursively crawl a page and all its sub-pages
+ * Smart mode: uses already-downloaded pages instead of re-fetching
  */
 async function crawlPage(link: PageLink, depth: number = 0): Promise<void> {
   const indent = '  '.repeat(depth);
@@ -317,12 +323,50 @@ async function crawlPage(link: PageLink, depth: number = 0): Promise<void> {
 
   // Check if already crawled
   const outputPath = path.join(OUTPUT_DIR, ...link.path, 'content.json');
-  if (fs.existsSync(outputPath)) {
-    console.log(`${indent}   ⏭️  Already exists, skipping...`);
+  const htmlPath = path.join(OUTPUT_DIR, ...link.path, 'full.html');
+
+  let page: PageContent;
+
+  if (fs.existsSync(outputPath) && fs.existsSync(htmlPath)) {
+    console.log(`${indent}   📂 Already exists, using local copy...`);
     stats.skipped++;
-    return;
+
+    try {
+      // Read the existing HTML and content
+      const html = fs.readFileSync(htmlPath, 'utf-8');
+      const existingContent = JSON.parse(fs.readFileSync(outputPath, 'utf-8'));
+
+      // Parse the page to get sub-pages
+      page = parsePage(html, link.url, link.path, link.title);
+
+      // Update stats based on what type it was
+      if (existingContent.isContentPage) {
+        stats.contentPages++;
+        console.log(`${indent}   ✅ Content page (${page.sections.length} sections) - using cached`);
+      } else {
+        stats.listingPages++;
+        console.log(`${indent}   📋 Listing page (${page.subPages.length} sub-pages) - checking sub-pages`);
+      }
+    } catch (error) {
+      console.log(`${indent}   ⚠️  Error reading cached file: ${error}`);
+      console.log(`${indent}   Will re-fetch...`);
+      // Fall through to fetch below
+      page = null as any;
+    }
+
+    // If we successfully loaded from cache, continue with sub-pages
+    if (page && page.subPages.length > 0) {
+      for (const subPage of page.subPages) {
+        await crawlPage(subPage, depth + 1);
+      }
+      return;
+    } else if (page) {
+      // Content page, we're done
+      return;
+    }
   }
 
+  // If we get here, we need to fetch the page
   try {
     // Fetch the page
     if (stats.totalPages > 0) {
@@ -333,7 +377,7 @@ async function crawlPage(link: PageLink, depth: number = 0): Promise<void> {
     stats.totalPages++;
 
     // Parse the page
-    const page = parsePage(html, link.url, link.path, link.title);
+    page = parsePage(html, link.url, link.path, link.title);
 
     // Save it
     savePage(page);
