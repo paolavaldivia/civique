@@ -1,296 +1,247 @@
-# Question Import Tools
+# Content Acquisition Pipeline
 
-This directory contains tools to import official civic education questions into the app.
+This directory contains tools to download and clean educational content from [formation-civique.interieur.gouv.fr](https://formation-civique.interieur.gouv.fr).
 
-## 🎯 Overview
+## 🎯 Two-Step Process
 
-There are two official question lists from [formation-civique.interieur.gouv.fr](https://formation-civique.interieur.gouv.fr):
+### Step 1: Crawl (Download)
+Download all content from the official site
 
-1. **CR (Connaissance Réfugiés)** - Questions for refugees
-2. **CSP (Connaissance Statut Personnel)** - Questions for personal status
-
-Additionally, there is educational content (fiches thématiques) that can be used to:
-- Find answers to the official questions
-- Create additional custom questions
-- Provide explanations
-
-We provide multiple methods to import these questions respectfully:
+### Step 2: Clean (Extract)
+Extract clean, structured data from the downloaded HTML
 
 ---
 
-## 🚀 NEW: Recommended Workflow (With Educational Content)
+## 📥 Step 1: Crawl Content
 
-### Overview
-Since the official question lists don't include answers, we can use the thematic educational content to help fill them in.
+Download educational content and official question lists.
 
-### Step 1: Crawl Educational Content
-
-The thematic pages contain detailed information about French civic knowledge.
+### Crawl Educational Content
 
 ```bash
-npm run crawl:themes
+npm run crawl:all
 ```
 
-This will:
-- Respectfully crawl the fiches thématiques (2-5 second delays)
-- Save content as HTML, JSON, and Markdown
-- Create a searchable knowledge base
-- Output to `scripts/data/themes/`
+**What it does:**
+- Downloads all thematic educational content (fiches)
+- Automatically handles multiple layers of pages
+- Respectful: 2-5 second delays between requests
+- Smart: Reuses already-downloaded pages
+- Resume-capable: Can continue from where it left off
 
-**Note:** If you get a 403 error, manually save the pages from your browser instead.
+**Output:** `scripts/data/themes/` (raw HTML files)
 
-### Step 2: Parse Question HTML
+### Download Question Lists
 
-If you have the HTML files of the question lists:
+Manually save these pages from your browser:
+1. [Questions CR](https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/)
+   - Save as `scripts/data/questions-cr.html`
+2. [Questions CSP](https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-csp/)
+   - Save as `scripts/data/questions-csp.html`
 
-```bash
-npm run parse:questions-html
-```
-
-This will:
-- Extract all questions and options from the HTML
-- Generate a template file for you to fill in answers
-- Output to `scripts/output/questions-{cr|csp}-to-complete.txt`
-
-### Step 3: Complete the Answers
-
-Open the generated `.txt` files and:
-1. Review each question
-2. Search the crawled thematic content for answers
-3. Fill in `CORRECT: A/B/C/D` for each question
-4. Optionally add explanations
-
-### Step 4: Import Completed Questions
-
-```bash
-npm run parse:manual
-npm run merge:questions
-```
-
-### Step 5: Done!
-
-Your questions with correct answers are now in the app.
+**Why manually?** The site blocks automated downloads of question pages.
 
 ---
 
-## 📋 Method 1: Manual Text Format (Recommended)
+## 🧹 Step 2: Clean Data
 
-This is the simplest method - just copy-paste questions into a text file.
+Extract clean, structured data from all downloaded HTML.
 
-### Step 1: Create the input file
-
-Create `scripts/data/manual-questions.txt` with this format:
-
-```
-Q1: [CR] Quelle est la devise de la République française ?
-A) Travail, Famille, Patrie
-B) Liberté, Égalité, Fraternité
-C) Honneur et Patrie
-D) Unité et Indivisibilité
-CORRECT: B
-
-Q2: [CSP] Qui est le chef de l'État en France ?
-A) Le Premier ministre
-B) Le Président de la République
-C) Le Président du Sénat
-D) Le Président de l'Assemblée nationale
-CORRECT: B
-```
-
-### Step 2: Parse the questions
+### Clean All Content
 
 ```bash
-npm run parse:manual
+npm run clean:all
 ```
 
-This will create `scripts/output/manual-questions.json`
+This runs both cleaners below.
 
-### Step 3: Merge into the app
+### Clean Educational Content
 
 ```bash
-npm run merge:questions
+npm run clean:content
 ```
 
-Done! The questions are now in `app/data/questions.ts`
+**What it does:**
+- Reads all HTML from `scripts/data/themes/`
+- Extracts clean text, sections, and structure
+- Removes navigation, menus, headers, footers
+- Outputs JSON (for programs) and Markdown (for humans)
+- Creates searchable index of all content
 
-## 📄 Method 2: HTML Parsing
+**Output:** `scripts/data/clean/`
+- Each page as `.json` and `.md`
+- `_index.json` - Full content index
+- `_index.md` - Readable table of contents
 
-If you've saved the HTML pages from the official site.
-
-### Step 1: Save the HTML pages
-
-1. Visit [Questions CR](https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-cr/)
-2. Right-click → "Save As" → "Webpage, Complete"
-3. Save as `scripts/data/questions-cr.html`
-4. Repeat for [Questions CSP](https://formation-civique.interieur.gouv.fr/examen-civique/liste-officielle-des-questions-de-connaissance-csp/)
-5. Save as `scripts/data/questions-csp.html`
-
-### Step 2: Inspect and customize the parser
-
-Open `scripts/parseQuestions.ts` and look at the `parseHTMLFile` function. You'll need to customize it based on the actual HTML structure. Look for:
-
-- How questions are wrapped (div, section, etc.)
-- How options are listed (ol, ul, etc.)
-- How correct answers are marked
-
-### Step 3: Run the parser
+### Clean Questions
 
 ```bash
-npm run parse:html
+npm run clean:questions
 ```
 
-### Step 4: Merge into the app
+**What it does:**
+- Reads question HTML files from `scripts/data/`
+- Extracts all questions and their 4 options
+- Creates template files for manual answer completion
+- Note: Official lists don't include answers!
 
-```bash
-npm run merge:questions
+**Output:** `scripts/data/clean/questions/`
+- `cr.json` - CR questions (structured)
+- `cr-template.txt` - Template for answers
+- `csp.json` - CSP questions (structured)
+- `csp-template.txt` - Template for answers
+- `_index.json` - Questions index
+
+---
+
+## 📊 What You Get
+
+After running both steps:
+
+### Educational Content
+```
+scripts/data/clean/
+├── _index.json                      # Master index
+├── _index.md                        # Readable TOC
+├── droits-et-devoirs/
+│   ├── droits-fondamentaux/
+│   │   ├── content.json            # Clean data
+│   │   └── content.md              # Readable
+│   └── obligations-et-devoirs/
+│       ├── content.json
+│       └── content.md
+└── ...more themes...
 ```
 
-## 🔍 How It Works
-
-### Theme Detection
-
-Questions are automatically categorized into themes based on keywords:
-
-- **principes-valeurs**: devise, laïcité, égalité, liberté, fraternité
-- **institutions**: président, ministre, assemblée, sénat, constitution
-- **symboles**: drapeau, hymne, marseillaise, marianne
-- **histoire**: révolution, république, guerre, dates
-- **geographie**: capitale, région, département, océan
-- **culture**: artiste, écrivain, peintre, littérature, musée
-- **vie-quotidienne**: (default for everything else)
-
-### Duplicate Detection
-
-The merge script detects duplicates by comparing normalized question text (lowercased, stripped of special characters). Duplicates are automatically skipped.
-
-### Backup
-
-Before merging, your original `questions.ts` is backed up to `questions.ts.backup`
-
-## 📊 Statistics
-
-After running the scripts, you'll see:
-
-- Total questions imported
-- Questions by source (CR, CSP, custom)
-- Questions by theme
-- Duplicates skipped
-
-## 🚀 Quick Start (TL;DR)
-
-For the **fastest** method:
-
-```bash
-# 1. Create scripts/data/manual-questions.txt with your questions
-# 2. Run:
-npm run parse:manual && npm run merge:questions
+### Questions
+```
+scripts/data/clean/questions/
+├── _index.json
+├── _README.md
+├── cr.json                         # All CR questions
+├── cr-template.txt                 # Fill in answers here
+├── csp.json                        # All CSP questions
+└── csp-template.txt                # Fill in answers here
 ```
 
-## 🔧 Scripts Reference
+---
 
-### Content Crawling
-- `npm run crawl:themes` - Crawl educational content from fiches thématiques (respectful, with delays)
+## 🔧 Quick Reference
 
-### Question Parsing
-- `npm run parse:questions-html` - Parse official question list HTML (extracts questions without answers)
-- `npm run parse:html` - Parse HTML files from `scripts/data/*.html` (legacy, for custom parsing)
-- `npm run parse:manual` - Parse text file from `scripts/data/manual-questions.txt`
+| Command | Purpose |
+|---------|---------|
+| `npm run crawl:all` | Download all educational content |
+| `npm run clean:all` | Extract clean data from everything |
+| `npm run clean:content` | Clean educational content only |
+| `npm run clean:questions` | Clean questions only |
 
-### Merging
-- `npm run merge:questions` - Merge all JSON files from `scripts/output/` into the app
+---
 
 ## 📁 Directory Structure
 
 ```
 scripts/
-├── README.md                         # This file
-├── crawlThemes.ts                    # Educational content crawler
-├── parseQuestionHTML.ts              # Official question list parser
-├── parseQuestions.ts                 # Legacy HTML parser
-├── manualImport.ts                   # Text format parser
-├── mergeQuestions.ts                 # Merge tool
-├── data/                             # Put your input files here
-│   ├── manual-questions.txt          # Text format questions
-│   ├── questions-cr.html             # Saved question list HTML
-│   ├── questions-csp.html            # Saved question list HTML
-│   └── themes/                       # Crawled educational content
-│       ├── _summary.json             # Crawl summary
-│       ├── theme-slug-1/
-│       │   ├── full.html             # Full HTML
-│       │   ├── content.json          # Structured data
-│       │   └── content.md            # Readable markdown
-│       └── theme-slug-2/
-│           └── ...
-└── output/                           # Generated JSON files
-    ├── manual-questions.json         # Parsed questions
-    ├── questions-cr-incomplete.json  # Questions without answers
-    └── questions-csp-to-complete.txt # Template for completing
+├── README.md                       # This file
+├── crawlAll.ts                    # Crawler (smart, multi-layer)
+├── cleanContent.ts                 # Content cleaner
+├── cleanQuestions.ts               # Questions cleaner
+└── data/
+    ├── questions-cr.html          # Manual download
+    ├── questions-csp.html         # Manual download
+    ├── themes/                    # Raw crawled HTML
+    │   └── ...                    # (organized by theme)
+    └── clean/                     # Clean extracted data
+        ├── _index.json            # Content index
+        ├── _index.md              # Readable TOC
+        ├── droits-et-devoirs/     # Clean content
+        ├── histoire-geographie/
+        ├── ...
+        └── questions/             # Clean questions
+            ├── cr.json
+            ├── csp.json
+            └── *-template.txt
 ```
+
+---
 
 ## ⚖️ Ethical Usage
 
-These tools are designed to:
+**Respectful Crawling:**
+- Automated crawler uses 2-5 second delays
+- Smart caching prevents re-requesting
+- Proper User-Agent identification
+- Can be manually stopped and resumed
 
-- ✅ Respect the source website (2-5 second delays between requests)
-- ✅ Use publicly available educational content
-- ✅ Help people study for the civic education test
-- ✅ Provide a free alternative to paid services
-- ✅ Can resume from where it left off (no duplicate requests)
-- ✅ Include proper User-Agent header
+**Educational Purpose:**
+- Content is publicly available
+- Used to help people study
+- Free alternative to paid services
+- Credit given to official source
 
-Always:
+---
 
-- Use the crawler responsibly (it has built-in delays)
-- Alternatively, manually download content from your browser
-- Give credit to the official source
-- Use the content for educational purposes only
-- Don't run the crawler repeatedly (content is saved locally)
+## 🚀 Getting Started
+
+1. **First time setup:**
+   ```bash
+   npm install
+   ```
+
+2. **Download content:**
+   ```bash
+   npm run crawl:all
+   ```
+   Then manually save the two question list pages.
+
+3. **Clean the data:**
+   ```bash
+   npm run clean:all
+   ```
+
+4. **Review the output:**
+   - Check `scripts/data/clean/_index.md` for content overview
+   - Check `scripts/data/clean/questions/_README.md` for next steps
+
+---
+
+## 💡 What's Next?
+
+After you have clean data:
+
+1. **For Questions:**
+   - Fill in correct answers in `*-template.txt` files
+   - Use the clean educational content to find answers
+   - Import into the app (future step)
+
+2. **For Content:**
+   - Use as reference material
+   - Create additional questions
+   - Add to the study platform (future step)
+
+---
 
 ## 🐛 Troubleshooting
 
-**"No questions found"**
-- Check the format of your text file
-- Ensure each question has exactly 4 options (A, B, C, D)
-- Ensure there's a CORRECT line
+**Crawler gets 403 error:**
+- The site may be blocking requests
+- Solution: Manually save pages from browser instead
 
-**"Could not parse HTML"**
-- The HTML structure might have changed
-- You need to customize the parser in `parseQuestions.ts`
-- Consider using the manual text method instead
+**No questions extracted:**
+- Check that HTML files are in `scripts/data/`
+- File names must contain "cr" or "csp"
+- Review the HTML structure in the saved files
 
-**"Duplicates skipped"**
-- This is normal! It means those questions already exist
-- Check the statistics to see how many new questions were added
+**Content looks messy:**
+- This is normal for automatic extraction
+- Review the `.md` files for readability
+- The `.json` files have the structured data
 
-## 🎓 Question Format
+---
 
-Each question in the app has:
+## 📝 Notes
 
-```typescript
-{
-  id: string;              // Unique ID (e.g., "cr-1")
-  question: string;        // The question text
-  options: string[];       // 4 options
-  correctAnswer: number;   // Index 0-3
-  theme: Theme;            // Auto-detected theme
-  source: 'CR' | 'CSP' | 'custom';  // Question source
-  officialId?: string;     // Official question number
-  explanation?: string;    // Optional explanation (add manually)
-}
-```
-
-## 📝 Next Steps
-
-After importing questions:
-
-1. Review the questions in `app/data/questions.ts`
-2. Add explanations to questions (optional but helpful for learning)
-3. Test the questions in the app
-4. Adjust theme categorization if needed
-
-## 💡 Tips
-
-- Start small: Import 10-20 questions first to test the process
-- Review the parsed output before merging
-- Keep backups of your manually-created questions
-- You can run the merge script multiple times safely (it won't create duplicates)
+- All data is saved locally
+- No database required
+- Can be run multiple times safely
+- Progress is saved between runs
+- Old scripts kept in repo but not documented here
