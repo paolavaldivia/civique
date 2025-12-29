@@ -30,6 +30,6 @@ export function getQuestionCounts(questions: Question[]) {
       acc.all += 1;
       return acc;
     },
-    { all: 0, CR: 0, CSP: 0, custom: 0 } as Record<string, number>
+    { all: 0, CR: 0, CSP: 0, SUPP: 0, custom: 0 } as Record<string, number>
   );
 }
