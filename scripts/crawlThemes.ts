@@ -19,7 +19,13 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 import { JSDOM } from 'jsdom';
+
+// ES module equivalent of __dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const BASE_URL = 'https://formation-civique.interieur.gouv.fr';
 const THEMES_URL = `${BASE_URL}/fiches-par-thematiques/`;

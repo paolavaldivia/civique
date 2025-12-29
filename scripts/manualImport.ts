@@ -24,8 +24,14 @@
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 import type { Question, QuestionSource } from '../app/types';
 import { inferTheme } from './parseQuestions';
+
+// ES module equivalent of __dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 interface ManualQuestion {
   number: number;
