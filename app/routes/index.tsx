@@ -3,13 +3,14 @@ import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
 import { themes } from '@/data/themes';
 import { useProgressStore } from '@/store/useProgressStore';
+import { useShallow } from "zustand/react/shallow";
 
 export const Route = createFileRoute('/')({
   component: HomePage,
 });
 
 function HomePage() {
-  const stats = useProgressStore((state) => state.getStats());
+  const stats = useProgressStore(useShallow((state) => state.getStats()));
 
   const features = [
     {
