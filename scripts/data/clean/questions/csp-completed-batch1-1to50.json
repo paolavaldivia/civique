@@ -1,0 +1,802 @@
+[
+  {
+    "id": "csp-1",
+    "number": 1,
+    "source": "CSP",
+    "question": "Qui nomme le Premier ministre ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Les citoyens par vote direct",
+      "L'Assemblée nationale",
+      "Le président de la République",
+      "Le Sénat"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Selon l'article 8 de la Constitution, le président de la République nomme le Premier ministre. C'est l'une de ses principales prérogatives."
+  },
+  {
+    "id": "csp-2",
+    "number": 2,
+    "source": "CSP",
+    "question": "Le Parlement est composé :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Uniquement de l'Assemblée nationale",
+      "De l'Assemblée nationale et du Sénat",
+      "Uniquement du Sénat",
+      "Du gouvernement et de l'Assemblée nationale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Parlement français est composé de deux chambres : l'Assemblée nationale (577 députés) et le Sénat (348 sénateurs)."
+  },
+  {
+    "id": "csp-3",
+    "number": 3,
+    "source": "CSP",
+    "question": "Qu'est-ce que le pouvoir exécutif ? Le pouvoir :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "De voter les lois",
+      "De faire appliquer les lois et de gouverner",
+      "De juger les infractions",
+      "D'élire le président"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le pouvoir exécutif est celui qui fait appliquer les lois et gouverne. En France, il est exercé par le président de la République et le Gouvernement (Premier ministre et ministres)."
+  },
+  {
+    "id": "csp-4",
+    "number": 4,
+    "source": "CSP",
+    "question": "Les dirigeants sont élus par les citoyens dans :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Une dictature",
+      "Une démocratie",
+      "Une monarchie absolue",
+      "Un empire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Dans une démocratie, le pouvoir appartient au peuple qui élit ses représentants. C'est le principe du suffrage universel."
+  },
+  {
+    "id": "csp-5",
+    "number": 5,
+    "source": "CSP",
+    "question": "A-t-on le droit de ne pas respecter une loi ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, si on n'est pas d'accord",
+      "Non, la loi s'impose à tous",
+      "Oui, si personne ne nous voit",
+      "Seulement pour les petites lois"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Dans un État de droit, la loi s'impose à tous sans exception. Ne pas respecter la loi expose à des sanctions. On peut contester une loi par les voies légales, mais pas la violer."
+  },
+  {
+    "id": "csp-6",
+    "number": 6,
+    "source": "CSP",
+    "question": "Qui doit respecter la loi ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Seulement les étrangers",
+      "Tous les citoyens et toutes les personnes résidant en France",
+      "Seulement les pauvres",
+      "Personne"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La loi s'applique à tous sans distinction : citoyens, résidents, étrangers de passage. Dans un État de droit, personne n'est au-dessus de la loi."
+  },
+  {
+    "id": "csp-7",
+    "number": 7,
+    "source": "CSP",
+    "question": "Quel est le rôle de l'autorité judiciaire ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Faire les lois",
+      "Faire appliquer et respecter les lois, juger et sanctionner",
+      "Gouverner le pays",
+      "Élire le président"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'autorité judiciaire (les juges) a pour rôle de faire respecter les lois, de juger les personnes accusées d'infractions et de prononcer des sanctions. C'est le pouvoir judiciaire."
+  },
+  {
+    "id": "csp-8",
+    "number": 8,
+    "source": "CSP",
+    "question": "Quel pouvoir détient un juge ? Le pouvoir :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Législatif",
+      "Judiciaire",
+      "Exécutif",
+      "Militaire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les juges exercent le pouvoir judiciaire, qui consiste à rendre la justice en appliquant les lois aux cas particuliers."
+  },
+  {
+    "id": "csp-9",
+    "number": 9,
+    "source": "CSP",
+    "question": "L'autorité judiciaire est exercée par :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le président",
+      "Les juges et magistrats",
+      "Les députés",
+      "La police"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'autorité judiciaire est exercée par les juges et magistrats qui sont indépendants du pouvoir politique pour garantir une justice impartiale."
+  },
+  {
+    "id": "csp-10",
+    "number": 10,
+    "source": "CSP",
+    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Rien, il est protégé",
+      "Il peut être poursuivi en justice",
+      "Seul le président peut le sanctionner",
+      "Il doit payer une petite amende"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Dans un État de droit, personne n'est au-dessus de la loi. Un ministre qui ne respecte pas la loi peut être poursuivi en justice, notamment devant la Cour de Justice de la République."
+  },
+  {
+    "id": "csp-11",
+    "number": 11,
+    "source": "CSP",
+    "question": "Qui est élu lors des élections législatives ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le président",
+      "Les députés",
+      "Les sénateurs",
+      "Les maires"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les élections législatives permettent d'élire les 577 députés de l'Assemblée nationale au suffrage universel direct."
+  },
+  {
+    "id": "csp-12",
+    "number": 12,
+    "source": "CSP",
+    "question": "Combien de députés composent l'Assemblée nationale ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "348",
+      "577",
+      "678",
+      "450"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'Assemblée nationale est composée de 577 députés élus au suffrage universel direct pour un mandat de 5 ans."
+  },
+  {
+    "id": "csp-13",
+    "number": 13,
+    "source": "CSP",
+    "question": "Quand sont élus les sénateurs ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Lors des élections sénatoriales au suffrage universel indirect",
+      "Lors des élections présidentielles",
+      "Lors des élections législatives",
+      "Ils ne sont pas élus"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les sénateurs sont élus au suffrage universel indirect par un collège de grands électeurs (élus locaux principalement). Les élections sénatoriales ont lieu tous les 3 ans pour renouveler la moitié du Sénat."
+  },
+  {
+    "id": "csp-14",
+    "number": 14,
+    "source": "CSP",
+    "question": "Qui est élu lors des élections municipales ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Les conseillers municipaux",
+      "Le président",
+      "Les députés",
+      "Les préfets"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les élections municipales permettent d'élire les conseillers municipaux qui forment le conseil municipal. Ensuite, les conseillers municipaux élisent le maire parmi eux."
+  },
+  {
+    "id": "csp-15",
+    "number": 15,
+    "source": "CSP",
+    "question": "Qui est élu lors des élections présidentielles ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le Premier ministre",
+      "Le président de la République",
+      "Les députés",
+      "Les sénateurs"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les élections présidentielles permettent d'élire le président de la République au suffrage universel direct pour un mandat de 5 ans."
+  },
+  {
+    "id": "csp-16",
+    "number": 16,
+    "source": "CSP",
+    "question": "À partir de quel âge a-t-on le droit de voter ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "16 ans",
+      "18 ans",
+      "21 ans",
+      "25 ans"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le droit de vote est accordé à partir de 18 ans en France. C'est l'âge de la majorité civile et politique."
+  },
+  {
+    "id": "csp-17",
+    "number": 17,
+    "source": "CSP",
+    "question": "Pour combien de temps est élu le président de la République française ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "4 ans",
+      "5 ans",
+      "7 ans",
+      "10 ans"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le président de la République est élu pour un mandat de 5 ans (quinquennat) depuis la réforme constitutionnelle de 2000. Avant, c'était 7 ans (septennat)."
+  },
+  {
+    "id": "csp-18",
+    "number": 18,
+    "source": "CSP",
+    "question": "Pour combien de temps sont élus les députés ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "3 ans",
+      "5 ans",
+      "6 ans",
+      "7 ans"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les députés sont élus pour un mandat de 5 ans lors des élections législatives."
+  },
+  {
+    "id": "csp-19",
+    "number": 19,
+    "source": "CSP",
+    "question": "Pour combien de temps sont élus les sénateurs ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "5 ans",
+      "6 ans",
+      "7 ans",
+      "9 ans"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les sénateurs sont élus pour un mandat de 6 ans. Le Sénat est renouvelé par moitié tous les 3 ans."
+  },
+  {
+    "id": "csp-20",
+    "number": 20,
+    "source": "CSP",
+    "question": "Qui possède le pouvoir exécutif ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "L'Assemblée nationale",
+      "Le président de la République et le Gouvernement",
+      "Les juges",
+      "Les préfets uniquement"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le pouvoir exécutif est partagé entre le président de la République et le Gouvernement (Premier ministre et ministres)."
+  },
+  {
+    "id": "csp-21",
+    "number": 21,
+    "source": "CSP",
+    "question": "Quelle condition est nécessaire pour voter aux élections ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Avoir un emploi",
+      "Être inscrit sur les listes électorales",
+      "Avoir un diplôme",
+      "Être propriétaire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour voter, il faut obligatoirement être inscrit sur les listes électorales, avoir 18 ans, être de nationalité française (pour les élections nationales) et jouir de ses droits civiques."
+  },
+  {
+    "id": "csp-22",
+    "number": 22,
+    "source": "CSP",
+    "question": "Qui peut voter aux élections en France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Tous les résidents",
+      "Les citoyens français majeurs inscrits sur les listes électorales",
+      "Seulement les hommes",
+      "Tous les Européens"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour voter aux élections nationales (présidentielles, législatives), il faut être citoyen français, majeur (18 ans), inscrit sur les listes électorales et jouir de ses droits civiques."
+  },
+  {
+    "id": "csp-23",
+    "number": 23,
+    "source": "CSP",
+    "question": "Que signifie « suffrage universel » ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Seuls les riches peuvent voter",
+      "Tous les citoyens majeurs peuvent voter",
+      "Seuls les hommes peuvent voter",
+      "Seuls les diplômés peuvent voter"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le suffrage universel signifie que tous les citoyens majeurs, sans distinction de sexe, de richesse, de religion ou d'éducation, ont le droit de vote."
+  },
+  {
+    "id": "csp-24",
+    "number": 24,
+    "source": "CSP",
+    "question": "Concernant les partis politiques, quelle proposition est correcte ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Les partis politiques sont interdits",
+      "Chacun est libre de créer ou d'adhérer à un parti politique",
+      "Seul un parti est autorisé",
+      "Il faut une autorisation du président"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La liberté d'association politique est garantie par la Constitution. Chacun est libre de créer ou d'adhérer à un parti politique, dans le respect de la loi."
+  },
+  {
+    "id": "csp-25",
+    "number": 25,
+    "source": "CSP",
+    "question": "Quel est le rôle des députés ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Appliquer les lois",
+      "Voter les lois et contrôler le Gouvernement",
+      "Juger les criminels",
+      "Nommer les ministres"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les députés siègent à l'Assemblée nationale. Leur rôle est de voter les lois, de voter le budget et de contrôler l'action du Gouvernement."
+  },
+  {
+    "id": "csp-26",
+    "number": 26,
+    "source": "CSP",
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le pouvoir royal, militaire et religieux",
+      "Le pouvoir exécutif, législatif et judiciaire",
+      "Le pouvoir présidentiel, parlementaire et local",
+      "Le pouvoir économique, social et culturel"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La séparation des pouvoirs distingue le pouvoir exécutif (qui applique les lois), le pouvoir législatif (qui vote les lois) et le pouvoir judiciaire (qui juge). C'est un principe de Montesquieu."
+  },
+  {
+    "id": "csp-27",
+    "number": 27,
+    "source": "CSP",
+    "question": "Qui possède le pouvoir législatif ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le président",
+      "Le Parlement (Assemblée nationale et Sénat)",
+      "Le Gouvernement",
+      "Les juges"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le pouvoir législatif appartient au Parlement, c'est-à-dire à l'Assemblée nationale et au Sénat, qui votent les lois."
+  },
+  {
+    "id": "csp-28",
+    "number": 28,
+    "source": "CSP",
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La police",
+      "Le maire",
+      "Le juge",
+      "Le président"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Seul le juge (pouvoir judiciaire) peut sanctionner l'auteur d'un vol après un procès. La police arrête les suspects mais ne peut pas les juger."
+  },
+  {
+    "id": "csp-29",
+    "number": 29,
+    "source": "CSP",
+    "question": "Qui élit les députés ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le président",
+      "Les citoyens français majeurs au suffrage universel direct",
+      "Les sénateurs",
+      "Le gouvernement"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les députés sont élus au suffrage universel direct par les citoyens français majeurs inscrits sur les listes électorales."
+  },
+  {
+    "id": "csp-30",
+    "number": 30,
+    "source": "CSP",
+    "question": "Qui vote les lois ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le président",
+      "Le Parlement (députés et sénateurs)",
+      "Le gouvernement",
+      "Les citoyens"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les lois sont votées par le Parlement, c'est-à-dire par les députés de l'Assemblée nationale et les sénateurs du Sénat. C'est le pouvoir législatif."
+  },
+  {
+    "id": "csp-31",
+    "number": 31,
+    "source": "CSP",
+    "question": "Qui réside au palais de l'Élysée ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le Premier ministre",
+      "Le président de la République",
+      "Le président de l'Assemblée nationale",
+      "Le maire de Paris"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le palais de l'Élysée, situé à Paris, est la résidence officielle et le lieu de travail du président de la République française."
+  },
+  {
+    "id": "csp-32",
+    "number": 32,
+    "source": "CSP",
+    "question": "Combien y a-t-il de départements en France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "96 départements métropolitains",
+      "101 départements (96 métropolitains + 5 d'outre-mer)",
+      "50 départements",
+      "150 départements"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France compte 101 départements : 96 en métropole et 5 en outre-mer (Guadeloupe, Martinique, Guyane, La Réunion, Mayotte)."
+  },
+  {
+    "id": "csp-33",
+    "number": 33,
+    "source": "CSP",
+    "question": "Qui représente l'État dans un département ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le maire",
+      "Le préfet",
+      "Le député",
+      "Le président du conseil départemental"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le préfet est le représentant de l'État dans le département. Il est nommé par le gouvernement et applique la politique de l'État au niveau local."
+  },
+  {
+    "id": "csp-34",
+    "number": 34,
+    "source": "CSP",
+    "question": "Qui dirige la commune ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le préfet",
+      "Le président",
+      "Le maire",
+      "Le député"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Le maire dirige la commune. Il est élu par le conseil municipal et est responsable de l'administration communale."
+  },
+  {
+    "id": "csp-35",
+    "number": 35,
+    "source": "CSP",
+    "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, il peut tout décider",
+      "Non, ses pouvoirs sont limités par la Constitution et contrôlés par d'autres institutions",
+      "Oui, sauf en temps de paix",
+      "Non, il n'a aucun pouvoir"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le président a des pouvoirs importants définis par la Constitution, mais ils sont limités et contrôlés par d'autres institutions (Parlement, justice). C'est le principe de la séparation des pouvoirs."
+  },
+  {
+    "id": "csp-36",
+    "number": 36,
+    "source": "CSP",
+    "question": "Qui est le préfet ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le maire de la plus grande ville",
+      "Le représentant de l'État dans le département",
+      "Un élu local",
+      "Le chef de la police"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le préfet est le représentant de l'État dans le département. Il est nommé par le gouvernement et assure l'application des lois au niveau local."
+  },
+  {
+    "id": "csp-37",
+    "number": 37,
+    "source": "CSP",
+    "question": "Quel est le rôle du Parlement ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Appliquer les lois",
+      "Voter les lois et contrôler le Gouvernement",
+      "Juger les criminels",
+      "Diriger l'armée"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Parlement (Assemblée nationale + Sénat) vote les lois, vote le budget et contrôle l'action du Gouvernement. C'est le pouvoir législatif."
+  },
+  {
+    "id": "csp-38",
+    "number": 38,
+    "source": "CSP",
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Une monarchie",
+      "Une République",
+      "Un empire",
+      "Une dictature"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France est une République depuis 1870 (sauf Vichy 1940-1944). C'est actuellement la Vème République, établie en 1958."
+  },
+  {
+    "id": "csp-39",
+    "number": 39,
+    "source": "CSP",
+    "question": "Combien d'États font partie de l'Union européenne au 1er janvier 2025 ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "27 États membres",
+      "15 États membres",
+      "28 États membres",
+      "50 États membres"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Depuis le départ du Royaume-Uni (Brexit) en 2020, l'Union européenne compte 27 États membres."
+  },
+  {
+    "id": "csp-40",
+    "number": 40,
+    "source": "CSP",
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La Suisse",
+      "La Belgique",
+      "Le Portugal",
+      "L'Autriche"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Suisse n'est pas membre de l'Union européenne. Elle a rejeté l'adhésion par référendum et maintient des relations bilatérales avec l'UE."
+  },
+  {
+    "id": "csp-41",
+    "number": 41,
+    "source": "CSP",
+    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Être français seulement",
+      "Être citoyen de l'UE et résider dans un pays membre",
+      "Avoir plus de 21 ans",
+      "Avoir un diplôme"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour voter aux élections européennes en France, il faut être citoyen de l'UE (français ou d'un autre État membre), avoir 18 ans, résider en France et être inscrit sur les listes électorales."
+  },
+  {
+    "id": "csp-42",
+    "number": 42,
+    "source": "CSP",
+    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Tous les 3 ans",
+      "Tous les 4 ans",
+      "Tous les 5 ans",
+      "Tous les 7 ans"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Les élections européennes ont lieu tous les 5 ans dans tous les États membres pour élire les députés européens au Parlement européen."
+  },
+  {
+    "id": "csp-43",
+    "number": 43,
+    "source": "CSP",
+    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le Royaume-Uni",
+      "La France",
+      "L'Espagne",
+      "La Suède"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France est l'un des six pays fondateurs de la CECA (1951), ancêtre de l'UE : France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg."
+  },
+  {
+    "id": "csp-44",
+    "number": 44,
+    "source": "CSP",
+    "question": "Quelle est la monnaie utilisée en France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le franc",
+      "L'euro",
+      "La livre",
+      "Le dollar"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France utilise l'euro depuis 2002, la monnaie unique européenne qui a remplacé le franc français."
+  },
+  {
+    "id": "csp-45",
+    "number": 45,
+    "source": "CSP",
+    "question": "Qui élit les députés européens ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Les citoyens de l'Union européenne au suffrage universel direct",
+      "Les présidents européens",
+      "La Commission européenne",
+      "Le Conseil européen"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les députés européens sont élus au suffrage universel direct par les citoyens de l'Union européenne tous les 5 ans."
+  },
+  {
+    "id": "csp-46",
+    "number": 46,
+    "source": "CSP",
+    "question": "Quand célèbre-t-on la journée de l'Europe ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le 1er janvier",
+      "Le 9 mai",
+      "Le 14 juillet",
+      "Le 25 décembre"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La journée de l'Europe est célébrée le 9 mai, en mémoire de la déclaration de Robert Schuman du 9 mai 1950, acte fondateur de la construction européenne."
+  },
+  {
+    "id": "csp-47",
+    "number": 47,
+    "source": "CSP",
+    "question": "Comment s'appelle la Constitution actuelle de la France ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "La Constitution de la IVème République",
+      "La Constitution de la Vème République",
+      "La Charte constitutionnelle",
+      "La Déclaration des droits"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Constitution actuelle est celle de la Vème République, adoptée par référendum le 28 septembre 1958 et entrée en vigueur le 4 octobre 1958."
+  },
+  {
+    "id": "csp-48",
+    "number": 48,
+    "source": "CSP",
+    "question": "Comment s'appelle le texte qui énonce les droits et devoirs des personnes résidant en France ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Le Code civil",
+      "La Déclaration des Droits de l'Homme et du Citoyen",
+      "Le règlement intérieur",
+      "Le Code pénal"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Déclaration des Droits de l'Homme et du Citoyen de 1789 énonce les droits fondamentaux. Elle fait partie du bloc de constitutionnalité avec la Constitution et le Préambule de 1946."
+  },
+  {
+    "id": "csp-49",
+    "number": 49,
+    "source": "CSP",
+    "question": "Concernant les droits individuels, quelle proposition est correcte ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Les droits ne peuvent jamais être limités",
+      "Les droits peuvent être limités pour protéger l'intérêt général",
+      "Seuls les riches ont des droits",
+      "Les droits n'existent pas"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les droits individuels peuvent être limités par la loi pour protéger l'intérêt général, l'ordre public ou les droits d'autrui. Ces limitations doivent être proportionnées et nécessaires."
+  },
+  {
+    "id": "csp-50",
+    "number": 50,
+    "source": "CSP",
+    "question": "De quelle année date la Déclaration des droits de l'homme et du citoyen ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "1789",
+      "1792",
+      "1848",
+      "1958"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Déclaration des Droits de l'Homme et du Citoyen a été adoptée le 26 août 1789 pendant la Révolution française. C'est un texte fondateur qui proclame les droits naturels et universels."
+  }
+]

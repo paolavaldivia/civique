@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cr-21",
+    "number": 21,
+    "source": "CR",
+    "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, il peut tout décider seul",
+      "Non, ses pouvoirs sont limités par la Constitution et contrôlés par d'autres institutions",
+      "Oui, sauf en temps de paix",
+      "Non, il n'a aucun pouvoir réel"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le président de la République a des pouvoirs importants définis par la Constitution, mais ils sont limités et contrôlés par d'autres institutions (Parlement, justice, etc.). C'est le principe de la séparation des pouvoirs."
+  },
+  {
+    "id": "cr-22",
+    "number": 22,
+    "source": "CR",
+    "question": "Qui est le préfet ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le maire de la plus grande ville du département",
+      "Le représentant de l'État dans le département",
+      "Un élu local du conseil départemental",
+      "Le chef de la police départementale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le préfet est le représentant de l'État dans le département. Il est nommé par le gouvernement et est responsable de l'application des lois et de la politique du gouvernement au niveau local."
+  },
+  {
+    "id": "cr-23",
+    "number": 23,
+    "source": "CR",
+    "question": "Quelle condition est nécessaire pour voter aux élections ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Avoir un emploi",
+      "Être inscrit sur les listes électorales",
+      "Avoir un diplôme",
+      "Être propriétaire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour voter, il faut obligatoirement être inscrit sur les listes électorales. Il faut aussi être majeur, de nationalité française (pour les élections nationales), et jouir de ses droits civiques."
+  },
+  {
+    "id": "cr-24",
+    "number": 24,
+    "source": "CR",
+    "question": "Qui dirige la commune ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le préfet",
+      "Le président de la République",
+      "Le maire",
+      "Le député"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Le maire dirige la commune. Il est élu par le conseil municipal et est responsable de l'administration communale et de l'exécution des décisions du conseil municipal."
+  },
+  {
+    "id": "cr-25",
+    "number": 25,
+    "source": "CR",
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Une monarchie constitutionnelle",
+      "Une République",
+      "Un empire",
+      "Une dictature"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France est une République depuis 1870 (à l'exception de Vichy 1940-1944). Actuellement, c'est la Vème République, établie en 1958."
+  },
+  {
+    "id": "cr-26",
+    "number": 26,
+    "source": "CR",
+    "question": "Qu'est-ce que l'Hôtel de Matignon ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Un musée parisien",
+      "La résidence et le bureau du Premier ministre",
+      "La résidence du président de la République",
+      "Le siège de l'Assemblée nationale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'Hôtel de Matignon, situé rue de Varenne à Paris, est la résidence officielle et le lieu de travail du Premier ministre français."
+  },
+  {
+    "id": "cr-27",
+    "number": 27,
+    "source": "CR",
+    "question": "Le Parlement est composé :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Uniquement de l'Assemblée nationale",
+      "De l'Assemblée nationale et du Sénat",
+      "Uniquement du Sénat",
+      "Du gouvernement et de l'Assemblée nationale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Parlement français est composé de deux chambres : l'Assemblée nationale (577 députés élus au suffrage universel direct) et le Sénat (348 sénateurs élus au suffrage universel indirect)."
+  },
+  {
+    "id": "cr-28",
+    "number": 28,
+    "source": "CR",
+    "question": "Quel est le rôle du président de la République ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Voter les lois",
+      "Être le chef de l'État et garant des institutions",
+      "Juger les criminels",
+      "Diriger les communes"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le président de la République est le chef de l'État. Il est le garant de l'indépendance nationale, de l'intégrité du territoire et du respect de la Constitution. Il nomme le Premier ministre et préside le Conseil des ministres."
+  },
+  {
+    "id": "cr-29",
+    "number": 29,
+    "source": "CR",
+    "question": "Quel est le rôle du Premier ministre ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Élire le président",
+      "Diriger l'action du Gouvernement",
+      "Présider l'Assemblée nationale",
+      "Commander l'armée"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Premier ministre dirige l'action du Gouvernement. Il est responsable de la mise en œuvre de la politique de la Nation et de l'application des lois."
+  },
+  {
+    "id": "cr-30",
+    "number": 30,
+    "source": "CR",
+    "question": "Qui est le chef du Gouvernement ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le président de la République",
+      "Le Premier ministre",
+      "Le ministre de l'Intérieur",
+      "Le président de l'Assemblée nationale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Premier ministre est le chef du Gouvernement. Il dirige l'action du Gouvernement et coordonne le travail des ministres."
+  },
+  {
+    "id": "cr-31",
+    "number": 31,
+    "source": "CR",
+    "question": "Combien y a-t-il de régions en France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "13 en métropole + 5 d'outre-mer",
+      "22 en métropole + 5 d'outre-mer",
+      "18 en métropole + 5 d'outre-mer",
+      "26 en métropole + 5 d'outre-mer"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Depuis la réforme territoriale de 2016, la France compte 13 régions en métropole et 5 régions d'outre-mer (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion), soit 18 régions au total."
+  },
+  {
+    "id": "cr-32",
+    "number": 32,
+    "source": "CR",
+    "question": "Quel est le rôle du Défenseur des droits ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Défendre le président en justice",
+      "Défendre les droits et libertés des citoyens face aux administrations",
+      "Défendre la France contre les attaques",
+      "Être l'avocat du gouvernement"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Défenseur des droits est une autorité constitutionnelle indépendante chargée de défendre les droits et libertés des citoyens dans leurs relations avec les administrations publiques. Il peut être saisi gratuitement par toute personne."
+  },
+  {
+    "id": "cr-33",
+    "number": 33,
+    "source": "CR",
+    "question": "Depuis quand l'euro est-elle la monnaie unique ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "1992",
+      "1999 (sous forme scripturale) et 2002 (billets et pièces)",
+      "2005",
+      "1989"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'euro a été introduit comme monnaie scripturale (pour les transactions électroniques) le 1er janvier 1999. Les billets et pièces en euros sont entrés en circulation le 1er janvier 2002."
+  },
+  {
+    "id": "cr-34",
+    "number": 34,
+    "source": "CR",
+    "question": "Quel est le rôle principal du département ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Gérer l'éducation nationale",
+      "Gérer l'action sociale, les collèges, les routes départementales",
+      "Gérer la défense nationale",
+      "Gérer les universités"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le département est une collectivité territoriale qui gère notamment l'action sociale (aide aux personnes âgées, handicapées, RSA), les collèges, les routes départementales et les services d'incendie et de secours."
+  },
+  {
+    "id": "cr-35",
+    "number": 35,
+    "source": "CR",
+    "question": "Quel est le rôle principal des communes ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Gérer les hôpitaux",
+      "Gérer les services de proximité (état civil, urbanisme, écoles primaires)",
+      "Gérer l'armée",
+      "Voter les lois nationales"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les communes gèrent les services de proximité : état civil, urbanisme, écoles primaires, voirie communale, équipements sportifs et culturels, etc. C'est le niveau de collectivité le plus proche des citoyens."
+  },
+  {
+    "id": "cr-36",
+    "number": 36,
+    "source": "CR",
+    "question": "Combien de communes environ existe-t-il en France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "5 000",
+      "15 000",
+      "35 000",
+      "50 000"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "La France compte environ 35 000 communes (environ 34 900 actuellement), ce qui en fait le pays d'Europe avec le plus grand nombre de communes."
+  },
+  {
+    "id": "cr-37",
+    "number": 37,
+    "source": "CR",
+    "question": "Quel traité concerne la construction de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le traité de Versailles",
+      "Le traité de Maastricht",
+      "Le traité de Paris de 1815",
+      "Le traité de l'Atlantique Nord"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le traité de Maastricht, signé en 1992, a créé l'Union européenne telle que nous la connaissons aujourd'hui. Il a établi l'union politique et préparé la monnaie unique (l'euro)."
+  },
+  {
+    "id": "cr-38",
+    "number": 38,
+    "source": "CR",
+    "question": "Quel État a quitté l'Union européenne en 2020 ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La Suisse",
+      "Le Royaume-Uni",
+      "La Norvège",
+      "L'Islande"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Royaume-Uni a officiellement quitté l'Union européenne le 31 janvier 2020, suite au référendum du Brexit de 2016."
+  },
+  {
+    "id": "cr-39",
+    "number": 39,
+    "source": "CR",
+    "question": "Quelle est la devise de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Liberté, Égalité, Fraternité",
+      "Unie dans la diversité",
+      "Force et honneur",
+      "Paix et prospérité"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La devise de l'Union européenne est 'Unie dans la diversité'. Elle exprime la façon dont les Européens se sont unis pour œuvrer en faveur de la paix et de la prospérité, tout en étant enrichis par les nombreuses cultures, traditions et langues du continent."
+  },
+  {
+    "id": "cr-40",
+    "number": 40,
+    "source": "CR",
+    "question": "Quel est l'hymne de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La Marseillaise",
+      "L'Ode à la joie de Beethoven",
+      "God Save the King",
+      "L'hymne de la paix"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'hymne de l'Union européenne est l'Ode à la joie, tirée de la 9ème symphonie de Ludwig van Beethoven. C'est un symbole d'unité dans la diversité et de paix."
+  }
+]

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "cr-1",
+    "number": 1,
+    "source": "CR",
+    "question": "Qu'est-ce que l'État de droit ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Un État où seul le gouvernement fait les lois",
+      "Un État où tous les citoyens et pouvoirs publics sont soumis à la loi",
+      "Un État qui peut modifier les lois à tout moment",
+      "Un État dirigé uniquement par des juges"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'État de droit est un principe fondamental selon lequel tous les citoyens et les pouvoirs publics (exécutif, législatif, judiciaire) sont soumis à la loi. Personne n'est au-dessus de la loi, y compris les dirigeants politiques."
+  },
+  {
+    "id": "cr-2",
+    "number": 2,
+    "source": "CR",
+    "question": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Il ne peut pas être poursuivi car il est président",
+      "Il peut être destitué et poursuivi par la justice",
+      "Seul le peuple peut le juger par référendum",
+      "Il doit attendre la fin de son mandat pour être jugé"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Dans un État de droit, personne n'est au-dessus de la loi. Le président peut être destitué par la Haute Cour en cas de manquement à ses devoirs manifestement incompatible avec l'exercice de son mandat, et peut être poursuivi par la justice."
+  },
+  {
+    "id": "cr-3",
+    "number": 3,
+    "source": "CR",
+    "question": "La loi est l'expression de :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La volonté du président",
+      "La volonté du gouvernement",
+      "La volonté générale",
+      "La volonté des juges"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Article 6 de la Déclaration des Droits de l'Homme et du Citoyen de 1789 : 'La loi est l'expression de la volonté générale'. La loi représente la volonté du peuple souverain, exprimée par ses représentants élus."
+  },
+  {
+    "id": "cr-4",
+    "number": 4,
+    "source": "CR",
+    "question": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "4 ans",
+      "5 ans",
+      "6 ans",
+      "7 ans"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Les conseillers municipaux et le maire sont élus pour un mandat de 6 ans. Les élections municipales ont lieu tous les 6 ans."
+  },
+  {
+    "id": "cr-5",
+    "number": 5,
+    "source": "CR",
+    "question": "Que garantit l'État de droit ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Que seul l'État peut faire ce qu'il veut",
+      "Que tous sont égaux devant la loi",
+      "Que le droit peut changer selon les personnes",
+      "Que les riches ont plus de droits"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'État de droit garantit l'égalité de tous devant la loi, la protection des libertés fondamentales et que tous les pouvoirs publics respectent les règles de droit. C'est un principe essentiel de la démocratie."
+  },
+  {
+    "id": "cr-6",
+    "number": 6,
+    "source": "CR",
+    "question": "Une personne peut-elle voter à la place d'une autre ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, avec une procuration",
+      "Oui, si c'est un membre de la famille",
+      "Non, jamais",
+      "Oui, si l'autre personne est malade"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Une personne peut voter à la place d'une autre uniquement avec une procuration officielle établie préalablement. Sans procuration valide, voter à la place d'une autre personne est illégal."
+  },
+  {
+    "id": "cr-7",
+    "number": 7,
+    "source": "CR",
+    "question": "Est-ce que le vote est obligatoire ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, c'est obligatoire sous peine d'amende",
+      "Non, c'est un droit mais pas une obligation",
+      "Oui, seulement pour les élections présidentielles",
+      "Oui, seulement pour les hommes"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "En France, le vote est un droit et non une obligation. Les citoyens sont libres de voter ou non. L'abstention n'est pas sanctionnée."
+  },
+  {
+    "id": "cr-8",
+    "number": 8,
+    "source": "CR",
+    "question": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, s'il le décide",
+      "Oui, si le gouvernement est d'accord",
+      "Non, il doit organiser de nouvelles élections",
+      "Oui, en cas de crise nationale"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Dans une démocratie, le président ne peut pas décider seul de rester au pouvoir. À la fin de son mandat de 5 ans, de nouvelles élections présidentielles doivent être organisées. C'est un principe fondamental de la démocratie."
+  },
+  {
+    "id": "cr-9",
+    "number": 9,
+    "source": "CR",
+    "question": "Qui dirige l'action du Gouvernement ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le président de la République",
+      "Le Premier ministre",
+      "L'Assemblée nationale",
+      "Le ministre de l'Intérieur"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Selon l'article 21 de la Constitution de la Vème République, le Premier ministre dirige l'action du Gouvernement. Il est responsable de la mise en œuvre de la politique de la Nation."
+  },
+  {
+    "id": "cr-10",
+    "number": 10,
+    "source": "CR",
+    "question": "Qui nomme le Premier ministre ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Les citoyens par vote direct",
+      "L'Assemblée nationale",
+      "Le président de la République",
+      "Le Sénat"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Selon l'article 8 de la Constitution, le président de la République nomme le Premier ministre. C'est l'une de ses principales prérogatives."
+  },
+  {
+    "id": "cr-11",
+    "number": 11,
+    "source": "CR",
+    "question": "Quelle est l'organisation administrative de la France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Seulement l'État central",
+      "L'État et les collectivités territoriales (régions, départements, communes)",
+      "Seulement les communes",
+      "L'État et les provinces"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France a une organisation administrative décentralisée comprenant l'État et trois niveaux de collectivités territoriales : les régions, les départements et les communes."
+  },
+  {
+    "id": "cr-12",
+    "number": 12,
+    "source": "CR",
+    "question": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "De faire appliquer les lois",
+      "De voter et élaborer les lois",
+      "De juger les infractions à la loi",
+      "De nommer les ministres"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le pouvoir législatif est celui qui vote et élabore les lois. En France, il est exercé par le Parlement (Assemblée nationale et Sénat)."
+  },
+  {
+    "id": "cr-13",
+    "number": 13,
+    "source": "CR",
+    "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Pour rendre le système plus compliqué",
+      "Pour éviter les abus de pouvoir et garantir les libertés",
+      "Pour créer plus d'emplois",
+      "Pour que chacun travaille séparément"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La séparation des trois pouvoirs (exécutif, législatif, judiciaire) est un principe fondamental de Montesquieu qui vise à éviter la concentration des pouvoirs et les abus. Chaque pouvoir contrôle et équilibre les autres pour garantir les libertés."
+  },
+  {
+    "id": "cr-14",
+    "number": 14,
+    "source": "CR",
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La police",
+      "Le maire",
+      "Le juge",
+      "Le président"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Le pouvoir judiciaire, exercé par les juges, est seul compétent pour sanctionner les infractions. La police arrête les suspects, mais seul le juge peut prononcer une sanction après un procès."
+  },
+  {
+    "id": "cr-15",
+    "number": 15,
+    "source": "CR",
+    "question": "Quel est le rôle du gouvernement ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Voter les lois",
+      "Juger les criminels",
+      "Mettre en œuvre la politique de la Nation",
+      "Élire le président"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Le Gouvernement, dirigé par le Premier ministre, est chargé de mettre en œuvre la politique de la Nation. Il fait partie du pouvoir exécutif et applique les lois votées par le Parlement."
+  },
+  {
+    "id": "cr-16",
+    "number": 16,
+    "source": "CR",
+    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Rien, il est protégé par sa fonction",
+      "Il peut être poursuivi en justice",
+      "Seul le président peut le sanctionner",
+      "Il doit payer une petite amende"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Dans un État de droit, personne n'est au-dessus de la loi. Un ministre qui ne respecte pas la loi peut être poursuivi en justice. Il peut être jugé par la Cour de Justice de la République pour les actes commis dans l'exercice de ses fonctions."
+  },
+  {
+    "id": "cr-17",
+    "number": 17,
+    "source": "CR",
+    "question": "Combien de députés composent l'Assemblée nationale ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "348",
+      "577",
+      "678",
+      "450"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'Assemblée nationale est composée de 577 députés élus au suffrage universel direct pour un mandat de 5 ans."
+  },
+  {
+    "id": "cr-18",
+    "number": 18,
+    "source": "CR",
+    "question": "Qui peut voter aux élections en France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Tous les résidents de France",
+      "Les citoyens français majeurs inscrits sur les listes électorales",
+      "Seulement les hommes",
+      "Tous les européens vivant en France"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour voter aux élections nationales en France, il faut être citoyen français, être majeur (18 ans), jouir de ses droits civiques et être inscrit sur les listes électorales. Pour les élections locales et européennes, les citoyens de l'UE résidant en France peuvent aussi voter."
+  },
+  {
+    "id": "cr-19",
+    "number": 19,
+    "source": "CR",
+    "question": "Pour combien de temps sont élus les sénateurs ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "5 ans",
+      "6 ans",
+      "7 ans",
+      "9 ans"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les sénateurs sont élus pour un mandat de 6 ans. Le Sénat est renouvelé par moitié tous les 3 ans."
+  },
+  {
+    "id": "cr-20",
+    "number": 20,
+    "source": "CR",
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le pouvoir royal, militaire et religieux",
+      "Le pouvoir exécutif, législatif et judiciaire",
+      "Le pouvoir présidentiel, parlementaire et local",
+      "Le pouvoir économique, social et culturel"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La séparation des pouvoirs distingue trois pouvoirs : le pouvoir exécutif (qui applique les lois), le pouvoir législatif (qui vote les lois) et le pouvoir judiciaire (qui juge). C'est un principe fondamental de Montesquieu pour éviter les abus de pouvoir."
+  },
+  {
+    "id": "cr-21",
+    "number": 21,
+    "source": "CR",
+    "question": "Est-ce que le président de la République a tous les pouvoirs ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, il peut tout décider seul",
+      "Non, ses pouvoirs sont limités par la Constitution et contrôlés par d'autres institutions",
+      "Oui, sauf en temps de paix",
+      "Non, il n'a aucun pouvoir réel"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le président de la République a des pouvoirs importants définis par la Constitution, mais ils sont limités et contrôlés par d'autres institutions (Parlement, justice, etc.). C'est le principe de la séparation des pouvoirs."
+  },
+  {
+    "id": "cr-22",
+    "number": 22,
+    "source": "CR",
+    "question": "Qui est le préfet ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le maire de la plus grande ville du département",
+      "Le représentant de l'État dans le département",
+      "Un élu local du conseil départemental",
+      "Le chef de la police départementale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le préfet est le représentant de l'État dans le département. Il est nommé par le gouvernement et est responsable de l'application des lois et de la politique du gouvernement au niveau local."
+  },
+  {
+    "id": "cr-23",
+    "number": 23,
+    "source": "CR",
+    "question": "Quelle condition est nécessaire pour voter aux élections ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Avoir un emploi",
+      "Être inscrit sur les listes électorales",
+      "Avoir un diplôme",
+      "Être propriétaire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour voter, il faut obligatoirement être inscrit sur les listes électorales. Il faut aussi être majeur, de nationalité française (pour les élections nationales), et jouir de ses droits civiques."
+  },
+  {
+    "id": "cr-24",
+    "number": 24,
+    "source": "CR",
+    "question": "Qui dirige la commune ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le préfet",
+      "Le président de la République",
+      "Le maire",
+      "Le député"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Le maire dirige la commune. Il est élu par le conseil municipal et est responsable de l'administration communale et de l'exécution des décisions du conseil municipal."
+  },
+  {
+    "id": "cr-25",
+    "number": 25,
+    "source": "CR",
+    "question": "Quel est le régime politique de la France aujourd'hui ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Une monarchie constitutionnelle",
+      "Une République",
+      "Un empire",
+      "Une dictature"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France est une République depuis 1870 (à l'exception de Vichy 1940-1944). Actuellement, c'est la Vème République, établie en 1958."
+  },
+  {
+    "id": "cr-26",
+    "number": 26,
+    "source": "CR",
+    "question": "Qu'est-ce que l'Hôtel de Matignon ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Un musée parisien",
+      "La résidence et le bureau du Premier ministre",
+      "La résidence du président de la République",
+      "Le siège de l'Assemblée nationale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'Hôtel de Matignon, situé rue de Varenne à Paris, est la résidence officielle et le lieu de travail du Premier ministre français."
+  },
+  {
+    "id": "cr-27",
+    "number": 27,
+    "source": "CR",
+    "question": "Le Parlement est composé :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Uniquement de l'Assemblée nationale",
+      "De l'Assemblée nationale et du Sénat",
+      "Uniquement du Sénat",
+      "Du gouvernement et de l'Assemblée nationale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Parlement français est composé de deux chambres : l'Assemblée nationale (577 députés élus au suffrage universel direct) et le Sénat (348 sénateurs élus au suffrage universel indirect)."
+  },
+  {
+    "id": "cr-28",
+    "number": 28,
+    "source": "CR",
+    "question": "Quel est le rôle du président de la République ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Voter les lois",
+      "Être le chef de l'État et garant des institutions",
+      "Juger les criminels",
+      "Diriger les communes"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le président de la République est le chef de l'État. Il est le garant de l'indépendance nationale, de l'intégrité du territoire et du respect de la Constitution. Il nomme le Premier ministre et préside le Conseil des ministres."
+  },
+  {
+    "id": "cr-29",
+    "number": 29,
+    "source": "CR",
+    "question": "Quel est le rôle du Premier ministre ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Élire le président",
+      "Diriger l'action du Gouvernement",
+      "Présider l'Assemblée nationale",
+      "Commander l'armée"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Premier ministre dirige l'action du Gouvernement. Il est responsable de la mise en œuvre de la politique de la Nation et de l'application des lois."
+  },
+  {
+    "id": "cr-30",
+    "number": 30,
+    "source": "CR",
+    "question": "Qui est le chef du Gouvernement ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le président de la République",
+      "Le Premier ministre",
+      "Le ministre de l'Intérieur",
+      "Le président de l'Assemblée nationale"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Premier ministre est le chef du Gouvernement. Il dirige l'action du Gouvernement et coordonne le travail des ministres."
+  },
+  {
+    "id": "cr-31",
+    "number": 31,
+    "source": "CR",
+    "question": "Combien y a-t-il de régions en France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "13 en métropole + 5 d'outre-mer",
+      "22 en métropole + 5 d'outre-mer",
+      "18 en métropole + 5 d'outre-mer",
+      "26 en métropole + 5 d'outre-mer"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Depuis la réforme territoriale de 2016, la France compte 13 régions en métropole et 5 régions d'outre-mer (Guadeloupe, Guyane, Martinique, Mayotte, La Réunion), soit 18 régions au total."
+  },
+  {
+    "id": "cr-32",
+    "number": 32,
+    "source": "CR",
+    "question": "Quel est le rôle du Défenseur des droits ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Défendre le président en justice",
+      "Défendre les droits et libertés des citoyens face aux administrations",
+      "Défendre la France contre les attaques",
+      "Être l'avocat du gouvernement"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Défenseur des droits est une autorité constitutionnelle indépendante chargée de défendre les droits et libertés des citoyens dans leurs relations avec les administrations publiques. Il peut être saisi gratuitement par toute personne."
+  },
+  {
+    "id": "cr-33",
+    "number": 33,
+    "source": "CR",
+    "question": "Depuis quand l'euro est-elle la monnaie unique ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "1992",
+      "1999 (sous forme scripturale) et 2002 (billets et pièces)",
+      "2005",
+      "1989"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'euro a été introduit comme monnaie scripturale (pour les transactions électroniques) le 1er janvier 1999. Les billets et pièces en euros sont entrés en circulation le 1er janvier 2002."
+  },
+  {
+    "id": "cr-34",
+    "number": 34,
+    "source": "CR",
+    "question": "Quel est le rôle principal du département ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Gérer l'éducation nationale",
+      "Gérer l'action sociale, les collèges, les routes départementales",
+      "Gérer la défense nationale",
+      "Gérer les universités"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le département est une collectivité territoriale qui gère notamment l'action sociale (aide aux personnes âgées, handicapées, RSA), les collèges, les routes départementales et les services d'incendie et de secours."
+  },
+  {
+    "id": "cr-35",
+    "number": 35,
+    "source": "CR",
+    "question": "Quel est le rôle principal des communes ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Gérer les hôpitaux",
+      "Gérer les services de proximité (état civil, urbanisme, écoles primaires)",
+      "Gérer l'armée",
+      "Voter les lois nationales"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les communes gèrent les services de proximité : état civil, urbanisme, écoles primaires, voirie communale, équipements sportifs et culturels, etc. C'est le niveau de collectivité le plus proche des citoyens."
+  },
+  {
+    "id": "cr-36",
+    "number": 36,
+    "source": "CR",
+    "question": "Combien de communes environ existe-t-il en France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "5 000",
+      "15 000",
+      "35 000",
+      "50 000"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "La France compte environ 35 000 communes (environ 34 900 actuellement), ce qui en fait le pays d'Europe avec le plus grand nombre de communes."
+  },
+  {
+    "id": "cr-37",
+    "number": 37,
+    "source": "CR",
+    "question": "Quel traité concerne la construction de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le traité de Versailles",
+      "Le traité de Maastricht",
+      "Le traité de Paris de 1815",
+      "Le traité de l'Atlantique Nord"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le traité de Maastricht, signé en 1992, a créé l'Union européenne telle que nous la connaissons aujourd'hui. Il a établi l'union politique et préparé la monnaie unique (l'euro)."
+  },
+  {
+    "id": "cr-38",
+    "number": 38,
+    "source": "CR",
+    "question": "Quel État a quitté l'Union européenne en 2020 ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La Suisse",
+      "Le Royaume-Uni",
+      "La Norvège",
+      "L'Islande"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Royaume-Uni a officiellement quitté l'Union européenne le 31 janvier 2020, suite au référendum du Brexit de 2016."
+  },
+  {
+    "id": "cr-39",
+    "number": 39,
+    "source": "CR",
+    "question": "Quelle est la devise de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Liberté, Égalité, Fraternité",
+      "Unie dans la diversité",
+      "Force et honneur",
+      "Paix et prospérité"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La devise de l'Union européenne est 'Unie dans la diversité'. Elle exprime la façon dont les Européens se sont unis pour œuvrer en faveur de la paix et de la prospérité, tout en étant enrichis par les nombreuses cultures, traditions et langues du continent."
+  },
+  {
+    "id": "cr-40",
+    "number": 40,
+    "source": "CR",
+    "question": "Quel est l'hymne de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La Marseillaise",
+      "L'Ode à la joie de Beethoven",
+      "God Save the King",
+      "L'hymne de la paix"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'hymne de l'Union européenne est l'Ode à la joie, tirée de la 9ème symphonie de Ludwig van Beethoven. C'est un symbole d'unité dans la diversité et de paix."
+  },
+  {
+    "id": "cr-41",
+    "number": 41,
+    "source": "CR",
+    "question": "De quoi est composé le drapeau européen ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "De 12 étoiles jaunes sur fond bleu",
+      "De 27 étoiles blanches sur fond rouge",
+      "De 15 étoiles dorées sur fond vert",
+      "D'une seule grande étoile sur fond bleu"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le drapeau européen est composé de 12 étoiles dorées (jaunes) disposées en cercle sur fond bleu. Le nombre 12 symbolise la perfection et l'unité, et ne change pas selon le nombre d'États membres."
+  },
+  {
+    "id": "cr-42",
+    "number": 42,
+    "source": "CR",
+    "question": "De quelle couleur est le drapeau européen ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Rouge et blanc",
+      "Bleu avec des étoiles jaunes/dorées",
+      "Vert et blanc",
+      "Bleu, blanc, rouge"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le drapeau européen est bleu avec 12 étoiles jaunes (ou dorées) disposées en cercle. Le bleu représente le ciel de l'Occident."
+  },
+  {
+    "id": "cr-43",
+    "number": 43,
+    "source": "CR",
+    "question": "En quelle année le traité de Maastricht, qui marque la fondation de l'Union européenne, a-t-il été signé ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "1989",
+      "1992",
+      "1995",
+      "2000"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le traité de Maastricht a été signé le 7 février 1992 et est entré en vigueur le 1er novembre 1993. Il a créé l'Union européenne et préparé l'introduction de l'euro."
+  },
+  {
+    "id": "cr-44",
+    "number": 44,
+    "source": "CR",
+    "question": "Où est le siège du Parlement européen ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Paris",
+      "Strasbourg",
+      "Bruxelles",
+      "Luxembourg"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le siège officiel du Parlement européen est à Strasbourg, en France. Les séances plénières s'y tiennent. Bruxelles accueille les commissions parlementaires et certaines sessions supplémentaires."
+  },
+  {
+    "id": "cr-45",
+    "number": 45,
+    "source": "CR",
+    "question": "Où est le siège de la Commission européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Strasbourg",
+      "Bruxelles",
+      "Luxembourg",
+      "Francfort"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le siège de la Commission européenne est à Bruxelles, en Belgique. C'est l'organe exécutif de l'Union européenne."
+  },
+  {
+    "id": "cr-46",
+    "number": 46,
+    "source": "CR",
+    "question": "Quel État n'est pas membre de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La Suisse",
+      "La Belgique",
+      "Le Portugal",
+      "L'Autriche"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Suisse n'est pas membre de l'Union européenne. Elle a rejeté l'adhésion par référendum et maintient des relations bilatérales avec l'UE."
+  },
+  {
+    "id": "cr-47",
+    "number": 47,
+    "source": "CR",
+    "question": "Quand célèbre-t-on la journée de l'Europe ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le 1er janvier",
+      "Le 9 mai",
+      "Le 14 juillet",
+      "Le 1er mai"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La journée de l'Europe est célébrée le 9 mai. Cette date commémore la déclaration de Robert Schuman du 9 mai 1950, considérée comme l'acte fondateur de la construction européenne."
+  },
+  {
+    "id": "cr-48",
+    "number": 48,
+    "source": "CR",
+    "question": "À quelle fréquence les élections européennes sont-elles organisées ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Tous les 3 ans",
+      "Tous les 4 ans",
+      "Tous les 5 ans",
+      "Tous les 7 ans"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Les élections européennes ont lieu tous les 5 ans dans tous les États membres de l'Union européenne pour élire les députés européens au Parlement européen."
+  },
+  {
+    "id": "cr-49",
+    "number": 49,
+    "source": "CR",
+    "question": "Quelle condition est nécessaire pour voter aux élections européennes ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Être seulement français",
+      "Être citoyen de l'Union européenne et résider dans un pays membre",
+      "Avoir plus de 21 ans",
+      "Avoir un diplôme universitaire"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour voter aux élections européennes en France, il faut être citoyen de l'Union européenne (français ou d'un autre État membre de l'UE), avoir 18 ans, résider en France et être inscrit sur les listes électorales."
+  },
+  {
+    "id": "cr-50",
+    "number": 50,
+    "source": "CR",
+    "question": "Quel pays est un pays fondateur de l'Union européenne ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le Royaume-Uni",
+      "La France",
+      "L'Espagne",
+      "La Suède"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France est l'un des six pays fondateurs de la Communauté européenne du charbon et de l'acier (CECA) en 1951, ancêtre de l'UE. Les six fondateurs sont : France, Allemagne, Italie, Belgique, Pays-Bas et Luxembourg."
+  },
+  {
+    "id": "cr-51",
+    "number": 51,
+    "source": "CR",
+    "question": "À quelle liberté la PMA fait-elle référence ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "La liberté d'expression",
+      "La liberté de disposer de son corps",
+      "La liberté de religion",
+      "La liberté de circulation"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La PMA (Procréation Médicalement Assistée) fait référence au droit fondamental de disposer de son corps et au droit de fonder une famille. C'est une liberté individuelle liée aux choix personnels concernant la procréation."
+  },
+  {
+    "id": "cr-52",
+    "number": 52,
+    "source": "CR",
+    "question": "Au nom de quoi l'État justifie-t-il la restriction des droits ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Au nom de l'économie",
+      "Au nom de l'intérêt général et de l'ordre public",
+      "Au nom du président",
+      "Au nom de la tradition"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'État peut limiter certaines libertés au nom de l'intérêt général et de l'ordre public. Ces restrictions doivent être proportionnées, nécessaires et prévues par la loi pour protéger la sécurité, la santé publique ou les droits d'autrui."
+  },
+  {
+    "id": "cr-53",
+    "number": 53,
+    "source": "CR",
+    "question": "Concernant le droit de se marier, quelle proposition est correcte ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Seuls les couples de sexe différent peuvent se marier",
+      "Le mariage est possible pour tous les couples, indépendamment du sexe",
+      "Il faut l'autorisation des parents pour se marier",
+      "Le mariage n'est plus possible en France"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Depuis la loi du 17 mai 2013 (mariage pour tous), le mariage est ouvert à tous les couples, qu'ils soient de sexe différent ou de même sexe. C'est un droit fondamental."
+  },
+  {
+    "id": "cr-54",
+    "number": 54,
+    "source": "CR",
+    "question": "Est-il toujours possible de divorcer ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Non, seulement si l'autre personne est d'accord",
+      "Oui, le divorce est toujours possible",
+      "Non, il faut une raison grave",
+      "Non, c'est interdit"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "En France, le divorce est toujours possible. Il existe plusieurs types de divorce (par consentement mutuel, pour faute, pour altération définitive du lien conjugal, par acceptation du principe). La liberté de divorcer est un droit fondamental."
+  },
+  {
+    "id": "cr-55",
+    "number": 55,
+    "source": "CR",
+    "question": "La peine de mort est :",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Encore appliquée pour les crimes graves",
+      "Abolie en France depuis 1981",
+      "Appliquée seulement en temps de guerre",
+      "Décidée par référendum au cas par cas"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La peine de mort a été abolie en France en 1981 sous la présidence de François Mitterrand, avec la loi portée par Robert Badinter. Cette abolition a ensuite été inscrite dans la Constitution en 2007."
+  },
+  {
+    "id": "cr-56",
+    "number": 56,
+    "source": "CR",
+    "question": "Laquelle de ces citations est inscrite dans la Déclaration des Droits de l'homme et du Citoyen de 1789 ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Tous pour un, un pour tous",
+      "Les hommes naissent et demeurent libres et égaux en droits",
+      "L'union fait la force",
+      "Aide-toi, le ciel t'aidera"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'article 1 de la Déclaration des Droits de l'Homme et du Citoyen de 1789 proclame : 'Les hommes naissent et demeurent libres et égaux en droits'. C'est un principe fondamental de la République française."
+  },
+  {
+    "id": "cr-57",
+    "number": 57,
+    "source": "CR",
+    "question": "Le recours à l'avortement est-il autorisé ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Non, c'est interdit",
+      "Oui, c'est un droit garanti par la loi",
+      "Seulement en cas de danger pour la mère",
+      "Seulement avec l'autorisation du mari"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'avortement est légal en France depuis la loi Veil de 1975. C'est un droit fondamental garanti par la loi. Toute femme enceinte peut demander l'interruption volontaire de grossesse (IVG) jusqu'à 14 semaines de grossesse."
+  },
+  {
+    "id": "cr-58",
+    "number": 58,
+    "source": "CR",
+    "question": "Que contient la Constitution ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Seulement les noms des présidents",
+      "Les règles d'organisation des pouvoirs publics et les droits fondamentaux",
+      "La liste des lois françaises",
+      "Le budget de l'État"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Constitution est le texte juridique suprême qui définit l'organisation des pouvoirs publics (exécutif, législatif, judiciaire), leurs relations, et garantit les droits et libertés fondamentaux des citoyens."
+  },
+  {
+    "id": "cr-59",
+    "number": 59,
+    "source": "CR",
+    "question": "Que garantit la liberté de la presse ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "Que les journalistes peuvent dire ce qu'ils veulent sans limites",
+      "Que les médias peuvent informer librement dans le respect de la loi",
+      "Que seul l'État peut publier des informations",
+      "Que les journaux sont gratuits"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La liberté de la presse garantit que les médias peuvent informer librement le public sans censure préalable, dans le respect de la loi (pas de diffamation, respect de la vie privée, etc.). C'est un pilier de la démocratie."
+  },
+  {
+    "id": "cr-60",
+    "number": 60,
+    "source": "CR",
+    "question": "Que prévoit la Charte de l'environnement ?",
+    "theme": "Système institutionnel et politique",
+    "options": [
+      "La protection de l'économie",
+      "Le droit de vivre dans un environnement sain et le devoir de protéger l'environnement",
+      "L'interdiction des voitures",
+      "La construction de plus d'usines"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La Charte de l'environnement, intégrée à la Constitution en 2005, reconnaît le droit de chacun de vivre dans un environnement équilibré et respectueux de la santé, et établit le devoir de chacun de protéger et améliorer l'environnement."
+  }
+]

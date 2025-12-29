@@ -1,0 +1,466 @@
+[
+  {
+    "id": "cr-141",
+    "number": 141,
+    "source": "CR",
+    "question": "Quelle aide permet aux personnes qui ont des difficultés financières d'avoir un avocat ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "L'aide juridictionnelle",
+      "Le RSA",
+      "La CAF",
+      "L'assurance maladie"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'aide juridictionnelle permet aux personnes ayant des ressources insuffisantes d'être assistées par un avocat gratuitement ou partiellement pris en charge par l'État."
+  },
+  {
+    "id": "cr-142",
+    "number": 142,
+    "source": "CR",
+    "question": "Où faut-il déclarer la naissance d'un enfant ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "À la mairie",
+      "À la préfecture",
+      "Au commissariat",
+      "À l'hôpital uniquement"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La naissance d'un enfant doit être déclarée à la mairie du lieu de naissance dans les 5 jours suivant l'accouchement. C'est une obligation légale qui permet d'établir l'acte de naissance."
+  },
+  {
+    "id": "cr-143",
+    "number": 143,
+    "source": "CR",
+    "question": "Quelle est l'une des conditions pour passer l'examen du permis de conduire ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Avoir 18 ans minimum",
+      "Avoir un diplôme universitaire",
+      "Être propriétaire d'une voiture",
+      "Habiter en ville"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Pour passer le permis de conduire B (voiture), il faut avoir au moins 18 ans. On peut commencer la formation (conduite accompagnée) dès 15 ans."
+  },
+  {
+    "id": "cr-144",
+    "number": 144,
+    "source": "CR",
+    "question": "Un bail locatif est valide s'il est :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Écrit",
+      "Seulement oral",
+      "Fait sans témoin",
+      "Verbal entre amis"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Un bail (contrat de location) doit être écrit pour être valide et protéger les droits du locataire et du propriétaire. Il doit respecter un modèle type fixé par la loi."
+  },
+  {
+    "id": "cr-145",
+    "number": 145,
+    "source": "CR",
+    "question": "Où peut-on déposer un lave-vaisselle cassé ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Dans une déchetterie",
+      "Dans la poubelle normale",
+      "N'importe où dans la rue",
+      "Dans les conteneurs de recyclage du verre"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les gros électroménagers cassés (lave-vaisselle, réfrigérateur, etc.) doivent être déposés dans une déchetterie pour être recyclés correctement. On peut aussi les faire reprendre par le magasin lors de l'achat d'un nouvel appareil."
+  },
+  {
+    "id": "cr-146",
+    "number": 146,
+    "source": "CR",
+    "question": "Quel numéro d'urgence permet d'appeler la police ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "17",
+      "15",
+      "18",
+      "112"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le 17 est le numéro d'urgence pour contacter la police ou la gendarmerie en France. Le 15 est le SAMU, le 18 les pompiers, et le 112 le numéro d'urgence européen."
+  },
+  {
+    "id": "cr-147",
+    "number": 147,
+    "source": "CR",
+    "question": "Concernant l'accès aux soins, quelle proposition est correcte ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Tout le monde peut consulter un médecin",
+      "Seuls les riches peuvent consulter",
+      "Il faut une autorisation préalable pour tout",
+      "C'est interdit pour les étrangers"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "En France, toute personne peut consulter un médecin. L'Assurance Maladie rembourse une grande partie des soins. Pour les personnes en difficulté, il existe l'Aide Médicale d'État (AME) et la Complémentaire Santé Solidaire."
+  },
+  {
+    "id": "cr-148",
+    "number": 148,
+    "source": "CR",
+    "question": "À qui est accessible la contraception ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "À toutes les femmes qui le souhaitent",
+      "Seulement aux femmes mariées",
+      "Seulement aux femmes de plus de 30 ans",
+      "Avec l'autorisation du conjoint"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La contraception est accessible à toutes les femmes qui le souhaitent, mineures ou majeures, sans autorisation nécessaire. C'est un droit fondamental garanti par la loi depuis 1967 (loi Neuwirth)."
+  },
+  {
+    "id": "cr-149",
+    "number": 149,
+    "source": "CR",
+    "question": "Qu'est-ce que le principe de confidentialité dans le domaine de la santé ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Les informations médicales sont publiques",
+      "Le secret médical protège les informations de santé du patient",
+      "Seule la famille peut connaître les informations",
+      "Tout le monde peut accéder au dossier médical"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le secret médical est un principe fondamental qui garantit que les informations concernant la santé d'un patient restent confidentielles et ne peuvent être divulguées sans son consentement."
+  },
+  {
+    "id": "cr-150",
+    "number": 150,
+    "source": "CR",
+    "question": "L'inscription à l'Assurance maladie est :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Obligatoire pour toute personne résidant en France de manière stable",
+      "Facultative",
+      "Seulement pour les Français",
+      "Payante et très chère"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'inscription à l'Assurance Maladie est obligatoire pour toute personne résidant en France de manière stable et régulière. C'est la Protection Universelle Maladie (PUMa)."
+  },
+  {
+    "id": "cr-151",
+    "number": 151,
+    "source": "CR",
+    "question": "Qui peut demander un congé parental d'éducation ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Le père ou la mère",
+      "Seulement la mère",
+      "Seulement le père",
+      "Personne"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le congé parental d'éducation peut être demandé par le père ou la mère pour s'occuper de leur enfant. C'est un droit pour les salariés ayant au moins un an d'ancienneté."
+  },
+  {
+    "id": "cr-152",
+    "number": 152,
+    "source": "CR",
+    "question": "Quelles sont les affaires traitées par le conseil de prud'hommes ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Les litiges entre employeurs et salariés",
+      "Les divorces",
+      "Les crimes",
+      "Les infractions routières"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le conseil de prud'hommes est une juridiction spécialisée qui règle les conflits individuels du travail entre employeurs et salariés (licenciement, salaires, conditions de travail, etc.)."
+  },
+  {
+    "id": "cr-153",
+    "number": 153,
+    "source": "CR",
+    "question": "Travailler sans être déclaré est :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Interdit et sanctionné par la loi (travail au noir)",
+      "Autorisé",
+      "Obligatoire",
+      "Recommandé"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le travail au noir (travail dissimulé, sans déclaration) est strictement interdit et sanctionné par la loi. C'est une fraude qui prive le salarié de ses droits sociaux et l'État de cotisations."
+  },
+  {
+    "id": "cr-154",
+    "number": 154,
+    "source": "CR",
+    "question": "Lorsqu'un employeur veut qu'un salarié travaille plus longtemps que la durée prévue dans le contrat de travail :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Il doit proposer des heures supplémentaires payées",
+      "Le salarié doit accepter sans compensation",
+      "C'est interdit dans tous les cas",
+      "Le salarié doit payer une pénalité"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Si l'employeur demande au salarié de travailler au-delà de la durée légale ou contractuelle, ce sont des heures supplémentaires qui doivent être payées avec une majoration (généralement 25% ou 50% selon le cas)."
+  },
+  {
+    "id": "cr-155",
+    "number": 155,
+    "source": "CR",
+    "question": "Quelle est la mission de France Travail ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Aider les demandeurs d'emploi à trouver un travail et verser les allocations chômage",
+      "Construire des routes",
+      "Gérer les hôpitaux",
+      "Enseigner à l'école"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "France Travail (anciennement Pôle emploi) a pour mission d'accompagner les demandeurs d'emploi dans leur recherche de travail, de les former, et de verser les allocations chômage."
+  },
+  {
+    "id": "cr-156",
+    "number": 156,
+    "source": "CR",
+    "question": "Dans une entreprise, le droit syndical permet :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "De se regrouper pour défendre les intérêts des salariés",
+      "De ne jamais travailler",
+      "De ne pas respecter les règles",
+      "D'insulter l'employeur"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le droit syndical permet aux salariés de créer ou adhérer à un syndicat pour défendre collectivement leurs intérêts professionnels (salaires, conditions de travail, etc.). C'est un droit constitutionnel."
+  },
+  {
+    "id": "cr-157",
+    "number": 157,
+    "source": "CR",
+    "question": "Dans une entreprise, le droit de grève autorise :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "À arrêter collectivement le travail pour faire entendre des revendications professionnelles",
+      "À détruire les machines",
+      "À voler dans l'entreprise",
+      "À ne jamais revenir travailler"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le droit de grève permet aux salariés de cesser collectivement le travail pour faire entendre des revendications professionnelles. C'est un droit constitutionnel, mais il doit être exercé dans le respect de la loi."
+  },
+  {
+    "id": "cr-158",
+    "number": 158,
+    "source": "CR",
+    "question": "Quelles sont les conditions pour toucher les allocations chômage ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Avoir travaillé suffisamment et être inscrit à France Travail",
+      "Ne jamais avoir travaillé",
+      "Refuser tous les emplois proposés",
+      "Être en vacances"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Pour bénéficier des allocations chômage, il faut avoir travaillé un certain temps (généralement 6 mois sur les 24 derniers mois), être involontairement privé d'emploi, être inscrit à France Travail et rechercher activement un emploi."
+  },
+  {
+    "id": "cr-159",
+    "number": 159,
+    "source": "CR",
+    "question": "Qu'est-ce que l'école maternelle ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "L'école pour les enfants de 3 à 6 ans",
+      "L'école pour apprendre à être mère",
+      "L'école pour les adultes",
+      "L'école pour les bébés"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'école maternelle accueille les enfants de 3 à 6 ans. Elle est obligatoire depuis 3 ans (loi de 2019) et prépare les enfants aux apprentissages fondamentaux."
+  },
+  {
+    "id": "cr-160",
+    "number": 160,
+    "source": "CR",
+    "question": "Comment s'appelle le diplôme passé par les élèves à la fin du collège ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Le Brevet (DNB - Diplôme National du Brevet)",
+      "Le Baccalauréat",
+      "Le CAP",
+      "La Licence"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "À la fin du collège (classe de 3ème), les élèves passent le Brevet (DNB - Diplôme National du Brevet). C'est le premier diplôme national de la scolarité."
+  },
+  {
+    "id": "cr-161",
+    "number": 161,
+    "source": "CR",
+    "question": "Les parents d'élève ont le droit de :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Être informés et participer à la vie scolaire via les associations de parents d'élèves",
+      "Diriger l'école",
+      "Choisir les professeurs",
+      "Donner les notes"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les parents d'élèves ont le droit d'être informés sur la scolarité de leur enfant, de rencontrer les enseignants, et de participer à la vie scolaire via les associations de parents d'élèves et les conseils d'école."
+  },
+  {
+    "id": "cr-162",
+    "number": 162,
+    "source": "CR",
+    "question": "Qui peut manger à la cantine scolaire ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Tous les élèves inscrits",
+      "Seulement les élèves riches",
+      "Seulement les professeurs",
+      "Personne"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La cantine scolaire est accessible à tous les élèves qui s'inscrivent. Les tarifs sont souvent calculés en fonction des revenus des familles (quotient familial) pour garantir l'accès à tous."
+  },
+  {
+    "id": "cr-163",
+    "number": 163,
+    "source": "CR",
+    "question": "À quel âge commence l'instruction obligatoire des enfants ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "3 ans",
+      "6 ans",
+      "10 ans",
+      "16 ans"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Depuis 2019, l'instruction est obligatoire dès 3 ans (abaissement de 6 à 3 ans). Elle est obligatoire jusqu'à 16 ans."
+  },
+  {
+    "id": "cr-164",
+    "number": 164,
+    "source": "CR",
+    "question": "Quel est l'âge de la majorité ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "18 ans",
+      "16 ans",
+      "21 ans",
+      "25 ans"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'âge de la majorité en France est 18 ans. À partir de cet âge, une personne devient juridiquement adulte avec tous les droits et devoirs qui en découlent (voter, contracter, etc.)."
+  },
+  {
+    "id": "cr-165",
+    "number": 165,
+    "source": "CR",
+    "question": "À l'école, il est interdit aux parents de :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Gifler leur enfant ou tout acte de violence",
+      "Parler aux enseignants",
+      "Assister aux réunions",
+      "S'intéresser à la scolarité"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les violences physiques (gifles, fessées, etc.) sur les enfants sont interdites en France depuis 2019 (loi anti-violences éducatives ordinaires). À l'école comme ailleurs, tout acte de violence est interdit."
+  },
+  {
+    "id": "cr-166",
+    "number": 166,
+    "source": "CR",
+    "question": "Quel motif d'absence est accepté par l'école ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Maladie de l'enfant",
+      "Faire les courses",
+      "Partir en vacances pendant les cours",
+      "Rester à la maison sans raison"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les absences justifiées à l'école sont la maladie de l'enfant, des obligations légales (convocation tribunal, etc.), ou des événements familiaux graves. Les vacances pendant le temps scolaire ne sont pas un motif valable."
+  },
+  {
+    "id": "cr-167",
+    "number": 167,
+    "source": "CR",
+    "question": "Des parents ne respectent pas l'obligation d'instruction pour leurs enfants. Quelle sanction maximale risquent-ils ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Une amende et/ou une peine de prison",
+      "Rien",
+      "Juste un avertissement",
+      "Une médaille"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le non-respect de l'obligation d'instruction est un délit pénal. Les parents risquent une amende de 7 500 euros et jusqu'à 6 mois de prison. Des sanctions administratives peuvent aussi être prises (suppression d'allocations familiales)."
+  },
+  {
+    "id": "cr-168",
+    "number": 168,
+    "source": "CR",
+    "question": "Quand ont lieu les vacances scolaires de Noël ?",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "Fin décembre/début janvier",
+      "En été",
+      "En avril",
+      "En septembre"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les vacances scolaires de Noël ont lieu fin décembre et début janvier, généralement 2 semaines autour du 25 décembre et du Nouvel An."
+  },
+  {
+    "id": "cr-169",
+    "number": 169,
+    "source": "CR",
+    "question": "À l'école, un enfant en situation de handicap :",
+    "theme": "Histoire géographie et culture",
+    "options": [
+      "A le droit d'être scolarisé avec les aménagements nécessaires",
+      "Ne peut pas aller à l'école",
+      "Doit aller dans une école spéciale obligatoirement",
+      "N'a aucun droit"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La loi de 2005 garantit le droit à la scolarisation de tous les enfants en situation de handicap. L'école doit mettre en place les aménagements nécessaires (AVS, matériel adapté, etc.) pour permettre leur scolarisation en milieu ordinaire autant que possible."
+  }
+]

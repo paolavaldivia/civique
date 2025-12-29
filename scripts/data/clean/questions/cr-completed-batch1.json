@@ -1,0 +1,322 @@
+[
+  {
+    "id": "cr-1",
+    "number": 1,
+    "source": "CR",
+    "question": "Qu'est-ce que l'État de droit ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Un État où seul le gouvernement fait les lois",
+      "Un État où tous les citoyens et pouvoirs publics sont soumis à la loi",
+      "Un État qui peut modifier les lois à tout moment",
+      "Un État dirigé uniquement par des juges"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'État de droit est un principe fondamental selon lequel tous les citoyens et les pouvoirs publics (exécutif, législatif, judiciaire) sont soumis à la loi. Personne n'est au-dessus de la loi, y compris les dirigeants politiques."
+  },
+  {
+    "id": "cr-2",
+    "number": 2,
+    "source": "CR",
+    "question": "Le président de la République a commis un crime. Quelle proposition est correcte ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Il ne peut pas être poursuivi car il est président",
+      "Il peut être destitué et poursuivi par la justice",
+      "Seul le peuple peut le juger par référendum",
+      "Il doit attendre la fin de son mandat pour être jugé"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Dans un État de droit, personne n'est au-dessus de la loi. Le président peut être destitué par la Haute Cour en cas de manquement à ses devoirs manifestement incompatible avec l'exercice de son mandat, et peut être poursuivi par la justice."
+  },
+  {
+    "id": "cr-3",
+    "number": 3,
+    "source": "CR",
+    "question": "La loi est l'expression de :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La volonté du président",
+      "La volonté du gouvernement",
+      "La volonté générale",
+      "La volonté des juges"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Article 6 de la Déclaration des Droits de l'Homme et du Citoyen de 1789 : 'La loi est l'expression de la volonté générale'. La loi représente la volonté du peuple souverain, exprimée par ses représentants élus."
+  },
+  {
+    "id": "cr-4",
+    "number": 4,
+    "source": "CR",
+    "question": "Quelle est la durée du mandat du conseil municipal et du maire ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "4 ans",
+      "5 ans",
+      "6 ans",
+      "7 ans"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Les conseillers municipaux et le maire sont élus pour un mandat de 6 ans. Les élections municipales ont lieu tous les 6 ans."
+  },
+  {
+    "id": "cr-5",
+    "number": 5,
+    "source": "CR",
+    "question": "Que garantit l'État de droit ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Que seul l'État peut faire ce qu'il veut",
+      "Que tous sont égaux devant la loi",
+      "Que le droit peut changer selon les personnes",
+      "Que les riches ont plus de droits"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'État de droit garantit l'égalité de tous devant la loi, la protection des libertés fondamentales et que tous les pouvoirs publics respectent les règles de droit. C'est un principe essentiel de la démocratie."
+  },
+  {
+    "id": "cr-6",
+    "number": 6,
+    "source": "CR",
+    "question": "Une personne peut-elle voter à la place d'une autre ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, avec une procuration",
+      "Oui, si c'est un membre de la famille",
+      "Non, jamais",
+      "Oui, si l'autre personne est malade"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Une personne peut voter à la place d'une autre uniquement avec une procuration officielle établie préalablement. Sans procuration valide, voter à la place d'une autre personne est illégal."
+  },
+  {
+    "id": "cr-7",
+    "number": 7,
+    "source": "CR",
+    "question": "Est-ce que le vote est obligatoire ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, c'est obligatoire sous peine d'amende",
+      "Non, c'est un droit mais pas une obligation",
+      "Oui, seulement pour les élections présidentielles",
+      "Oui, seulement pour les hommes"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "En France, le vote est un droit et non une obligation. Les citoyens sont libres de voter ou non. L'abstention n'est pas sanctionnée."
+  },
+  {
+    "id": "cr-8",
+    "number": 8,
+    "source": "CR",
+    "question": "À la fin de son mandat, le président de la République peut-il décider de rester au pouvoir ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Oui, s'il le décide",
+      "Oui, si le gouvernement est d'accord",
+      "Non, il doit organiser de nouvelles élections",
+      "Oui, en cas de crise nationale"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Dans une démocratie, le président ne peut pas décider seul de rester au pouvoir. À la fin de son mandat de 5 ans, de nouvelles élections présidentielles doivent être organisées. C'est un principe fondamental de la démocratie."
+  },
+  {
+    "id": "cr-9",
+    "number": 9,
+    "source": "CR",
+    "question": "Qui dirige l'action du Gouvernement ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le président de la République",
+      "Le Premier ministre",
+      "L'Assemblée nationale",
+      "Le ministre de l'Intérieur"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Selon l'article 21 de la Constitution de la Vème République, le Premier ministre dirige l'action du Gouvernement. Il est responsable de la mise en œuvre de la politique de la Nation."
+  },
+  {
+    "id": "cr-10",
+    "number": 10,
+    "source": "CR",
+    "question": "Qui nomme le Premier ministre ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Les citoyens par vote direct",
+      "L'Assemblée nationale",
+      "Le président de la République",
+      "Le Sénat"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Selon l'article 8 de la Constitution, le président de la République nomme le Premier ministre. C'est l'une de ses principales prérogatives."
+  },
+  {
+    "id": "cr-11",
+    "number": 11,
+    "source": "CR",
+    "question": "Quelle est l'organisation administrative de la France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Seulement l'État central",
+      "L'État et les collectivités territoriales (régions, départements, communes)",
+      "Seulement les communes",
+      "L'État et les provinces"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France a une organisation administrative décentralisée comprenant l'État et trois niveaux de collectivités territoriales : les régions, les départements et les communes."
+  },
+  {
+    "id": "cr-12",
+    "number": 12,
+    "source": "CR",
+    "question": "Qu'est-ce que le pouvoir législatif ? Le pouvoir :",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "De faire appliquer les lois",
+      "De voter et élaborer les lois",
+      "De juger les infractions à la loi",
+      "De nommer les ministres"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le pouvoir législatif est celui qui vote et élabore les lois. En France, il est exercé par le Parlement (Assemblée nationale et Sénat)."
+  },
+  {
+    "id": "cr-13",
+    "number": 13,
+    "source": "CR",
+    "question": "Pourquoi séparer les trois pouvoirs dans une démocratie ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Pour rendre le système plus compliqué",
+      "Pour éviter les abus de pouvoir et garantir les libertés",
+      "Pour créer plus d'emplois",
+      "Pour que chacun travaille séparément"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La séparation des trois pouvoirs (exécutif, législatif, judiciaire) est un principe fondamental de Montesquieu qui vise à éviter la concentration des pouvoirs et les abus. Chaque pouvoir contrôle et équilibre les autres pour garantir les libertés."
+  },
+  {
+    "id": "cr-14",
+    "number": 14,
+    "source": "CR",
+    "question": "Qui sanctionne l'auteur d'un vol ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La police",
+      "Le maire",
+      "Le juge",
+      "Le président"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Le pouvoir judiciaire, exercé par les juges, est seul compétent pour sanctionner les infractions. La police arrête les suspects, mais seul le juge peut prononcer une sanction après un procès."
+  },
+  {
+    "id": "cr-15",
+    "number": 15,
+    "source": "CR",
+    "question": "Quel est le rôle du gouvernement ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Voter les lois",
+      "Juger les criminels",
+      "Mettre en œuvre la politique de la Nation",
+      "Élire le président"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Le Gouvernement, dirigé par le Premier ministre, est chargé de mettre en œuvre la politique de la Nation. Il fait partie du pouvoir exécutif et applique les lois votées par le Parlement."
+  },
+  {
+    "id": "cr-16",
+    "number": 16,
+    "source": "CR",
+    "question": "Que se passe-t-il si un ministre ne respecte pas la loi ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Rien, il est protégé par sa fonction",
+      "Il peut être poursuivi en justice",
+      "Seul le président peut le sanctionner",
+      "Il doit payer une petite amende"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Dans un État de droit, personne n'est au-dessus de la loi. Un ministre qui ne respecte pas la loi peut être poursuivi en justice. Il peut être jugé par la Cour de Justice de la République pour les actes commis dans l'exercice de ses fonctions."
+  },
+  {
+    "id": "cr-17",
+    "number": 17,
+    "source": "CR",
+    "question": "Combien de députés composent l'Assemblée nationale ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "348",
+      "577",
+      "678",
+      "450"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'Assemblée nationale est composée de 577 députés élus au suffrage universel direct pour un mandat de 5 ans."
+  },
+  {
+    "id": "cr-18",
+    "number": 18,
+    "source": "CR",
+    "question": "Qui peut voter aux élections en France ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Tous les résidents de France",
+      "Les citoyens français majeurs inscrits sur les listes électorales",
+      "Seulement les hommes",
+      "Tous les européens vivant en France"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Pour voter aux élections nationales en France, il faut être citoyen français, être majeur (18 ans), jouir de ses droits civiques et être inscrit sur les listes électorales. Pour les élections locales et européennes, les citoyens de l'UE résidant en France peuvent aussi voter."
+  },
+  {
+    "id": "cr-19",
+    "number": 19,
+    "source": "CR",
+    "question": "Pour combien de temps sont élus les sénateurs ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "5 ans",
+      "6 ans",
+      "7 ans",
+      "9 ans"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Les sénateurs sont élus pour un mandat de 6 ans. Le Sénat est renouvelé par moitié tous les 3 ans."
+  },
+  {
+    "id": "cr-20",
+    "number": 20,
+    "source": "CR",
+    "question": "La séparation des pouvoirs est un principe fondamental. Quels sont les trois pouvoirs concernés ?",
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Le pouvoir royal, militaire et religieux",
+      "Le pouvoir exécutif, législatif et judiciaire",
+      "Le pouvoir présidentiel, parlementaire et local",
+      "Le pouvoir économique, social et culturel"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La séparation des pouvoirs distingue trois pouvoirs : le pouvoir exécutif (qui applique les lois), le pouvoir législatif (qui vote les lois) et le pouvoir judiciaire (qui juge). C'est un principe fondamental de Montesquieu pour éviter les abus de pouvoir."
+  }
+]
