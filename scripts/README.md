@@ -9,7 +9,69 @@ There are two official question lists from [formation-civique.interieur.gouv.fr]
 1. **CR (Connaissance Réfugiés)** - Questions for refugees
 2. **CSP (Connaissance Statut Personnel)** - Questions for personal status
 
+Additionally, there is educational content (fiches thématiques) that can be used to:
+- Find answers to the official questions
+- Create additional custom questions
+- Provide explanations
+
 We provide multiple methods to import these questions respectfully:
+
+---
+
+## 🚀 NEW: Recommended Workflow (With Educational Content)
+
+### Overview
+Since the official question lists don't include answers, we can use the thematic educational content to help fill them in.
+
+### Step 1: Crawl Educational Content
+
+The thematic pages contain detailed information about French civic knowledge.
+
+```bash
+npm run crawl:themes
+```
+
+This will:
+- Respectfully crawl the fiches thématiques (2-5 second delays)
+- Save content as HTML, JSON, and Markdown
+- Create a searchable knowledge base
+- Output to `scripts/data/themes/`
+
+**Note:** If you get a 403 error, manually save the pages from your browser instead.
+
+### Step 2: Parse Question HTML
+
+If you have the HTML files of the question lists:
+
+```bash
+npm run parse:questions-html
+```
+
+This will:
+- Extract all questions and options from the HTML
+- Generate a template file for you to fill in answers
+- Output to `scripts/output/questions-{cr|csp}-to-complete.txt`
+
+### Step 3: Complete the Answers
+
+Open the generated `.txt` files and:
+1. Review each question
+2. Search the crawled thematic content for answers
+3. Fill in `CORRECT: A/B/C/D` for each question
+4. Optionally add explanations
+
+### Step 4: Import Completed Questions
+
+```bash
+npm run parse:manual
+npm run merge:questions
+```
+
+### Step 5: Done!
+
+Your questions with correct answers are now in the app.
+
+---
 
 ## 📋 Method 1: Manual Text Format (Recommended)
 
@@ -126,41 +188,63 @@ npm run parse:manual && npm run merge:questions
 
 ## 🔧 Scripts Reference
 
-- `npm run parse:html` - Parse HTML files from `scripts/data/*.html`
+### Content Crawling
+- `npm run crawl:themes` - Crawl educational content from fiches thématiques (respectful, with delays)
+
+### Question Parsing
+- `npm run parse:questions-html` - Parse official question list HTML (extracts questions without answers)
+- `npm run parse:html` - Parse HTML files from `scripts/data/*.html` (legacy, for custom parsing)
 - `npm run parse:manual` - Parse text file from `scripts/data/manual-questions.txt`
+
+### Merging
 - `npm run merge:questions` - Merge all JSON files from `scripts/output/` into the app
 
 ## 📁 Directory Structure
 
 ```
 scripts/
-├── README.md                    # This file
-├── parseQuestions.ts            # HTML parser
-├── manualImport.ts              # Text format parser
-├── mergeQuestions.ts            # Merge tool
-├── data/                        # Put your input files here
-│   ├── manual-questions.txt     # Text format questions
-│   ├── questions-cr.html        # Saved HTML (optional)
-│   └── questions-csp.html       # Saved HTML (optional)
-└── output/                      # Generated JSON files
-    ├── manual-questions.json    # Parsed questions
-    └── parsed-questions.json    # More parsed questions
+├── README.md                         # This file
+├── crawlThemes.ts                    # Educational content crawler
+├── parseQuestionHTML.ts              # Official question list parser
+├── parseQuestions.ts                 # Legacy HTML parser
+├── manualImport.ts                   # Text format parser
+├── mergeQuestions.ts                 # Merge tool
+├── data/                             # Put your input files here
+│   ├── manual-questions.txt          # Text format questions
+│   ├── questions-cr.html             # Saved question list HTML
+│   ├── questions-csp.html            # Saved question list HTML
+│   └── themes/                       # Crawled educational content
+│       ├── _summary.json             # Crawl summary
+│       ├── theme-slug-1/
+│       │   ├── full.html             # Full HTML
+│       │   ├── content.json          # Structured data
+│       │   └── content.md            # Readable markdown
+│       └── theme-slug-2/
+│           └── ...
+└── output/                           # Generated JSON files
+    ├── manual-questions.json         # Parsed questions
+    ├── questions-cr-incomplete.json  # Questions without answers
+    └── questions-csp-to-complete.txt # Template for completing
 ```
 
 ## ⚖️ Ethical Usage
 
 These tools are designed to:
 
-- ✅ Respect the source website (no automated scraping)
+- ✅ Respect the source website (2-5 second delays between requests)
 - ✅ Use publicly available educational content
 - ✅ Help people study for the civic education test
 - ✅ Provide a free alternative to paid services
+- ✅ Can resume from where it left off (no duplicate requests)
+- ✅ Include proper User-Agent header
 
 Always:
 
-- Manually download content (don't spam the server)
+- Use the crawler responsibly (it has built-in delays)
+- Alternatively, manually download content from your browser
 - Give credit to the official source
 - Use the content for educational purposes only
+- Don't run the crawler repeatedly (content is saved locally)
 
 ## 🐛 Troubleshooting
 

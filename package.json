@@ -10,8 +10,10 @@
     "preview": "vite preview",
     "start": "node .output/server/index.mjs",
     "parse:html": "tsx scripts/parseQuestions.ts",
+    "parse:questions-html": "tsx scripts/parseQuestionHTML.ts",
     "parse:manual": "tsx scripts/manualImport.ts",
-    "merge:questions": "tsx scripts/mergeQuestions.ts"
+    "merge:questions": "tsx scripts/mergeQuestions.ts",
+    "crawl:themes": "tsx scripts/crawlThemes.ts"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.143.11",
@@ -24,10 +26,12 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.18",
+    "@types/jsdom": "^21.1.7",
     "@types/node": "^22.10.2",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.6.0",
+    "jsdom": "^25.0.1",
     "tailwindcss": "^4.1.18",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
