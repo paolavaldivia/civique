@@ -13,6 +13,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'principes-valeurs',
+    source: 'custom',
     explanation:
       'La devise "Liberté, Égalité, Fraternité" est inscrite dans la Constitution et figure sur les bâtiments publics.',
   },
@@ -27,6 +28,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'principes-valeurs',
+    source: 'custom',
     explanation:
       'La laïcité garantit la liberté de conscience et sépare les pouvoirs religieux et politiques.',
   },
@@ -41,6 +43,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'principes-valeurs',
+    source: 'custom',
     explanation:
       'Le principe d\'égalité garantit que tous les citoyens ont les mêmes droits et devoirs devant la loi.',
   },
@@ -57,6 +60,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'institutions',
+    source: 'custom',
     explanation:
       'Le Président de la République est élu au suffrage universel direct pour 5 ans.',
   },
@@ -66,6 +70,7 @@ export const questions: Question[] = [
     options: ['3 ans', '4 ans', '5 ans', '7 ans'],
     correctAnswer: 2,
     theme: 'institutions',
+    source: 'custom',
     explanation:
       'Depuis 2000, le mandat présidentiel est de 5 ans (quinquennat). Il était de 7 ans avant.',
   },
@@ -80,6 +85,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 2,
     theme: 'institutions',
+    source: 'custom',
     explanation:
       'La Cour de cassation est la plus haute juridiction de l\'ordre judiciaire.',
   },
@@ -96,6 +102,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'symboles',
+    source: 'custom',
     explanation:
       'Le drapeau tricolore bleu, blanc, rouge est le symbole de la République depuis 1789.',
   },
@@ -110,6 +117,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'symboles',
+    source: 'custom',
     explanation:
       'La Marseillaise, composée par Rouget de Lisle en 1792, est l\'hymne national français.',
   },
@@ -124,6 +132,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'symboles',
+    source: 'custom',
     explanation:
       'Marianne est la figure symbolique de la République française, représentant la liberté.',
   },
@@ -135,6 +144,7 @@ export const questions: Question[] = [
     options: ['1789', '1792', '1799', '1804'],
     correctAnswer: 0,
     theme: 'histoire',
+    source: 'custom',
     explanation:
       'La Révolution française a commencé en 1789 avec la prise de la Bastille le 14 juillet.',
   },
@@ -149,6 +159,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 2,
     theme: 'histoire',
+    source: 'custom',
     explanation:
       'La Ve République a été fondée en 1958 par le général de Gaulle.',
   },
@@ -163,6 +174,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'histoire',
+    source: 'custom',
     explanation:
       'Le 14 juillet commémore la prise de la Bastille en 1789 et la Fête de la Fédération en 1790.',
   },
@@ -174,6 +186,7 @@ export const questions: Question[] = [
     options: ['Lyon', 'Marseille', 'Paris', 'Toulouse'],
     correctAnswer: 2,
     theme: 'geographie',
+    source: 'custom',
     explanation:
       'Paris est la capitale de la France et compte environ 2,2 millions d\'habitants.',
   },
@@ -183,6 +196,7 @@ export const questions: Question[] = [
     options: ['13', '18', '22', '27'],
     correctAnswer: 0,
     theme: 'geographie',
+    source: 'custom',
     explanation:
       'Depuis 2016, la France métropolitaine compte 13 régions.',
   },
@@ -197,6 +211,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 0,
     theme: 'geographie',
+    source: 'custom',
     explanation:
       'L\'océan Atlantique borde la côte ouest de la France.',
   },
@@ -213,6 +228,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'culture',
+    source: 'custom',
     explanation:
       'Eugène Delacroix a peint cette œuvre en 1830 pour commémorer les Trois Glorieuses.',
   },
@@ -227,6 +243,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 0,
     theme: 'culture',
+    source: 'custom',
     explanation:
       'Victor Hugo a publié "Les Misérables" en 1862.',
   },
@@ -238,6 +255,7 @@ export const questions: Question[] = [
     options: ['16 ans', '18 ans', '21 ans', '25 ans'],
     correctAnswer: 1,
     theme: 'vie-quotidienne',
+    source: 'custom',
     explanation:
       'Le droit de vote est accordé à tous les citoyens français à partir de 18 ans.',
   },
@@ -247,6 +265,7 @@ export const questions: Question[] = [
     options: ['15', '17', '18', '112'],
     correctAnswer: 3,
     theme: 'vie-quotidienne',
+    source: 'custom',
     explanation:
       'Le 112 est le numéro d\'urgence unique européen, accessible dans tous les pays de l\'UE.',
   },
@@ -261,6 +280,7 @@ export const questions: Question[] = [
     ],
     correctAnswer: 1,
     theme: 'vie-quotidienne',
+    source: 'custom',
     explanation:
       'La durée légale du travail en France est de 35 heures par semaine depuis 2000.',
   },

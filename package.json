@@ -8,7 +8,10 @@
     "dev": "vite dev",
     "build": "vite build && tsc --noEmit",
     "preview": "vite preview",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "parse:html": "tsx scripts/parseQuestions.ts",
+    "parse:manual": "tsx scripts/manualImport.ts",
+    "merge:questions": "tsx scripts/mergeQuestions.ts"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.143.11",
@@ -26,6 +29,7 @@
     "@types/react-dom": "^19.0.3",
     "@vitejs/plugin-react": "^4.6.0",
     "tailwindcss": "^4.1.18",
+    "tsx": "^4.19.2",
     "typescript": "^5.7.2",
     "vite": "^7.1.7",
     "vite-tsconfig-paths": "^5.1.4"
