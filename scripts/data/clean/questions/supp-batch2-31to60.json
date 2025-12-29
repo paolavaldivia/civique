@@ -1,0 +1,482 @@
+[
+  {
+    "id": "supp-31",
+    "number": 31,
+    "source": "SUPP",
+    "question": "Comment peut-on devenir français par naturalisation ?",
+    "theme": "Nationalité et intégration",
+    "options": [
+      "En demandant la naturalisation après 5 ans de résidence régulière, sous conditions",
+      "Automatiquement après 1 an",
+      "En achetant un bien immobilier",
+      "C'est impossible"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "On peut demander la naturalisation française après 5 ans de résidence régulière en France (2 ans si diplôme français supérieur, moins si services rendus). Il faut justifier d'une intégration (langue, valeurs républicaines, situation stable)."
+  },
+  {
+    "id": "supp-32",
+    "number": 32,
+    "source": "SUPP",
+    "question": "Quelles sont les conditions pour obtenir la nationalité française par naturalisation ?",
+    "theme": "Nationalité et intégration",
+    "options": [
+      "Résidence régulière, intégration républicaine, connaissance du français, et moralité",
+      "Seulement parler français",
+      "Avoir beaucoup d'argent",
+      "Être né en France"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Pour la naturalisation, il faut : résidence régulière et continue, intégration dans la communauté française (adhésion aux valeurs républicaines), connaissance suffisante du français (niveau B1 oral), et absence de condamnations pénales."
+  },
+  {
+    "id": "supp-33",
+    "number": 33,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le droit du sol ?",
+    "theme": "Nationalité et intégration",
+    "options": [
+      "Le droit d'acquérir la nationalité du pays où l'on est né, sous conditions",
+      "Le droit d'acheter un terrain",
+      "Le droit de cultiver la terre",
+      "Le droit de voter"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le droit du sol permet d'acquérir la nationalité d'un pays en raison de sa naissance sur le territoire. En France, un enfant né en France de parents étrangers peut devenir français à sa majorité s'il a résidé en France."
+  },
+  {
+    "id": "supp-34",
+    "number": 34,
+    "source": "SUPP",
+    "question": "À partir de quel âge peut-on passer le permis de conduire (permis B) en France ?",
+    "theme": "Vie pratique",
+    "options": [
+      "16 ans",
+      "18 ans",
+      "21 ans",
+      "25 ans"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "On peut passer le permis de conduire B (voiture) à partir de 18 ans en France. La conduite accompagnée peut commencer à 15 ans, mais le permis ne peut être obtenu qu'à 18 ans."
+  },
+  {
+    "id": "supp-35",
+    "number": 35,
+    "source": "SUPP",
+    "question": "Quel est le taux d'alcoolémie maximum autorisé pour conduire en France ?",
+    "theme": "Vie pratique",
+    "options": [
+      "0,5 g/l de sang (0,25 mg/l d'air expiré)",
+      "1,0 g/l de sang",
+      "0 g/l (zéro alcool)",
+      "2,0 g/l de sang"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le taux d'alcoolémie maximum autorisé est de 0,5 g/l de sang (0,25 mg/l d'air expiré) pour les conducteurs confirmés, et 0,2 g/l pour les jeunes conducteurs (permis de moins de 3 ans). Au-delà, c'est un délit."
+  },
+  {
+    "id": "supp-36",
+    "number": 36,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le système de points du permis de conduire ?",
+    "theme": "Vie pratique",
+    "options": [
+      "Un système où chaque conducteur a 12 points, retirés en cas d'infraction",
+      "Un système de récompenses",
+      "Un jeu vidéo",
+      "Une loterie"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Chaque permis de conduire dispose d'un capital de 12 points (6 en période probatoire). En cas d'infraction, des points sont retirés. Si on perd tous ses points, le permis est invalidé et il faut le repasser."
+  },
+  {
+    "id": "supp-37",
+    "number": 37,
+    "source": "SUPP",
+    "question": "Qu'est-ce qu'une contravention ?",
+    "theme": "Vie pratique",
+    "options": [
+      "Une infraction mineure sanctionnée par une amende",
+      "Un crime grave",
+      "Une récompense",
+      "Un diplôme"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Une contravention est une infraction mineure (la moins grave des infractions) sanctionnée principalement par une amende. Exemples : excès de vitesse, stationnement interdit, non-port de la ceinture."
+  },
+  {
+    "id": "supp-38",
+    "number": 38,
+    "source": "SUPP",
+    "question": "Est-il obligatoire de trier ses déchets (verre, papier, plastique) ?",
+    "theme": "Environnement",
+    "options": [
+      "Oui, c'est une obligation légale pour protéger l'environnement",
+      "Non, c'est facultatif",
+      "Seulement dans certaines villes",
+      "C'est interdit"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le tri des déchets est obligatoire en France pour tous les citoyens. C'est un devoir environnemental inscrit dans la Charte de l'environnement. Le non-respect peut entraîner des amendes."
+  },
+  {
+    "id": "supp-39",
+    "number": 39,
+    "source": "SUPP",
+    "question": "Qu'est-ce que la Charte de l'environnement ?",
+    "theme": "Environnement",
+    "options": [
+      "Un texte constitutionnel qui reconnaît les droits et devoirs environnementaux",
+      "Une association écologique",
+      "Un guide touristique",
+      "Un magazine"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La Charte de l'environnement, intégrée à la Constitution en 2005, reconnaît les droits de vivre dans un environnement sain et les devoirs de préserver l'environnement pour les générations futures."
+  },
+  {
+    "id": "supp-40",
+    "number": 40,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le développement durable ?",
+    "theme": "Environnement",
+    "options": [
+      "Un développement qui répond aux besoins du présent sans compromettre ceux des générations futures",
+      "Un développement économique rapide",
+      "Un type de construction",
+      "Une mode passagère"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le développement durable vise à concilier développement économique, protection de l'environnement et progrès social, pour répondre aux besoins actuels sans compromettre ceux des générations futures."
+  },
+  {
+    "id": "supp-41",
+    "number": 41,
+    "source": "SUPP",
+    "question": "Qu'est-ce qu'un médiateur ou Défenseur des droits ?",
+    "theme": "Droits et recours",
+    "options": [
+      "Une autorité indépendante qui défend les droits des citoyens face aux administrations",
+      "Un avocat privé",
+      "Un policier",
+      "Un juge"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le Défenseur des droits est une autorité constitutionnelle indépendante qui défend les droits et libertés des citoyens (discriminations, relations avec l'administration, droits de l'enfant, etc.). Ses services sont gratuits."
+  },
+  {
+    "id": "supp-42",
+    "number": 42,
+    "source": "SUPP",
+    "question": "Comment s'appelle le document qui permet de circuler librement dans l'espace Schengen ?",
+    "theme": "Vie pratique",
+    "options": [
+      "Carte d'identité ou passeport d'un pays Schengen",
+      "Permis de conduire",
+      "Carte bancaire",
+      "Carte Vitale"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'espace Schengen permet la libre circulation sans contrôles aux frontières entre les pays membres. Les citoyens peuvent voyager avec une carte d'identité ou un passeport valide."
+  },
+  {
+    "id": "supp-43",
+    "number": 43,
+    "source": "SUPP",
+    "question": "Qu'est-ce qu'une association loi 1901 ?",
+    "theme": "Engagement citoyen",
+    "options": [
+      "Un groupement de personnes autour d'un projet commun à but non lucratif",
+      "Une entreprise commerciale",
+      "Un parti politique obligatoire",
+      "Une école"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Une association loi 1901 est un groupement de personnes volontaires réunies autour d'un projet commun à but non lucratif (sport, culture, solidarité, etc.). C'est un pilier de l'engagement citoyen en France."
+  },
+  {
+    "id": "supp-44",
+    "number": 44,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le bénévolat ?",
+    "theme": "Engagement citoyen",
+    "options": [
+      "Une activité non rémunérée au service d'une cause ou organisation",
+      "Un emploi payé",
+      "Une obligation légale",
+      "Un impôt"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le bénévolat est une activité volontaire et non rémunérée exercée au sein d'une association ou organisation. C'est une forme d'engagement citoyen très répandue en France (sport, culture, action sociale, etc.)."
+  },
+  {
+    "id": "supp-45",
+    "number": 45,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le service civique ?",
+    "theme": "Engagement citoyen",
+    "options": [
+      "Un engagement volontaire de 6 à 12 mois dans une mission d'intérêt général pour les jeunes",
+      "Le service militaire obligatoire",
+      "Un stage en entreprise",
+      "Une formation professionnelle"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le service civique est un engagement volontaire ouvert aux 16-25 ans (30 ans pour les personnes en situation de handicap) pour des missions d'intérêt général (éducation, environnement, solidarité). Il est indemnisé."
+  },
+  {
+    "id": "supp-46",
+    "number": 46,
+    "source": "SUPP",
+    "question": "Qu'est-ce qu'un syndicat ?",
+    "theme": "Travail et emploi",
+    "options": [
+      "Une organisation qui défend les intérêts des salariés",
+      "Une entreprise privée",
+      "Un parti politique",
+      "Une banque"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Un syndicat est une organisation qui défend les droits et intérêts collectifs des salariés (conditions de travail, salaires, etc.). La liberté syndicale est un droit fondamental en France."
+  },
+  {
+    "id": "supp-47",
+    "number": 47,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le droit de grève ?",
+    "theme": "Travail et emploi",
+    "options": [
+      "Le droit pour les salariés de cesser le travail collectivement pour défendre leurs revendications",
+      "Le droit de partir en vacances",
+      "Le droit de démissionner",
+      "Le droit de changer d'emploi"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le droit de grève est un droit constitutionnel qui permet aux salariés de cesser collectivement le travail pour défendre leurs revendications professionnelles. Il est encadré par la loi."
+  },
+  {
+    "id": "supp-48",
+    "number": 48,
+    "source": "SUPP",
+    "question": "À quoi sert la mairie ?",
+    "theme": "Démarches administratives",
+    "options": [
+      "À fournir des services administratifs locaux (état civil, élections, urbanisme)",
+      "Seulement à organiser des fêtes",
+      "À vendre des produits",
+      "À rien"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La mairie fournit de nombreux services : état civil (naissances, mariages, décès), cartes d'identité, inscriptions électorales, urbanisme, action sociale locale. C'est l'administration de proximité."
+  },
+  {
+    "id": "supp-49",
+    "number": 49,
+    "source": "SUPP",
+    "question": "À quoi sert la préfecture ?",
+    "theme": "Démarches administratives",
+    "options": [
+      "À délivrer les titres de séjour, passeports, cartes grises et représenter l'État",
+      "Seulement à surveiller",
+      "À vendre des voitures",
+      "À organiser des concerts"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La préfecture représente l'État dans le département. Elle délivre les titres de séjour pour étrangers, les passeports, les cartes grises, et gère la sécurité et l'ordre public."
+  },
+  {
+    "id": "supp-50",
+    "number": 50,
+    "source": "SUPP",
+    "question": "Qu'est-ce qu'un titre de séjour ?",
+    "theme": "Démarches administratives",
+    "options": [
+      "Un document autorisant un étranger à résider en France",
+      "Un billet de train",
+      "Une carte bancaire",
+      "Un permis de conduire"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le titre de séjour est un document officiel délivré par la préfecture qui autorise un étranger à résider en France pour une durée déterminée. Il existe différents types selon la situation (étudiant, salarié, vie privée et familiale, etc.)."
+  },
+  {
+    "id": "supp-51",
+    "number": 51,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le mariage civil en France ?",
+    "theme": "Famille et couple",
+    "options": [
+      "Un contrat juridique célébré à la mairie créant une union légale",
+      "Une simple fête",
+      "Un mariage religieux",
+      "Un contrat commercial"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le mariage civil, célébré à la mairie par un officier d'état civil, est le seul mariage ayant une valeur juridique en France. Il crée des droits et devoirs entre époux. Le mariage religieux est facultatif et sans valeur légale."
+  },
+  {
+    "id": "supp-52",
+    "number": 52,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le PACS ?",
+    "theme": "Famille et couple",
+    "options": [
+      "Un Pacte Civil de Solidarité, contrat entre deux personnes majeures pour organiser leur vie commune",
+      "Une assurance",
+      "Un parti politique",
+      "Un diplôme"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le PACS (Pacte Civil de Solidarité) est un contrat conclu entre deux personnes majeures (de sexe différent ou de même sexe) pour organiser leur vie commune. Il offre un cadre juridique intermédiaire entre le concubinage et le mariage."
+  },
+  {
+    "id": "supp-53",
+    "number": 53,
+    "source": "SUPP",
+    "question": "Le mariage forcé est-il autorisé en France ?",
+    "theme": "Famille et couple",
+    "options": [
+      "Non, c'est strictement interdit et constitue un crime",
+      "Oui, c'est autorisé",
+      "Oui, avec l'accord des parents",
+      "Cela dépend des régions"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le mariage forcé est strictement interdit en France. C'est un crime puni de 3 ans de prison et 45 000 € d'amende. Le consentement libre et éclairé des deux époux est une condition essentielle de validité du mariage."
+  },
+  {
+    "id": "supp-54",
+    "number": 54,
+    "source": "SUPP",
+    "question": "À partir de quel âge peut-on se marier en France ?",
+    "theme": "Famille et couple",
+    "options": [
+      "18 ans pour tous",
+      "16 ans",
+      "21 ans",
+      "14 ans"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Depuis 2006, l'âge minimum pour se marier est de 18 ans pour tous (hommes et femmes), sans exception. C'était auparavant 18 ans pour les hommes et 15 ans pour les femmes avec autorisation."
+  },
+  {
+    "id": "supp-55",
+    "number": 55,
+    "source": "SUPP",
+    "question": "Qu'est-ce que l'autorité parentale ?",
+    "theme": "Famille et couple",
+    "options": [
+      "L'ensemble des droits et devoirs des parents pour protéger, éduquer et élever leur enfant",
+      "Le droit de punir les enfants",
+      "Une autorisation administrative",
+      "Un pouvoir absolu sur les enfants"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "L'autorité parentale est l'ensemble des droits et devoirs des parents envers leur enfant mineur : le protéger, assurer sa sécurité, sa santé, son éducation et son développement. Elle est exercée conjointement par les deux parents."
+  },
+  {
+    "id": "supp-56",
+    "number": 56,
+    "source": "SUPP",
+    "question": "Les violences conjugales sont-elles tolérées en France ?",
+    "theme": "Famille et couple",
+    "options": [
+      "Non, elles sont strictement interdites et sévèrement punies",
+      "Oui, dans le cadre privé",
+      "Cela dépend des cas",
+      "Seulement si c'est léger"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Les violences conjugales (physiques, psychologiques, sexuelles, économiques) sont strictement interdites et constituent des infractions pénales sévèrement punies. Numéro d'aide : 3919 (gratuit et anonyme)."
+  },
+  {
+    "id": "supp-57",
+    "number": 57,
+    "source": "SUPP",
+    "question": "Qu'est-ce que le 3919 ?",
+    "theme": "Famille et couple",
+    "options": [
+      "Le numéro national d'écoute et d'orientation pour les victimes de violences conjugales",
+      "Le numéro des pompiers",
+      "Un code postal",
+      "Un numéro de téléphone fixe"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le 3919 est le numéro national d'écoute, d'information et d'orientation des femmes victimes de violences. Il est gratuit, anonyme, et accessible 24h/24 et 7j/7."
+  },
+  {
+    "id": "supp-58",
+    "number": 58,
+    "source": "SUPP",
+    "question": "Qu'est-ce que la protection des données personnelles (RGPD) ?",
+    "theme": "Droits numériques",
+    "options": [
+      "Un ensemble de règles protégeant les données personnelles des citoyens européens",
+      "Une assurance",
+      "Un anti-virus",
+      "Un réseau social"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le RGPD (Règlement Général sur la Protection des Données) est une loi européenne qui protège les données personnelles des citoyens : consentement, droit d'accès, de rectification, d'effacement de ses données."
+  },
+  {
+    "id": "supp-59",
+    "number": 59,
+    "source": "SUPP",
+    "question": "Qu'est-ce que la CNIL ?",
+    "theme": "Droits numériques",
+    "options": [
+      "La Commission Nationale de l'Informatique et des Libertés, qui protège les données personnelles",
+      "Une banque",
+      "Un parti politique",
+      "Une école"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "La CNIL est l'autorité française indépendante qui veille à la protection des données personnelles et à la vie privée dans le monde numérique. On peut la saisir en cas de problème avec ses données."
+  },
+  {
+    "id": "supp-60",
+    "number": 60,
+    "source": "SUPP",
+    "question": "Est-ce légal de télécharger illégalement des films, musiques ou logiciels protégés ?",
+    "theme": "Droits numériques",
+    "options": [
+      "Non, c'est une violation du droit d'auteur, sanctionnée par la loi",
+      "Oui, c'est totalement autorisé",
+      "Oui, si c'est pour un usage personnel",
+      "Cela dépend du pays d'origine"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le téléchargement illégal (piratage) de contenus protégés par le droit d'auteur (films, musiques, logiciels, livres) est interdit et sanctionné. C'est une contrefaçon punissable d'amendes et de peines de prison."
+  }
+]
