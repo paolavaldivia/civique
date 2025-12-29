@@ -1,0 +1,39 @@
+# Orientation (4/5)
+
+**Source:** https://formation-civique.interieur.gouv.fr/fiches-par-thematiques/vivre-dans-la-societe-fran%C3%A7aise/emploi/orientation-4/
+**Type:** Content Page
+**Fetched:** 29/12/2025 19:49:34
+
+---
+
+## Content
+
+### Objectifs de la fiche :
+
+Connaître la démarche pour s’inscrire à France Travail.
+
+Connaître la démarche pour rester inscrit à France Travail.
+
+### S’inscrire France Travail
+
+L’inscription à France Travail est automatique pour les personnes bénéficiaires du RSA ou inscrites en Mission locale.
+
+Les autres personnes doivent s’inscrire par elles-mêmes.
+
+### Les étapes
+
+Vous allez sur 
+                (Ouvre une nouvelle fenêtre) le site internet de France Travail, puis dans la rubrique Services, vous choisissez "S’inscrire ou se réinscrire".Vous remplissez votre demande d’inscription.Si vous avez du mal à comprendre la langue française, cochez la case "en français et en calculs est-ce que j’ai des difficultés ?". Vous aurez alors une discussion au téléphone avec un conseiller de France Travail. Il vous aidera à répondre au questionnaire d’orientation.Si vous comprenez bien la langue française, vous remplissez le questionnaire d’orientation. Après cette étape, il y a deux possibilités :vous avez tout de suite une proposition de rendez-vous avec un conseiller de France Travail ;vous serez appelé par téléphone, plus tard, par l’organisation la plus adaptée à vos besoins.
+
+Si vous avez du mal à remplir le questionnaire d’orientation, vous pouvez téléphoner au 09 84 98 37 94 : une personne vous aidera.
+
+### Rester inscrit avec un nouveau document de séjour
+
+Si vous devez renouveler votre document de séjour, vous avez des démarches à faire pour rester inscrit à France Travail.
+
+Vous allez à la préfecture pour commencer les démarches à partir de 120 jours avant la fin de votre titre de séjour. Après avoir demandé le renouvellement de votre titre de séjour, vous recevez un document.Vous apportez ce document dès que possible à l’accueil de votre agence France Travail.Dès que vous recevez votre nouveau titre de séjour, vous l’apportez à l’accueil de votre agence France Travail.
+
+### Pour aller plus loin
+
+(Ouvre une nouvelle fenêtre) Accueil | France Travail
+

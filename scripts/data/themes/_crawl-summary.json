@@ -1,10 +1,10 @@
 {
-  "crawledAt": "2025-12-29T18:31:09.880Z",
+  "crawledAt": "2025-12-29T18:50:31.087Z",
   "statistics": {
-    "totalPages": 1,
-    "contentPages": 0,
-    "listingPages": 1,
-    "newlyCrawled": 1,
-    "skipped": 5
+    "totalPages": 169,
+    "contentPages": 169,
+    "listingPages": 29,
+    "newlyCrawled": 169,
+    "skipped": 29
   }
 }
