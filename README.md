@@ -6,8 +6,10 @@ Une plateforme moderne, gratuite et open source pour préparer le test d'évalua
 
 - **🎴 Mode Flashcards** : Apprenez avec des cartes mémo et l'algorithme de répétition espacée (SM-2) pour une mémorisation optimale
 - **📝 Mode QCM** : Entraînez-vous avec des questions à choix multiples comme au vrai examen
+- **🎓 Examen Blanc** : Testez vos connaissances en conditions réelles avec un examen chronométré de 65 questions en 60 minutes
 - **📚 Mode Étude** : Parcourez le contenu par thématique pour approfondir vos connaissances
 - **📊 Suivi de progression** : Votre progression est sauvegardée localement dans votre navigateur
+- **📈 Statistiques détaillées** : Suivez vos performances aux examens blancs avec des statistiques complètes
 - **🎨 Interface moderne** : Design épuré avec animations fluides
 
 ## 🚀 Technologies
@@ -27,6 +29,17 @@ Une plateforme moderne, gratuite et open source pour préparer le test d'évalua
 5. 🗺️ **Géographie** - La géographie française
 6. 🎨 **Culture** - La culture française
 7. 🏠 **Vie quotidienne** - La vie en France au quotidien
+
+## 🎓 Mode Examen Blanc
+
+Le mode examen blanc simule les conditions réelles du test civique :
+
+- ⏱️ **Chronomètre de 60 minutes** : Le temps s'écoule en temps réel
+- 📋 **65 questions aléatoires** : Sélectionnées parmi toutes les thématiques
+- 🔒 **Pas de retour en arrière** : Une fois l'examen soumis, vous ne pouvez plus modifier vos réponses
+- 📊 **Résultats détaillés** : Score global, analyse par thématique, et révision question par question
+- 🎯 **Seuil de réussite à 60%** : Comme le vrai examen
+- 📈 **Historique des examens** : Suivez votre progression avec les statistiques (score moyen, meilleur score, taux de réussite)
 
 ## 🛠️ Installation
 
@@ -69,9 +82,9 @@ MIT License - voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
 ## 🎯 Roadmap
 
-- [ ] Ajouter plus de questions (objectif : 300+)
-- [ ] Mode examen blanc avec timer
-- [ ] Statistiques détaillées
+- [x] Ajouter plus de questions (objectif : 300+) - **383 questions disponibles !**
+- [x] Mode examen blanc avec timer - **Disponible avec 65 questions en 60 minutes**
+- [x] Statistiques détaillées - **Suivi des examens blancs avec analyse par thématique**
 - [ ] Export/import de progression
 - [ ] Version mobile native
 - [ ] Support multilingue

@@ -48,3 +48,23 @@ export interface StudySession {
 }
 
 export type StudyMode = 'flashcard' | 'qcm' | 'study' | 'all';
+
+export interface ExamSession {
+  id: string;
+  startedAt: Date;
+  completedAt?: Date;
+  questions: Question[];
+  answers: Record<string, number>; // questionId -> selected answer index
+  score: number;
+  totalQuestions: number;
+  durationSeconds: number;
+  themeBreakdown: Record<Theme, { correct: number; total: number }>;
+  passed: boolean; // 60% passing grade
+}
+
+export interface ExamAnswer {
+  questionId: string;
+  selectedAnswer: number;
+  isCorrect: boolean;
+  timeSpent: number; // in seconds
+}
