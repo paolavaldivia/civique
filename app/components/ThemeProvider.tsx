@@ -48,7 +48,7 @@ export function ThemeProvider({
   }, [resolvedTheme]);
 
   function handleSetTheme(newTheme: Theme) {
-    setThemeServerFn({ data: { theme: newTheme } }).then(() => {
+    setThemeServerFn({ data: newTheme }).then(() => {
       router.invalidate();
     });
   }
