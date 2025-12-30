@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { motion } from 'framer-motion';
+import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { themes } from '@/data/themes';
@@ -12,6 +13,11 @@ export const Route = createFileRoute('/')({
 
 function HomePage() {
   const stats = useProgressStore(useShallow((state) => state.getStats()));
+  const [isClient, setIsClient] = useState(false);
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const features = [
     {
@@ -69,7 +75,7 @@ function HomePage() {
 
         {/* Hero Section */}
         <motion.div
-          initial={{ opacity: 0, y: -20 }}
+          initial={isClient ? { opacity: 0, y: -20 } : false}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
@@ -92,7 +98,7 @@ function HomePage() {
         {/* Stats Section */}
         {stats.totalQuestions > 0 && (
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={isClient ? { opacity: 0, scale: 0.95 } : false}
             animate={{ opacity: 1, scale: 1 }}
             className="mb-12"
           >
@@ -120,7 +126,7 @@ function HomePage() {
         {/* Study Modes */}
         <motion.div
           variants={containerVariants}
-          initial="hidden"
+          initial={isClient ? "hidden" : false}
           animate="visible"
           className="mb-16"
         >
@@ -149,7 +155,7 @@ function HomePage() {
         {/* Themes Section */}
         <motion.div
           variants={containerVariants}
-          initial="hidden"
+          initial={isClient ? "hidden" : false}
           animate="visible"
         >
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-gray-100">
@@ -174,7 +180,7 @@ function HomePage() {
 
         {/* Footer */}
         <motion.div
-          initial={{ opacity: 0 }}
+          initial={isClient ? { opacity: 0 } : false}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
           className="mt-16 text-center text-gray-500 dark:text-gray-400"
