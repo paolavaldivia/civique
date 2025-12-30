@@ -24,7 +24,7 @@ export interface ThemeInfo {
   id: Theme;
   name: string;
   description: string;
-  icon: string;
+  icon: React.ComponentType<React.SVGProps<SVGSVGElement>>;
   color: string;
 }
 

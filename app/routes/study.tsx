@@ -1,6 +1,7 @@
 import { createFileRoute, Link, useNavigate } from '@tanstack/react-router';
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { BookOpenIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
 import { themes } from '@/data/themes';
@@ -72,9 +73,7 @@ function StudyPage() {
                     <CardHeader
                       className={`bg-linear-to-r ${theme.color} text-white rounded-t-lg`}
                     >
-                      <div className="w-12 h-12 mb-3 bg-white/20 rounded-lg flex items-center justify-center">
-                        <div className="w-8 h-8 bg-white/30 rounded" title={`Icon: ${theme.icon}`}></div>
-                      </div>
+                      <theme.icon className="w-12 h-12 mb-3 text-white" />
                       <h3 className="text-2xl font-semibold">{theme.name}</h3>
                     </CardHeader>
                     <CardContent className="pt-4">
@@ -111,8 +110,8 @@ function StudyPage() {
           className="mb-8"
         >
           <div className="flex items-center gap-4 mb-6">
-            <div className="w-14 h-14 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-              <div className="w-10 h-10 bg-gray-300 dark:bg-gray-600 rounded" title={`Icon: ${themeInfo?.icon}`}></div>
+            <div className="w-14 h-14 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center p-3">
+              {themeInfo && <themeInfo.icon className="w-full h-full text-gray-600 dark:text-gray-400" />}
             </div>
             <div>
               <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100">{themeInfo?.name}</h1>
@@ -124,9 +123,7 @@ function StudyPage() {
           <Card className="bg-gray-50 dark:bg-gray-800 border-gray-200 dark:border-gray-700">
             <CardContent className="p-6">
               <div className="flex items-start gap-3">
-                <div className="w-8 h-8 bg-gray-200 dark:bg-gray-700 rounded flex items-center justify-center flex-shrink-0">
-                  <div className="w-6 h-6 bg-gray-300 dark:bg-gray-600 rounded-sm" title="Icon: book"></div>
-                </div>
+                <BookOpenIcon className="w-8 h-8 text-gray-600 dark:text-gray-400 flex-shrink-0" />
                 <div className="flex-1">
                   <h3 className="font-semibold text-gray-800 dark:text-gray-100 mb-2">
                     {themeQuestions.length} questions disponibles
@@ -140,9 +137,8 @@ function StudyPage() {
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 font-medium underline"
                   >
-                    <div className="w-4 h-4 bg-gray-300 dark:bg-gray-600 rounded-sm" title="Icon: external link"></div>
+                    <ArrowTopRightOnSquareIcon className="w-4 h-4" />
                     Ressources officielles sur formation-civique.gouv.fr
-                    <span className="text-xs">↗</span>
                   </a>
                 </div>
               </div>

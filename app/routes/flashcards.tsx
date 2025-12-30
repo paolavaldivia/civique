@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { ArrowPathIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Progress } from '@/components/ui/Progress';
@@ -78,9 +79,7 @@ function FlashcardsPage() {
     return (
       <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center">
         <div className="text-center">
-          <div className="w-16 h-16 mx-auto mb-4 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center animate-pulse">
-            <div className="w-12 h-12 bg-gray-300 dark:bg-gray-600 rounded" title="Icon: loading"></div>
-          </div>
+          <ArrowPathIcon className="w-16 h-16 mx-auto mb-4 text-gray-400 dark:text-gray-600 animate-spin" />
           <p className="text-xl text-gray-600 dark:text-gray-400">Chargement...</p>
         </div>
       </div>
@@ -96,9 +95,7 @@ function FlashcardsPage() {
           className="max-w-md w-full"
         >
           <Card className="text-center p-8">
-            <div className="w-16 h-16 mx-auto mb-4 bg-green-100 dark:bg-green-900 rounded-lg flex items-center justify-center">
-              <div className="w-12 h-12 bg-green-200 dark:bg-green-800 rounded" title="Icon: checkmark/success"></div>
-            </div>
+            <CheckCircleIcon className="w-16 h-16 mx-auto mb-4 text-green-600 dark:text-green-400" />
             <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-gray-100">
               Session terminée !
             </h2>

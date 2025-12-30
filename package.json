@@ -17,6 +17,7 @@
     "generate:answers": "tsx scripts/generateAnswers.ts"
   },
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "@tanstack/react-router": "^1.143.11",
     "@tanstack/react-start": "^1.143.12",
     "date-fns": "^4.1.0",

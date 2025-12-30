@@ -1,5 +1,6 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { motion } from 'framer-motion';
+import { RectangleStackIcon, ClipboardDocumentListIcon, BookOpenIcon, FlagIcon } from '@heroicons/react/24/outline';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { themes } from '@/data/themes';
@@ -15,21 +16,21 @@ function HomePage() {
 
   const features = [
     {
-      icon: 'flashcard', // Icon placeholder: flashcard/cards icon
+      icon: RectangleStackIcon,
       title: 'Mode Flashcards',
       description: 'Apprenez avec des cartes mémo et la répétition espacée pour une mémorisation optimale.',
       href: '/flashcards',
       color: 'from-blue-700 to-blue-800',
     },
     {
-      icon: 'quiz', // Icon placeholder: checklist/quiz icon
+      icon: ClipboardDocumentListIcon,
       title: 'Mode QCM',
       description: 'Entraînez-vous avec des questions à choix multiples comme le vrai examen.',
       href: '/qcm',
       color: 'from-indigo-700 to-indigo-800',
     },
     {
-      icon: 'book', // Icon placeholder: open book/study icon
+      icon: BookOpenIcon,
       title: 'Mode Étude',
       description: 'Parcourez le contenu par thématique pour approfondir vos connaissances.',
       href: '/study',
@@ -75,8 +76,8 @@ function HomePage() {
           className="text-center mb-16"
         >
           <h1 className="text-5xl md:text-6xl font-bold mb-4 flex items-center justify-center gap-3">
-            <div className="w-14 h-14 bg-slate-200 dark:bg-slate-700 rounded-lg flex items-center justify-center">
-              <div className="w-10 h-10 bg-slate-300 dark:bg-slate-600 rounded" title="Icon: flag"></div>
+            <div className="w-14 h-14 bg-slate-200 dark:bg-slate-700 rounded-lg flex items-center justify-center p-3">
+              <FlagIcon className="w-full h-full text-slate-600 dark:text-slate-400" />
             </div>
             <span className="text-gray-800 dark:text-gray-200">
               Civique
@@ -131,9 +132,7 @@ function HomePage() {
                 <Link to={feature.href}>
                   <Card hover className="h-full cursor-pointer transition-transform hover:scale-105">
                     <CardHeader className={`bg-linear-to-r ${feature.color} text-white rounded-t-lg`}>
-                      <div className="w-12 h-12 mb-3 bg-white/20 rounded-lg flex items-center justify-center">
-                        <div className="w-8 h-8 bg-white/30 rounded" title={`Icon: ${feature.icon}`}></div>
-                      </div>
+                      <feature.icon className="w-12 h-12 mb-3 text-white" />
                       <h3 className="text-2xl font-semibold">{feature.title}</h3>
                     </CardHeader>
                     <CardContent className="pt-4">
@@ -161,9 +160,7 @@ function HomePage() {
                 <Link to="/study" search={{ theme: theme.id }}>
                   <Card hover className="cursor-pointer transition-transform hover:scale-105">
                     <CardContent className="p-4 text-center">
-                      <div className="w-12 h-12 mx-auto mb-2 bg-gray-200 dark:bg-gray-700 rounded-md flex items-center justify-center">
-                        <div className="w-8 h-8 bg-gray-300 dark:bg-gray-600 rounded-sm" title={`Icon: ${theme.icon}`}></div>
-                      </div>
+                      <theme.icon className="w-12 h-12 mx-auto mb-2 text-gray-600 dark:text-gray-400" />
                       <h3 className="font-semibold text-gray-800 dark:text-gray-100 mb-1">{theme.name}</h3>
                       <p className="text-sm text-gray-500 dark:text-gray-400">{theme.description}</p>
                     </CardContent>

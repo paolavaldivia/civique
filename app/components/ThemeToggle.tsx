@@ -1,14 +1,15 @@
 import { motion } from 'framer-motion';
+import { SunIcon, MoonIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline';
 import { useTheme } from '@/components/ThemeProvider';
 import type { Theme } from '@/lib/theme';
 
 export function ThemeToggle() {
   const { theme, setTheme } = useTheme();
 
-  const themes: { value: Theme; label: string; icon: string }[] = [
-    { value: 'light', label: 'Light', icon: 'sun' },
-    { value: 'system', label: 'System', icon: 'monitor' },
-    { value: 'dark', label: 'Dark', icon: 'moon' },
+  const themes: { value: Theme; label: string; icon: React.ComponentType<React.SVGProps<SVGSVGElement>> }[] = [
+    { value: 'light', label: 'Light', icon: SunIcon },
+    { value: 'system', label: 'System', icon: ComputerDesktopIcon },
+    { value: 'dark', label: 'Dark', icon: MoonIcon },
   ];
 
   return (
@@ -36,7 +37,7 @@ export function ThemeToggle() {
             />
           )}
           <span className="relative z-10 flex items-center gap-1.5">
-            <div className="w-4 h-4 bg-current opacity-20 rounded-sm" title={`Icon: ${t.icon}`}></div>
+            <t.icon className="w-4 h-4" />
             <span className="hidden sm:inline">{t.label}</span>
           </span>
         </button>
