@@ -76,7 +76,7 @@ function FlashcardsPage() {
 
   if (sessionQuestions.length === 0) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 flex items-center justify-center">
+      <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 flex items-center justify-center">
         <div className="text-center">
           <div className="text-6xl mb-4">⏳</div>
           <p className="text-xl text-gray-600">Chargement...</p>
@@ -87,7 +87,7 @@ function FlashcardsPage() {
 
   if (sessionComplete) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 flex items-center justify-center p-4">
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -126,7 +126,7 @@ function FlashcardsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 p-4">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
       <div className="container mx-auto max-w-3xl py-8">
         {/* Header */}
         <div className="mb-6">
@@ -144,7 +144,7 @@ function FlashcardsPage() {
 
         {/* Progress */}
         <div className="mb-6">
-          <div className="flex justify-between text-sm text-gray-600 mb-2">
+          <div className="flex justify-between text-sm text-gray-600 dark:text-gray-300 mb-2">
             <span>Question {currentIndex + 1} sur {sessionQuestions.length}</span>
             <span className="font-medium">{currentQuestion.theme}</span>
           </div>
@@ -167,30 +167,30 @@ function FlashcardsPage() {
                 onClick={handleFlip}
                 className="cursor-pointer"
               >
-                <Card className="h-full min-h-[400px] flex items-center justify-center p-8 bg-gradient-to-br from-white to-blue-50 hover:shadow-xl transition-shadow">
+                <Card className="h-full min-h-100 flex items-center justify-center p-8 bg-linear-to-br from-white to-blue-50 dark:from-gray-800 dark:to-gray-700 hover:shadow-xl transition-shadow">
                   <div className="text-center">
                     {!showingAnswer ? (
                       <>
-                        <div className="text-sm text-gray-500 mb-4 uppercase tracking-wide">
+                        <div className="text-sm text-gray-500 dark:text-gray-400 mb-4 uppercase tracking-wide">
                           Question
                         </div>
-                        <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
+                        <h3 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-100 mb-8">
                           {currentQuestion.question}
                         </h3>
-                        <p className="text-gray-500 text-sm">
+                        <p className="text-gray-500 dark:text-gray-400 text-sm">
                           Cliquez pour voir la réponse
                         </p>
                       </>
                     ) : (
                       <>
-                        <div className="text-sm text-green-600 mb-4 uppercase tracking-wide font-semibold">
+                        <div className="text-sm text-green-600 dark:text-green-400 mb-4 uppercase tracking-wide font-semibold">
                           Réponse
                         </div>
-                        <h3 className="text-xl md:text-2xl font-bold text-gray-800 mb-4">
+                        <h3 className="text-xl md:text-2xl font-bold text-gray-800 dark:text-gray-100 mb-4">
                           {currentQuestion.options[currentQuestion.correctAnswer]}
                         </h3>
                         {currentQuestion.explanation && (
-                          <p className="text-gray-600 text-base mt-6 p-4 bg-blue-50 rounded-lg">
+                          <p className="text-gray-600 dark:text-gray-300 text-base mt-6 p-4 bg-blue-50 dark:bg-gray-700 rounded-lg">
                             {currentQuestion.explanation}
                           </p>
                         )}
@@ -210,14 +210,14 @@ function FlashcardsPage() {
             animate={{ y: 0, opacity: 1 }}
             className="space-y-3"
           >
-            <p className="text-center text-gray-600 mb-4">
+            <p className="text-center text-gray-600 dark:text-gray-300 mb-4">
               Comment avez-vous trouvé cette question ?
             </p>
             <div className="grid grid-cols-2 gap-3">
               <Button
                 onClick={() => handleAnswer(2)}
                 variant="outline"
-                className="py-6 border-red-300 text-red-700 hover:bg-red-50"
+                className="py-6 border-red-300 dark:border-red-600 text-red-700 dark:text-red-400 hover:bg-red-50 dark:hover:bg-red-950"
               >
                 <div>
                   <div className="font-bold">Difficile</div>
@@ -227,7 +227,7 @@ function FlashcardsPage() {
               <Button
                 onClick={() => handleAnswer(3)}
                 variant="outline"
-                className="py-6 border-yellow-300 text-yellow-700 hover:bg-yellow-50"
+                className="py-6 border-yellow-300 dark:border-yellow-600 text-yellow-700 dark:text-yellow-400 hover:bg-yellow-50 dark:hover:bg-yellow-950"
               >
                 <div>
                   <div className="font-bold">Moyen</div>
@@ -237,7 +237,7 @@ function FlashcardsPage() {
               <Button
                 onClick={() => handleAnswer(4)}
                 variant="outline"
-                className="py-6 border-green-300 text-green-700 hover:bg-green-50"
+                className="py-6 border-green-300 dark:border-green-600 text-green-700 dark:text-green-400 hover:bg-green-50 dark:hover:bg-green-950"
               >
                 <div>
                   <div className="font-bold">Facile</div>
@@ -247,7 +247,7 @@ function FlashcardsPage() {
               <Button
                 onClick={() => handleAnswer(5)}
                 variant="outline"
-                className="py-6 border-blue-300 text-blue-700 hover:bg-blue-50"
+                className="py-6 border-blue-300 dark:border-blue-600 text-blue-700 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950"
               >
                 <div>
                   <div className="font-bold">Très facile</div>

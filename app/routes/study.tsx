@@ -32,7 +32,7 @@ function StudyPage() {
 
   if (!selectedTheme) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 p-4">
+      <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
         <div className="container mx-auto max-w-4xl py-8">
           <div className="mb-8">
             <Link to="/">
@@ -47,8 +47,8 @@ function StudyPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-12"
           >
-            <h1 className="text-4xl font-bold mb-4 text-gray-800">Mode Étude</h1>
-            <p className="text-lg text-gray-600">
+            <h1 className="text-4xl font-bold mb-4 text-gray-800 dark:text-gray-100">Mode Étude</h1>
+            <p className="text-lg text-gray-600 dark:text-gray-300">
               Choisissez une thématique pour approfondir vos connaissances
             </p>
           </motion.div>
@@ -70,14 +70,14 @@ function StudyPage() {
                     onClick={() => setSelectedTheme(theme.id)}
                   >
                     <CardHeader
-                      className={`bg-gradient-to-r ${theme.color} text-white rounded-t-xl`}
+                      className={`bg-linear-to-r ${theme.color} text-white rounded-t-xl`}
                     >
                       <div className="text-5xl mb-3">{theme.icon}</div>
                       <h3 className="text-2xl font-semibold">{theme.name}</h3>
                     </CardHeader>
                     <CardContent className="pt-4">
-                      <p className="text-gray-600 mb-3">{theme.description}</p>
-                      <p className="text-sm text-gray-500">
+                      <p className="text-gray-600 dark:text-gray-300 mb-3">{theme.description}</p>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">
                         {themeQuestions.length} question{themeQuestions.length > 1 ? 's' : ''}
                       </p>
                     </CardContent>
@@ -95,7 +95,7 @@ function StudyPage() {
   const themeQuestions = questions.filter((q) => q.theme === selectedTheme);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 p-4">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
       <div className="container mx-auto max-w-4xl py-8">
         <div className="mb-8">
           <Button variant="ghost" size="sm" onClick={() => setSelectedTheme(null)}>
@@ -111,28 +111,28 @@ function StudyPage() {
           <div className="flex items-center gap-4 mb-6">
             <span className="text-5xl">{themeInfo?.icon}</span>
             <div>
-              <h1 className="text-4xl font-bold text-gray-800">{themeInfo?.name}</h1>
-              <p className="text-gray-600">{themeInfo?.description}</p>
+              <h1 className="text-4xl font-bold text-gray-800 dark:text-gray-100">{themeInfo?.name}</h1>
+              <p className="text-gray-600 dark:text-gray-300">{themeInfo?.description}</p>
             </div>
           </div>
 
           {/* Info Card with Resources */}
-          <Card className="bg-blue-50 border-blue-200">
+          <Card className="bg-blue-50 dark:bg-blue-950 border-blue-200 dark:border-blue-800">
             <CardContent className="p-6">
               <div className="flex items-start gap-3">
                 <span className="text-2xl">📖</span>
                 <div className="flex-1">
-                  <h3 className="font-semibold text-gray-800 mb-2">
+                  <h3 className="font-semibold text-gray-800 dark:text-gray-100 mb-2">
                     {themeQuestions.length} questions disponibles
                   </h3>
-                  <p className="text-sm text-gray-600 mb-3">
+                  <p className="text-sm text-gray-600 dark:text-gray-300 mb-3">
                     Explorez toutes les questions de cette thématique avec leurs explications détaillées.
                   </p>
                   <a
                     href="https://formation-civique.interieur.gouv.fr/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-sm text-blue-600 hover:text-blue-800 font-medium"
+                    className="inline-flex items-center gap-2 text-sm text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium"
                   >
                     <span>📚</span>
                     Ressources officielles sur formation-civique.gouv.fr
@@ -154,40 +154,40 @@ function StudyPage() {
             >
               <Card className="p-6">
                 <div className="mb-4">
-                  <span className="text-sm font-semibold text-blue-600">
+                  <span className="text-sm font-semibold text-blue-600 dark:text-blue-400">
                     Question {index + 1}
                   </span>
-                  <h3 className="text-xl font-bold text-gray-800 mt-2">
+                  <h3 className="text-xl font-bold text-gray-800 dark:text-gray-100 mt-2">
                     {question.question}
                   </h3>
                 </div>
 
-                <div className="bg-green-50 border-l-4 border-green-500 p-4 mb-4">
-                  <p className="text-sm font-semibold text-green-800 mb-1">Réponse</p>
-                  <p className="text-green-900 font-medium">
+                <div className="bg-green-50 dark:bg-green-950 border-l-4 border-green-500 dark:border-green-600 p-4 mb-4">
+                  <p className="text-sm font-semibold text-green-800 dark:text-green-300 mb-1">Réponse</p>
+                  <p className="text-green-900 dark:text-green-200 font-medium">
                     {question.options[question.correctAnswer]}
                   </p>
                 </div>
 
                 {question.explanation && (
-                  <div className="bg-blue-50 p-4 rounded-lg">
-                    <p className="text-sm font-semibold text-gray-700 mb-1">
+                  <div className="bg-blue-50 dark:bg-gray-700 p-4 rounded-lg">
+                    <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-1">
                       Explication
                     </p>
-                    <p className="text-gray-600">{question.explanation}</p>
+                    <p className="text-gray-600 dark:text-gray-300">{question.explanation}</p>
                   </div>
                 )}
 
-                <div className="mt-4 pt-4 border-t border-gray-200">
-                  <p className="text-sm text-gray-500">Toutes les réponses:</p>
+                <div className="mt-4 pt-4 border-t border-gray-200 dark:border-gray-700">
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Toutes les réponses:</p>
                   <ul className="mt-2 space-y-1">
                     {question.options.map((option, optIndex) => (
                       <li
                         key={optIndex}
                         className={`text-sm ${
                           optIndex === question.correctAnswer
-                            ? 'text-green-700 font-semibold'
-                            : 'text-gray-600'
+                            ? 'text-green-700 dark:text-green-400 font-semibold'
+                            : 'text-gray-600 dark:text-gray-300'
                         }`}
                       >
                         {optIndex === question.correctAnswer && '✓ '}

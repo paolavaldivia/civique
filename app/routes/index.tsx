@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { motion } from 'framer-motion';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
+import { ThemeToggle } from '@/components/ThemeToggle';
 import { themes } from '@/data/themes';
 import { useProgressStore } from '@/store/useProgressStore';
 import { useShallow } from "zustand/react/shallow";
@@ -59,8 +60,13 @@ function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50">
-      <div className="container mx-auto px-4 py-12 max-w-6xl">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+      <div className="container mx-auto px-4 py-6 max-w-6xl">
+        {/* Theme Toggle */}
+        <div className="flex justify-end mb-4">
+          <ThemeToggle />
+        </div>
+
         {/* Hero Section */}
         <motion.div
           initial={{ opacity: 0, y: -20 }}
@@ -68,18 +74,14 @@ function HomePage() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <div className="mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 flex items-center justify-center gap-3">
             <span className="text-6xl">🇫🇷</span>
-          </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-gray-800 to-red-600 bg-clip-text text-transparent">
-            Civique
+            <span className="text-gray-700 dark:text-gray-300">
+              Civique
+            </span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-6">
-            Préparez votre test civique gratuitement
-          </p>
-          <p className="text-lg text-gray-500 max-w-2xl mx-auto">
-            Une plateforme moderne et gratuite pour maîtriser les valeurs de la République française.
-            Flashcards, QCM et révisions intelligentes.
+          <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6">
+            Préparez votre test civique gratiuitement
           </p>
         </motion.div>
 
@@ -90,7 +92,7 @@ function HomePage() {
             animate={{ opacity: 1, scale: 1 }}
             className="mb-12"
           >
-            <Card className="bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+            <Card className="bg-linear-to-r from-blue-600 to-purple-600 text-white">
               <CardContent className="py-6">
                 <div className="grid grid-cols-3 gap-4 text-center">
                   <div>
@@ -118,7 +120,7 @@ function HomePage() {
           animate="visible"
           className="mb-16"
         >
-          <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
+          <h2 className="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-gray-100">
             Choisissez votre mode d'étude
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
@@ -126,12 +128,12 @@ function HomePage() {
               <motion.div key={feature.title} variants={itemVariants}>
                 <Link to={feature.href}>
                   <Card hover className="h-full cursor-pointer transition-transform hover:scale-105">
-                    <CardHeader className={`bg-gradient-to-r ${feature.color} text-white rounded-t-xl`}>
+                    <CardHeader className={`bg-linear-to-r ${feature.color} text-white rounded-t-xl`}>
                       <div className="text-5xl mb-3">{feature.icon}</div>
                       <h3 className="text-2xl font-semibold">{feature.title}</h3>
                     </CardHeader>
                     <CardContent className="pt-4">
-                      <p className="text-gray-600">{feature.description}</p>
+                      <p className="text-gray-600 dark:text-gray-300">{feature.description}</p>
                     </CardContent>
                   </Card>
                 </Link>
@@ -146,7 +148,7 @@ function HomePage() {
           initial="hidden"
           animate="visible"
         >
-          <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
+          <h2 className="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-gray-100">
             Thématiques
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -156,8 +158,8 @@ function HomePage() {
                   <Card hover className="cursor-pointer transition-transform hover:scale-105">
                     <CardContent className="p-4 text-center">
                       <div className="text-4xl mb-2">{theme.icon}</div>
-                      <h3 className="font-semibold text-gray-800 mb-1">{theme.name}</h3>
-                      <p className="text-sm text-gray-500">{theme.description}</p>
+                      <h3 className="font-semibold text-gray-800 dark:text-gray-100 mb-1">{theme.name}</h3>
+                      <p className="text-sm text-gray-500 dark:text-gray-400">{theme.description}</p>
                     </CardContent>
                   </Card>
                 </Link>
@@ -171,7 +173,7 @@ function HomePage() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5 }}
-          className="mt-16 text-center text-gray-500"
+          className="mt-16 text-center text-gray-500 dark:text-gray-400"
         >
           <p className="mb-2">
             Plateforme 100% gratuite et open source

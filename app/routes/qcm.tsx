@@ -73,10 +73,10 @@ function QCMPage() {
 
   if (sessionQuestions.length === 0) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center">
         <div className="text-center">
           <div className="text-6xl mb-4">⏳</div>
-          <p className="text-xl text-gray-600">Chargement...</p>
+          <p className="text-xl text-gray-600 dark:text-gray-300">Chargement...</p>
         </div>
       </div>
     );
@@ -86,7 +86,7 @@ function QCMPage() {
     const percentage = Math.round((score.correct / score.total) * 100);
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center p-4">
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
@@ -96,7 +96,7 @@ function QCMPage() {
             <div className="text-6xl mb-4">
               {percentage >= 80 ? '🎉' : percentage >= 60 ? '👍' : '📚'}
             </div>
-            <h2 className="text-3xl font-bold mb-4 text-gray-800">
+            <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-gray-100">
               QCM terminé !
             </h2>
             <div className="mb-6">
@@ -136,7 +136,7 @@ function QCMPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 p-4">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
       <div className="container mx-auto max-w-3xl py-8">
         {/* Header */}
         <div className="mb-6">
@@ -154,7 +154,7 @@ function QCMPage() {
 
         {/* Progress */}
         <div className="mb-6">
-          <div className="flex justify-between text-sm text-gray-600 mb-2">
+          <div className="flex justify-between text-sm text-gray-600 dark:text-gray-300 mb-2">
             <span>Question {currentIndex + 1} sur {sessionQuestions.length}</span>
             <span className="font-medium">
               Score: {score.correct} / {score.total}
@@ -173,10 +173,10 @@ function QCMPage() {
             transition={{ duration: 0.3 }}
           >
             <Card className="p-8 mb-6">
-              <div className="mb-2 text-sm text-gray-500 uppercase tracking-wide">
+              <div className="mb-2 text-sm text-gray-500 dark:text-gray-400 uppercase tracking-wide">
                 {currentQuestion.theme}
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-800 mb-8">
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-800 dark:text-gray-100 mb-8">
                 {currentQuestion.question}
               </h3>
 
@@ -195,7 +195,7 @@ function QCMPage() {
                           : 'bg-blue-50 border-blue-500 text-blue-900'
                         : showResult && index === currentQuestion.correctAnswer
                         ? 'bg-green-100 border-green-500 text-green-900'
-                        : 'border-gray-300 hover:border-blue-300 hover:bg-blue-50 text-gray-700 hover:text-blue-900'
+                        : 'border-gray-300 dark:border-gray-600 hover:border-blue-300 dark:hover:border-blue-400 hover:bg-blue-50 dark:hover:bg-blue-950 text-gray-700 dark:text-gray-200 hover:text-blue-900 dark:hover:text-blue-100'
                     } ${showResult ? 'cursor-not-allowed' : 'cursor-pointer'}`}
                   >
                     <div className="flex items-center justify-between">
@@ -217,12 +217,12 @@ function QCMPage() {
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-4 bg-blue-50 rounded-lg"
+                  className="mt-6 p-4 bg-blue-50 dark:bg-gray-700 rounded-lg"
                 >
-                  <p className="text-sm font-semibold text-gray-700 mb-1">
+                  <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-1">
                     Explication
                   </p>
-                  <p className="text-gray-600">{currentQuestion.explanation}</p>
+                  <p className="text-gray-600 dark:text-gray-300">{currentQuestion.explanation}</p>
                 </motion.div>
               )}
             </Card>
