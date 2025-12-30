@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { motion } from 'framer-motion';
-import { RectangleStackIcon, ClipboardDocumentListIcon, BookOpenIcon, FlagIcon } from '@heroicons/react/24/outline';
+import { RectangleStackIcon, ClipboardDocumentListIcon, BookOpenIcon, FlagIcon, AcademicCapIcon } from '@heroicons/react/24/outline';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { themes } from '@/data/themes';
@@ -13,6 +13,7 @@ export const Route = createFileRoute('/')({
 
 function HomePage() {
   const stats = useProgressStore(useShallow((state) => state.getStats()));
+  const examStats = useProgressStore(useShallow((state) => state.getExamStats()));
 
   const features = [
     {
@@ -28,6 +29,13 @@ function HomePage() {
       description: 'Entraînez-vous avec des questions à choix multiples comme le vrai examen.',
       href: '/qcm',
       color: 'from-indigo-700 to-indigo-800',
+    },
+    {
+      icon: AcademicCapIcon,
+      title: 'Examen Blanc',
+      description: 'Testez vos connaissances en conditions réelles avec 65 questions et un chronomètre de 60 minutes.',
+      href: '/exam',
+      color: 'from-purple-700 to-purple-800',
     },
     {
       icon: BookOpenIcon,
@@ -116,6 +124,39 @@ function HomePage() {
           </motion.div>
         )}
 
+        {/* Exam Stats Section */}
+        {examStats.totalExams > 0 && (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            className="mb-12"
+          >
+            <Card className="bg-linear-to-r from-purple-700 to-purple-800 text-white">
+              <CardContent className="py-6">
+                <h3 className="text-xl font-semibold mb-4 text-center">Statistiques des examens blancs</h3>
+                <div className="grid grid-cols-4 gap-4 text-center">
+                  <div>
+                    <div className="text-3xl font-bold">{examStats.totalExams}</div>
+                    <div className="text-sm opacity-90">Examens passés</div>
+                  </div>
+                  <div>
+                    <div className="text-3xl font-bold">{examStats.averageScore}%</div>
+                    <div className="text-sm opacity-90">Score moyen</div>
+                  </div>
+                  <div>
+                    <div className="text-3xl font-bold">{examStats.bestScore}%</div>
+                    <div className="text-sm opacity-90">Meilleur score</div>
+                  </div>
+                  <div>
+                    <div className="text-3xl font-bold">{examStats.passRate}%</div>
+                    <div className="text-sm opacity-90">Taux de réussite</div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </motion.div>
+        )}
+
         {/* Study Modes */}
         <motion.div
           variants={containerVariants}
@@ -126,7 +167,7 @@ function HomePage() {
           <h2 className="text-3xl font-bold text-center mb-8 text-gray-800 dark:text-gray-100">
             Choisissez votre mode d'étude
           </h2>
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {features.map((feature) => (
               <motion.div key={feature.title} variants={itemVariants}>
                 <Link to={feature.href}>

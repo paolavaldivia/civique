@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as StudyRouteImport } from './routes/study'
 import { Route as QcmRouteImport } from './routes/qcm'
 import { Route as FlashcardsRouteImport } from './routes/flashcards'
+import { Route as ExamRouteImport } from './routes/exam'
 import { Route as IndexRouteImport } from './routes/index'
 
 const StudyRoute = StudyRouteImport.update({
@@ -29,6 +30,11 @@ const FlashcardsRoute = FlashcardsRouteImport.update({
   path: '/flashcards',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ExamRoute = ExamRouteImport.update({
+  id: '/exam',
+  path: '/exam',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -37,12 +43,14 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/exam': typeof ExamRoute
   '/flashcards': typeof FlashcardsRoute
   '/qcm': typeof QcmRoute
   '/study': typeof StudyRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/exam': typeof ExamRoute
   '/flashcards': typeof FlashcardsRoute
   '/qcm': typeof QcmRoute
   '/study': typeof StudyRoute
@@ -50,20 +58,22 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/exam': typeof ExamRoute
   '/flashcards': typeof FlashcardsRoute
   '/qcm': typeof QcmRoute
   '/study': typeof StudyRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/flashcards' | '/qcm' | '/study'
+  fullPaths: '/' | '/exam' | '/flashcards' | '/qcm' | '/study'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/flashcards' | '/qcm' | '/study'
-  id: '__root__' | '/' | '/flashcards' | '/qcm' | '/study'
+  to: '/' | '/exam' | '/flashcards' | '/qcm' | '/study'
+  id: '__root__' | '/' | '/exam' | '/flashcards' | '/qcm' | '/study'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ExamRoute: typeof ExamRoute
   FlashcardsRoute: typeof FlashcardsRoute
   QcmRoute: typeof QcmRoute
   StudyRoute: typeof StudyRoute
@@ -92,6 +102,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FlashcardsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/exam': {
+      id: '/exam'
+      path: '/exam'
+      fullPath: '/exam'
+      preLoaderRoute: typeof ExamRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -104,6 +121,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ExamRoute: ExamRoute,
   FlashcardsRoute: FlashcardsRoute,
   QcmRoute: QcmRoute,
   StudyRoute: StudyRoute,
