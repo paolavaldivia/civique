@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { ArrowPathIcon, CheckCircleIcon, HandThumbUpIcon, BookOpenIcon } from '@heroicons/react/24/outline';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Progress } from '@/components/ui/Progress';
@@ -73,9 +74,9 @@ function QCMPage() {
 
   if (sessionQuestions.length === 0) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center">
+      <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-6xl mb-4">⏳</div>
+          <ArrowPathIcon className="w-16 h-16 mx-auto mb-4 text-gray-400 dark:text-gray-600 animate-spin" />
           <p className="text-xl text-gray-600 dark:text-gray-300">Chargement...</p>
         </div>
       </div>
@@ -86,16 +87,20 @@ function QCMPage() {
     const percentage = Math.round((score.correct / score.total) * 100);
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center p-4">
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           className="max-w-md w-full"
         >
           <Card className="text-center p-8">
-            <div className="text-6xl mb-4">
-              {percentage >= 80 ? '🎉' : percentage >= 60 ? '👍' : '📚'}
-            </div>
+            {percentage >= 80 ? (
+              <CheckCircleIcon className="w-16 h-16 mx-auto mb-4 text-green-600 dark:text-green-400" />
+            ) : percentage >= 60 ? (
+              <HandThumbUpIcon className="w-16 h-16 mx-auto mb-4 text-yellow-600 dark:text-yellow-400" />
+            ) : (
+              <BookOpenIcon className="w-16 h-16 mx-auto mb-4 text-red-600 dark:text-red-400" />
+            )}
             <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-gray-100">
               QCM terminé !
             </h2>
@@ -136,7 +141,7 @@ function QCMPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
       <div className="container mx-auto max-w-3xl py-8">
         {/* Header */}
         <div className="mb-6">
@@ -186,7 +191,7 @@ function QCMPage() {
                     key={index}
                     onClick={() => handleSelectAnswer(index)}
                     disabled={showResult}
-                    className={`w-full p-4 rounded-lg border-2 text-left transition-all duration-200 ${
+                    className={`w-full p-4 rounded-md border-2 text-left transition-all duration-200 ${
                       selectedAnswer === index
                         ? showResult
                           ? index === currentQuestion.correctAnswer
@@ -217,7 +222,7 @@ function QCMPage() {
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="mt-6 p-4 bg-blue-50 dark:bg-gray-700 rounded-lg"
+                  className="mt-6 p-4 bg-gray-50 dark:bg-gray-700 rounded-md"
                 >
                   <p className="text-sm font-semibold text-gray-700 dark:text-gray-300 mb-1">
                     Explication

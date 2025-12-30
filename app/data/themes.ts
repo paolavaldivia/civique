@@ -1,3 +1,12 @@
+import {
+  ScaleIcon,
+  BuildingLibraryIcon,
+  FlagIcon,
+  BookOpenIcon,
+  MapIcon,
+  PaintBrushIcon,
+  HomeIcon
+} from '@heroicons/react/24/outline';
 import { ThemeInfo } from '@/types';
 
 export const themes: ThemeInfo[] = [
@@ -5,49 +14,49 @@ export const themes: ThemeInfo[] = [
     id: 'principes-valeurs',
     name: 'Principes et valeurs',
     description: 'Les principes et valeurs de la République française',
-    icon: '⚖️',
-    color: 'from-blue-500 to-blue-700',
+    icon: ScaleIcon,
+    color: 'from-blue-700 to-blue-800',
   },
   {
     id: 'institutions',
     name: 'Institutions',
     description: 'Les institutions de la République française',
-    icon: '🏛️',
-    color: 'from-purple-500 to-purple-700',
+    icon: BuildingLibraryIcon,
+    color: 'from-indigo-700 to-indigo-800',
   },
   {
     id: 'symboles',
     name: 'Symboles',
     description: 'Les symboles de la République française',
-    icon: '🇫🇷',
-    color: 'from-red-500 to-red-700',
+    icon: FlagIcon,
+    color: 'from-red-700 to-red-800',
   },
   {
     id: 'histoire',
     name: 'Histoire',
     description: 'L\'histoire de France et de la République',
-    icon: '📚',
-    color: 'from-amber-500 to-amber-700',
+    icon: BookOpenIcon,
+    color: 'from-amber-700 to-amber-800',
   },
   {
     id: 'geographie',
     name: 'Géographie',
     description: 'La géographie de la France',
-    icon: '🗺️',
-    color: 'from-green-500 to-green-700',
+    icon: MapIcon,
+    color: 'from-teal-700 to-teal-800',
   },
   {
     id: 'culture',
     name: 'Culture',
     description: 'La culture française',
-    icon: '🎨',
-    color: 'from-pink-500 to-pink-700',
+    icon: PaintBrushIcon,
+    color: 'from-rose-700 to-rose-800',
   },
   {
     id: 'vie-quotidienne',
     name: 'Vie quotidienne',
     description: 'La vie quotidienne en France',
-    icon: '🏠',
-    color: 'from-teal-500 to-teal-700',
+    icon: HomeIcon,
+    color: 'from-cyan-700 to-cyan-800',
   },
 ];

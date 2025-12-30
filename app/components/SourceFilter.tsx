@@ -43,18 +43,18 @@ export function SourceFilter() {
               key={option.value}
               onClick={() => setSourceFilter(option.value)}
               className={`
-                rounded-lg border-2 p-3 text-left transition-all
+                rounded-md border-2 p-3 text-left transition-all
                 ${
                   isActive
-                    ? 'border-blue-500 bg-blue-50 dark:bg-blue-950 dark:border-blue-400'
-                    : 'border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 hover:border-blue-300 dark:hover:border-blue-400'
+                    ? 'border-gray-700 bg-gray-100 dark:bg-gray-700 dark:border-gray-500'
+                    : 'border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-800 hover:border-gray-400 dark:hover:border-gray-500'
                 }
               `}
             >
               <div
                 className={`
                   text-sm font-semibold
-                  ${isActive ? 'text-blue-700 dark:text-blue-300' : 'text-gray-900 dark:text-gray-100'}
+                  ${isActive ? 'text-gray-900 dark:text-gray-100' : 'text-gray-900 dark:text-gray-100'}
                 `}
               >
                 {option.label}

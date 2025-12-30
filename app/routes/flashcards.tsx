@@ -1,6 +1,7 @@
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { ArrowPathIcon, CheckCircleIcon } from '@heroicons/react/24/outline';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import { Progress } from '@/components/ui/Progress';
@@ -76,10 +77,10 @@ function FlashcardsPage() {
 
   if (sessionQuestions.length === 0) {
     return (
-      <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 flex items-center justify-center">
+      <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center">
         <div className="text-center">
-          <div className="text-6xl mb-4">⏳</div>
-          <p className="text-xl text-gray-600">Chargement...</p>
+          <ArrowPathIcon className="w-16 h-16 mx-auto mb-4 text-gray-400 dark:text-gray-600 animate-spin" />
+          <p className="text-xl text-gray-600 dark:text-gray-400">Chargement...</p>
         </div>
       </div>
     );
@@ -87,15 +88,15 @@ function FlashcardsPage() {
 
   if (sessionComplete) {
     return (
-      <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 flex items-center justify-center p-4">
+      <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 flex items-center justify-center p-4">
         <motion.div
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           className="max-w-md w-full"
         >
           <Card className="text-center p-8">
-            <div className="text-6xl mb-4">🎉</div>
-            <h2 className="text-3xl font-bold mb-4 text-gray-800">
+            <CheckCircleIcon className="w-16 h-16 mx-auto mb-4 text-green-600 dark:text-green-400" />
+            <h2 className="text-3xl font-bold mb-4 text-gray-800 dark:text-gray-100">
               Session terminée !
             </h2>
             <p className="text-gray-600 mb-6">
@@ -126,7 +127,7 @@ function FlashcardsPage() {
   }
 
   return (
-    <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
       <div className="container mx-auto max-w-3xl py-8">
         {/* Header */}
         <div className="mb-6">
@@ -167,7 +168,7 @@ function FlashcardsPage() {
                 onClick={handleFlip}
                 className="cursor-pointer"
               >
-                <Card className="h-full min-h-100 flex items-center justify-center p-8 bg-linear-to-br from-white to-blue-50 dark:from-gray-800 dark:to-gray-700 hover:shadow-xl transition-shadow">
+                <Card className="h-full min-h-100 flex items-center justify-center p-8 hover:shadow-xl transition-shadow">
                   <div className="text-center">
                     {!showingAnswer ? (
                       <>
@@ -190,7 +191,7 @@ function FlashcardsPage() {
                           {currentQuestion.options[currentQuestion.correctAnswer]}
                         </h3>
                         {currentQuestion.explanation && (
-                          <p className="text-gray-600 dark:text-gray-300 text-base mt-6 p-4 bg-blue-50 dark:bg-gray-700 rounded-lg">
+                          <p className="text-gray-600 dark:text-gray-300 text-base mt-6 p-4 bg-gray-50 dark:bg-gray-700 rounded-md">
                             {currentQuestion.explanation}
                           </p>
                         )}

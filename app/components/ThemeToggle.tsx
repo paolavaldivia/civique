@@ -1,18 +1,19 @@
 import { motion } from 'framer-motion';
+import { SunIcon, MoonIcon, ComputerDesktopIcon } from '@heroicons/react/24/outline';
 import { useTheme } from '@/components/ThemeProvider';
 import type { Theme } from '@/lib/theme';
 
 export function ThemeToggle() {
   const { theme, setTheme } = useTheme();
 
-  const themes: { value: Theme; label: string; icon: string }[] = [
-    { value: 'light', label: 'Light', icon: '☀️' },
-    { value: 'system', label: 'System', icon: '💻' },
-    { value: 'dark', label: 'Dark', icon: '🌙' },
+  const themes: { value: Theme; label: string; icon: React.ComponentType<React.SVGProps<SVGSVGElement>> }[] = [
+    { value: 'light', label: 'Light', icon: SunIcon },
+    { value: 'system', label: 'System', icon: ComputerDesktopIcon },
+    { value: 'dark', label: 'Dark', icon: MoonIcon },
   ];
 
   return (
-    <div className="inline-flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-sm">
+    <div className="inline-flex items-center gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-md shadow-sm">
       {themes.map((t) => (
         <button
           key={t.value}
@@ -21,7 +22,7 @@ export function ThemeToggle() {
             relative px-3 py-2 rounded-md text-sm font-medium transition-colors
             ${
               theme === t.value
-                ? 'text-blue-600 dark:text-blue-400'
+                ? 'text-gray-800 dark:text-gray-100'
                 : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100'
             }
           `}
@@ -36,7 +37,7 @@ export function ThemeToggle() {
             />
           )}
           <span className="relative z-10 flex items-center gap-1.5">
-            <span className="text-base">{t.icon}</span>
+            <t.icon className="w-4 h-4" />
             <span className="hidden sm:inline">{t.label}</span>
           </span>
         </button>
