@@ -32,7 +32,7 @@ function StudyPage() {
 
   if (!selectedTheme) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
+      <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
         <div className="container mx-auto max-w-4xl py-8">
           <div className="mb-8">
             <Link to="/">
@@ -70,7 +70,7 @@ function StudyPage() {
                     onClick={() => setSelectedTheme(theme.id)}
                   >
                     <CardHeader
-                      className={`bg-gradient-to-r ${theme.color} text-white rounded-t-xl`}
+                      className={`bg-linear-to-r ${theme.color} text-white rounded-t-xl`}
                     >
                       <div className="text-5xl mb-3">{theme.icon}</div>
                       <h3 className="text-2xl font-semibold">{theme.name}</h3>
@@ -95,7 +95,7 @@ function StudyPage() {
   const themeQuestions = questions.filter((q) => q.theme === selectedTheme);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 p-4">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
       <div className="container mx-auto max-w-4xl py-8">
         <div className="mb-8">
           <Button variant="ghost" size="sm" onClick={() => setSelectedTheme(null)}>

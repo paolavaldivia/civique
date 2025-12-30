@@ -60,10 +60,10 @@ function HomePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-      <div className="container mx-auto px-4 py-12 max-w-6xl">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 via-white to-red-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+      <div className="container mx-auto px-4 py-6 max-w-6xl">
         {/* Theme Toggle */}
-        <div className="flex justify-end mb-6">
+        <div className="flex justify-end mb-4">
           <ThemeToggle />
         </div>
 
@@ -74,18 +74,14 @@ function HomePage() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <div className="mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold mb-4 flex items-center justify-center gap-3">
             <span className="text-6xl">🇫🇷</span>
-          </div>
-          <h1 className="text-5xl md:text-6xl font-bold mb-4 bg-gradient-to-r from-blue-600 via-gray-800 to-red-600 dark:from-blue-400 dark:via-gray-300 dark:to-red-400 bg-clip-text text-transparent">
-            Civique
+            <span className="text-gray-700 dark:text-gray-300">
+              Civique
+            </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6">
-            Préparez votre test civique gratuitement
-          </p>
-          <p className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
-            Une plateforme moderne et gratuite pour maîtriser les valeurs de la République française.
-            Flashcards, QCM et révisions intelligentes.
+            Préparez votre test civique gratiuitement
           </p>
         </motion.div>
 
@@ -96,7 +92,7 @@ function HomePage() {
             animate={{ opacity: 1, scale: 1 }}
             className="mb-12"
           >
-            <Card className="bg-gradient-to-r from-blue-600 to-purple-600 text-white">
+            <Card className="bg-linear-to-r from-blue-600 to-purple-600 text-white">
               <CardContent className="py-6">
                 <div className="grid grid-cols-3 gap-4 text-center">
                   <div>
@@ -132,7 +128,7 @@ function HomePage() {
               <motion.div key={feature.title} variants={itemVariants}>
                 <Link to={feature.href}>
                   <Card hover className="h-full cursor-pointer transition-transform hover:scale-105">
-                    <CardHeader className={`bg-gradient-to-r ${feature.color} text-white rounded-t-xl`}>
+                    <CardHeader className={`bg-linear-to-r ${feature.color} text-white rounded-t-xl`}>
                       <div className="text-5xl mb-3">{feature.icon}</div>
                       <h3 className="text-2xl font-semibold">{feature.title}</h3>
                     </CardHeader>
