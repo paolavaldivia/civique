@@ -1,5 +1,6 @@
 import { createRootRoute, HeadContent, Scripts } from '@tanstack/react-router';
 import type { ReactNode } from 'react';
+import { ThemeProvider } from '@/components/ThemeProvider';
 import '@/styles.css';
 
 export const Route = createRootRoute({
@@ -32,7 +33,9 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
         <HeadContent />
       </head>
       <body>
-        {children}
+        <ThemeProvider>
+          {children}
+        </ThemeProvider>
         <Scripts />
       </body>
     </html>
