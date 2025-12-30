@@ -31,6 +31,26 @@ function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
     <html lang="fr">
       <head>
         <HeadContent />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                try {
+                  var stored = localStorage.getItem('civique-preferences');
+                  var theme = stored ? JSON.parse(stored).state.theme : 'system';
+                  var root = document.documentElement;
+
+                  if (theme === 'system') {
+                    var isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    root.classList.add(isDark ? 'dark' : 'light');
+                  } else {
+                    root.classList.add(theme);
+                  }
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
       </head>
       <body>
         <ThemeProvider>

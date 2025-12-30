@@ -5,6 +5,9 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const theme = usePreferencesStore((state) => state.theme);
 
   useEffect(() => {
+    // Only run on client side
+    if (typeof window === 'undefined') return;
+
     const root = window.document.documentElement;
 
     // Remove existing theme classes
@@ -23,6 +26,9 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   }, [theme]);
 
   useEffect(() => {
+    // Only run on client side
+    if (typeof window === 'undefined') return;
+
     // Listen for system theme changes when in system mode
     if (theme !== 'system') return;
 
