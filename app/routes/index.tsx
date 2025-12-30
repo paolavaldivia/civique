@@ -80,7 +80,7 @@ function HomePage() {
               <FlagIcon className="w-full h-full text-slate-600 dark:text-slate-400" />
             </div>
             <span className="text-gray-800 dark:text-gray-200">
-              Civique
+              Mon Test Civique
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-6">
