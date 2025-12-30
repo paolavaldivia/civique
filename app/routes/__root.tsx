@@ -1,6 +1,7 @@
 import { createRootRoute, HeadContent, Scripts } from '@tanstack/react-router';
 import type { ReactNode } from 'react';
 import { ThemeProvider } from '@/components/ThemeProvider';
+import { getThemeServerFn } from '@/lib/theme';
 import '@/styles.css';
 
 export const Route = createRootRoute({
@@ -23,17 +24,22 @@ export const Route = createRootRoute({
       },
     ],
   }),
+  loader: () => getThemeServerFn(),
   shellComponent: RootDocument,
 });
 
 function RootDocument({ children }: Readonly<{ children: ReactNode }>) {
+  const theme = Route.useLoaderData();
+  const initialClass = theme === 'system' ? 'light' : theme;
+
   return (
-    <html lang="fr">
-      <head>
+    <html lang="fr" className={initialClass} suppressHydrationWarning>
+      <head >
+        <title> Civique - Préparez votre test civique gratuitement</title>
         <HeadContent />
       </head>
       <body>
-        <ThemeProvider>
+        <ThemeProvider theme={theme}>
           {children}
         </ThemeProvider>
         <Scripts />

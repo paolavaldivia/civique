@@ -1,8 +1,9 @@
-import { usePreferencesStore, type Theme } from '@/store/usePreferencesStore';
 import { motion } from 'framer-motion';
+import { useTheme } from '@/components/ThemeProvider';
+import type { Theme } from '@/lib/theme';
 
 export function ThemeToggle() {
-  const { theme, setTheme } = usePreferencesStore();
+  const { theme, setTheme } = useTheme();
 
   const themes: { value: Theme; label: string; icon: string }[] = [
     { value: 'light', label: 'Light', icon: '☀️' },
