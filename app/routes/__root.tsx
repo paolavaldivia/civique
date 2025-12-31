@@ -23,6 +23,13 @@ export const Route = createRootRoute({
           "Plateforme gratuite et moderne pour réviser le test d'évaluation du français et des valeurs de la République. Flashcards, QCM et mode étude avec répétition espacée.",
       },
     ],
+    links: [
+      {
+        rel: 'icon',
+        type: 'image/svg+xml',
+        href: '/favicon.svg',
+      },
+    ],
   }),
   loader: () => getThemeServerFn(),
   shellComponent: RootDocument,
