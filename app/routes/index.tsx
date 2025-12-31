@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from '@tanstack/react-router';
+import {ClientOnly, createFileRoute, Link} from '@tanstack/react-router';
 import { motion } from 'framer-motion';
 import { RectangleStackIcon, ClipboardDocumentListIcon, BookOpenIcon, FlagIcon, AcademicCapIcon } from '@heroicons/react/24/outline';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
@@ -97,6 +97,8 @@ function HomePage() {
         </motion.div>
 
         {/* Stats Section */}
+        <ClientOnly fallback={null}>
+
         {stats.totalQuestions > 0 && (
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
@@ -123,6 +125,7 @@ function HomePage() {
             </Card>
           </motion.div>
         )}
+          </ClientOnly>
 
         {/* Exam Stats Section */}
         {examStats.totalExams > 0 && (
