@@ -244,8 +244,16 @@
     "number": 31,
     "source": "CR",
     "question": "Combien y a-t-il de régions en France ?",
-    "options": [],
-    "theme": "Principes et valeurs de la République"
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "13 régions",
+      "15 régions",
+      "18 régions",
+      "22 régions"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "La France compte 18 régions au total : 13 régions en France métropolitaine (incluant la Corse) et 5 régions d'outre-mer (Guadeloupe, Guyane, Martinique, La Réunion, Mayotte)."
   },
   {
     "id": "cr-32",
@@ -316,24 +324,48 @@
     "number": 40,
     "source": "CR",
     "question": "Quel est l'hymne de l'Union européenne ?",
-    "options": [],
-    "theme": "Principes et valeurs de la République"
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "La Marseillaise",
+      "L'Ode à la joie",
+      "L'hymne à la liberté",
+      "Chant européen"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'hymne européen est l'\"Ode à la joie\", une mélodie écrite par le compositeur allemand Ludwig von Beethoven. Il symbolise la liberté, la paix et la solidarité. Cette mélodie est devenue l'hymne officiel du Conseil de l'Europe en 1972 et un symbole de l'Union européenne en 1985."
   },
   {
     "id": "cr-41",
     "number": 41,
     "source": "CR",
     "question": "De quoi est composé le drapeau européen ?",
-    "options": [],
-    "theme": "Principes et valeurs de la République"
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "15 étoiles blanches sur fond bleu",
+      "12 étoiles jaunes formant un cercle sur fond bleu",
+      "12 étoiles blanches sur fond rouge",
+      "Un cercle d'étoiles dorées sur fond vert"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le drapeau européen est composé de douze étoiles jaunes formant un cercle sur un fond bleu. Ce cercle d'étoiles symbolise l'unité, la solidarité et l'harmonie entre les peuples d'Europe."
   },
   {
     "id": "cr-42",
     "number": 42,
     "source": "CR",
     "question": "De quelle couleur est le drapeau européen ?",
-    "options": [],
-    "theme": "Principes et valeurs de la République"
+    "theme": "Principes et valeurs de la République",
+    "options": [
+      "Bleu avec des étoiles jaunes",
+      "Bleu avec des étoiles blanches",
+      "Rouge avec des étoiles dorées",
+      "Vert avec des étoiles argentées"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "Le drapeau européen est bleu avec douze étoiles jaunes disposées en cercle. Le fond bleu et les étoiles jaunes sont les couleurs officielles du drapeau de l'Union européenne depuis 1985."
   },
   {
     "id": "cr-43",
@@ -924,16 +956,32 @@
     "number": 116,
     "source": "CR",
     "question": "Quelle est la population approximative de la France en 2025 ?",
-    "options": [],
-    "theme": "Droits et devoirs"
+    "theme": "Droits et devoirs",
+    "options": [
+      "60 millions d'habitants",
+      "65 millions d'habitants",
+      "68,6 millions d'habitants",
+      "75 millions d'habitants"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "Au 1er janvier 2025, la France compte 68,6 millions d'habitants : 66,4 millions en France métropolitaine et 2,3 millions dans les DROM (départements et régions d'outre-mer)."
   },
   {
     "id": "cr-117",
     "number": 117,
     "source": "CR",
     "question": "Quel fleuve traverse Paris ?",
-    "options": [],
-    "theme": "Droits et devoirs"
+    "theme": "Droits et devoirs",
+    "options": [
+      "La Loire",
+      "Le Rhône",
+      "La Seine",
+      "La Garonne"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "La Seine traverse Paris. Ce fleuve prend sa source en Bourgogne, près de Dijon, et se jette dans la Manche. Il fait 776 kilomètres de long et traverse notamment les villes de Troyes, Paris, Rouen et Le Havre."
   },
   {
     "id": "cr-118",
@@ -980,8 +1028,16 @@
     "number": 123,
     "source": "CR",
     "question": "Quelle région est la plus peuplée ?",
-    "options": [],
-    "theme": "Droits et devoirs"
+    "theme": "Droits et devoirs",
+    "options": [
+      "Auvergne-Rhône-Alpes",
+      "Nouvelle-Aquitaine",
+      "Île-de-France",
+      "Hauts-de-France"
+    ],
+    "correctAnswer": 2,
+    "confidence": "high",
+    "reasoning": "L'Île-de-France est la région la plus peuplée de France avec environ 12,4 millions d'habitants. C'est le cœur politique, économique et administratif du pays, avec une forte densité de population et une forte urbanisation."
   },
   {
     "id": "cr-124",
@@ -1004,8 +1060,16 @@
     "number": 126,
     "source": "CR",
     "question": "Quand peut-on visiter gratuitement des lieux culturels en France ?",
-    "options": [],
-    "theme": "Droits et devoirs"
+    "theme": "Droits et devoirs",
+    "options": [
+      "Le premier dimanche de chaque mois",
+      "Tous les dimanches",
+      "Pendant les vacances scolaires",
+      "Le 14 juillet uniquement"
+    ],
+    "correctAnswer": 0,
+    "confidence": "high",
+    "reasoning": "En France, de nombreux musées et monuments nationaux proposent la gratuité le premier dimanche de chaque mois. Cette mesure permet de rendre la culture accessible à tous et encourage la visite des lieux culturels."
   },
   {
     "id": "cr-127",
@@ -1052,8 +1116,16 @@
     "number": 132,
     "source": "CR",
     "question": "Quel est le classement de la langue française parmi les langues les plus parlées dans le monde ?",
-    "options": [],
-    "theme": "Droits et devoirs"
+    "theme": "Droits et devoirs",
+    "options": [
+      "3ème langue",
+      "5ème langue",
+      "7ème langue",
+      "10ème langue"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le français est la 5ème langue la plus parlée au monde avec plus de 300 millions de locuteurs. On parle français sur les 5 continents et c'est la langue officielle de plus de 30 pays."
   },
   {
     "id": "cr-133",

@@ -652,8 +652,16 @@
     "number": 82,
     "source": "CSP",
     "question": "Quel pays ou région du monde a été colonisé par la France ?",
-    "options": [],
-    "theme": "Droits et devoirs"
+    "theme": "Droits et devoirs",
+    "options": [
+      "L'Inde",
+      "L'Algérie",
+      "Le Brésil",
+      "L'Australie"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "L'Algérie a été colonisée par la France de 1830 à 1962. La guerre d'Algérie (1954-1962) entre la France et le Front de libération nationale a abouti à l'indépendance de l'Algérie. La France a également colonisé l'Indochine, Madagascar et plusieurs pays d'Afrique subsaharienne qui ont obtenu leur indépendance en 1960."
   },
   {
     "id": "csp-83",
@@ -748,8 +756,16 @@
     "number": 94,
     "source": "CSP",
     "question": "Que célèbre-t-on le 14 juillet ?",
-    "options": [],
-    "theme": "Droits et devoirs"
+    "theme": "Droits et devoirs",
+    "options": [
+      "La fin de la Seconde Guerre mondiale",
+      "La fête nationale et la prise de la Bastille",
+      "L'élection du président",
+      "La signature de la Constitution"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le 14 juillet est la fête nationale française depuis 1880. Cette date commémore deux événements fondateurs : la prise de la Bastille le 14 juillet 1789, qui marque le début de la Révolution française, et la première Fête de la Fédération le 14 juillet 1790. C'est un moment institutionnel avec le défilé militaire sur les Champs-Élysées et une fête populaire avec des feux d'artifice dans tout le pays."
   },
   {
     "id": "csp-95",
@@ -772,8 +788,16 @@
     "number": 97,
     "source": "CSP",
     "question": "Quel fleuve coule en France ?",
-    "options": [],
-    "theme": "Droits et devoirs"
+    "theme": "Droits et devoirs",
+    "options": [
+      "Le Danube",
+      "Le Rhin",
+      "Le Tibre",
+      "Le Tage"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "Le Rhin coule en France. Il longe une partie de la frontière franco-allemande sur 180 kilomètres. La France compte 5 fleuves principaux : la Seine, la Loire (le plus long avec 1 020 km), la Garonne, le Rhône et le Rhin."
   },
   {
     "id": "csp-98",
@@ -828,8 +852,16 @@
     "number": 104,
     "source": "CSP",
     "question": "Combien y a-t-il de régions en France métropolitaine ?",
-    "options": [],
-    "theme": "Droits et devoirs"
+    "theme": "Droits et devoirs",
+    "options": [
+      "10 régions",
+      "13 régions",
+      "15 régions",
+      "18 régions"
+    ],
+    "correctAnswer": 1,
+    "confidence": "high",
+    "reasoning": "La France métropolitaine compte 13 régions (incluant la Corse). Au total, la France compte 18 régions en incluant les 5 régions d'outre-mer (Guadeloupe, Guyane, Martinique, La Réunion, Mayotte)."
   },
   {
     "id": "csp-105",
