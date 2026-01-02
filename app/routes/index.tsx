@@ -1,4 +1,5 @@
-import {ClientOnly, createFileRoute, Link} from '@tanstack/react-router';
+import { createFileRoute, Link } from '@tanstack/react-router';
+import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { RectangleStackIcon, ClipboardDocumentListIcon, BookOpenIcon, FlagIcon, AcademicCapIcon } from '@heroicons/react/24/outline';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
@@ -12,8 +13,14 @@ export const Route = createFileRoute('/')({
 });
 
 function HomePage() {
+  const [isClient, setIsClient] = useState(false);
   const stats = useProgressStore(useShallow((state) => state.getStats()));
   const examStats = useProgressStore(useShallow((state) => state.getExamStats()));
+
+  // Only show stats after client-side hydration to avoid SSR mismatch
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   const features = [
     {
@@ -97,9 +104,7 @@ function HomePage() {
         </motion.div>
 
         {/* Stats Section */}
-        <ClientOnly fallback={null}>
-
-        {stats.totalQuestions > 0 && (
+        {isClient && stats.totalQuestions > 0 && (
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -125,10 +130,9 @@ function HomePage() {
             </Card>
           </motion.div>
         )}
-          </ClientOnly>
 
         {/* Exam Stats Section */}
-        {examStats.totalExams > 0 && (
+        {isClient && examStats.totalExams > 0 && (
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
