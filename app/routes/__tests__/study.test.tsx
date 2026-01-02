@@ -98,13 +98,13 @@ describe('Study Page - Floating Navigation', () => {
   });
 
   describe('URL updates', () => {
-    it('should debounce URL updates during natural scrolling', async () => {
+    it('should NOT update URL during natural scrolling (only localStorage)', async () => {
       vi.useFakeTimers();
 
       // Simulate multiple scroll events in quick succession
       const mockNavigate = vi.fn();
 
-      // Fast scrolling should not trigger immediate navigation
+      // Fast scrolling should not trigger navigation at all
       for (let i = 0; i < 5; i++) {
         window.scrollY = 100 * i;
         window.dispatchEvent(new Event('scroll'));
@@ -115,6 +115,10 @@ describe('Study Page - Floating Navigation', () => {
 
       // Fast forward 1 second (debounce timeout)
       vi.advanceTimersByTime(1000);
+
+      // Verify navigate is STILL not called during natural scrolling
+      // Only localStorage should be updated to preserve position
+      expect(mockNavigate).not.toHaveBeenCalled();
 
       vi.useRealTimers();
     });

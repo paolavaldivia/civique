@@ -52,7 +52,7 @@ function StudyPage() {
     }
   }, [selectedTheme, navigate]);
 
-  // Debounced URL update for natural scrolling (localStorage only)
+  // Save to localStorage during natural scrolling (debounced)
   useEffect(() => {
     if (!selectedTheme || currentQuestion <= 1) return;
 
@@ -62,15 +62,9 @@ function StudyPage() {
     }
 
     // Save to localStorage after user stops scrolling for 1 second
+    // Note: We DON'T update the URL here to avoid scroll jumps
     urlUpdateTimeout.current = setTimeout(() => {
       localStorage.setItem(`study-${selectedTheme}-lastQuestion`, currentQuestion.toString());
-
-      // Update URL without triggering scroll
-      const searchParams: { theme: Theme; question?: number } = { theme: selectedTheme };
-      if (currentQuestion > 1) {
-        searchParams.question = currentQuestion;
-      }
-      navigate({ search: searchParams, replace: true });
     }, 1000);
 
     return () => {
@@ -78,7 +72,7 @@ function StudyPage() {
         clearTimeout(urlUpdateTimeout.current);
       }
     };
-  }, [selectedTheme, currentQuestion, navigate]);
+  }, [selectedTheme, currentQuestion]);
 
   // Scroll to question from URL on mount or theme change
   useEffect(() => {
