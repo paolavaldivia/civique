@@ -1,7 +1,7 @@
 import { createFileRoute, Link, useNavigate } from '@tanstack/react-router';
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { BookOpenIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
+import { useState, useEffect, useRef, useCallback } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { BookOpenIcon, ArrowTopRightOnSquareIcon, ChevronUpIcon } from '@heroicons/react/24/outline';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
 import { themes } from '@/data/themes';
@@ -10,26 +10,115 @@ import { Theme } from '@/types';
 
 export const Route = createFileRoute('/study')({
   component: StudyPage,
-  validateSearch: (search: Record<string, unknown>): { theme?: Theme } => {
+  validateSearch: (search: Record<string, unknown>): { theme?: Theme; question?: number } => {
     return {
       theme: search.theme as Theme | undefined,
+      question: typeof search.question === 'number' ? search.question :
+                typeof search.question === 'string' ? parseInt(search.question, 10) :
+                undefined,
     };
   },
 });
 
 function StudyPage() {
   const navigate = useNavigate({ from: '/study' });
-  const { theme: urlTheme } = Route.useSearch();
+  const { theme: urlTheme, question: urlQuestion } = Route.useSearch();
   const [selectedTheme, setSelectedTheme] = useState<Theme | null>(urlTheme || null);
+  const [currentQuestion, setCurrentQuestion] = useState<number>(1);
+  const [showFloatingNav, setShowFloatingNav] = useState(false);
+  const questionRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
+  const isScrollingToQuestion = useRef(false);
 
-  // Update URL when theme changes
+  // Get theme questions
+  const themeQuestions = selectedTheme ? questions.filter((q) => q.theme === selectedTheme) : [];
+
+  // Update URL when theme or question changes
   useEffect(() => {
     if (selectedTheme) {
-      navigate({ search: { theme: selectedTheme }, replace: true });
+      const searchParams: { theme: Theme; question?: number } = { theme: selectedTheme };
+      if (currentQuestion > 1) {
+        searchParams.question = currentQuestion;
+      }
+      navigate({ search: searchParams, replace: true });
     } else {
       navigate({ search: {}, replace: true });
     }
-  }, [selectedTheme, navigate]);
+  }, [selectedTheme, currentQuestion, navigate]);
+
+  // Scroll to question from URL on mount
+  useEffect(() => {
+    if (urlQuestion && urlQuestion > 0 && urlQuestion <= themeQuestions.length) {
+      setCurrentQuestion(urlQuestion);
+      setTimeout(() => {
+        scrollToQuestion(urlQuestion);
+      }, 100);
+    }
+  }, [urlTheme]); // Only run when theme changes
+
+  // Save last position to localStorage
+  useEffect(() => {
+    if (selectedTheme && currentQuestion > 1) {
+      localStorage.setItem(`study-${selectedTheme}-lastQuestion`, currentQuestion.toString());
+    }
+  }, [selectedTheme, currentQuestion]);
+
+  // Intersection Observer to track current question in viewport
+  useEffect(() => {
+    if (!selectedTheme || themeQuestions.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (isScrollingToQuestion.current) return;
+
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+            const questionIndex = parseInt(entry.target.getAttribute('data-question-index') || '0', 10);
+            setCurrentQuestion(questionIndex + 1);
+          }
+        });
+      },
+      {
+        threshold: [0.5],
+        rootMargin: '-20% 0px -20% 0px',
+      }
+    );
+
+    Object.values(questionRefs.current).forEach((ref) => {
+      if (ref) observer.observe(ref);
+    });
+
+    return () => observer.disconnect();
+  }, [selectedTheme, themeQuestions.length]);
+
+  // Show/hide floating nav based on scroll position
+  useEffect(() => {
+    if (!selectedTheme) return;
+
+    const handleScroll = () => {
+      setShowFloatingNav(window.scrollY > 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [selectedTheme]);
+
+  const scrollToQuestion = useCallback((questionNumber: number) => {
+    const ref = questionRefs.current[questionNumber - 1];
+    if (ref) {
+      isScrollingToQuestion.current = true;
+      ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      setCurrentQuestion(questionNumber);
+
+      // Reset flag after scrolling completes
+      setTimeout(() => {
+        isScrollingToQuestion.current = false;
+      }, 1000);
+    }
+  }, []);
+
+  const scrollToTop = useCallback(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, []);
 
   if (!selectedTheme) {
     return (
@@ -93,7 +182,6 @@ function StudyPage() {
   }
 
   const themeInfo = themes.find((t) => t.id === selectedTheme);
-  const themeQuestions = questions.filter((q) => q.theme === selectedTheme);
 
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
@@ -150,6 +238,10 @@ function StudyPage() {
           {themeQuestions.map((question, index) => (
             <motion.div
               key={question.id}
+              ref={(el) => {
+                questionRefs.current[index] = el;
+              }}
+              data-question-index={index}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.05 }}
@@ -202,6 +294,51 @@ function StudyPage() {
             </motion.div>
           ))}
         </div>
+
+        {/* Floating Navigation */}
+        <AnimatePresence>
+          {showFloatingNav && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 20 }}
+              className="fixed bottom-8 right-8 flex flex-col gap-3"
+            >
+              {/* Jump to Question Dropdown */}
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-3">
+                <div className="flex flex-col gap-2">
+                  <label
+                    htmlFor="question-jump"
+                    className="text-xs font-semibold text-gray-600 dark:text-gray-400"
+                  >
+                    Question {currentQuestion} / {themeQuestions.length}
+                  </label>
+                  <select
+                    id="question-jump"
+                    value={currentQuestion}
+                    onChange={(e) => scrollToQuestion(parseInt(e.target.value, 10))}
+                    className="text-sm rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 px-2 py-1.5 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  >
+                    {themeQuestions.map((_, idx) => (
+                      <option key={idx} value={idx + 1}>
+                        Aller à la question {idx + 1}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+
+              {/* Scroll to Top Button */}
+              <Button
+                onClick={scrollToTop}
+                className="bg-blue-600 hover:bg-blue-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg"
+                aria-label="Retour en haut"
+              >
+                <ChevronUpIcon className="w-6 h-6" />
+              </Button>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );
