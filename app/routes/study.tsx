@@ -1,7 +1,8 @@
-import { createFileRoute, Link, useNavigate } from '@tanstack/react-router';
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { createFileRoute, Link } from '@tanstack/react-router';
+import { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BookOpenIcon, ArrowTopRightOnSquareIcon, ChevronUpIcon } from '@heroicons/react/24/outline';
+import { useQueryState, parseAsInteger } from 'nuqs';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
 import { themes } from '@/data/themes';
@@ -10,62 +11,41 @@ import { Theme } from '@/types';
 
 export const Route = createFileRoute('/study')({
   component: StudyPage,
-  validateSearch: (search: Record<string, unknown>): { theme?: Theme; question?: number } => {
+  validateSearch: (search: Record<string, unknown>): { theme?: Theme } => {
     return {
       theme: search.theme as Theme | undefined,
-      question: typeof search.question === 'number' ? search.question :
-                typeof search.question === 'string' ? parseInt(search.question, 10) :
-                undefined,
     };
   },
 });
 
 function StudyPage() {
-  const navigate = useNavigate({ from: '/study' });
-  const { theme: urlTheme, question: urlQuestion } = Route.useSearch();
+  const { theme: urlTheme } = Route.useSearch();
   const [selectedTheme, setSelectedTheme] = useState<Theme | null>(urlTheme || null);
   const [showFloatingNav, setShowFloatingNav] = useState(false);
   const questionRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
-  const scrollTimeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  // Use nuqs for question state - URL is single source of truth!
+  const [currentQuestion, setCurrentQuestion] = useQueryState(
+    'question',
+    parseAsInteger.withDefault(1)
+  );
 
   // Get theme questions
   const themeQuestions = selectedTheme ? questions.filter((q) => q.theme === selectedTheme) : [];
 
-  // Current question is simply the URL param or 1
-  const currentQuestion = urlQuestion && urlQuestion > 0 && urlQuestion <= themeQuestions.length
-    ? urlQuestion
-    : 1;
-
-  // Update URL when theme changes
+  // Scroll to question when currentQuestion changes
   useEffect(() => {
-    if (selectedTheme) {
-      navigate({ search: { theme: selectedTheme }, replace: true });
-    } else {
-      navigate({ search: {}, replace: true });
-    }
-  }, [selectedTheme, navigate]);
+    if (!selectedTheme || currentQuestion < 1 || currentQuestion > themeQuestions.length) return;
 
-  // Scroll to question when URL question param changes
-  useEffect(() => {
-    if (!selectedTheme || !urlQuestion) return;
-
-    if (scrollTimeoutRef.current) {
-      clearTimeout(scrollTimeoutRef.current);
-    }
-
-    scrollTimeoutRef.current = setTimeout(() => {
-      const ref = questionRefs.current[urlQuestion - 1];
+    const timer = setTimeout(() => {
+      const ref = questionRefs.current[currentQuestion - 1];
       if (ref) {
         ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     }, 100);
 
-    return () => {
-      if (scrollTimeoutRef.current) {
-        clearTimeout(scrollTimeoutRef.current);
-      }
-    };
-  }, [urlQuestion, selectedTheme, themeQuestions.length]);
+    return () => clearTimeout(timer);
+  }, [currentQuestion, selectedTheme, themeQuestions.length]);
 
   // Show/hide floating nav based on scroll position
   useEffect(() => {
@@ -79,18 +59,9 @@ function StudyPage() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, [selectedTheme]);
 
-  const goToQuestion = useCallback((questionNumber: number) => {
-    if (questionNumber >= 1 && questionNumber <= themeQuestions.length && selectedTheme) {
-      navigate({
-        search: { theme: selectedTheme, question: questionNumber },
-        replace: true,
-      });
-    }
-  }, [selectedTheme, themeQuestions.length, navigate]);
-
-  const scrollToTop = useCallback(() => {
+  const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, []);
+  };
 
   if (!selectedTheme) {
     return (
@@ -287,7 +258,7 @@ function StudyPage() {
                   </label>
                   <div className="flex gap-1">
                     <Button
-                      onClick={() => goToQuestion(currentQuestion - 1)}
+                      onClick={() => setCurrentQuestion(currentQuestion - 1)}
                       disabled={currentQuestion <= 1}
                       className="px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed"
                       aria-label="Question précédente"
@@ -303,13 +274,13 @@ function StudyPage() {
                       onChange={(e) => {
                         const num = parseInt(e.target.value, 10);
                         if (!isNaN(num)) {
-                          goToQuestion(num);
+                          setCurrentQuestion(num);
                         }
                       }}
                       className="w-16 text-sm text-center rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 px-2 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
                     />
                     <Button
-                      onClick={() => goToQuestion(currentQuestion + 1)}
+                      onClick={() => setCurrentQuestion(currentQuestion + 1)}
                       disabled={currentQuestion >= themeQuestions.length}
                       className="px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed"
                       aria-label="Question suivante"
