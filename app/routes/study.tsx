@@ -41,16 +41,13 @@ function StudyPage() {
       return;
     }
 
-    // Only update URL if we explicitly requested it
-    if (shouldUpdateURL.current) {
+    // Only update URL if we explicitly requested it AND not currently scrolling
+    if (shouldUpdateURL.current && !isScrollingToQuestion.current) {
       const searchParams: { theme: Theme; question?: number } = { theme: selectedTheme };
       if (currentQuestion > 1) {
         searchParams.question = currentQuestion;
       }
-      // Delay navigation slightly to allow smooth scroll to start
-      setTimeout(() => {
-        navigate({ search: searchParams, replace: true });
-      }, 50);
+      navigate({ search: searchParams, replace: true });
       shouldUpdateURL.current = false;
     }
   }, [selectedTheme, currentQuestion, navigate]);
@@ -145,18 +142,20 @@ function StudyPage() {
     const ref = questionRefs.current[questionNumber - 1];
     if (ref) {
       isScrollingToQuestion.current = true;
-      shouldUpdateURL.current = true;
 
-      // Update state (triggers URL update via effect)
+      // Update state first
       setCurrentQuestion(questionNumber);
 
       // Scroll to the question
       ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-      // Reset flag after scrolling completes
+      // After scroll completes, update URL
       setTimeout(() => {
         isScrollingToQuestion.current = false;
-      }, 1000);
+        shouldUpdateURL.current = true;
+        // Trigger the effect to update URL
+        setCurrentQuestion((prev) => prev);
+      }, 800);
     }
   }, []);
 
