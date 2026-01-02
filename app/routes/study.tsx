@@ -41,16 +41,19 @@ function StudyPage() {
       return;
     }
 
-    // Only update URL if we explicitly requested it or theme changed
+    // Only update URL if we explicitly requested it
     if (shouldUpdateURL.current) {
       const searchParams: { theme: Theme; question?: number } = { theme: selectedTheme };
       if (currentQuestion > 1) {
         searchParams.question = currentQuestion;
       }
-      navigate({ search: searchParams, replace: true });
+      // Delay navigation slightly to allow smooth scroll to start
+      setTimeout(() => {
+        navigate({ search: searchParams, replace: true });
+      }, 50);
       shouldUpdateURL.current = false;
     }
-  }, [selectedTheme, navigate]);
+  }, [selectedTheme, currentQuestion, navigate]);
 
   // Save to localStorage during natural scrolling (debounced)
   useEffect(() => {
@@ -143,24 +146,19 @@ function StudyPage() {
     if (ref) {
       isScrollingToQuestion.current = true;
       shouldUpdateURL.current = true;
-      ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+      // Update state (triggers URL update via effect)
       setCurrentQuestion(questionNumber);
 
-      // Update URL immediately for explicit jumps
-      if (selectedTheme) {
-        const searchParams: { theme: Theme; question?: number } = { theme: selectedTheme };
-        if (questionNumber > 1) {
-          searchParams.question = questionNumber;
-        }
-        navigate({ search: searchParams, replace: true });
-      }
+      // Scroll to the question
+      ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
       // Reset flag after scrolling completes
       setTimeout(() => {
         isScrollingToQuestion.current = false;
       }, 1000);
     }
-  }, [selectedTheme, navigate]);
+  }, []);
 
   const scrollToTop = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -350,27 +348,47 @@ function StudyPage() {
               exit={{ opacity: 0, y: 20 }}
               className="fixed bottom-8 right-8 flex flex-col gap-3"
             >
-              {/* Jump to Question Dropdown */}
+              {/* Jump to Question Input */}
               <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-3">
                 <div className="flex flex-col gap-2">
                   <label
                     htmlFor="question-jump"
-                    className="text-xs font-semibold text-gray-600 dark:text-gray-400"
+                    className="text-xs font-semibold text-gray-600 dark:text-gray-400 text-center"
                   >
                     Question {currentQuestion} / {themeQuestions.length}
                   </label>
-                  <select
-                    id="question-jump"
-                    value={currentQuestion}
-                    onChange={(e) => scrollToQuestion(parseInt(e.target.value, 10))}
-                    className="text-sm rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 px-2 py-1.5 focus:outline-none focus:ring-2 focus:ring-blue-500"
-                  >
-                    {themeQuestions.map((_, idx) => (
-                      <option key={idx} value={idx + 1}>
-                        Aller à la question {idx + 1}
-                      </option>
-                    ))}
-                  </select>
+                  <div className="flex gap-1">
+                    <Button
+                      onClick={() => scrollToQuestion(Math.max(1, currentQuestion - 1))}
+                      disabled={currentQuestion <= 1}
+                      className="px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed"
+                      aria-label="Question précédente"
+                    >
+                      ←
+                    </Button>
+                    <input
+                      type="number"
+                      id="question-jump"
+                      min="1"
+                      max={themeQuestions.length}
+                      value={currentQuestion}
+                      onChange={(e) => {
+                        const num = parseInt(e.target.value, 10);
+                        if (num >= 1 && num <= themeQuestions.length) {
+                          scrollToQuestion(num);
+                        }
+                      }}
+                      className="w-16 text-sm text-center rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 px-2 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                    <Button
+                      onClick={() => scrollToQuestion(Math.min(themeQuestions.length, currentQuestion + 1))}
+                      disabled={currentQuestion >= themeQuestions.length}
+                      className="px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed"
+                      aria-label="Question suivante"
+                    >
+                      →
+                    </Button>
+                  </div>
                 </div>
               </div>
 
