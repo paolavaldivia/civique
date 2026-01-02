@@ -28,39 +28,81 @@ function StudyPage() {
   const [showFloatingNav, setShowFloatingNav] = useState(false);
   const questionRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
   const isScrollingToQuestion = useRef(false);
+  const shouldUpdateURL = useRef(false);
+  const urlUpdateTimeout = useRef<NodeJS.Timeout | null>(null);
 
   // Get theme questions
   const themeQuestions = selectedTheme ? questions.filter((q) => q.theme === selectedTheme) : [];
 
-  // Update URL when theme or question changes
+  // Update URL only when theme changes or when explicitly jumping to a question
   useEffect(() => {
-    if (selectedTheme) {
+    if (!selectedTheme) {
+      navigate({ search: {}, replace: true });
+      return;
+    }
+
+    // Only update URL if we explicitly requested it or theme changed
+    if (shouldUpdateURL.current) {
       const searchParams: { theme: Theme; question?: number } = { theme: selectedTheme };
       if (currentQuestion > 1) {
         searchParams.question = currentQuestion;
       }
       navigate({ search: searchParams, replace: true });
-    } else {
-      navigate({ search: {}, replace: true });
+      shouldUpdateURL.current = false;
     }
+  }, [selectedTheme, navigate]);
+
+  // Debounced URL update for natural scrolling (localStorage only)
+  useEffect(() => {
+    if (!selectedTheme || currentQuestion <= 1) return;
+
+    // Clear existing timeout
+    if (urlUpdateTimeout.current) {
+      clearTimeout(urlUpdateTimeout.current);
+    }
+
+    // Save to localStorage after user stops scrolling for 1 second
+    urlUpdateTimeout.current = setTimeout(() => {
+      localStorage.setItem(`study-${selectedTheme}-lastQuestion`, currentQuestion.toString());
+
+      // Update URL without triggering scroll
+      const searchParams: { theme: Theme; question?: number } = { theme: selectedTheme };
+      if (currentQuestion > 1) {
+        searchParams.question = currentQuestion;
+      }
+      navigate({ search: searchParams, replace: true });
+    }, 1000);
+
+    return () => {
+      if (urlUpdateTimeout.current) {
+        clearTimeout(urlUpdateTimeout.current);
+      }
+    };
   }, [selectedTheme, currentQuestion, navigate]);
 
-  // Scroll to question from URL on mount
+  // Scroll to question from URL on mount or theme change
   useEffect(() => {
+    if (!selectedTheme) return;
+
     if (urlQuestion && urlQuestion > 0 && urlQuestion <= themeQuestions.length) {
       setCurrentQuestion(urlQuestion);
       setTimeout(() => {
         scrollToQuestion(urlQuestion);
       }, 100);
+    } else {
+      // Check localStorage for last position
+      const lastQuestion = localStorage.getItem(`study-${selectedTheme}-lastQuestion`);
+      if (lastQuestion) {
+        const questionNum = parseInt(lastQuestion, 10);
+        if (questionNum > 1 && questionNum <= themeQuestions.length) {
+          setCurrentQuestion(questionNum);
+          setTimeout(() => {
+            scrollToQuestion(questionNum);
+          }, 100);
+        }
+      }
     }
-  }, [urlTheme]); // Only run when theme changes
-
-  // Save last position to localStorage
-  useEffect(() => {
-    if (selectedTheme && currentQuestion > 1) {
-      localStorage.setItem(`study-${selectedTheme}-lastQuestion`, currentQuestion.toString());
-    }
-  }, [selectedTheme, currentQuestion]);
+  }, [selectedTheme, themeQuestions.length]); // Run when theme or questions change
 
   // Intersection Observer to track current question in viewport
   useEffect(() => {
@@ -106,15 +148,25 @@ function StudyPage() {
     const ref = questionRefs.current[questionNumber - 1];
     if (ref) {
       isScrollingToQuestion.current = true;
+      shouldUpdateURL.current = true;
       ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
       setCurrentQuestion(questionNumber);
+
+      // Update URL immediately for explicit jumps
+      if (selectedTheme) {
+        const searchParams: { theme: Theme; question?: number } = { theme: selectedTheme };
+        if (questionNumber > 1) {
+          searchParams.question = questionNumber;
+        }
+        navigate({ search: searchParams, replace: true });
+      }
 
       // Reset flag after scrolling completes
       setTimeout(() => {
         isScrollingToQuestion.current = false;
       }, 1000);
     }
-  }, []);
+  }, [selectedTheme, navigate]);
 
   const scrollToTop = useCallback(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
