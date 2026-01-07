@@ -1,7 +1,8 @@
-import { createFileRoute, Link, useNavigate } from '@tanstack/react-router';
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { BookOpenIcon, ArrowTopRightOnSquareIcon } from '@heroicons/react/24/outline';
+import { createFileRoute, Link } from '@tanstack/react-router';
+import { useState, useEffect, useRef } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { BookOpenIcon, ArrowTopRightOnSquareIcon, ChevronUpIcon } from '@heroicons/react/24/outline';
+import { useQueryState, parseAsInteger } from 'nuqs';
 import { Button } from '@/components/ui/Button';
 import { Card, CardContent, CardHeader } from '@/components/ui/Card';
 import { themes } from '@/data/themes';
@@ -18,18 +19,49 @@ export const Route = createFileRoute('/study')({
 });
 
 function StudyPage() {
-  const navigate = useNavigate({ from: '/study' });
   const { theme: urlTheme } = Route.useSearch();
   const [selectedTheme, setSelectedTheme] = useState<Theme | null>(urlTheme || null);
+  const [showFloatingNav, setShowFloatingNav] = useState(false);
+  const questionRefs = useRef<{ [key: number]: HTMLDivElement | null }>({});
 
-  // Update URL when theme changes
+  // Use nuqs for question state - URL is single source of truth!
+  const [currentQuestion, setCurrentQuestion] = useQueryState(
+    'question',
+    parseAsInteger.withDefault(1)
+  );
+
+  // Get theme questions
+  const themeQuestions = selectedTheme ? questions.filter((q) => q.theme === selectedTheme) : [];
+
+  // Scroll to question when currentQuestion changes
   useEffect(() => {
-    if (selectedTheme) {
-      navigate({ search: { theme: selectedTheme }, replace: true });
-    } else {
-      navigate({ search: {}, replace: true });
-    }
-  }, [selectedTheme, navigate]);
+    if (!selectedTheme || currentQuestion < 1 || currentQuestion > themeQuestions.length) return;
+
+    const timer = setTimeout(() => {
+      const ref = questionRefs.current[currentQuestion - 1];
+      if (ref) {
+        ref.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }, 100);
+
+    return () => clearTimeout(timer);
+  }, [currentQuestion, selectedTheme, themeQuestions.length]);
+
+  // Show/hide floating nav based on scroll position
+  useEffect(() => {
+    if (!selectedTheme) return;
+
+    const handleScroll = () => {
+      setShowFloatingNav(window.scrollY > 300);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [selectedTheme]);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   if (!selectedTheme) {
     return (
@@ -93,7 +125,6 @@ function StudyPage() {
   }
 
   const themeInfo = themes.find((t) => t.id === selectedTheme);
-  const themeQuestions = questions.filter((q) => q.theme === selectedTheme);
 
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-50 via-white to-gray-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 p-4">
@@ -150,6 +181,10 @@ function StudyPage() {
           {themeQuestions.map((question, index) => (
             <motion.div
               key={question.id}
+              ref={(el) => {
+                questionRefs.current[index] = el;
+              }}
+              data-question-index={index}
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.05 }}
@@ -202,6 +237,71 @@ function StudyPage() {
             </motion.div>
           ))}
         </div>
+
+        {/* Floating Navigation */}
+        <AnimatePresence>
+          {showFloatingNav && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 20 }}
+              className="fixed bottom-8 right-8 flex flex-col gap-3"
+            >
+              {/* Jump to Question Input */}
+              <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg border border-gray-200 dark:border-gray-700 p-3">
+                <div className="flex flex-col gap-2">
+                  <label
+                    htmlFor="question-jump"
+                    className="text-xs font-semibold text-gray-600 dark:text-gray-400 text-center"
+                  >
+                    Question {currentQuestion} / {themeQuestions.length}
+                  </label>
+                  <div className="flex gap-1">
+                    <Button
+                      onClick={() => setCurrentQuestion(currentQuestion - 1)}
+                      disabled={currentQuestion <= 1}
+                      className="px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed"
+                      aria-label="Question précédente"
+                    >
+                      ←
+                    </Button>
+                    <input
+                      type="number"
+                      id="question-jump"
+                      min="1"
+                      max={themeQuestions.length}
+                      value={currentQuestion}
+                      onChange={(e) => {
+                        const num = parseInt(e.target.value, 10);
+                        if (!isNaN(num)) {
+                          setCurrentQuestion(num);
+                        }
+                      }}
+                      className="w-16 text-sm text-center rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100 px-2 py-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                    <Button
+                      onClick={() => setCurrentQuestion(currentQuestion + 1)}
+                      disabled={currentQuestion >= themeQuestions.length}
+                      className="px-2 py-1 text-xs bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 disabled:opacity-50 disabled:cursor-not-allowed"
+                      aria-label="Question suivante"
+                    >
+                      →
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              {/* Scroll to Top Button */}
+              <Button
+                onClick={scrollToTop}
+                className="bg-blue-600 hover:bg-blue-700 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg"
+                aria-label="Retour en haut"
+              >
+                <ChevronUpIcon className="w-6 h-6" />
+              </Button>
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
     </div>
   );
