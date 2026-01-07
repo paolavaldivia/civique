@@ -5,7 +5,8 @@ import {
   BookOpenIcon,
   MapIcon,
   PaintBrushIcon,
-  HomeIcon
+  HomeIcon,
+  UserGroupIcon
 } from '@heroicons/react/24/outline';
 import { ThemeInfo } from '@/types';
 
@@ -37,5 +38,12 @@ export const themes: ThemeInfo[] = [
     description: 'La vie quotidienne en France',
     icon: HomeIcon,
     color: 'from-cyan-700 to-cyan-800',
+  },
+  {
+    id: 'mises-en-situation',
+    name: 'Mises en situation',
+    description: 'Questions de mise en situation pratique',
+    icon: UserGroupIcon,
+    color: 'from-purple-700 to-purple-800',
   },
 ];

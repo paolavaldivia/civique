@@ -31,6 +31,7 @@ const themeMapping: Record<string, string> = {
   'Droits numériques': 'vie-quotidienne',
   'Fiscalité': 'vie-quotidienne',
   'Environnement': 'vie-quotidienne',
+  'Mises en situation': 'mises-en-situation',
 };
 
 interface CleanQuestion {
@@ -82,12 +83,16 @@ function main() {
   const suppQuestions: CleanQuestion[] = JSON.parse(
     readFileSync(join(dataDir, 'supp-completed.json'), 'utf-8')
   );
+  const situationalQuestions: CleanQuestion[] = JSON.parse(
+    readFileSync(join(dataDir, 'situational.json'), 'utf-8')
+  );
 
   // Combine all questions
   const allQuestions = [
     ...crQuestions,
     ...cspQuestions,
     ...suppQuestions,
+    ...situationalQuestions,
   ];
 
   // Transform to app format
@@ -102,6 +107,7 @@ function main() {
  * - CR (Connaissance Réfugiés): ${crQuestions.length} questions
  * - CSP (Connaissance Statut Personnel): ${cspQuestions.length} questions
  * - SUPP (Supplementary): ${suppQuestions.length} questions
+ * - SITUATIONAL (Mises en situation): ${situationalQuestions.length} questions
  */
 export const questions: Question[] = ${JSON.stringify(appQuestions, null, 2)};
 `;
@@ -114,6 +120,7 @@ export const questions: Question[] = ${JSON.stringify(appQuestions, null, 2)};
   console.log(`   - CR: ${crQuestions.length}`);
   console.log(`   - CSP: ${cspQuestions.length}`);
   console.log(`   - SUPP: ${suppQuestions.length}`);
+  console.log(`   - SITUATIONAL: ${situationalQuestions.length}`);
   console.log(`\nOutput: ${outputPath}`);
 
   // Show theme distribution

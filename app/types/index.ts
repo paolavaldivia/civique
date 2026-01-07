@@ -15,7 +15,8 @@ export type Theme =
   | 'principes-valeurs'
   | 'institutions'
   | 'histoire-geo-culture'
-  | 'vie-quotidienne';
+  | 'vie-quotidienne'
+  | 'mises-en-situation';
 
 export interface ThemeInfo {
   id: Theme;
