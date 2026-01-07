@@ -7,32 +7,34 @@ Official questions from: "Questions de connaissances - Examen civique niveau car
 
 ## Status: ✅ COMPLETED (2026-01-07)
 
-All 12 identified missing questions have been added to the database as questions supp-61 through supp-72.
+All 12 identified missing questions have been added to the database as official CR questions (cr-170 through cr-181).
 
 ### Questions Added
 
-1. ✅ **Que représente Marianne ?** (supp-61)
-2. ✅ **Quelle est la devise de la France ?** (supp-62)
-3. ✅ **Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?** (supp-63)
-4. ✅ **Que garantit la liberté d'expression ?** (supp-64)
-5. ✅ **À quoi sert un titre de séjour ?** (supp-65)
-6. ✅ **La liberté de circulation permet à toute personne de :** (supp-66)
-7. ✅ **Sur quel site internet peut-on retrouver le symbole de la République française ?** (supp-67)
-8. ✅ **Complétez ces paroles de la Marseillaise : "Aux armes […] ! Formez vos bataillons"** (supp-68)
-9. ✅ **Complétez les paroles de la Marseillaise : "Allons enfants de la patrie […]"** (supp-69)
-10. ✅ **En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?** (supp-70)
-11. ✅ **La répudiation de sa femme est :** (supp-71)
-12. ✅ **Peut-on brûler publiquement un drapeau français ?** (supp-72)
+1. ✅ **Que représente Marianne ?** (cr-170)
+2. ✅ **Quelle est la devise de la France ?** (cr-171)
+3. ✅ **Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?** (cr-172)
+4. ✅ **Que garantit la liberté d'expression ?** (cr-173)
+5. ✅ **À quoi sert un titre de séjour ?** (cr-174)
+6. ✅ **La liberté de circulation permet à toute personne de :** (cr-175)
+7. ✅ **Sur quel site internet peut-on retrouver le symbole de la République française ?** (cr-176)
+8. ✅ **Complétez ces paroles de la Marseillaise : "Aux armes […] ! Formez vos bataillons"** (cr-177)
+9. ✅ **Complétez les paroles de la Marseillaise : "Allons enfants de la patrie […]"** (cr-178)
+10. ✅ **En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?** (cr-179)
+11. ✅ **La répudiation de sa femme est :** (cr-180)
+12. ✅ **Peut-on brûler publiquement un drapeau français ?** (cr-181)
 
 ## Current Coverage
 
 - **Total official published questions**: ~194
-- **Total questions in app**: 383
-- **Apparent surplus**: 189 questions
+- **Total questions in app**: 395
+- **CR questions**: 181 (169 original + 12 newly added)
+- **CSP questions**: 154
+- **SUPP questions**: 60
 
-The surplus suggests the app contains:
-1. Official questions from both CR and CSP exams
-2. Supplementary questions created for practice
+The app contains:
+1. Official questions from both CR (Carte de Résident) and CSP (Connaissance Statut Personnel) exams
+2. Supplementary questions (SUPP) created for additional practice
 
 ## Recommendation
 
