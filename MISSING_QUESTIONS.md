@@ -1,28 +1,28 @@
 # Missing Official Questions
 
-This document lists official exam questions that are published but not yet in the app database.
+This document tracks official exam questions that were identified as missing and their current status.
 
 ## Source
 Official questions from: "Questions de connaissances - Examen civique niveau carte de résident (CR)"
 
-## Missing Questions (Confirmed)
+## Status: ✅ COMPLETED (2026-01-07)
 
-### Principes et valeurs de la République
+All 12 identified missing questions have been added to the database as questions supp-61 through supp-72.
 
-1. **Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?**
-2. **Que garantit la liberté d'expression ?**
-3. **À quoi sert un titre de séjour ?**
-4. **La liberté de circulation permet à toute personne de :**
-5. **Sur quel site internet peut-on retrouver le symbole de la République française ?**
-6. **Complétez ces paroles de la Marseillaise : "Aux armes […] ! Formez vos bataillons"**
-7. **Complétez les paroles de la Marseillaise : "Allons enfants de la patrie […]"**
-8. **En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?**
-9. **La répudiation de sa femme est :**
-10. **Peut-on brûler publiquement un drapeau français ?**
-11. **Que représente Marianne ?**
-12. **Quelle est la devise de la France ?**
+### Questions Added
 
-Note: Some of these questions may be present in slightly different wording. A thorough comparison of all 194 official published questions against the 383 questions in the database would be needed to create a complete list.
+1. ✅ **Que représente Marianne ?** (supp-61)
+2. ✅ **Quelle est la devise de la France ?** (supp-62)
+3. ✅ **Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?** (supp-63)
+4. ✅ **Que garantit la liberté d'expression ?** (supp-64)
+5. ✅ **À quoi sert un titre de séjour ?** (supp-65)
+6. ✅ **La liberté de circulation permet à toute personne de :** (supp-66)
+7. ✅ **Sur quel site internet peut-on retrouver le symbole de la République française ?** (supp-67)
+8. ✅ **Complétez ces paroles de la Marseillaise : "Aux armes […] ! Formez vos bataillons"** (supp-68)
+9. ✅ **Complétez les paroles de la Marseillaise : "Allons enfants de la patrie […]"** (supp-69)
+10. ✅ **En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?** (supp-70)
+11. ✅ **La répudiation de sa femme est :** (supp-71)
+12. ✅ **Peut-on brûler publiquement un drapeau français ?** (supp-72)
 
 ## Current Coverage
 
