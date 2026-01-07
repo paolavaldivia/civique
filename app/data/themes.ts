@@ -1,10 +1,7 @@
 import {
   ScaleIcon,
   BuildingLibraryIcon,
-  FlagIcon,
   BookOpenIcon,
-  MapIcon,
-  PaintBrushIcon,
   HomeIcon,
   UserGroupIcon
 } from '@heroicons/react/24/outline';
