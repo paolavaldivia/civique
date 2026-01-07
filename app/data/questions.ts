@@ -2,10 +2,10 @@ import { Question } from '@/types';
 
 /**
  * Official questions from civic education test
- * Total: 383 questions
+ * Total: 395 questions
  * - CR (Connaissance Réfugiés): 169 questions
  * - CSP (Connaissance Statut Personnel): 154 questions
- * - SUPP (Supplementary): 60 questions
+ * - SUPP (Supplementary): 72 questions
  */
 export const questions: Question[] = [
   {
@@ -5369,5 +5369,173 @@ export const questions: Question[] = [
     "theme": "vie-quotidienne",
     "source": "SUPP",
     "explanation": "Le téléchargement illégal (piratage) de contenus protégés par le droit d'auteur (films, musiques, logiciels, livres) est interdit et sanctionné. C'est une contrefaçon punissable d'amendes et de peines de prison."
+  },
+  {
+    "id": "supp-61",
+    "question": "Que représente Marianne ?",
+    "options": [
+      "La reine de France",
+      "La République française",
+      "La déesse de la liberté américaine",
+      "Une héroïne de la Révolution"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "Marianne est l'allégorie de la République française. Elle incarne la devise républicaine « Liberté, Égalité, Fraternité ». Son buste est présent dans toutes les mairies de France et son effigie figure sur les timbres et pièces de monnaie."
+  },
+  {
+    "id": "supp-62",
+    "question": "Quelle est la devise de la France ?",
+    "options": [
+      "Travail, Famille, Patrie",
+      "Liberté, Égalité, Fraternité",
+      "Honneur et Patrie",
+      "Un pour tous, tous pour un"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "La devise de la République française est « Liberté, Égalité, Fraternité ». Elle est apparue pendant la Révolution française et a été inscrite dans la Constitution de 1958. Cette devise figure sur les bâtiments publics et les pièces de monnaie."
+  },
+  {
+    "id": "supp-63",
+    "question": "Parmi les propositions suivantes, laquelle constitue une participation citoyenne ?",
+    "options": [
+      "Payer ses impôts uniquement",
+      "Voter aux élections",
+      "Regarder les actualités à la télévision",
+      "Critiquer le gouvernement sur les réseaux sociaux"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "Voter aux élections est un acte fondamental de participation citoyenne. C'est un droit et un devoir civique qui permet aux citoyens de choisir leurs représentants et de participer aux décisions démocratiques. Bien que payer ses impôts soit aussi une obligation, voter est l'exemple le plus direct de participation citoyenne active."
+  },
+  {
+    "id": "supp-64",
+    "question": "Que garantit la liberté d'expression ?",
+    "options": [
+      "Le droit de tout dire sans aucune limite",
+      "Le droit d'exprimer ses opinions dans le respect de la loi",
+      "Le droit d'insulter les autres librement",
+      "Le droit de diffuser de fausses informations"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "La liberté d'expression garantit le droit d'exprimer ses opinions, mais elle n'est pas absolue. Elle est encadrée par la loi pour protéger d'autres droits : interdiction de la diffamation, de l'injure, de l'incitation à la haine ou à la violence. C'est une liberté fondamentale mais responsable."
+  },
+  {
+    "id": "supp-65",
+    "question": "À quoi sert un titre de séjour ?",
+    "options": [
+      "À prouver sa nationalité française",
+      "À autoriser un étranger à résider légalement en France",
+      "À voyager dans l'espace Schengen sans passeport",
+      "À obtenir automatiquement la nationalité française"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "Le titre de séjour est un document officiel qui autorise un ressortissant étranger à résider légalement sur le territoire français pour une durée déterminée. Il est délivré par la préfecture et peut être renouvelé. Il ne confère pas la nationalité française mais atteste du droit de séjourner en France."
+  },
+  {
+    "id": "supp-66",
+    "question": "La liberté de circulation permet à toute personne de :",
+    "options": [
+      "Se déplacer librement sur le territoire, sauf restrictions légales",
+      "Entrer dans n'importe quelle propriété privée",
+      "Voyager sans papiers d'identité",
+      "Conduire sans permis de conduire"
+    ],
+    "correctAnswer": 0,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "La liberté de circulation est un droit fondamental qui permet à toute personne de se déplacer librement sur le territoire français. Cependant, ce droit peut être limité pour des raisons d'ordre public (couvre-feu, état d'urgence) ou pour protéger la propriété privée. Il ne dispense pas des obligations légales comme posséder des documents d'identité ou un permis de conduire."
+  },
+  {
+    "id": "supp-67",
+    "question": "Sur quel site internet peut-on retrouver le symbole de la République française ?",
+    "options": [
+      "www.elysee.fr",
+      "www.wikipedia.fr",
+      "www.france.com",
+      "www.paris.fr"
+    ],
+    "correctAnswer": 0,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "Le site officiel de la Présidence de la République française (www.elysee.fr) présente les symboles de la République : le drapeau tricolore, Marianne, la devise « Liberté, Égalité, Fraternité », la Marseillaise, et le sceau de la République. C'est le site institutionnel de référence pour ces symboles officiels."
+  },
+  {
+    "id": "supp-68",
+    "question": "Complétez ces paroles de la Marseillaise : \"Aux armes […] ! Formez vos bataillons\"",
+    "options": [
+      "Français",
+      "Citoyens",
+      "Patriotes",
+      "Soldats"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "Les paroles exactes de la Marseillaise sont : « Aux armes, citoyens ! Formez vos bataillons ». La Marseillaise est l'hymne national de la France depuis 1795. Elle a été composée par Rouget de Lisle en 1792 pendant la Révolution française et appelle les citoyens à défendre la patrie."
+  },
+  {
+    "id": "supp-69",
+    "question": "Complétez les paroles de la Marseillaise : \"Allons enfants de la patrie […]\"",
+    "options": [
+      "La victoire est arrivée",
+      "Le jour de gloire est arrivé",
+      "La liberté est arrivée",
+      "Le temps de la guerre est arrivé"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "Le premier couplet de la Marseillaise commence par : « Allons enfants de la patrie, le jour de gloire est arrivé ! ». Ces paroles font référence à la défense de la Nation face aux ennemis de la Révolution. La Marseillaise est l'hymne national français depuis 1795."
+  },
+  {
+    "id": "supp-70",
+    "question": "En tant que parent, peut-on refuser que son enfant participe aux cours de sport à l'école car ils sont mixtes ?",
+    "options": [
+      "Oui, les parents décident de l'éducation de leurs enfants",
+      "Non, l'école républicaine impose la mixité et la participation à tous les cours",
+      "Oui, pour des raisons religieuses uniquement",
+      "Oui, si l'enfant n'aime pas le sport"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "Non, les parents ne peuvent pas refuser que leur enfant participe aux cours de sport pour cause de mixité. L'école de la République est laïque et mixte, et tous les cours font partie du programme obligatoire. Refuser la mixité contrevient aux principes républicains d'égalité entre les sexes. Les dispenses ne peuvent être accordées que pour raisons médicales justifiées."
+  },
+  {
+    "id": "supp-71",
+    "question": "La répudiation de sa femme est :",
+    "options": [
+      "Autorisée dans certains cas",
+      "Interdite en France, contraire au principe d'égalité",
+      "Autorisée pour raisons religieuses",
+      "Autorisée si la femme est d'accord"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "La répudiation est totalement interdite en France. Elle est contraire au principe d'égalité entre les femmes et les hommes inscrit dans la Constitution. En France, seul le divorce prononcé par un juge est reconnu, et il garantit l'égalité des droits entre les époux. La répudiation unilatérale d'une femme par son mari est considérée comme une atteinte à la dignité humaine."
+  },
+  {
+    "id": "supp-72",
+    "question": "Peut-on brûler publiquement un drapeau français ?",
+    "options": [
+      "Oui, c'est une forme de liberté d'expression",
+      "Non, c'est interdit et sanctionné par la loi",
+      "Oui, seulement lors de manifestations",
+      "Oui, si on en possède un soi-même"
+    ],
+    "correctAnswer": 1,
+    "theme": "principes-valeurs",
+    "source": "SUPP",
+    "explanation": "Brûler publiquement un drapeau français est interdit par la loi. L'article 433-5-1 du Code pénal punit « le fait, au cours d'une manifestation organisée ou réglementée par les autorités publiques, d'outrager publiquement l'hymne national ou le drapeau tricolore ». Cette interdiction vise à protéger les symboles de la République. Cet acte peut être puni d'une amende de 7 500 euros."
   }
 ];
