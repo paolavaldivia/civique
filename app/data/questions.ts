@@ -1250,7 +1250,7 @@ export const questions: Question[] = [
       "Le Roi-Lion"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Louis XIV (1638-1715) était surnommé le Roi-Soleil. Il a régné pendant 72 ans et a fait construire le château de Versailles. Il représente l'apogée de la monarchie absolue en France."
   },
@@ -1264,7 +1264,7 @@ export const questions: Question[] = [
       "Henri IV"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Louis XVI a été guillotiné le 21 janvier 1793 pendant la Révolution française. Sa mort marque la fin de la monarchie et le début de la Première République."
   },
@@ -1278,7 +1278,7 @@ export const questions: Question[] = [
       "1830"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Napoléon Bonaparte est devenu empereur des Français le 2 décembre 1804, sacré à Notre-Dame de Paris. Il a régné jusqu'en 1814 (puis brièvement en 1815 pendant les Cent-Jours)."
   },
@@ -1292,7 +1292,7 @@ export const questions: Question[] = [
       "Louis XIV"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Charles de Gaulle est fortement lié à la République française : héros de la Résistance (appel du 18 juin 1940), fondateur de la Vème République (1958), et président de 1959 à 1969. Les autres sont des rois ou empereurs."
   },
@@ -1306,7 +1306,7 @@ export const questions: Question[] = [
       "11 novembre 1918"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "L'appel du 18 juin 1940 est le discours du général de Gaulle depuis Londres, appelant les Français à continuer le combat contre l'Allemagne nazie malgré l'armistice. C'est l'acte fondateur de la Résistance française."
   },
@@ -1320,7 +1320,7 @@ export const questions: Question[] = [
       "Pour faire peur"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La Shoah (génocide des Juifs par les nazis, 1941-1945) est étudiée pour comprendre l'histoire, prévenir le racisme et l'antisémitisme, transmettre la mémoire des victimes et enseigner les dangers des idéologies totalitaires."
   },
@@ -1334,7 +1334,7 @@ export const questions: Question[] = [
       "La Russie"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "L'Algérie a été colonisée par la France de 1830 à 1962. La France a eu un vaste empire colonial, notamment en Afrique (Algérie, Sénégal, Mali, etc.), en Asie (Vietnam, Cambodge, etc.) et aux Antilles."
   },
@@ -1348,7 +1348,7 @@ export const questions: Question[] = [
       "Depuis 2000"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Depuis 1962, suite au référendum voulu par le général de Gaulle, le président de la République est élu au suffrage universel direct par tous les citoyens. Avant, il était élu par un collège de grands électeurs."
   },
@@ -1362,7 +1362,7 @@ export const questions: Question[] = [
       "L'Union européenne"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La CECA (Communauté Européenne du Charbon et de l'Acier) créée en 1951 est la première étape de la construction européenne. Elle réunissait 6 pays (France, Allemagne, Italie, Belgique, Pays-Bas, Luxembourg) pour gérer ensemble le charbon et l'acier."
   },
@@ -1376,7 +1376,7 @@ export const questions: Question[] = [
       "Georges Pompidou"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La peine de mort a été abolie en France le 9 octobre 1981 sous la présidence de François Mitterrand, grâce à la loi portée par le ministre de la Justice Robert Badinter."
   },
@@ -1390,7 +1390,7 @@ export const questions: Question[] = [
       "La dictature"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La Première République française a été proclamée le 21 septembre 1792, après l'abolition de la monarchie. C'est un moment fondateur de l'histoire républicaine française."
   },
@@ -1404,7 +1404,7 @@ export const questions: Question[] = [
       "François Ier"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Jean Moulin (1899-1943) était un héros de la Résistance française. Il a unifié les mouvements de résistance sous l'autorité du général de Gaulle. Arrêté et torturé par la Gestapo, il est mort en déportation. Il repose au Panthéon."
   },
@@ -1418,7 +1418,7 @@ export const questions: Question[] = [
       "Elles ont obtenu le droit au divorce"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "En 1944, le gouvernement provisoire du général de Gaulle a accordé le droit de vote aux femmes françaises par l'ordonnance du 21 avril 1944. Elles ont voté pour la première fois en 1945."
   },
@@ -1432,7 +1432,7 @@ export const questions: Question[] = [
       "La Croix-Rouge"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "L'ONU (Organisation des Nations Unies) a été créée le 24 octobre 1945 après la Seconde Guerre mondiale pour maintenir la paix et la sécurité internationale."
   },
@@ -1446,7 +1446,7 @@ export const questions: Question[] = [
       "L'amende"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La peine de mort a été abolie en France le 9 octobre 1981 sous la présidence de François Mitterrand, grâce à la loi portée par Robert Badinter."
   },
@@ -1460,7 +1460,7 @@ export const questions: Question[] = [
       "2010"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "L'euro est devenu la monnaie utilisée en France (billets et pièces) le 1er janvier 2002, remplaçant le franc français."
   },
@@ -1474,7 +1474,7 @@ export const questions: Question[] = [
       "1945"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La Première Guerre mondiale a commencé en 1914 (déclenchée par l'assassinat de l'archiduc François-Ferdinand) et s'est terminée en 1918."
   },
@@ -1488,7 +1488,7 @@ export const questions: Question[] = [
       "Dans le Nord"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Le débarquement du 6 juin 1944 (Jour-J, D-Day) a eu lieu en Normandie sur les plages françaises. C'était une opération militaire des Alliés pour libérer la France de l'occupation nazie."
   },
@@ -1502,7 +1502,7 @@ export const questions: Question[] = [
       "L'Océanie"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "L'Afrique a été le continent le plus concerné par la décolonisation française après 1945. De nombreux pays africains sont devenus indépendants dans les années 1960 (Sénégal, Mali, Côte d'Ivoire, Algérie, etc.)."
   },
@@ -1516,7 +1516,7 @@ export const questions: Question[] = [
       "L'armistice de 1918"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Le 8 mai est la commémoration de la victoire des Alliés sur l'Allemagne nazie le 8 mai 1945, marquant la fin de la Seconde Guerre mondiale en Europe."
   },
@@ -1530,7 +1530,7 @@ export const questions: Question[] = [
       "L'océan Indien"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La France métropolitaine est bordée par plusieurs mers et océans : la mer Méditerranée au sud, l'océan Atlantique à l'ouest, et la Manche au nord."
   },
@@ -1544,7 +1544,7 @@ export const questions: Question[] = [
       "L'Autriche"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "L'Espagne partage une frontière terrestre avec la France au sud-ouest, au niveau des Pyrénées. La France a aussi des frontières avec la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, Monaco et Andorre."
   },
@@ -1558,7 +1558,7 @@ export const questions: Question[] = [
       "Strasbourg"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Marseille est le plus grand port maritime français, situé sur la mer Méditerranée. D'autres ports importants incluent Le Havre, Brest, Bordeaux, Nantes."
   },
@@ -1572,7 +1572,7 @@ export const questions: Question[] = [
       "La mer Baltique"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La Manche (English Channel en anglais) est la mer qui sépare la France de l'Angleterre. Le tunnel sous la Manche relie les deux pays."
   },
@@ -1586,7 +1586,7 @@ export const questions: Question[] = [
       "Les ambassades françaises"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La France d'outre-mer désigne les territoires français situés en dehors de l'Europe métropolitaine : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte, Nouvelle-Calédonie, Polynésie française, etc."
   },
@@ -1600,7 +1600,7 @@ export const questions: Question[] = [
       "Les Vosges"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Les Pyrénées forment une frontière naturelle entre la France et l'Espagne. Cette chaîne de montagnes s'étend sur environ 430 km de l'océan Atlantique à la mer Méditerranée."
   },
@@ -1614,7 +1614,7 @@ export const questions: Question[] = [
       "La Martinique"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La Réunion est un département et une région française situés dans l'océan Indien, à l'est de Madagascar. Mayotte est également dans l'océan Indien."
   },
@@ -1628,7 +1628,7 @@ export const questions: Question[] = [
       "40 millions d'habitants"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La France compte environ 68 millions d'habitants en 2025 (y compris les territoires d'outre-mer)."
   },
@@ -1642,7 +1642,7 @@ export const questions: Question[] = [
       "La Garonne"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La Seine est le fleuve qui traverse Paris. C'est un symbole de la capitale française avec ses ponts célèbres (Pont-Neuf, Pont Alexandre III, etc.)."
   },
@@ -1656,7 +1656,7 @@ export const questions: Question[] = [
       "Les Pays-Bas"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La Belgique partage une frontière terrestre avec la France au nord. La France a 8 pays voisins par voie terrestre : Belgique, Luxembourg, Allemagne, Suisse, Italie, Monaco, Espagne, Andorre."
   },
@@ -1670,7 +1670,7 @@ export const questions: Question[] = [
       "La République tchèque"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "L'Allemagne partage une frontière avec la France au nord-est, dans la région du Rhin (Alsace). C'est une frontière historiquement importante."
   },
@@ -1684,7 +1684,7 @@ export const questions: Question[] = [
       "Dans les montagnes"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Les principales activités économiques en France se concentrent dans les grandes villes et métropoles : Paris (Île-de-France), Lyon, Marseille, Toulouse, Lille, Bordeaux, etc."
   },
@@ -1698,7 +1698,7 @@ export const questions: Question[] = [
       "L'Italie"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La France est le pays le plus visité au monde avec environ 90 millions de touristes étrangers par an, attirés par Paris, la Côte d'Azur, les châteaux de la Loire, les Alpes, etc."
   },
@@ -1712,7 +1712,7 @@ export const questions: Question[] = [
       "Dans les îles"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Environ 80% des Français vivent dans des zones urbaines (villes et agglomérations). La France connaît une urbanisation continue depuis le XXe siècle."
   },
@@ -1726,7 +1726,7 @@ export const questions: Question[] = [
       "L'Occitanie"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "L'Île-de-France (région parisienne) est de loin la région la plus peuplée avec environ 12 millions d'habitants, soit près d'1 Français sur 5."
   },
@@ -1740,7 +1740,7 @@ export const questions: Question[] = [
       "Perpignan"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Lyon est la 3ème plus grande métropole française après Paris et Marseille. Les 10 plus grandes sont : Paris, Marseille, Lyon, Toulouse, Lille, Bordeaux, Nice, Nantes, Strasbourg, Toulon."
   },
@@ -1754,7 +1754,7 @@ export const questions: Question[] = [
       "L'Eure"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Paris (département 75) est le département le plus touristique de France avec ses monuments emblématiques (Tour Eiffel, Louvre, Notre-Dame, Arc de Triomphe, etc.)."
   },
@@ -1768,7 +1768,7 @@ export const questions: Question[] = [
       "Seulement pour les étrangers"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "De nombreux musées nationaux proposent la gratuité le premier dimanche de chaque mois. Certains musées sont aussi gratuits pour les moins de 26 ans résidant dans l'UE."
   },
@@ -1782,7 +1782,7 @@ export const questions: Question[] = [
       "Environ 100 millions"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Environ 300 millions de personnes parlent français dans le monde, sur les 5 continents. Le français est la 5ème langue la plus parlée au monde."
   },
@@ -1796,7 +1796,7 @@ export const questions: Question[] = [
       "Une actrice"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Marguerite Yourcenar (1903-1987) était une écrivaine française célèbre, auteure notamment des 'Mémoires d'Hadrien'. Elle fut la première femme élue à l'Académie française en 1980."
   },
@@ -1810,7 +1810,7 @@ export const questions: Question[] = [
       "Leonardo da Vinci"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Claude Monet (1840-1926) était un peintre français, fondateur de l'impressionnisme. Ses œuvres les plus célèbres incluent les Nymphéas et la série des Cathédrales de Rouen."
   },
@@ -1824,7 +1824,7 @@ export const questions: Question[] = [
       "Les Offices"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Le Louvre est le plus grand musée de Paris et du monde par sa surface d'exposition. Il abrite la Joconde de Léonard de Vinci, la Vénus de Milo, etc."
   },
@@ -1838,7 +1838,7 @@ export const questions: Question[] = [
       "Un musicien français"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Auguste Rodin (1840-1917) était un célèbre sculpteur français. Ses œuvres les plus connues sont 'Le Penseur', 'Le Baiser' et 'Les Bourgeois de Calais'."
   },
@@ -1852,7 +1852,7 @@ export const questions: Question[] = [
       "10ème langue la plus parlée"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Le français est la 5ème langue la plus parlée au monde avec environ 300 millions de locuteurs, après le chinois, l'anglais, l'espagnol et l'arabe."
   },
@@ -1866,7 +1866,7 @@ export const questions: Question[] = [
       "La Sainte-Chapelle"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "La cathédrale Notre-Dame de Paris a été gravement endommagée par un incendie le 15 avril 2019. Sa flèche s'est effondrée. Des travaux de restauration sont en cours."
   },
@@ -1880,7 +1880,7 @@ export const questions: Question[] = [
       "Emily Brontë"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Simone de Beauvoir (1908-1986) était une écrivaine, philosophe et féministe française célèbre. Son œuvre majeure est 'Le Deuxième Sexe' (1949)."
   },
@@ -1894,7 +1894,7 @@ export const questions: Question[] = [
       "Ludwig van Beethoven"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Claude Debussy (1862-1918) était un célèbre compositeur français, figure majeure de la musique impressionniste. Ses œuvres célèbres incluent 'Clair de lune' et 'La Mer'."
   },
@@ -1908,7 +1908,7 @@ export const questions: Question[] = [
       "Un architecte"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Auguste Renoir (1841-1919) était un peintre impressionniste français célèbre. Ses œuvres représentent souvent des scènes joyeuses de la vie parisienne, avec des couleurs vives."
   },
@@ -1922,7 +1922,7 @@ export const questions: Question[] = [
       "La Saint-Patrick"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CR",
     "explanation": "Le 14 juillet est la fête nationale française, commémorant la prise de la Bastille le 14 juillet 1789, symbole du début de la Révolution française. C'est un jour férié avec défilé militaire, feux d'artifice et bals."
   },
@@ -1936,7 +1936,7 @@ export const questions: Question[] = [
       "Seulement le mariage traditionnel"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Seul le mariage civil célébré à la mairie par un officier d'état civil est reconnu par l'État français. Le mariage religieux n'a pas de valeur juridique en France (laïcité)."
   },
@@ -1950,7 +1950,7 @@ export const questions: Question[] = [
       "La police"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Les parents doivent inscrire leur enfant à l'école publique auprès de la mairie de leur commune. La mairie délivre un certificat d'inscription nécessaire pour l'inscription à l'école."
   },
@@ -1964,7 +1964,7 @@ export const questions: Question[] = [
       "Les grands-parents"
     ],
     "correctAnswer": 1,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "En cas de divorce, l'autorité parentale est exercée conjointement par les deux parents, sauf décision contraire du juge aux affaires familiales pour protéger l'intérêt de l'enfant."
   },
@@ -1978,7 +1978,7 @@ export const questions: Question[] = [
       "L'assurance maladie"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "L'aide juridictionnelle permet aux personnes ayant des ressources insuffisantes d'être assistées par un avocat gratuitement ou partiellement pris en charge par l'État."
   },
@@ -1992,7 +1992,7 @@ export const questions: Question[] = [
       "À l'hôpital uniquement"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "La naissance d'un enfant doit être déclarée à la mairie du lieu de naissance dans les 5 jours suivant l'accouchement. C'est une obligation légale qui permet d'établir l'acte de naissance."
   },
@@ -2006,7 +2006,7 @@ export const questions: Question[] = [
       "Habiter en ville"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Pour passer le permis de conduire B (voiture), il faut avoir au moins 18 ans. On peut commencer la formation (conduite accompagnée) dès 15 ans."
   },
@@ -2020,7 +2020,7 @@ export const questions: Question[] = [
       "Verbal entre amis"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Un bail (contrat de location) doit être écrit pour être valide et protéger les droits du locataire et du propriétaire. Il doit respecter un modèle type fixé par la loi."
   },
@@ -2034,7 +2034,7 @@ export const questions: Question[] = [
       "Dans les conteneurs de recyclage du verre"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Les gros électroménagers cassés (lave-vaisselle, réfrigérateur, etc.) doivent être déposés dans une déchetterie pour être recyclés correctement. On peut aussi les faire reprendre par le magasin lors de l'achat d'un nouvel appareil."
   },
@@ -2048,7 +2048,7 @@ export const questions: Question[] = [
       "112"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Le 17 est le numéro d'urgence pour contacter la police ou la gendarmerie en France. Le 15 est le SAMU, le 18 les pompiers, et le 112 le numéro d'urgence européen."
   },
@@ -2062,7 +2062,7 @@ export const questions: Question[] = [
       "C'est interdit pour les étrangers"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "En France, toute personne peut consulter un médecin. L'Assurance Maladie rembourse une grande partie des soins. Pour les personnes en difficulté, il existe l'Aide Médicale d'État (AME) et la Complémentaire Santé Solidaire."
   },
@@ -2076,7 +2076,7 @@ export const questions: Question[] = [
       "Avec l'autorisation du conjoint"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "La contraception est accessible à toutes les femmes qui le souhaitent, mineures ou majeures, sans autorisation nécessaire. C'est un droit fondamental garanti par la loi depuis 1967 (loi Neuwirth)."
   },
@@ -2090,7 +2090,7 @@ export const questions: Question[] = [
       "Tout le monde peut accéder au dossier médical"
     ],
     "correctAnswer": 1,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Le secret médical est un principe fondamental qui garantit que les informations concernant la santé d'un patient restent confidentielles et ne peuvent être divulguées sans son consentement."
   },
@@ -2104,7 +2104,7 @@ export const questions: Question[] = [
       "Payante et très chère"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "L'inscription à l'Assurance Maladie est obligatoire pour toute personne résidant en France de manière stable et régulière. C'est la Protection Universelle Maladie (PUMa)."
   },
@@ -2118,7 +2118,7 @@ export const questions: Question[] = [
       "Personne"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Le congé parental d'éducation peut être demandé par le père ou la mère pour s'occuper de leur enfant. C'est un droit pour les salariés ayant au moins un an d'ancienneté."
   },
@@ -2132,7 +2132,7 @@ export const questions: Question[] = [
       "Les infractions routières"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Le conseil de prud'hommes est une juridiction spécialisée qui règle les conflits individuels du travail entre employeurs et salariés (licenciement, salaires, conditions de travail, etc.)."
   },
@@ -2146,7 +2146,7 @@ export const questions: Question[] = [
       "Recommandé"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Le travail au noir (travail dissimulé, sans déclaration) est strictement interdit et sanctionné par la loi. C'est une fraude qui prive le salarié de ses droits sociaux et l'État de cotisations."
   },
@@ -2160,7 +2160,7 @@ export const questions: Question[] = [
       "Le salarié doit payer une pénalité"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Si l'employeur demande au salarié de travailler au-delà de la durée légale ou contractuelle, ce sont des heures supplémentaires qui doivent être payées avec une majoration (généralement 25% ou 50% selon le cas)."
   },
@@ -2174,7 +2174,7 @@ export const questions: Question[] = [
       "Enseigner à l'école"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "France Travail (anciennement Pôle emploi) a pour mission d'accompagner les demandeurs d'emploi dans leur recherche de travail, de les former, et de verser les allocations chômage."
   },
@@ -2188,7 +2188,7 @@ export const questions: Question[] = [
       "D'insulter l'employeur"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Le droit syndical permet aux salariés de créer ou adhérer à un syndicat pour défendre collectivement leurs intérêts professionnels (salaires, conditions de travail, etc.). C'est un droit constitutionnel."
   },
@@ -2202,7 +2202,7 @@ export const questions: Question[] = [
       "À ne jamais revenir travailler"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Le droit de grève permet aux salariés de cesser collectivement le travail pour faire entendre des revendications professionnelles. C'est un droit constitutionnel, mais il doit être exercé dans le respect de la loi."
   },
@@ -2216,7 +2216,7 @@ export const questions: Question[] = [
       "Être en vacances"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Pour bénéficier des allocations chômage, il faut avoir travaillé un certain temps (généralement 6 mois sur les 24 derniers mois), être involontairement privé d'emploi, être inscrit à France Travail et rechercher activement un emploi."
   },
@@ -2230,7 +2230,7 @@ export const questions: Question[] = [
       "L'école pour les bébés"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "L'école maternelle accueille les enfants de 3 à 6 ans. Elle est obligatoire depuis 3 ans (loi de 2019) et prépare les enfants aux apprentissages fondamentaux."
   },
@@ -2244,7 +2244,7 @@ export const questions: Question[] = [
       "La Licence"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "À la fin du collège (classe de 3ème), les élèves passent le Brevet (DNB - Diplôme National du Brevet). C'est le premier diplôme national de la scolarité."
   },
@@ -2258,7 +2258,7 @@ export const questions: Question[] = [
       "Donner les notes"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Les parents d'élèves ont le droit d'être informés sur la scolarité de leur enfant, de rencontrer les enseignants, et de participer à la vie scolaire via les associations de parents d'élèves et les conseils d'école."
   },
@@ -2272,7 +2272,7 @@ export const questions: Question[] = [
       "Personne"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "La cantine scolaire est accessible à tous les élèves qui s'inscrivent. Les tarifs sont souvent calculés en fonction des revenus des familles (quotient familial) pour garantir l'accès à tous."
   },
@@ -2286,7 +2286,7 @@ export const questions: Question[] = [
       "16 ans"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Depuis 2019, l'instruction est obligatoire dès 3 ans (abaissement de 6 à 3 ans). Elle est obligatoire jusqu'à 16 ans."
   },
@@ -2300,7 +2300,7 @@ export const questions: Question[] = [
       "25 ans"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "L'âge de la majorité en France est 18 ans. À partir de cet âge, une personne devient juridiquement adulte avec tous les droits et devoirs qui en découlent (voter, contracter, etc.)."
   },
@@ -2314,7 +2314,7 @@ export const questions: Question[] = [
       "S'intéresser à la scolarité"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Les violences physiques (gifles, fessées, etc.) sur les enfants sont interdites en France depuis 2019 (loi anti-violences éducatives ordinaires). À l'école comme ailleurs, tout acte de violence est interdit."
   },
@@ -2328,7 +2328,7 @@ export const questions: Question[] = [
       "Rester à la maison sans raison"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Les absences justifiées à l'école sont la maladie de l'enfant, des obligations légales (convocation tribunal, etc.), ou des événements familiaux graves. Les vacances pendant le temps scolaire ne sont pas un motif valable."
   },
@@ -2342,7 +2342,7 @@ export const questions: Question[] = [
       "Une médaille"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Le non-respect de l'obligation d'instruction est un délit pénal. Les parents risquent une amende de 7 500 euros et jusqu'à 6 mois de prison. Des sanctions administratives peuvent aussi être prises (suppression d'allocations familiales)."
   },
@@ -2356,7 +2356,7 @@ export const questions: Question[] = [
       "En septembre"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "Les vacances scolaires de Noël ont lieu fin décembre et début janvier, généralement 2 semaines autour du 25 décembre et du Nouvel An."
   },
@@ -2370,7 +2370,7 @@ export const questions: Question[] = [
       "N'a aucun droit"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CR",
     "explanation": "La loi de 2005 garantit le droit à la scolarisation de tous les enfants en situation de handicap. L'école doit mettre en place les aménagements nécessaires (AVS, matériel adapté, etc.) pour permettre leur scolarisation en milieu ordinaire autant que possible."
   },
@@ -3448,7 +3448,7 @@ export const questions: Question[] = [
       "1815"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La Révolution française a débuté en 1789 avec la prise de la Bastille le 14 juillet et l'adoption de la Déclaration des Droits de l'Homme le 26 août."
   },
@@ -3462,7 +3462,7 @@ export const questions: Question[] = [
       "Un révolutionnaire"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Napoléon Bonaparte (1769-1821) est devenu empereur des Français en 1804. Il a régné jusqu'en 1814 (et brièvement en 1815). Il a réformé la France (Code civil) et conquis une grande partie de l'Europe."
   },
@@ -3476,7 +3476,7 @@ export const questions: Question[] = [
       "Giuseppe Garibaldi"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Napoléon Bonaparte était français (né en Corse en 1769). Churchill était britannique, Washington américain, et Garibaldi italien."
   },
@@ -3490,7 +3490,7 @@ export const questions: Question[] = [
       "La VIème République"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La France est actuellement dans la Vème République, établie en 1958 par le général de Gaulle."
   },
@@ -3504,7 +3504,7 @@ export const questions: Question[] = [
       "Un traité"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La Shoah (ou Holocauste) est le génocide des Juifs d'Europe par les nazis pendant la Seconde Guerre mondiale (1941-1945). Environ 6 millions de Juifs ont été assassinés."
   },
@@ -3518,7 +3518,7 @@ export const questions: Question[] = [
       "La Chine"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "L'Algérie a été colonisée par la France de 1830 à 1962. La France a eu un vaste empire colonial en Afrique, Asie et Amérique."
   },
@@ -3532,7 +3532,7 @@ export const questions: Question[] = [
       "François Mitterrand"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Jules Ferry, ministre de l'Instruction publique, a rendu l'école primaire gratuite (1881), laïque et obligatoire (1882) pour les enfants de 6 à 13 ans."
   },
@@ -3546,7 +3546,7 @@ export const questions: Question[] = [
       "1950-1960"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La Seconde Guerre mondiale s'est déroulée de 1939 à 1945. Elle a opposé les Alliés aux puissances de l'Axe (Allemagne nazie, Italie fasciste, Japon)."
   },
@@ -3560,7 +3560,7 @@ export const questions: Question[] = [
       "1900-1905"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La Première Guerre mondiale s'est déroulée de 1914 à 1918. Elle a causé des millions de morts et a profondément marqué la France."
   },
@@ -3574,7 +3574,7 @@ export const questions: Question[] = [
       "2002"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La Communauté Économique Européenne (CEE) a été créée par le traité de Rome signé le 25 mars 1957. C'est l'ancêtre de l'Union européenne actuelle."
   },
@@ -3588,7 +3588,7 @@ export const questions: Question[] = [
       "La Révolution française"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Le 11 novembre commémore l'armistice de 1918 qui a mis fin à la Première Guerre mondiale. C'est un jour férié en France."
   },
@@ -3602,7 +3602,7 @@ export const questions: Question[] = [
       "Valéry Giscard d'Estaing"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Charles de Gaulle a été le premier président de la Vème République, élu en 1958. Il a été réélu en 1965 (première élection au suffrage universel direct)."
   },
@@ -3616,7 +3616,7 @@ export const questions: Question[] = [
       "1945"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "L'esclavage a été aboli définitivement en France en 1848 par le décret Schoelcher sous la IIème République. (Il avait été aboli une première fois en 1794 puis rétabli par Napoléon en 1802)."
   },
@@ -3630,7 +3630,7 @@ export const questions: Question[] = [
       "2000"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "L'école primaire publique est devenue gratuite en 1881 grâce aux lois de Jules Ferry sur l'instruction."
   },
@@ -3644,7 +3644,7 @@ export const questions: Question[] = [
       "10"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Il y a eu 5 républiques en France : Ière (1792-1804), IIème (1848-1852), IIIème (1870-1940), IVème (1946-1958), et Vème (depuis 1958)."
   },
@@ -3658,7 +3658,7 @@ export const questions: Question[] = [
       "François Ier"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Louis XVI était roi de France au moment de la Révolution française. Il a été renversé et guillotiné en 1793."
   },
@@ -3672,7 +3672,7 @@ export const questions: Question[] = [
       "Jules Ferry"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Le général Charles de Gaulle a fondé la Vème République en 1958 en rédigeant sa Constitution, adoptée par référendum."
   },
@@ -3686,7 +3686,7 @@ export const questions: Question[] = [
       "Le traité de Versailles"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Le 14 juillet est la fête nationale française qui commémore la prise de la Bastille le 14 juillet 1789, symbole du début de la Révolution française."
   },
@@ -3700,7 +3700,7 @@ export const questions: Question[] = [
       "La guerre de 1870"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La Première Guerre mondiale s'est déroulée de 1914 à 1918. C'est un conflit majeur qui a impliqué de nombreux pays et causé des millions de morts."
   },
@@ -3714,7 +3714,7 @@ export const questions: Question[] = [
       "Introduction de l'euro"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "1958 marque la création de la Vème République avec l'adoption de la Constitution par référendum et l'élection de Charles de Gaulle comme premier président."
   },
@@ -3728,7 +3728,7 @@ export const questions: Question[] = [
       "Le Rhin uniquement"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La Seine est un fleuve français qui traverse Paris. La France a plusieurs fleuves : Seine, Loire, Rhône, Garonne, Rhin (frontière)."
   },
@@ -3742,7 +3742,7 @@ export const questions: Question[] = [
       "Rome"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Lyon est une grande ville française, 3ème ville de France. Bruxelles est en Belgique, Genève en Suisse, et Rome en Italie."
   },
@@ -3756,7 +3756,7 @@ export const questions: Question[] = [
       "L'océan Arctique"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "L'océan Atlantique borde la côte ouest de la France métropolitaine (Bretagne, Pays de la Loire, Aquitaine, etc.)."
   },
@@ -3770,7 +3770,7 @@ export const questions: Question[] = [
       "Un fleuve"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Paris est la capitale de la France. C'est la plus grande ville française avec environ 2,2 millions d'habitants (12 millions dans l'agglomération)."
   },
@@ -3784,7 +3784,7 @@ export const questions: Question[] = [
       "Toulouse"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Paris est la capitale de la France, siège des institutions politiques et centre culturel majeur."
   },
@@ -3798,7 +3798,7 @@ export const questions: Question[] = [
       "L'Amérique"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La France métropolitaine se situe en Europe, à l'ouest du continent européen."
   },
@@ -3812,7 +3812,7 @@ export const questions: Question[] = [
       "La Sicile"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La Réunion est un département et une région d'outre-mer français situé dans l'océan Indien. La Guadeloupe et la Martinique sont aussi des DOM insulaires."
   },
@@ -3826,7 +3826,7 @@ export const questions: Question[] = [
       "26 régions"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Depuis la réforme territoriale de 2016, la France métropolitaine compte 13 régions (+ 5 régions d'outre-mer)."
   },
@@ -3840,7 +3840,7 @@ export const questions: Question[] = [
       "Strasbourg"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Marseille est le plus grand port maritime de France, situé sur la Méditerranée. Le Havre et Bordeaux sont aussi de grands ports."
   },
@@ -3854,7 +3854,7 @@ export const questions: Question[] = [
       "La mer Noire"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La mer Méditerranée borde le sud de la France métropolitaine (Côte d'Azur, Languedoc, etc.)."
   },
@@ -3868,7 +3868,7 @@ export const questions: Question[] = [
       "Nantes"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Nice est située au bord de la mer Méditerranée, sur la Côte d'Azur. Marseille, Toulon et Montpellier aussi."
   },
@@ -3882,7 +3882,7 @@ export const questions: Question[] = [
       "Dans l'océan Indien"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La Corse est une île française située dans la mer Méditerranée, au sud-est de la France métropolitaine."
   },
@@ -3896,7 +3896,7 @@ export const questions: Question[] = [
       "Les Vosges"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Les Alpes forment une frontière naturelle entre la France et l'Italie. Le Mont Blanc (4809m) est le point culminant."
   },
@@ -3910,7 +3910,7 @@ export const questions: Question[] = [
       "Un peintre"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Molière (1622-1673) était un dramaturge, acteur et metteur en scène français célèbre pour ses comédies ('Le Malade imaginaire', 'Tartuffe', 'L'Avare', etc.)."
   },
@@ -3924,7 +3924,7 @@ export const questions: Question[] = [
       "Un homme politique"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Charles Baudelaire (1821-1867) était un poète français, auteur des 'Fleurs du Mal', figure majeure du symbolisme."
   },
@@ -3938,7 +3938,7 @@ export const questions: Question[] = [
       "Une actrice"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "George Sand (1804-1876), pseudonyme d'Aurore Dupin, était une écrivaine française célèbre et une figure féministe pionnière."
   },
@@ -3952,7 +3952,7 @@ export const questions: Question[] = [
       "Une reine"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Simone de Beauvoir (1908-1986) était une écrivaine, philosophe et féministe française, auteure du 'Deuxième Sexe'."
   },
@@ -3966,7 +3966,7 @@ export const questions: Question[] = [
       "Un homme politique"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Albert Camus (1913-1960) était un écrivain, philosophe et journaliste français, prix Nobel de littérature en 1957 ('L'Étranger', 'La Peste')."
   },
@@ -3980,7 +3980,7 @@ export const questions: Question[] = [
       "Un architecte"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Paul Cézanne (1839-1906) était un peintre français post-impressionniste, précurseur du cubisme."
   },
@@ -3994,7 +3994,7 @@ export const questions: Question[] = [
       "Un homme politique"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Marc Chagall (1887-1985) était un peintre d'origine russe naturalisé français, célèbre pour ses œuvres colorées et oniriques."
   },
@@ -4008,7 +4008,7 @@ export const questions: Question[] = [
       "Une écrivaine"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Joséphine Baker (1906-1975) était une danseuse, chanteuse et résistante française d'origine américaine. Elle a été la première femme noire au Panthéon (2021)."
   },
@@ -4022,7 +4022,7 @@ export const questions: Question[] = [
       "Whitney Houston"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Édith Piaf (1915-1963) était une chanteuse française iconique, surnommée 'la Môme Piaf', célèbre pour 'La Vie en rose' et 'Non, je ne regrette rien'."
   },
@@ -4036,7 +4036,7 @@ export const questions: Question[] = [
       "Un théâtre"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Le Louvre est le plus grand musée de Paris et du monde par sa surface d'exposition. Il abrite la Joconde, la Vénus de Milo, etc."
   },
@@ -4050,7 +4050,7 @@ export const questions: Question[] = [
       "Un musicien"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Jean de la Fontaine (1621-1695) était un poète français célèbre pour ses Fables ('Le Corbeau et le Renard', 'La Cigale et la Fourmi', etc.)."
   },
@@ -4064,7 +4064,7 @@ export const questions: Question[] = [
       "Dante"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Victor Hugo (1802-1885) était un écrivain français majeur, auteur des 'Misérables' et de 'Notre-Dame de Paris'."
   },
@@ -4078,7 +4078,7 @@ export const questions: Question[] = [
       "Nice"
     ],
     "correctAnswer": 1,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "La tour Eiffel se trouve à Paris. Construite pour l'Exposition universelle de 1889, elle est devenue le symbole de Paris et de la France."
   },
@@ -4092,7 +4092,7 @@ export const questions: Question[] = [
       "Le 25 mars"
     ],
     "correctAnswer": 0,
-    "theme": "vie-quotidienne",
+    "theme": "histoire-geo-culture",
     "source": "CSP",
     "explanation": "Noël est célébré le 25 décembre. C'est une fête chrétienne et culturelle majeure en France."
   },
@@ -4106,7 +4106,7 @@ export const questions: Question[] = [
       "112"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Le 15 est le numéro d'urgence du SAMU (Service d'Aide Médicale Urgente) pour les urgences médicales."
   },
@@ -4120,7 +4120,7 @@ export const questions: Question[] = [
       "112"
     ],
     "correctAnswer": 2,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Le 18 est le numéro d'urgence pour appeler les pompiers en France."
   },
@@ -4134,7 +4134,7 @@ export const questions: Question[] = [
       "Payer une taxe spéciale"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Pour pouvoir conduire légalement, il faut obligatoirement assurer son véhicule (au minimum l'assurance responsabilité civile), en plus d'avoir le permis de conduire."
   },
@@ -4148,7 +4148,7 @@ export const questions: Question[] = [
       "S'il est célébré à l'étranger uniquement"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Pour être reconnu juridiquement en France, un mariage doit être célébré civilement à la mairie par un officier d'état civil. Le mariage religieux seul n'a pas de valeur juridique."
   },
@@ -4162,7 +4162,7 @@ export const questions: Question[] = [
       "Quand on veut"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "La naissance d'un enfant doit être déclarée à la mairie dans les 5 jours suivant l'accouchement. C'est une obligation légale."
   },
@@ -4176,7 +4176,7 @@ export const questions: Question[] = [
       "Obligatoire"
     ],
     "correctAnswer": 1,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Le travail non déclaré (travail au noir) est strictement interdit et sanctionné. C'est une fraude qui prive le salarié de droits et l'État de cotisations."
   },
@@ -4190,7 +4190,7 @@ export const questions: Question[] = [
       "Payer seulement si le salarié le demande"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Un employeur doit respecter au minimum le SMIC (Salaire Minimum Interprofessionnel de Croissance) et les conventions collectives de la branche professionnelle."
   },
@@ -4204,7 +4204,7 @@ export const questions: Question[] = [
       "Une taxe"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Le SMIC est le Salaire Minimum Interprofessionnel de Croissance, le salaire horaire minimum légal en France en dessous duquel un employeur ne peut pas payer un salarié."
   },
@@ -4218,7 +4218,7 @@ export const questions: Question[] = [
       "Rien faire"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Pour chercher un emploi et bénéficier d'un accompagnement et d'allocations, il faut s'inscrire à France Travail (anciennement Pôle emploi)."
   },
@@ -4232,7 +4232,7 @@ export const questions: Question[] = [
       "50 heures"
     ],
     "correctAnswer": 1,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "La durée légale du travail en France est de 35 heures par semaine. Au-delà, ce sont des heures supplémentaires payées avec majoration."
   },
@@ -4246,7 +4246,7 @@ export const questions: Question[] = [
       "Personne"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "France Travail (anciennement Pôle emploi) aide les demandeurs d'emploi à trouver un travail, les accompagne et verse les allocations chômage."
   },
@@ -4260,7 +4260,7 @@ export const questions: Question[] = [
       "Seulement après 50 ans"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Une personne étrangère en situation régulière peut créer son entreprise en France, sous certaines conditions qui dépendent de son titre de séjour."
   },
@@ -4274,7 +4274,7 @@ export const questions: Question[] = [
       "Seulement après 40 ans"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Une femme peut créer son entreprise librement et dans les mêmes conditions qu'un homme. L'égalité hommes-femmes est un principe constitutionnel."
   },
@@ -4288,7 +4288,7 @@ export const questions: Question[] = [
       "À n'importe quel âge"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "En France, un mineur peut travailler à partir de 14 ans (pendant les vacances scolaires avec conditions strictes) ou 16 ans de façon plus générale, avec autorisation parentale et respect du Code du travail."
   },
@@ -4302,7 +4302,7 @@ export const questions: Question[] = [
       "La police"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "C'est auprès de l'Assurance Maladie (Sécurité sociale) qu'il faut demander le remboursement des frais de santé. La mutuelle complémentaire rembourse le reste."
   },
@@ -4316,7 +4316,7 @@ export const questions: Question[] = [
       "Un code postal"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Un numéro d'urgence (15, 17, 18, 112) est un numéro gratuit accessible 24h/24 pour contacter rapidement les secours en cas de danger ou d'urgence."
   },
@@ -4330,7 +4330,7 @@ export const questions: Question[] = [
       "Il faut une autorisation spéciale"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "En France, toute personne peut consulter un médecin. L'Assurance Maladie rembourse les soins. Des aides existent pour les personnes en difficulté (AME, CSS)."
   },
@@ -4344,7 +4344,7 @@ export const questions: Question[] = [
       "À la mairie"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "En cas de problème de santé non urgent, il faut d'abord consulter son médecin traitant. Les urgences hospitalières sont réservées aux situations graves."
   },
@@ -4358,7 +4358,7 @@ export const questions: Question[] = [
       "Gérer l'hôpital"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Le médecin traitant assure le suivi médical régulier du patient, coordonne les soins et oriente vers des spécialistes si nécessaire. C'est le médecin de référence."
   },
@@ -4372,7 +4372,7 @@ export const questions: Question[] = [
       "Pour acheter des médicaments"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Les urgences hospitalières sont pour les situations graves nécessitant des soins immédiats : accident grave, douleur intense, problème vital. Pour les petits problèmes, consulter le médecin traitant."
   },
@@ -4386,7 +4386,7 @@ export const questions: Question[] = [
       "Rien de particulier"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Les vaccinations obligatoires visent à protéger les individus et la collectivité contre des maladies graves et à éviter les épidémies (immunité collective)."
   },
@@ -4400,7 +4400,7 @@ export const questions: Question[] = [
       "À conduire"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "La carte Vitale est la carte d'assuré social qui permet de faciliter et accélérer le remboursement des frais de santé par l'Assurance Maladie."
   },
@@ -4414,7 +4414,7 @@ export const questions: Question[] = [
       "À rien"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "La mutuelle santé (complémentaire santé) complète le remboursement de l'Assurance Maladie en prenant en charge tout ou partie du reste à charge (ticket modérateur)."
   },
@@ -4428,7 +4428,7 @@ export const questions: Question[] = [
       "21 ans"
     ],
     "correctAnswer": 1,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "L'instruction est obligatoire de 3 ans à 16 ans en France. Ensuite, c'est facultatif."
   },
@@ -4442,7 +4442,7 @@ export const questions: Question[] = [
       "De ne pas s'occuper de l'enfant"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "L'autorité parentale comporte des droits et devoirs : protéger l'enfant, assurer sa sécurité, sa santé, son éducation, et contribuer à son entretien."
   },
@@ -4456,7 +4456,7 @@ export const questions: Question[] = [
       "Pour personne"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "L'instruction est obligatoire pour tous les enfants de 3 à 16 ans résidant en France, quelle que soit leur nationalité."
   },
@@ -4470,7 +4470,7 @@ export const questions: Question[] = [
       "La Licence"
     ],
     "correctAnswer": 1,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "À la fin du lycée (classe de Terminale), les élèves passent le Baccalauréat (Bac), diplôme qui permet d'accéder à l'enseignement supérieur."
   },
@@ -4484,7 +4484,7 @@ export const questions: Question[] = [
       "À l'école maternelle"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Après l'école élémentaire (CP-CM2), les élèves vont au collège (6ème à 3ème), puis au lycée (Seconde à Terminale)."
   },
@@ -4498,7 +4498,7 @@ export const questions: Question[] = [
       "Pour personne"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "L'instruction est obligatoire pour tous les enfants, filles et garçons, de 3 à 16 ans résidant en France."
   },
@@ -4512,7 +4512,7 @@ export const questions: Question[] = [
       "Peut partir en vacances quand il veut"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Un enfant inscrit à l'école doit être assidu. Les absences doivent être justifiées par des motifs valables (maladie, obligations légales, etc.)."
   },
@@ -4526,7 +4526,7 @@ export const questions: Question[] = [
       "Sont refusés"
     ],
     "correctAnswer": 0,
-    "theme": "histoire",
+    "theme": "vie-quotidienne",
     "source": "CSP",
     "explanation": "Tous les enfants ont le droit à l'instruction. Les enfants ne parlant pas français sont accueillis à l'école et bénéficient d'un accompagnement spécifique (UPE2A) pour apprendre le français."
   },

@@ -14,10 +14,7 @@ export interface Question {
 export type Theme =
   | 'principes-valeurs'
   | 'institutions'
-  | 'symboles'
-  | 'histoire'
-  | 'geographie'
-  | 'culture'
+  | 'histoire-geo-culture'
   | 'vie-quotidienne';
 
 export interface ThemeInfo {

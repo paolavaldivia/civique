@@ -8,12 +8,15 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Theme mapping from clean questions to app themes
+// NOTE: The source data has incorrect theme labels
+// - "Droits et devoirs" actually contains histoire/géo/culture questions
+// - "Histoire géographie et culture" actually contains vie quotidienne questions
 const themeMapping: Record<string, string> = {
   // CR and CSP themes
   'Principes et valeurs de la République': 'principes-valeurs',
   'Système institutionnel et politique': 'institutions',
-  'Histoire géographie et culture': 'histoire',
-  'Droits et devoirs': 'vie-quotidienne',
+  'Histoire géographie et culture': 'vie-quotidienne', // Miscategorized: contains practical life questions
+  'Droits et devoirs': 'histoire-geo-culture', // Miscategorized: contains history/geo/culture questions
 
   // SUPP themes
   'Valeurs fondamentales': 'principes-valeurs',
