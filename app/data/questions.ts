@@ -2,10 +2,11 @@ import { Question } from '@/types';
 
 /**
  * Official questions from civic education test
- * Total: 395 questions
+ * Total: 430 questions
  * - CR (Connaissance Réfugiés): 181 questions
  * - CSP (Connaissance Statut Personnel): 154 questions
  * - SUPP (Supplementary): 60 questions
+ * - SITUATIONAL (Mises en situation): 35 questions
  */
 export const questions: Question[] = [
   {
@@ -5537,5 +5538,495 @@ export const questions: Question[] = [
     "theme": "vie-quotidienne",
     "source": "SUPP",
     "explanation": "Le téléchargement illégal (piratage) de contenus protégés par le droit d'auteur (films, musiques, logiciels, livres) est interdit et sanctionné. C'est une contrefaçon punissable d'amendes et de peines de prison."
+  },
+  {
+    "id": "sit-1",
+    "question": "Vous travaillez dans une entreprise. Votre collègue vous demande de ne pas manger de porc à la cantine car c'est contraire à sa religion. Que devez-vous faire ?",
+    "options": [
+      "Accepter de ne pas manger de porc pour respecter votre collègue",
+      "Manger ce que vous voulez, la liberté de manger ce qu'on veut est un droit personnel",
+      "Demander à votre employeur d'interdire le porc à la cantine",
+      "Porter plainte contre votre collègue"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "En France, chacun a le droit de manger ce qu'il veut selon ses convictions personnelles. Votre collègue ne peut pas vous imposer ses choix alimentaires. La liberté de conscience garantit que personne ne peut imposer ses pratiques religieuses aux autres."
+  },
+  {
+    "id": "sit-2",
+    "question": "À l'école publique, votre enfant vous dit que son enseignant porte une grande croix visible. Quelle est la situation ?",
+    "options": [
+      "C'est normal, l'enseignant a le droit d'exprimer sa religion",
+      "C'est interdit, les enseignants doivent respecter la neutralité religieuse",
+      "C'est autorisé si la majorité des parents sont d'accord",
+      "C'est autorisé uniquement dans les écoles privées"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les enseignants et agents du service public doivent respecter la neutralité religieuse. Ils ne peuvent pas porter de signes religieux ostentatoires dans l'exercice de leurs fonctions. C'est un principe de la laïcité qui garantit la neutralité de l'État."
+  },
+  {
+    "id": "sit-3",
+    "question": "Votre voisin vous insulte régulièrement en raison de votre origine. Que pouvez-vous faire ?",
+    "options": [
+      "L'insulter en retour",
+      "Porter plainte à la police pour injures à caractère raciste",
+      "Déménager pour éviter les conflits",
+      "Ne rien faire, ce sont ses opinions"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les injures à caractère raciste sont un délit puni par la loi. Vous avez le droit de porter plainte. La liberté d'expression ne protège pas les propos racistes, qui sont contraires au principe d'égalité et à la dignité humaine."
+  },
+  {
+    "id": "sit-4",
+    "question": "Vous êtes témoin d'une agression dans la rue. Quelle est la meilleure réaction ?",
+    "options": [
+      "Intervenir physiquement pour arrêter l'agresseur",
+      "Appeler la police (17) et rester à distance pour témoigner",
+      "Filmer la scène et la publier sur les réseaux sociaux",
+      "Partir rapidement pour ne pas être impliqué"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "La meilleure réaction est d'appeler la police (17 ou 112) pour signaler l'agression et de rester disponible comme témoin si nécessaire, tout en restant en sécurité. Intervenir physiquement peut être dangereux. Ne pas porter assistance à une personne en danger peut constituer une infraction."
+  },
+  {
+    "id": "sit-5",
+    "question": "Votre employeur refuse de vous accorder un congé pour une fête religieuse. Est-ce légal ?",
+    "options": [
+      "Non, c'est une discrimination religieuse interdite",
+      "Oui, l'employeur peut refuser si cela perturbe l'organisation du travail",
+      "Non, toutes les fêtes religieuses sont des jours fériés obligatoires",
+      "Oui, sauf si vous êtes de religion catholique"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "En France, seuls certains jours fériés sont légalement chômés (majoritairement d'origine chrétienne pour des raisons historiques). Pour les autres fêtes religieuses, l'employeur peut refuser un congé si cela désorganise l'entreprise, mais doit examiner la demande. L'employé peut poser des congés payés ou un jour de RTT."
+  },
+  {
+    "id": "sit-6",
+    "question": "Dans un bureau de vote, on vous demande de retirer votre couvre-chef religieux pour vérifier votre identité. Que se passe-t-il ?",
+    "options": [
+      "Vous pouvez refuser car c'est une atteinte à votre liberté religieuse",
+      "Vous devez accepter temporairement pour l'identification, c'est obligatoire",
+      "Vous pouvez voter sans vous identifier",
+      "Vous devez demander une autorisation spéciale au maire"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Pour voter, l'identification est obligatoire. Vous devez retirer temporairement tout couvre-chef pour permettre la vérification de votre identité avec votre pièce d'identité. Cette exigence n'est pas une atteinte à la liberté religieuse mais une nécessité pour garantir la sincérité du scrutin."
+  },
+  {
+    "id": "sit-7",
+    "question": "Votre propriétaire refuse de vous louer un appartement en disant qu'il ne loue pas aux étrangers. Que faire ?",
+    "options": [
+      "Accepter et chercher ailleurs",
+      "Porter plainte pour discrimination, c'est illégal",
+      "Proposer de payer un loyer plus élevé",
+      "Demander à un ami français de louer à votre place"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Refuser de louer un logement en raison de l'origine ou de la nationalité est une discrimination interdite par la loi. Vous pouvez porter plainte et contacter le Défenseur des droits. La discrimination au logement est punie par la loi (jusqu'à 3 ans de prison et 45 000 euros d'amende)."
+  },
+  {
+    "id": "sit-8",
+    "question": "Lors d'une réunion publique à la mairie, le maire refuse d'écouter votre question car vous critiquez sa politique. A-t-il le droit ?",
+    "options": [
+      "Oui, le maire peut décider qui peut parler",
+      "Non, tout citoyen a le droit de s'exprimer lors des réunions publiques dans le respect de l'ordre",
+      "Oui, critiquer le maire est interdit",
+      "Non, mais seulement si vous êtes électeur de la commune"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Dans une réunion publique, tous les citoyens ont le droit de s'exprimer et de poser des questions, même critiques, dans le respect de l'ordre public. La liberté d'expression inclut le droit de critiquer les élus et leurs politiques. Le maire ne peut pas censurer une question simplement parce qu'elle est critique."
+  },
+  {
+    "id": "sit-9",
+    "question": "Votre fille de 15 ans veut porter le voile à l'école publique. Peut-elle le faire ?",
+    "options": [
+      "Oui, c'est sa liberté religieuse",
+      "Non, les signes religieux ostentatoires sont interdits à l'école publique",
+      "Oui, si le directeur de l'école est d'accord",
+      "Oui, si elle a l'autorisation écrite des deux parents"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "La loi de 2004 interdit le port de signes religieux ostentatoires dans les écoles publiques (voile islamique, grande croix, kippa, etc.). Cette interdiction vise à préserver la laïcité de l'école publique et protéger les élèves des pressions religieuses. Les signes discrets restent autorisés."
+  },
+  {
+    "id": "sit-10",
+    "question": "Pendant une grève des transports, vous ne pouvez pas aller travailler. Votre employeur peut-il vous sanctionner ?",
+    "options": [
+      "Oui, vous devez trouver un moyen d'arriver au travail",
+      "Non, la grève des transports est un cas de force majeure qui justifie l'absence",
+      "Oui, vous devez prendre un jour de congé",
+      "Non, mais vous ne serez pas payé pour cette journée"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Une grève des transports publics est généralement considérée comme un cas de force majeure. L'employé ne peut pas être sanctionné s'il ne peut pas se rendre au travail à cause d'une grève des transports, mais cette journée peut ne pas être rémunérée sauf accord contraire. L'employeur doit faire preuve de compréhension."
+  },
+  {
+    "id": "sit-11",
+    "question": "Un commerçant refuse de vous servir sans vous donner de raison. Que faire ?",
+    "options": [
+      "Partir sans rien dire",
+      "Demander la raison du refus et signaler au Défenseur des droits si c'est discriminatoire",
+      "Forcer le commerçant à vous servir",
+      "Appeler immédiatement la police"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Un commerçant peut refuser de servir un client pour des motifs légitimes (comportement inapproprié, tenue incorrecte, etc.), mais pas pour des motifs discriminatoires (origine, religion, sexe, etc.). Vous pouvez demander la raison du refus. Si vous pensez qu'il s'agit de discrimination, vous pouvez saisir le Défenseur des droits."
+  },
+  {
+    "id": "sit-12",
+    "question": "Votre médecin est une femme. Votre mari refuse que vous soyez examinée par elle et demande un médecin homme. Le médecin peut-il refuser de vous soigner ?",
+    "options": [
+      "Oui, le médecin doit respecter votre religion et chercher un collègue masculin",
+      "Non, mais le médecin peut refuser si elle l'estime approprié pour la qualité des soins",
+      "Oui, le patient peut toujours choisir le sexe de son médecin",
+      "Non, le médecin doit absolument vous soigner même si vous refusez"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Un médecin peut refuser un patient si ce refus ne met pas en danger la santé du patient et n'est pas discriminatoire. Si le mari impose le sexe du médecin pour des raisons religieuses ou personnelles, le médecin peut refuser car cela peut compromettre la relation de soin. Le patient a le libre choix de son médecin, mais ne peut pas imposer ses exigences au médecin."
+  },
+  {
+    "id": "sit-13",
+    "question": "Vous organisez une manifestation pacifique. Devez-vous demander une autorisation ?",
+    "options": [
+      "Non, manifester est un droit absolu sans autorisation",
+      "Oui, vous devez déclarer la manifestation à la préfecture au moins 3 jours avant",
+      "Oui, seulement si vous êtes plus de 100 personnes",
+      "Non, sauf si vous bloquez la circulation"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Le droit de manifester est garanti en France, mais les manifestations sur la voie publique doivent être déclarées à la préfecture (ou à la mairie) au moins 3 jours francs avant la date prévue. Cette déclaration permet d'assurer la sécurité et l'ordre public. Ce n'est pas une demande d'autorisation mais une déclaration préalable."
+  },
+  {
+    "id": "sit-14",
+    "question": "Votre enfant a une camarade handicapée dans sa classe. Certains parents demandent qu'elle soit scolarisée ailleurs. Quelle est la réponse de l'école ?",
+    "options": [
+      "L'école doit organiser un vote des parents",
+      "L'école doit refuser, tous les enfants ont droit à l'éducation inclusive",
+      "L'école doit créer une classe spéciale pour les enfants handicapés",
+      "L'école doit suivre l'avis de la majorité des parents"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "L'école inclusive est un droit fondamental. Tous les enfants, y compris les enfants en situation de handicap, ont le droit d'être scolarisés en milieu ordinaire. La loi de 2005 sur l'égalité des droits et des chances garantit l'accès à l'éducation pour tous. L'école ne peut pas exclure un enfant handicapé à la demande d'autres parents."
+  },
+  {
+    "id": "sit-15",
+    "question": "Dans votre entreprise, votre chef vous demande de travailler le dimanche régulièrement sans compensation. Que dit la loi ?",
+    "options": [
+      "Vous devez obéir à votre chef sans discuter",
+      "Le travail dominical est strictement encadré et doit être compensé (repos ou majoration)",
+      "Vous pouvez refuser uniquement pour raisons religieuses",
+      "C'est autorisé si c'est écrit dans votre contrat de travail"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Le repos dominical est un principe du droit du travail français. Le travail le dimanche est strictement encadré et ne peut être imposé que dans certains secteurs ou avec des dérogations. Il doit être compensé par un repos compensateur et/ou une majoration de salaire. Vous pouvez refuser si les conditions légales ne sont pas respectées."
+  },
+  {
+    "id": "sit-16",
+    "question": "Vous recevez un courrier de l'administration fiscale. Vous ne comprenez pas bien le français. Que faire ?",
+    "options": [
+      "Ignorer le courrier en espérant que ce n'est pas grave",
+      "Vous faire aider par un service d'aide ou un traducteur, et répondre dans les délais",
+      "Attendre que l'administration vous contacte par téléphone",
+      "Déménager dans un autre pays"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Il est important de ne pas ignorer les courriers administratifs. Vous pouvez vous faire aider par des associations, des services sociaux, ou demander l'aide d'un traducteur. De nombreux services publics proposent des permanences d'aide. Ignorer un courrier fiscal peut entraîner des pénalités."
+  },
+  {
+    "id": "sit-17",
+    "question": "Votre collègue de travail fait régulièrement des blagues sexistes. Quelle est votre possibilité d'action ?",
+    "options": [
+      "Rire avec lui pour maintenir une bonne ambiance",
+      "Signaler ce comportement à votre employeur ou aux représentants du personnel, c'est du harcèlement",
+      "Changer de service pour l'éviter",
+      "Ne rien faire, ce ne sont que des blagues"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les blagues sexistes répétées peuvent constituer du harcèlement sexuel au travail, qui est interdit et sanctionné par la loi. L'employeur a l'obligation de protéger ses salariés. Vous pouvez signaler ces comportements à votre employeur, aux représentants du personnel, ou à l'inspection du travail."
+  },
+  {
+    "id": "sit-18",
+    "question": "Vous trouvez un portefeuille avec de l'argent et des papiers dans la rue. Que devez-vous faire ?",
+    "options": [
+      "Garder l'argent et jeter le portefeuille",
+      "Rapporter le portefeuille au commissariat de police ou à la mairie",
+      "Garder le portefeuille en espérant que personne ne le réclame",
+      "Utiliser les papiers pour trouver le propriétaire sur les réseaux sociaux"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Trouver un objet perdu crée une obligation de le restituer. Vous devez le remettre au commissariat de police, à la gendarmerie, ou à la mairie dans les meilleurs délais. Garder un objet trouvé sans chercher à le restituer peut constituer un vol. Si l'objet n'est pas réclamé après un délai légal, vous pourrez le récupérer."
+  },
+  {
+    "id": "sit-19",
+    "question": "Votre enfant ramène un devoir scolaire qui contient une critique de votre religion. Comment réagir ?",
+    "options": [
+      "Interdire à votre enfant de faire le devoir",
+      "Rencontrer l'enseignant pour comprendre l'exercice et échanger dans le respect mutuel",
+      "Porter plainte contre l'école pour discrimination religieuse",
+      "Retirer votre enfant de l'école publique"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "À l'école laïque, l'enseignement peut aborder les religions de manière objective et critique dans le cadre pédagogique. Il est important de rencontrer l'enseignant pour comprendre les objectifs pédagogiques de l'exercice. L'école peut enseigner sur les religions sans les pratiquer ni les dénigrer. Le dialogue respectueux est la meilleure approche."
+  },
+  {
+    "id": "sit-20",
+    "question": "Votre voisin fait du bruit tous les soirs après 22h. Quelle est la démarche appropriée ?",
+    "options": [
+      "Faire du bruit à votre tour pour vous venger",
+      "Lui parler d'abord calmement, puis contacter le syndic ou la police si cela continue",
+      "Déménager immédiatement",
+      "Casser ses fenêtres pour qu'il comprenne"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "En cas de trouble de voisinage, la première étape est de dialoguer calmement avec le voisin. Si le problème persiste, vous pouvez contacter le syndic de copropriété, la mairie, ou faire une médiation. En cas de nuisances sonores nocturnes répétées, vous pouvez appeler la police. La violence ou la vengeance sont illégales."
+  },
+  {
+    "id": "sit-21",
+    "question": "Lors d'un contrôle d'identité, la police vous demande vos papiers. Vous les avez oubliés chez vous. Que se passe-t-il ?",
+    "options": [
+      "Vous serez automatiquement arrêté et emprisonné",
+      "Vous devez donner votre identité verbalement. La police peut vérifier et vous retenir le temps de la vérification",
+      "Vous avez le droit de refuser de décliner votre identité",
+      "Vous devez payer une amende immédiatement"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "En France, vous n'êtes pas obligé de porter vos papiers d'identité en permanence (sauf pour les étrangers avec titre de séjour dans certains cas). Lors d'un contrôle, vous devez décliner votre identité verbalement. La police peut vous retenir le temps nécessaire pour vérifier votre identité (maximum 4 heures en général). Il est conseillé de toujours avoir une pièce d'identité sur soi."
+  },
+  {
+    "id": "sit-22",
+    "question": "Votre employeur vous demande votre religion lors d'un entretien d'embauche. Devez-vous répondre ?",
+    "options": [
+      "Oui, vous devez répondre honnêtement à toutes les questions",
+      "Non, cette question est discriminatoire et vous pouvez refuser de répondre",
+      "Oui, mais seulement si c'est une grande entreprise",
+      "Non, sauf si le poste concerne une organisation religieuse"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Un employeur n'a pas le droit de vous interroger sur votre religion lors d'un entretien d'embauche (sauf pour les organisations religieuses dans certains cas spécifiques). Cette question est discriminatoire et vous pouvez refuser d'y répondre. L'employeur doit évaluer vos compétences professionnelles uniquement."
+  },
+  {
+    "id": "sit-23",
+    "question": "Vous êtes invité à voter pour élire les représentants du personnel dans votre entreprise. Pouvez-vous voter même si vous n'êtes pas français ?",
+    "options": [
+      "Non, seuls les Français peuvent voter",
+      "Oui, tous les salariés peuvent voter aux élections professionnelles quelle que soit leur nationalité",
+      "Oui, seulement si vous êtes européen",
+      "Non, il faut avoir la nationalité française depuis au moins 5 ans"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les élections professionnelles (comité social et économique, délégués du personnel) sont ouvertes à tous les salariés, quelle que soit leur nationalité. Seules les élections politiques (présidentielles, législatives, etc.) sont réservées aux citoyens français (ou européens pour certaines élections locales)."
+  },
+  {
+    "id": "sit-24",
+    "question": "Votre banque refuse de vous ouvrir un compte bancaire sans explication claire. Que pouvez-vous faire ?",
+    "options": [
+      "Accepter et essayer une autre banque",
+      "Exercer votre droit au compte auprès de la Banque de France",
+      "Porter plainte immédiatement à la police",
+      "Renoncer à avoir un compte bancaire"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "En France, toute personne a le droit d'avoir un compte bancaire (droit au compte). Si une banque refuse de vous ouvrir un compte, vous pouvez saisir la Banque de France qui désignera une banque qui devra vous ouvrir un compte avec les services de base. C'est un droit fondamental pour vivre en France."
+  },
+  {
+    "id": "sit-25",
+    "question": "Pendant la pause déjeuner, des collègues parlent de politique et critiquent le gouvernement. Votre chef arrive et les sanctionne. Est-ce légal ?",
+    "options": [
+      "Oui, il est interdit de critiquer le gouvernement au travail",
+      "Non, la liberté d'expression inclut la critique politique, même au travail pendant les pauses",
+      "Oui, l'employeur peut interdire toute discussion au travail",
+      "Non, mais seulement si les employés sont français"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les salariés ont le droit de critiquer le gouvernement et de discuter de politique pendant leurs pauses, dans le respect de leur liberté d'expression. L'employeur ne peut pas sanctionner des discussions politiques pendant le temps de pause, sauf si elles créent un trouble manifeste ou sont injurieuses. La liberté d'expression est un droit fondamental."
+  },
+  {
+    "id": "sit-26",
+    "question": "Vous recevez une convocation pour être juré lors d'un procès devant la cour d'assises. Pouvez-vous refuser ?",
+    "options": [
+      "Oui, être juré est volontaire",
+      "Non, c'est un devoir citoyen obligatoire sauf motifs légitimes d'exemption",
+      "Oui, si vous n'êtes pas avocat",
+      "Non, mais seulement pour les citoyens français de naissance"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Être juré d'assises est un devoir citoyen obligatoire pour les citoyens français. Vous ne pouvez refuser que pour des motifs légitimes prévus par la loi (âge, profession incompatible, problème de santé, etc.). Refuser sans motif valable est sanctionné par une amende. C'est une participation importante à la justice."
+  },
+  {
+    "id": "sit-27",
+    "question": "Votre enfant refuse de participer à une sortie scolaire au musée car il préfère rester à la maison. Pouvez-vous le garder à la maison ce jour-là ?",
+    "options": [
+      "Oui, les sorties scolaires sont optionnelles",
+      "Non, les sorties scolaires organisées pendant le temps scolaire sont obligatoires",
+      "Oui, si vous écrivez un mot à l'enseignant",
+      "Non, sauf si c'est pour raisons religieuses"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les sorties scolaires qui ont lieu pendant le temps scolaire obligatoire font partie du programme éducatif et sont obligatoires. Vous ne pouvez pas garder votre enfant à la maison simplement parce qu'il préfère rester chez lui. Seules les sorties facultatives (en dehors du temps scolaire) ne sont pas obligatoires."
+  },
+  {
+    "id": "sit-28",
+    "question": "Un agent immobilier vous demande un garant qui soit 'de préférence français de souche'. Que faire ?",
+    "options": [
+      "Accepter et chercher un garant correspondant à ce critère",
+      "Signaler cette discrimination au Défenseur des droits, c'est illégal",
+      "Proposer de payer 6 mois de loyer d'avance",
+      "Chercher un autre appartement sans rien dire"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Demander un garant 'français de souche' est une discrimination basée sur l'origine, ce qui est strictement interdit par la loi. L'agent immobilier commet une infraction. Vous pouvez porter plainte et saisir le Défenseur des droits. Les critères pour un garant doivent être basés uniquement sur la solvabilité, pas sur l'origine."
+  },
+  {
+    "id": "sit-29",
+    "question": "Vous voyez des jeunes peindre des graffitis racistes sur un mur de votre quartier. Que devez-vous faire ?",
+    "options": [
+      "Ne rien faire, ce n'est pas votre problème",
+      "Signaler à la police, les inscriptions racistes sont un délit",
+      "Prendre une photo et la publier sur les réseaux sociaux",
+      "Effacer vous-même les graffitis"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les inscriptions racistes sont un délit (provocation à la haine raciale). Vous devez signaler ces faits à la police. Publier des photos peut propager le message raciste. Effacer les graffitis sans autorisation peut être considéré comme une dégradation. La police enregistrera la plainte et la mairie se chargera de l'effacement."
+  },
+  {
+    "id": "sit-30",
+    "question": "Lors d'une fête de quartier, l'association demande une participation financière de 5 euros. Vous n'avez pas les moyens de payer. Que se passe-t-il ?",
+    "options": [
+      "Vous ne pouvez pas participer si vous ne payez pas",
+      "Vous pouvez expliquer votre situation, les associations proposent souvent des solutions",
+      "Vous devez mentir sur votre situation financière",
+      "Vous devez emprunter l'argent pour pouvoir participer"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les associations qui organisent des événements de quartier cherchent généralement à inclure tout le monde. Si vous expliquez votre situation, elles peuvent proposer une participation réduite ou gratuite. L'accès à la vie sociale ne doit pas être empêché par des raisons financières. Le dialogue et la solidarité sont des valeurs importantes."
+  },
+  {
+    "id": "sit-31",
+    "question": "Vous êtes victime de violences conjugales. Où pouvez-vous trouver de l'aide en urgence ?",
+    "options": [
+      "Vous devez garder cela privé et gérer en famille",
+      "Appeler le 3919 (numéro d'aide aux victimes de violences) ou le 17 (police) en cas de danger immédiat",
+      "Attendre que la situation s'améliore d'elle-même",
+      "Vous ne pouvez rien faire si vous n'êtes pas française"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les violences conjugales sont un délit grave. Vous pouvez appeler le 3919 (écoute, information et orientation) gratuitement et anonymement, ou le 17 (police) en cas de danger immédiat. Des structures d'accueil existent. Votre nationalité n'a pas d'importance, toute victime de violence peut et doit être protégée par la loi française."
+  },
+  {
+    "id": "sit-32",
+    "question": "Votre employeur vous demande de travailler sans vous déclarer pour 'économiser les charges'. Que faire ?",
+    "options": [
+      "Accepter si le salaire est bon",
+      "Refuser, le travail dissimulé est illégal et vous prive de droits sociaux",
+      "Accepter temporairement en attendant un contrat",
+      "Négocier un salaire plus élevé en échange"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Le travail dissimulé (travail au noir) est strictement interdit en France. Il prive le salarié de ses droits (protection sociale, retraite, chômage) et expose l'employeur à de lourdes sanctions. Vous devez refuser et exiger un contrat de travail en règle. Vous pouvez signaler cette situation à l'inspection du travail."
+  },
+  {
+    "id": "sit-33",
+    "question": "Pendant les élections, un candidat vous propose de l'argent en échange de votre vote. Que faire ?",
+    "options": [
+      "Accepter l'argent et voter pour qui vous voulez",
+      "Refuser et signaler à la police, c'est un délit de corruption électorale",
+      "Accepter l'argent et voter pour le candidat",
+      "Négocier un montant plus élevé"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Acheter des votes est un délit grave (corruption électorale) qui peut entraîner l'annulation de l'élection et des peines de prison. Vous devez refuser et signaler ces faits aux autorités (police, préfecture). Le vote doit être libre et ne peut faire l'objet d'aucune transaction. C'est un principe fondamental de la démocratie."
+  },
+  {
+    "id": "sit-34",
+    "question": "Votre fils de 16 ans veut arrêter l'école pour travailler. Pouvez-vous l'autoriser ?",
+    "options": [
+      "Oui, à 16 ans il peut décider seul",
+      "Non, l'instruction est obligatoire jusqu'à 16 ans, et la formation jusqu'à 18 ans",
+      "Oui, si vous signez une autorisation",
+      "Non, l'école est obligatoire jusqu'à 18 ans"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "En France, l'instruction est obligatoire jusqu'à 16 ans. Depuis 2020, tous les jeunes de 16 à 18 ans doivent être en formation (scolaire, apprentissage, emploi avec formation). Votre fils peut quitter l'école à 16 ans mais doit continuer une formation (CAP, apprentissage, etc.). Vous avez l'obligation de vous assurer qu'il poursuit une formation."
+  },
+  {
+    "id": "sit-35",
+    "question": "Lors d'un contrôle de police, un agent vous tutoie et vous traite avec mépris. Pouvez-vous porter plainte ?",
+    "options": [
+      "Non, les policiers peuvent se comporter comme ils veulent",
+      "Oui, vous pouvez signaler ce comportement à l'IGPN (police des polices) ou au Défenseur des droits",
+      "Non, il ne faut jamais contester un policier",
+      "Oui, mais seulement si vous êtes français"
+    ],
+    "correctAnswer": 1,
+    "theme": "mises-en-situation",
+    "source": "SUPP",
+    "explanation": "Les forces de l'ordre doivent respecter la dignité des personnes. Un comportement méprisant ou humiliant est contraire à la déontologie. Vous pouvez signaler ce comportement à l'IGPN (Inspection Générale de la Police Nationale), à l'IGGN (pour la gendarmerie), ou au Défenseur des droits. Prenez le numéro matricule de l'agent si possible."
   }
 ];
